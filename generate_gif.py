@@ -2,8 +2,9 @@ import os
 import json
 import io
 from supabase import create_client, Client
-from PIL import Image, ImageDraw
+from PIL import Image
 import cairosvg
+from datetime import datetime
 
 # Supabase конфигурация
 SUPABASE_URL = "https://ekepequivkyfkidvaaai.supabase.co"
@@ -16,7 +17,6 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 STATE_FILE = "output/last_position.json"
 OUTPUT_GIF = "output/animation.gif"
 BACKGROUND = "background.png"
-ICONS_DIR = "output/icons"
 
 def load_state():
     """Загружаем последнюю позицию"""
@@ -36,7 +36,7 @@ def get_next_icons(last_id, limit=3):
     try:
         # Получаем иконки с id больше последнего обработанного
         response = supabase.table('icons') \
-            .select('id, name, svg') \
+            .select('id, name, svg_raw') \
             .gt('id', last_id) \
             .order('id', desc=False) \
             .limit(limit) \
@@ -91,7 +91,7 @@ def create_gif_from_icons(icons, background_path, output_path):
     
     for i, icon in enumerate(icons):
         position = positions[i % len(positions)]
-        frame = create_frame(icon['svg'], background_path, position)
+        frame = create_frame(icon['svg_raw'], background_path, position)
         if frame:
             frames.append(frame)
     
@@ -137,7 +137,6 @@ def main():
         print(f"  - {icon['name']} (ID: {icon['id']})")
     
     # Создаем директории
-    os.makedirs(ICONS_DIR, exist_ok=True)
     os.makedirs(os.path.dirname(OUTPUT_GIF), exist_ok=True)
     
     # Создаем GIF
@@ -148,7 +147,7 @@ def main():
         save_state(new_last_id, new_processed_count)
         
         print(f"✅ GIF успешно создан: {OUTPUT_GIF}")
-        print(f" Состояние сохранено: ID {new_last_id}, всего: {new_processed_count}")
+        print(f"📝 Состояние сохранено: ID {new_last_id}, всего: {new_processed_count}")
         
         # Сохраняем информацию о созданном GIF
         info = {
@@ -161,10 +160,9 @@ def main():
         with open("output/gif_info.json", 'w') as f:
             json.dump(info, f, indent=2)
         
-        print(" Информация о GIF сохранена в output/gif_info.json")
+        print("ℹ️  Информация о GIF сохранена в output/gif_info.json")
     else:
-        print(" Ошибка при создании GIF")
+        print("❌ Ошибка при создании GIF")
 
 if __name__ == "__main__":
-    from datetime import datetime
     main()
