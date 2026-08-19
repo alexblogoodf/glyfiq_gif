@@ -15,6 +15,22 @@
       "gif_path": "output/animation_1.gif",
       "created_at": "2026-08-19T17:18:15.066708",
       "frame_count": 3
+    },
+    {
+      "gif_number": 2,
+      "icon_ids": [
+        2,
+        3,
+        4
+      ],
+      "icon_names": [
+        "x-ray",
+        "joint damage",
+        "gout arthritis"
+      ],
+      "gif_path": "output/animation_2.gif",
+      "created_at": "2026-08-19T17:19:43.466823",
+      "frame_count": 3
     }
   ]
 }
