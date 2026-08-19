@@ -34,7 +34,6 @@ def save_state(last_id, processed_count):
 def get_next_icons(last_id, limit=3):
     """Получаем следующие 3 иконки из Supabase"""
     try:
-        # Получаем иконки с id больше последнего обработанного
         response = supabase.table('icons') \
             .select('id, name, svg_raw') \
             .gt('id', last_id) \
@@ -47,9 +46,21 @@ def get_next_icons(last_id, limit=3):
         print(f"Ошибка при получении иконок: {e}")
         return []
 
+def recolor_svg_to_white(svg_code):
+    """Перекрашиваем SVG в белый цвет"""
+    # Заменяем все цвета stroke на белый
+    svg_code = svg_code.replace('stroke="#000000"', 'stroke="#FFFFFF"')
+    svg_code = svg_code.replace('stroke="#000"', 'stroke="#FFFFFF"')
+    svg_code = svg_code.replace('fill="#000000"', 'fill="#FFFFFF"')
+    svg_code = svg_code.replace('fill="#000"', 'fill="#FFFFFF"')
+    return svg_code
+
 def svg_to_png(svg_code, size=(256, 256)):
     """Конвертируем SVG в PNG"""
     try:
+        # Перекрашиваем в белый перед конвертацией
+        svg_code = recolor_svg_to_white(svg_code)
+        
         png_bytes = cairosvg.svg2png(
             bytestring=svg_code.encode('utf-8'),
             output_width=size[0],
@@ -60,12 +71,12 @@ def svg_to_png(svg_code, size=(256, 256)):
         print(f"Ошибка конвертации SVG: {e}")
         return None
 
-def create_frame(icon_svg, background, position=(0, 0)):
-    """Создаем один кадр с иконкой на фоне"""
+def create_frame(icon_svg, background):
+    """Создаем один кадр с иконкой по центру"""
     # Открываем фон
     bg = Image.open(background).convert('RGBA')
     
-    # Конвертируем SVG в PNG
+    # Конвертируем SVG в PNG (уже белый)
     icon_img = svg_to_png(icon_svg)
     if icon_img is None:
         return None
@@ -74,8 +85,8 @@ def create_frame(icon_svg, background, position=(0, 0)):
     bg_width, bg_height = bg.size
     icon_width, icon_height = icon_img.size
     
-    x = (bg_width - icon_width) // 2 + position[0]
-    y = (bg_height - icon_height) // 2 + position[1]
+    x = (bg_width - icon_width) // 2
+    y = (bg_height - icon_height) // 2
     
     # Накладываем иконку на фон
     bg.paste(icon_img, (x, y), icon_img)
@@ -83,15 +94,12 @@ def create_frame(icon_svg, background, position=(0, 0)):
     return bg
 
 def create_gif_from_icons(icons, background_path, output_path):
-    """Создаем GIF из нескольких иконок"""
+    """Создаем GIF из иконок, показывая каждую по центру по очереди"""
     frames = []
     
-    # Позиции для 3 иконок (слева, центр, справа)
-    positions = [(-170, 0), (0, 0), (170, 0)]
-    
-    for i, icon in enumerate(icons):
-        position = positions[i % len(positions)]
-        frame = create_frame(icon['svg_raw'], background_path, position)
+    # Создаем отдельный кадр для каждой иконки
+    for icon in icons:
+        frame = create_frame(icon['svg_raw'], background_path)
         if frame:
             frames.append(frame)
     
@@ -126,10 +134,9 @@ def main():
     
     if not icons:
         print("✅ Все иконки обработаны! Начинаем сначала...")
-        # Если иконок нет, начинаем сначала
         icons = get_next_icons(0, limit=3)
         if not icons:
-            print("❌ В базе нет иконок")
+            print(" В базе нет иконок")
             return
     
     print(f"📦 Получено {len(icons)} иконок:")
