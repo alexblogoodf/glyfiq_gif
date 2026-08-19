@@ -26,7 +26,7 @@ def load_state():
     return {"last_id": 0, "processed_count": 0}
 
 def save_state(last_id, processed_count):
-    """Сохраняем текущую позицию"""
+    """Сохраняем текущую позицию - ID ПЕРВОЙ иконки из тройки"""
     os.makedirs(os.path.dirname(STATE_FILE), exist_ok=True)
     with open(STATE_FILE, 'w') as f:
         json.dump({"last_id": last_id, "processed_count": processed_count}, f, indent=2)
@@ -48,7 +48,6 @@ def get_next_icons(last_id, limit=3):
 
 def recolor_svg_to_white(svg_code):
     """Перекрашиваем SVG в белый цвет"""
-    # Заменяем все цвета stroke на белый
     svg_code = svg_code.replace('stroke="#000000"', 'stroke="#FFFFFF"')
     svg_code = svg_code.replace('stroke="#000"', 'stroke="#FFFFFF"')
     svg_code = svg_code.replace('fill="#000000"', 'fill="#FFFFFF"')
@@ -58,7 +57,6 @@ def recolor_svg_to_white(svg_code):
 def svg_to_png(svg_code, size=(256, 256)):
     """Конвертируем SVG в PNG"""
     try:
-        # Перекрашиваем в белый перед конвертацией
         svg_code = recolor_svg_to_white(svg_code)
         
         png_bytes = cairosvg.svg2png(
@@ -73,22 +71,18 @@ def svg_to_png(svg_code, size=(256, 256)):
 
 def create_frame(icon_svg, background):
     """Создаем один кадр с иконкой по центру"""
-    # Открываем фон
     bg = Image.open(background).convert('RGBA')
     
-    # Конвертируем SVG в PNG (уже белый)
     icon_img = svg_to_png(icon_svg)
     if icon_img is None:
         return None
     
-    # Центрируем иконку
     bg_width, bg_height = bg.size
     icon_width, icon_height = icon_img.size
     
     x = (bg_width - icon_width) // 2
     y = (bg_height - icon_height) // 2
     
-    # Накладываем иконку на фон
     bg.paste(icon_img, (x, y), icon_img)
     
     return bg
@@ -97,7 +91,6 @@ def create_gif_from_icons(icons, background_path, output_path):
     """Создаем GIF из иконок, показывая каждую по центру по очереди"""
     frames = []
     
-    # Создаем отдельный кадр для каждой иконки
     for icon in icons:
         frame = create_frame(icon['svg_raw'], background_path)
         if frame:
@@ -107,67 +100,71 @@ def create_gif_from_icons(icons, background_path, output_path):
         print("Не удалось создать ни одного кадра")
         return False
     
-    # Сохраняем как GIF
     frames[0].save(
         output_path,
         save_all=True,
         append_images=frames[1:],
-        duration=1000,  # 1 секунда на кадр
-        loop=0,  # Бесконечный цикл
+        duration=1000,
+        loop=0,
         optimize=True
     )
     
     return True
 
 def main():
-    print("🚀 Запуск генерации GIF...")
+    print(" Запуск генерации GIF...")
     
-    # Загружаем состояние
     state = load_state()
     last_id = state.get("last_id", 0)
     processed_count = state.get("processed_count", 0)
     
     print(f"📊 Последняя позиция: ID {last_id}, всего обработано: {processed_count}")
     
-    # Получаем следующие иконки
     icons = get_next_icons(last_id, limit=3)
     
     if not icons:
         print("✅ Все иконки обработаны! Начинаем сначала...")
         icons = get_next_icons(0, limit=3)
         if not icons:
-            print(" В базе нет иконок")
+            print("❌ В базе нет иконок")
             return
     
     print(f"📦 Получено {len(icons)} иконок:")
     for icon in icons:
         print(f"  - {icon['name']} (ID: {icon['id']})")
     
-    # Создаем директории
     os.makedirs(os.path.dirname(OUTPUT_GIF), exist_ok=True)
     
-    # Создаем GIF
     if create_gif_from_icons(icons, BACKGROUND, OUTPUT_GIF):
-        # Обновляем состояние
-        new_last_id = icons[-1]['id']
-        new_processed_count = processed_count + len(icons)
-        save_state(new_last_id, new_processed_count)
+        # 🔥 ВАЖНО: Сохраняем ID ПЕРВОЙ иконки, а не последней!
+        first_icon_id = icons[0]['id']
+        new_processed_count = processed_count + 1  # Увеличиваем на 1, а не на 3
+        
+        save_state(first_icon_id, new_processed_count)
         
         print(f"✅ GIF успешно создан: {OUTPUT_GIF}")
-        print(f"📝 Состояние сохранено: ID {new_last_id}, всего: {new_processed_count}")
+        print(f"📝 Состояние сохранено: ID {first_icon_id} (первая из тройки), всего обработано: {new_processed_count}")
         
-        # Сохраняем информацию о созданном GIF
+        # Генерируем уникальное имя файла на основе ID первой иконки
+        gif_filename = f"output/animation_{first_icon_id}.gif"
+        
+        # Сохраняем копию с уникальным именем
+        import shutil
+        shutil.copy(OUTPUT_GIF, gif_filename)
+        
         info = {
-            "gif_path": OUTPUT_GIF,
+            "gif_path": gif_filename,
             "icons": [{"id": icon['id'], "name": icon['name']} for icon in icons],
             "created_at": str(datetime.now()),
-            "frame_count": len(icons)
+            "frame_count": len(icons),
+            "start_id": first_icon_id
         }
         
         with open("output/gif_info.json", 'w') as f:
             json.dump(info, f, indent=2)
         
-        print("ℹ️  Информация о GIF сохранена в output/gif_info.json")
+        print(f"ℹ️  GIF сохранён как: {gif_filename}")
+        print(f"📋 Информация о GIF сохранена в output/gif_info.json")
     else:
         print("❌ Ошибка при создании GIF")
 
