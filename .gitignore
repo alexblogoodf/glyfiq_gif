@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Output files (но не last_position.json!)
+output/icons/
+output/animation.gif
+output/gif_info.json
+
+# Но сохраняем состояние
+!output/last_position.json
