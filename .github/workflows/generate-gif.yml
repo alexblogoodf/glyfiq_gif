@@ -1,0 +1,66 @@
+name: Generate GIF from Supabase Icons
+
+on:
+  schedule:
+    # Запуск каждые 6 часов (можно изменить)
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    # Ручной запуск
+    inputs:
+      reset_position:
+        description: 'Сбросить позицию и начать сначала'
+        required: false
+        default: 'false'
+
+jobs:
+  generate-gif:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      
+      - name: Install system dependencies (Cairo)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2-dev pkg-config
+      
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install supabase pillow cairosvg
+      
+      - name: Reset position if requested
+        if: github.event.inputs.reset_position == 'true'
+        run: |
+          echo '{"last_id": 0, "processed_count": 0}' > output/last_position.json
+      
+      - name: Generate GIF
+        run: python generate_gif.py
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+      
+      - name: Commit and push generated GIF
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add output/
+          git commit -m "chore: auto-generate GIF animation [skip ci]" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Upload GIF as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-gif
+          path: output/animation.gif
+          retention-days: 30
