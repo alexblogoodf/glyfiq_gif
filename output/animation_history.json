@@ -47,6 +47,22 @@
       "gif_path": "output/animation_3.gif",
       "created_at": "2026-08-19T18:15:35.719129",
       "frame_count": 3
+    },
+    {
+      "gif_number": 4,
+      "icon_ids": [
+        4,
+        5,
+        6
+      ],
+      "icon_names": [
+        "gout arthritis",
+        "backache",
+        "elbow pain"
+      ],
+      "gif_path": "output/animation_4.gif",
+      "created_at": "2026-08-19T18:17:51.958459",
+      "frame_count": 3
     }
   ]
 }
