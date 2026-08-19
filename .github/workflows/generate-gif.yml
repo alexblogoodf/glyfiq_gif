@@ -12,6 +12,9 @@ on:
         required: false
         default: 'false'
 
+permissions:
+  contents: write
+
 jobs:
   generate-gif:
     runs-on: ubuntu-latest
