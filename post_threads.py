@@ -86,9 +86,8 @@ def save_posted(h):
 def get_raw_url(path):
     return f"https://raw.githubusercontent.com/{REPO_NAME}/{BRANCH}/{path}"
 
-# ---------- ffmpeg: системный или из imageio-ffmpeg ----------
+# ---------- ffmpeg ----------
 def get_ffmpeg_exe():
-    """Быстрый путь: системный ffmpeg, а если нет — бинарник из imageio-ffmpeg"""
     if shutil.which("ffmpeg"):
         return "ffmpeg"
     try:
@@ -158,6 +157,7 @@ def create_reply_container(text, reply_to_id, topic_tag=None):
     payload = {
         "access_token": THREADS_ACCESS_TOKEN,
         "text": text,
+        "media_type": "TEXT",          # ← ИСПРАВЛЕНИЕ: API требует media_type даже для текста
         "reply_to_id": reply_to_id,
     }
     if topic_tag:
@@ -169,6 +169,11 @@ def create_reply_container(text, reply_to_id, topic_tag=None):
 
 # ---------- Шаги ----------
 def cmd_prepare():
+    # Если уже есть отложенный пост — не пересоздаём его, чтобы не потерять main_post_id
+    if os.path.exists(PENDING_FILE):
+        print("ℹ️ Уже есть отложенный пост (pending). Подготовка пропущена — продолжаем публикацию.")
+        return
+
     print("🎬 Подготовка поста для Threads...")
 
     if not os.path.exists(ANIM_HISTORY_FILE):
@@ -234,27 +239,43 @@ def cmd_post():
     with open(PENDING_FILE, "r", encoding="utf-8") as f:
         pending = json.load(f)
 
+    def save_pending():
+        with open(PENDING_FILE, "w", encoding="utf-8") as f:
+            json.dump(pending, f, ensure_ascii=False, indent=2)
+
     video_url = get_raw_url(pending["mp4_path"])
     text = pending.get("text", "")
     reply_text = pending.get("reply_text", REPLY_TEXT)
     topic = pending.get("topic", TOPIC)
 
-    print(f"🚀 Публикуем в Threads: {video_url}")
-
     try:
-        container_id = create_video_container(text, video_url, topic_tag=topic)
-        check_container_status(container_id)
-        published_id = publish_container(container_id)
-        print(f"✅ Основной пост опубликован, id: {published_id}")
+        # 1. Основной пост — публикуем только если ещё не опубликован
+        published_id = pending.get("main_post_id")
+        if not published_id:
+            print(f"🚀 Публикуем в Threads: {video_url}")
+            container_id = create_video_container(text, video_url, topic_tag=topic)
+            check_container_status(container_id)
+            published_id = publish_container(container_id)
+            pending["main_post_id"] = published_id
+            save_pending()
+            print(f"✅ Основной пост опубликован, id: {published_id}")
+        else:
+            print(f"ℹ️ Основной пост уже опубликован (id: {published_id}) — дублировать не будем.")
 
         time.sleep(2)
-        print(f"💬 Публикуем reply: {reply_text}")
-        reply_container_id = create_reply_container(reply_text, published_id, topic_tag=topic)
-        published_reply_id = publish_container(reply_container_id)
-        print(f"✅ Reply опубликован, id: {published_reply_id}")
+
+        # 2. Reply — публикуем только если ещё не опубликован
+        published_reply_id = pending.get("reply_post_id")
+        if not published_reply_id:
+            print(f"💬 Публикуем reply: {reply_text}")
+            reply_container_id = create_reply_container(reply_text, published_id, topic_tag=topic)
+            published_reply_id = publish_container(reply_container_id)
+            pending["reply_post_id"] = published_reply_id
+            save_pending()
+            print(f"✅ Reply опубликован, id: {published_reply_id}")
 
     except Exception as e:
-        print(f"❌ Threads не опубликовал: {e}. Повторим в следующем запуске.")
+        print(f"❌ Threads не опубликовал: {e}. Повторим в следующем запуске БЕЗ дублей.")
         return
 
     posted = load_posted()
