@@ -1,0 +1,170 @@
+import os
+import json
+import io
+from supabase import create_client, Client
+from PIL import Image, ImageDraw
+import cairosvg
+
+# Supabase конфигурация
+SUPABASE_URL = "https://ekepequivkyfkidvaaai.supabase.co"
+SUPABASE_KEY = "sb_publishable_FrolWjVGFu7nnr0uOYk0JQ_k__7stet"
+
+# Инициализация клиента
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+
+# Пути к файлам
+STATE_FILE = "output/last_position.json"
+OUTPUT_GIF = "output/animation.gif"
+BACKGROUND = "background.png"
+ICONS_DIR = "output/icons"
+
+def load_state():
+    """Загружаем последнюю позицию"""
+    if os.path.exists(STATE_FILE):
+        with open(STATE_FILE, 'r') as f:
+            return json.load(f)
+    return {"last_id": 0, "processed_count": 0}
+
+def save_state(last_id, processed_count):
+    """Сохраняем текущую позицию"""
+    os.makedirs(os.path.dirname(STATE_FILE), exist_ok=True)
+    with open(STATE_FILE, 'w') as f:
+        json.dump({"last_id": last_id, "processed_count": processed_count}, f, indent=2)
+
+def get_next_icons(last_id, limit=3):
+    """Получаем следующие 3 иконки из Supabase"""
+    try:
+        # Получаем иконки с id больше последнего обработанного
+        response = supabase.table('icons') \
+            .select('id, name, svg') \
+            .gt('id', last_id) \
+            .order('id', desc=False) \
+            .limit(limit) \
+            .execute()
+        
+        return response.data
+    except Exception as e:
+        print(f"Ошибка при получении иконок: {e}")
+        return []
+
+def svg_to_png(svg_code, size=(256, 256)):
+    """Конвертируем SVG в PNG"""
+    try:
+        png_bytes = cairosvg.svg2png(
+            bytestring=svg_code.encode('utf-8'),
+            output_width=size[0],
+            output_height=size[1]
+        )
+        return Image.open(io.BytesIO(png_bytes)).convert('RGBA')
+    except Exception as e:
+        print(f"Ошибка конвертации SVG: {e}")
+        return None
+
+def create_frame(icon_svg, background, position=(0, 0)):
+    """Создаем один кадр с иконкой на фоне"""
+    # Открываем фон
+    bg = Image.open(background).convert('RGBA')
+    
+    # Конвертируем SVG в PNG
+    icon_img = svg_to_png(icon_svg)
+    if icon_img is None:
+        return None
+    
+    # Центрируем иконку
+    bg_width, bg_height = bg.size
+    icon_width, icon_height = icon_img.size
+    
+    x = (bg_width - icon_width) // 2 + position[0]
+    y = (bg_height - icon_height) // 2 + position[1]
+    
+    # Накладываем иконку на фон
+    bg.paste(icon_img, (x, y), icon_img)
+    
+    return bg
+
+def create_gif_from_icons(icons, background_path, output_path):
+    """Создаем GIF из нескольких иконок"""
+    frames = []
+    
+    # Позиции для 3 иконок (слева, центр, справа)
+    positions = [(-170, 0), (0, 0), (170, 0)]
+    
+    for i, icon in enumerate(icons):
+        position = positions[i % len(positions)]
+        frame = create_frame(icon['svg'], background_path, position)
+        if frame:
+            frames.append(frame)
+    
+    if not frames:
+        print("Не удалось создать ни одного кадра")
+        return False
+    
+    # Сохраняем как GIF
+    frames[0].save(
+        output_path,
+        save_all=True,
+        append_images=frames[1:],
+        duration=1000,  # 1 секунда на кадр
+        loop=0,  # Бесконечный цикл
+        optimize=True
+    )
+    
+    return True
+
+def main():
+    print("🚀 Запуск генерации GIF...")
+    
+    # Загружаем состояние
+    state = load_state()
+    last_id = state.get("last_id", 0)
+    processed_count = state.get("processed_count", 0)
+    
+    print(f"📊 Последняя позиция: ID {last_id}, всего обработано: {processed_count}")
+    
+    # Получаем следующие иконки
+    icons = get_next_icons(last_id, limit=3)
+    
+    if not icons:
+        print("✅ Все иконки обработаны! Начинаем сначала...")
+        # Если иконок нет, начинаем сначала
+        icons = get_next_icons(0, limit=3)
+        if not icons:
+            print("❌ В базе нет иконок")
+            return
+    
+    print(f"📦 Получено {len(icons)} иконок:")
+    for icon in icons:
+        print(f"  - {icon['name']} (ID: {icon['id']})")
+    
+    # Создаем директории
+    os.makedirs(ICONS_DIR, exist_ok=True)
+    os.makedirs(os.path.dirname(OUTPUT_GIF), exist_ok=True)
+    
+    # Создаем GIF
+    if create_gif_from_icons(icons, BACKGROUND, OUTPUT_GIF):
+        # Обновляем состояние
+        new_last_id = icons[-1]['id']
+        new_processed_count = processed_count + len(icons)
+        save_state(new_last_id, new_processed_count)
+        
+        print(f"✅ GIF успешно создан: {OUTPUT_GIF}")
+        print(f" Состояние сохранено: ID {new_last_id}, всего: {new_processed_count}")
+        
+        # Сохраняем информацию о созданном GIF
+        info = {
+            "gif_path": OUTPUT_GIF,
+            "icons": [{"id": icon['id'], "name": icon['name']} for icon in icons],
+            "created_at": str(datetime.now()),
+            "frame_count": len(icons)
+        }
+        
+        with open("output/gif_info.json", 'w') as f:
+            json.dump(info, f, indent=2)
+        
+        print(" Информация о GIF сохранена в output/gif_info.json")
+    else:
+        print(" Ошибка при создании GIF")
+
+if __name__ == "__main__":
+    from datetime import datetime
+    main()
