@@ -148,7 +148,7 @@ def create_gif_from_icons(icons, background_path, output_path):
         output_path,
         save_all=True,
         append_images=frames[1:],
-        duration=500,
+        duration=750,
         loop=0,
         optimize=True
     )
