@@ -2,8 +2,8 @@ name: Post GIF to X (Twitter)
 
 on:
   schedule:
-    # Каждые 6 часов, со сдвигом +30 мин, чтобы генератор успел закоммитить новые GIF
-    - cron: '30 */6 * * *'
+    # Каждые 6 часов
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
