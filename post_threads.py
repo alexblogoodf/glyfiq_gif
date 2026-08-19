@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import time
+import shutil
 import subprocess
 import requests
 from datetime import datetime
@@ -16,7 +17,7 @@ ANIM_HISTORY_FILE = "output/animation_history.json"
 POSTED_FILE = "output/threads_posted_history.json"
 PENDING_FILE = "output/threads_pending.json"
 
-# 5 вариантов сообщений (БЕЗ хэштегов и БЕЗ ссылки - они пойдут отдельно)
+# 5 вариантов сообщений (БЕЗ хэштегов и БЕЗ ссылки)
 TEMPLATES = [
     ("and",
      "✏️ {icons} — now in Glyfiq 🩺\n"
@@ -63,7 +64,7 @@ def build_text(tpl_idx, names):
     for cap in (None, 22, 16, 12):
         nm = names if cap is None else [cap_name(n, cap) for n in names]
         text = tpl.replace("{icons}", join_icons(nm, conn))
-        if tweet_len(text) <= 500:  # Threads позволяет до 500 символов
+        if tweet_len(text) <= 500:
             return text
     return tpl.replace("{icons}", join_icons(names, conn))
 
@@ -85,13 +86,26 @@ def save_posted(h):
 def get_raw_url(path):
     return f"https://raw.githubusercontent.com/{REPO_NAME}/{BRANCH}/{path}"
 
-# ---------- Конвертация GIF -> MP4 ----------
+# ---------- ffmpeg: системный или из imageio-ffmpeg ----------
+def get_ffmpeg_exe():
+    """Быстрый путь: системный ffmpeg, а если нет — бинарник из imageio-ffmpeg"""
+    if shutil.which("ffmpeg"):
+        return "ffmpeg"
+    try:
+        import imageio_ffmpeg
+        return imageio_ffmpeg.get_ffmpeg_exe()
+    except Exception as e:
+        print(f"⚠️ imageio-ffmpeg недоступен: {e}")
+        return "ffmpeg"
+
 def gif_to_mp4(gif_path):
     mp4_path = gif_path.rsplit(".", 1)[0] + ".mp4"
     if os.path.exists(mp4_path):
         print(f"ℹ️ MP4 уже существует: {mp4_path}")
         return mp4_path
-    cmd = ["ffmpeg", "-y", "-stream_loop", "2", "-i", gif_path,
+    ffmpeg_exe = get_ffmpeg_exe()
+    print(f"🎞 Использую ffmpeg: {ffmpeg_exe}")
+    cmd = [ffmpeg_exe, "-y", "-stream_loop", "2", "-i", gif_path,
            "-vf", "scale=trunc(iw/2)*2:trunc(ih/2)*2",
            "-pix_fmt", "yuv420p", "-movflags", "+faststart", mp4_path]
     res = subprocess.run(cmd, capture_output=True, text=True)
@@ -224,23 +238,21 @@ def cmd_post():
     text = pending.get("text", "")
     reply_text = pending.get("reply_text", REPLY_TEXT)
     topic = pending.get("topic", TOPIC)
-    
+
     print(f"🚀 Публикуем в Threads: {video_url}")
 
     try:
-        # 1. Создаём и публикуем основной пост с видео
         container_id = create_video_container(text, video_url, topic_tag=topic)
         check_container_status(container_id)
         published_id = publish_container(container_id)
         print(f"✅ Основной пост опубликован, id: {published_id}")
-        
-        # 2. Создаём и публикуем reply
+
         time.sleep(2)
         print(f"💬 Публикуем reply: {reply_text}")
         reply_container_id = create_reply_container(reply_text, published_id, topic_tag=topic)
         published_reply_id = publish_container(reply_container_id)
         print(f"✅ Reply опубликован, id: {published_reply_id}")
-        
+
     except Exception as e:
         print(f"❌ Threads не опубликовал: {e}. Повторим в следующем запуске.")
         return
