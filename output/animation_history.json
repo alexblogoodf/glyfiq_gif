@@ -159,6 +159,22 @@
       "gif_path": "output/animation_10.gif",
       "created_at": "2026-08-20T12:41:31.685115",
       "frame_count": 3
+    },
+    {
+      "gif_number": 11,
+      "icon_ids": [
+        11,
+        12,
+        13
+      ],
+      "icon_names": [
+        "blood test",
+        "MRI knee",
+        "excess weight"
+      ],
+      "gif_path": "output/animation_11.gif",
+      "created_at": "2026-08-20T15:30:06.487187",
+      "frame_count": 3
     }
   ]
 }
