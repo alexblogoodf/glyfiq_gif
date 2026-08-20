@@ -86,7 +86,7 @@ def save_posted(h):
 def get_raw_url(path):
     return f"https://raw.githubusercontent.com/{REPO_NAME}/{BRANCH}/{path}"
 
-# ---------- ffmpeg ----------
+# ---------- ffmpeg (30 fps — требование Instagram) ----------
 def get_ffmpeg_exe():
     if shutil.which("ffmpeg"):
         return "ffmpeg"
@@ -158,7 +158,7 @@ def create_reply_container(text, reply_to_id, topic_tag=None):
     payload = {
         "access_token": THREADS_ACCESS_TOKEN,
         "text": text,
-        "media_type": "TEXT",          # ← ИСПРАВЛЕНИЕ: API требует media_type даже для текста
+        "media_type": "TEXT",
         "reply_to_id": reply_to_id,
     }
     if topic_tag:
@@ -170,7 +170,6 @@ def create_reply_container(text, reply_to_id, topic_tag=None):
 
 # ---------- Шаги ----------
 def cmd_prepare():
-    # Если уже есть отложенный пост — не пересоздаём его, чтобы не потерять main_post_id
     if os.path.exists(PENDING_FILE):
         print("ℹ️ Уже есть отложенный пост (pending). Подготовка пропущена — продолжаем публикацию.")
         return
@@ -250,7 +249,7 @@ def cmd_post():
     topic = pending.get("topic", TOPIC)
 
     try:
-        # 1. Основной пост — публикуем только если ещё не опубликован
+        # 1. Основной пост — только если ещё не опубликован
         published_id = pending.get("main_post_id")
         if not published_id:
             print(f"🚀 Публикуем в Threads: {video_url}")
@@ -263,14 +262,23 @@ def cmd_post():
         else:
             print(f"ℹ️ Основной пост уже опубликован (id: {published_id}) — дублировать не будем.")
 
-        time.sleep(2)
-
-        # 2. Reply — публикуем только если ещё не опубликован
+        # 2. Reply — с паузой и повторными попытками (Meta не сразу видит новый пост)
         published_reply_id = pending.get("reply_post_id")
         if not published_reply_id:
             print(f"💬 Публикуем reply: {reply_text}")
-            reply_container_id = create_reply_container(reply_text, published_id, topic_tag=topic)
-            published_reply_id = publish_container(reply_container_id)
+            err = None
+            for attempt in range(1, 5):
+                time.sleep(10 if attempt == 1 else 20)
+                try:
+                    reply_container_id = create_reply_container(reply_text, published_id, topic_tag=topic)
+                    published_reply_id = publish_container(reply_container_id)
+                    err = None
+                    break
+                except Exception as e:
+                    err = e
+                    print(f"⚠️ Попытка {attempt}/4 не удалась: {e}")
+            if err:
+                raise err
             pending["reply_post_id"] = published_reply_id
             save_pending()
             print(f"✅ Reply опубликован, id: {published_reply_id}")
