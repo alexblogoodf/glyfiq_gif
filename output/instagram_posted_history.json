@@ -25,7 +25,20 @@
       "template": 2,
       "buffer_post_id": "6a86fd39b0ea0d75a709346e",
       "posted_at": "2026-08-20T13:13:35.887169"
+    },
+    {
+      "gif_number": 3,
+      "gif_path": "output/animation_3.gif",
+      "mp4_path": "output/animation_3.mp4",
+      "icon_names": [
+        "joint damage",
+        "gout arthritis",
+        "backache"
+      ],
+      "template": 3,
+      "buffer_post_id": "6a874eea6fdda4cc4c3f3329",
+      "posted_at": "2026-08-20T19:02:09.221439"
     }
   ],
-  "posts_count": 2
+  "posts_count": 3
 }
