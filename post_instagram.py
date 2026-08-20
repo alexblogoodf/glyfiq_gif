@@ -107,7 +107,7 @@ def buffer_create_video_post(token, channel_id, text, video_url):
         assets: [{{ video: {{ url: {url_lit} }} }}],
         metadata: {{
           instagram: {{
-            type: "post",
+            type: post,
             shouldShareToFeed: true
           }}
         }}
