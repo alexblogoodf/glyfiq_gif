@@ -13,7 +13,21 @@
       "threads_post_id": "18448719295132422",
       "threads_reply_id": "18100435753998469",
       "posted_at": "2026-08-20T08:12:04.752870"
+    },
+    {
+      "gif_number": 2,
+      "gif_path": "output/animation_2.gif",
+      "mp4_path": "output/animation_2.mp4",
+      "icon_names": [
+        "x-ray",
+        "joint damage",
+        "gout arthritis"
+      ],
+      "template": 2,
+      "threads_post_id": "17988715221014234",
+      "threads_reply_id": "18013140074941139",
+      "posted_at": "2026-08-20T08:39:08.243224"
     }
   ],
-  "posts_count": 1
+  "posts_count": 2
 }
