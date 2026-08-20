@@ -79,6 +79,22 @@
       "gif_path": "output/animation_5.gif",
       "created_at": "2026-08-19T18:33:07.742084",
       "frame_count": 3
+    },
+    {
+      "gif_number": 6,
+      "icon_ids": [
+        6,
+        7,
+        8
+      ],
+      "icon_names": [
+        "elbow pain",
+        "knee pain",
+        "joint injury"
+      ],
+      "gif_path": "output/animation_6.gif",
+      "created_at": "2026-08-20T01:02:58.916985",
+      "frame_count": 3
     }
   ]
 }
