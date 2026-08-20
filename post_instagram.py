@@ -112,14 +112,27 @@ def buffer_create_video_post(token, channel_id, text, video_url):
           }}
         }}
       }}) {{
-        ... on PostActionSuccess {{ post {{ id text }} }}
+        ... on PostActionSuccess {{ post {{ id text status dueAt }} }}
         ... on MutationError {{ message }}
       }}
     }}'''
     data = buffer_graphql(token, query)
     res = data.get("createPost", {})
     if res.get("post"):
-        return True, res["post"].get("id")
+        post = res["post"]
+        status = post.get("status")
+        due_at = post.get("dueAt")
+        print(f"📊 Статус поста в Buffer: {status}")
+        if due_at:
+            print(f"📅 Запланирован на: {due_at}")
+        if status in ["sent", "published"]:
+            return True, post.get("id")
+        elif status in ["pending", "scheduled"]:
+            print(f"⏳ Пост запланирован, но еще не опубликован (статус: {status})")
+            return True, post.get("id")
+        else:
+            print(f"⚠️ Неожиданный статус: {status}")
+            return True, post.get("id")
     return False, res.get("message", "неизвестная ошибка Buffer")
 
 # ---------- Шаги ----------
@@ -205,7 +218,10 @@ def cmd_post():
         if already_posted:
             print("⚠️ Buffer сообщает, что пост уже запланирован. Помечаем как запощенный.")
         else:
-            print(f"✅ Пост опубликован через Buffer, id: {info}")
+            print(f"✅ Пост принят Buffer, id: {info}")
+            print("⏳ Ждём 60 секунд, чтобы Instagram обработал видео...")
+            import time
+            time.sleep(60)
 
         posted = load_posted()
         posted.setdefault("posted", []).append({
@@ -214,6 +230,7 @@ def cmd_post():
             "mp4_path": pending.get("mp4_path"),
             "icon_names": pending.get("icon_names", []),
             "template": pending.get("template"),
+            "buffer_post_id": info if not isinstance(info, tuple) else info[1],
             "posted_at": datetime.now().isoformat(),
         })
         posted["posts_count"] = posted.get("posts_count", 0) + 1
