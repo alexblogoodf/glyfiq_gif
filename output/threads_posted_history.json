@@ -27,7 +27,21 @@
       "threads_post_id": "17988715221014234",
       "threads_reply_id": "18013140074941139",
       "posted_at": "2026-08-20T08:39:08.243224"
+    },
+    {
+      "gif_number": 3,
+      "gif_path": "output/animation_3.gif",
+      "mp4_path": "output/animation_3.mp4",
+      "icon_names": [
+        "joint damage",
+        "gout arthritis",
+        "backache"
+      ],
+      "template": 3,
+      "threads_post_id": "18009913373950333",
+      "threads_reply_id": "18217781386337634",
+      "posted_at": "2026-08-20T13:35:56.858474"
     }
   ],
-  "posts_count": 2
+  "posts_count": 3
 }
