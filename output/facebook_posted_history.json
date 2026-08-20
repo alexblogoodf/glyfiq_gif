@@ -12,7 +12,20 @@
       "template": 1,
       "facebook_video_id": "1565061388405911",
       "posted_at": "2026-08-20T11:37:14.091398"
+    },
+    {
+      "gif_number": 2,
+      "gif_path": "output/animation_2.gif",
+      "mp4_path": "output/animation_2.mp4",
+      "icon_names": [
+        "x-ray",
+        "joint damage",
+        "gout arthritis"
+      ],
+      "template": 2,
+      "facebook_video_id": "1734548031162619",
+      "posted_at": "2026-08-20T13:05:21.691789"
     }
   ],
-  "posts_count": 1
+  "posts_count": 2
 }
