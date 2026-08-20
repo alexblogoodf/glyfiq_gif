@@ -105,13 +105,14 @@ def gif_to_mp4(gif_path):
     ffmpeg_exe = get_ffmpeg_exe()
     print(f"🎞 Использую ffmpeg: {ffmpeg_exe}")
     cmd = [ffmpeg_exe, "-y", "-stream_loop", "2", "-i", gif_path,
-           "-vf", "scale=trunc(iw/2)*2:trunc(ih/2)*2",
+           "-vf", "fps=30,scale=trunc(iw/2)*2:trunc(ih/2)*2",
+           "-r", "30",
            "-pix_fmt", "yuv420p", "-movflags", "+faststart", mp4_path]
     res = subprocess.run(cmd, capture_output=True, text=True)
     if res.returncode != 0 or not os.path.exists(mp4_path):
         print(f"❌ Ошибка ffmpeg: {res.stderr[-800:]}")
         return None
-    print(f"🎞 GIF сконвертирован в {mp4_path}")
+    print(f"🎞 GIF сконвертирован в {mp4_path} (30 fps)")
     return mp4_path
 
 # ---------- Threads API ----------
