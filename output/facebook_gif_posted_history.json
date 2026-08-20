@@ -11,7 +11,19 @@
       "template": 1,
       "facebook_post_id": "2307530593316495",
       "posted_at": "2026-08-20T12:08:05.391377"
+    },
+    {
+      "gif_number": 2,
+      "gif_path": "output/animation_2.gif",
+      "icon_names": [
+        "x-ray",
+        "joint damage",
+        "gout arthritis"
+      ],
+      "template": 2,
+      "facebook_post_id": "1518643333639522",
+      "posted_at": "2026-08-20T13:11:06.690809"
     }
   ],
-  "posts_count": 1
+  "posts_count": 2
 }
