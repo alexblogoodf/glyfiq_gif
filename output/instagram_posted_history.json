@@ -1,0 +1,18 @@
+{
+  "posted": [
+    {
+      "gif_number": 1,
+      "gif_path": "output/animation_1.gif",
+      "mp4_path": "output/animation_1.mp4",
+      "icon_names": [
+        "arthritis in fingers",
+        "x-ray",
+        "joint damage"
+      ],
+      "template": 1,
+      "buffer_post_id": "6a86bc275bebcc0cdc2decce",
+      "posted_at": "2026-08-20T08:35:58.160955"
+    }
+  ],
+  "posts_count": 1
+}
