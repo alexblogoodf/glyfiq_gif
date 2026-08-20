@@ -32,7 +32,7 @@ TEMPLATES = [
     ("&",
      "✏️ {icons} - these icons are already available for Figma, Framer & Illustrator. "
      "You can order the icons you need for your project directly from the Glyfiq plugin. "
-     "Try it free 👉 glyfiq.link\n\n"
+     "👉 glyfiq.link\n\n"
      "#Figma #Framer #AdobeIllustrator #MedicalIcons #HealthcareDesign"),
 ]
 
