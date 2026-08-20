@@ -104,7 +104,13 @@ def buffer_create_video_post(token, channel_id, text, video_url):
         channelId: {ch_lit},
         schedulingType: automatic,
         mode: shareNow,
-        assets: [{{ video: {{ url: {url_lit} }} }}]
+        assets: [{{ video: {{ url: {url_lit} }} }}],
+        metadata: {{
+          instagram: {{
+            type: "post",
+            shouldShareToFeed: true
+          }}
+        }}
       }}) {{
         ... on PostActionSuccess {{ post {{ id text }} }}
         ... on MutationError {{ message }}
