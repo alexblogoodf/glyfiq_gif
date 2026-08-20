@@ -5,7 +5,7 @@ import time
 import requests
 from datetime import datetime
 
-PAGE_ID = "1122171370990006"
+PAGE_ID = "1331329906723094"
 GRAPH_URL = "https://graph-video.facebook.com/v18.0"
 
 ANIM_HISTORY_FILE = "output/animation_history.json"
