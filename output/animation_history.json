@@ -111,6 +111,22 @@
       "gif_path": "output/animation_7.gif",
       "created_at": "2026-08-20T03:43:38.904499",
       "frame_count": 3
+    },
+    {
+      "gif_number": 8,
+      "icon_ids": [
+        8,
+        9,
+        10
+      ],
+      "icon_names": [
+        "joint injury",
+        "vertebral arthritis",
+        "arthroscopy"
+      ],
+      "gif_path": "output/animation_8.gif",
+      "created_at": "2026-08-20T06:40:08.008557",
+      "frame_count": 3
     }
   ]
 }
