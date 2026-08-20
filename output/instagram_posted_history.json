@@ -12,7 +12,20 @@
       "template": 1,
       "buffer_post_id": "6a86bc275bebcc0cdc2decce",
       "posted_at": "2026-08-20T08:35:58.160955"
+    },
+    {
+      "gif_number": 2,
+      "gif_path": "output/animation_2.gif",
+      "mp4_path": "output/animation_2.mp4",
+      "icon_names": [
+        "x-ray",
+        "joint damage",
+        "gout arthritis"
+      ],
+      "template": 2,
+      "buffer_post_id": "6a86fd39b0ea0d75a709346e",
+      "posted_at": "2026-08-20T13:13:35.887169"
     }
   ],
-  "posts_count": 1
+  "posts_count": 2
 }
