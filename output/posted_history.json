@@ -76,7 +76,18 @@
       ],
       "template": 2,
       "posted_at": "2026-08-21T06:50:50.708725"
+    },
+    {
+      "gif_number": 8,
+      "gif_path": "output/animation_8.gif",
+      "icon_names": [
+        "joint injury",
+        "vertebral arthritis",
+        "arthroscopy"
+      ],
+      "template": 3,
+      "posted_at": "2026-08-21T12:51:34.126246"
     }
   ],
-  "posts_count": 7
+  "posts_count": 8
 }
