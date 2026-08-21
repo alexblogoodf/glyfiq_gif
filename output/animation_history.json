@@ -303,6 +303,22 @@
       "gif_path": "output/animation_19.gif",
       "created_at": "2026-08-21T15:30:03.130220",
       "frame_count": 3
+    },
+    {
+      "gif_number": 20,
+      "icon_ids": [
+        20,
+        21,
+        22
+      ],
+      "icon_names": [
+        "osteopathy",
+        "finger blood",
+        "glucose level"
+      ],
+      "gif_path": "output/animation_20.gif",
+      "created_at": "2026-08-21T18:32:27.804753",
+      "frame_count": 3
     }
   ]
 }
