@@ -38,7 +38,20 @@
       "template": 3,
       "buffer_post_id": "6a874eea6fdda4cc4c3f3329",
       "posted_at": "2026-08-20T19:02:09.221439"
+    },
+    {
+      "gif_number": 4,
+      "gif_path": "output/animation_4.gif",
+      "mp4_path": "output/animation_4.mp4",
+      "icon_names": [
+        "gout arthritis",
+        "backache",
+        "elbow pain"
+      ],
+      "template": 4,
+      "buffer_post_id": "6a87b0cd2c87911adc72798a",
+      "posted_at": "2026-08-21T01:59:47.595691"
     }
   ],
-  "posts_count": 3
+  "posts_count": 4
 }
