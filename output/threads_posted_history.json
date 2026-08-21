@@ -69,7 +69,21 @@
       "threads_post_id": "17899070247589095",
       "threads_reply_id": "18054477272631691",
       "posted_at": "2026-08-21T02:14:35.468680"
+    },
+    {
+      "gif_number": 6,
+      "gif_path": "output/animation_6.gif",
+      "mp4_path": "output/animation_6.mp4",
+      "icon_names": [
+        "elbow pain",
+        "knee pain",
+        "joint injury"
+      ],
+      "template": 1,
+      "threads_post_id": "18072361982439525",
+      "threads_reply_id": "18405816457085114",
+      "posted_at": "2026-08-21T07:31:26.399873"
     }
   ],
-  "posts_count": 5
+  "posts_count": 6
 }
