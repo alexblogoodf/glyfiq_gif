@@ -64,7 +64,20 @@
       "template": 5,
       "facebook_video_id": "1528210921906525",
       "posted_at": "2026-08-21T13:04:29.843820"
+    },
+    {
+      "gif_number": 6,
+      "gif_path": "output/animation_6.gif",
+      "mp4_path": "output/animation_6.mp4",
+      "icon_names": [
+        "elbow pain",
+        "knee pain",
+        "joint injury"
+      ],
+      "template": 1,
+      "facebook_video_id": "1039446705672247",
+      "posted_at": "2026-08-21T18:50:42.509641"
     }
   ],
-  "posts_count": 5
+  "posts_count": 6
 }
