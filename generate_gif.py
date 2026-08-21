@@ -23,7 +23,8 @@ BACKGROUND = "background.png"
 EXCLUDED_NAMES = [
     "breast biopsy", "breast radiography", "changes in size", "breast mastopathy",
     "nipple changes", "blood from the breast", "breast examination", "mammography",
-    "breast ultrasound", "mastopexy", "lump on the breast",
+    "breast ultrasound", "mastopexy", "lump on the breast", "mastopexy",
+    "breast enlargement", "breast reduction", "breast implant", "buttock lift",
     "battery 90%", "battery 40%", "battery 70%", "battery 50%", "battery 20%",
     "battery 60%", "battery 100%", "battery 80%", "battery 30%", "battery 10%"
 ]
