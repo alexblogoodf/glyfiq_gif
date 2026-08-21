@@ -319,6 +319,22 @@
       "gif_path": "output/animation_20.gif",
       "created_at": "2026-08-21T18:32:27.804753",
       "frame_count": 3
+    },
+    {
+      "gif_number": 21,
+      "icon_ids": [
+        21,
+        22,
+        23
+      ],
+      "icon_names": [
+        "finger blood",
+        "glucose level",
+        "blood sugar"
+      ],
+      "gif_path": "output/animation_21.gif",
+      "created_at": "2026-08-21T21:20:55.638557",
+      "frame_count": 3
     }
   ]
 }
