@@ -97,7 +97,21 @@
       "threads_post_id": "18076392746397158",
       "threads_reply_id": "18078969263333988",
       "posted_at": "2026-08-21T13:34:29.571100"
+    },
+    {
+      "gif_number": 8,
+      "gif_path": "output/animation_8.gif",
+      "mp4_path": "output/animation_8.mp4",
+      "icon_names": [
+        "joint injury",
+        "vertebral arthritis",
+        "arthroscopy"
+      ],
+      "template": 3,
+      "threads_post_id": "18088907060165352",
+      "threads_reply_id": "18130159672645657",
+      "posted_at": "2026-08-21T19:17:05.761546"
     }
   ],
-  "posts_count": 7
+  "posts_count": 8
 }
