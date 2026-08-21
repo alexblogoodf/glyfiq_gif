@@ -9,44 +9,92 @@ ANIM_HISTORY_FILE = "output/animation_history.json"
 POSTED_FILE = "output/linkedin_posted_history.json"
 PENDING_FILE = "output/linkedin_pending.json"
 
-# 5 вариантов: с хештегами и ссылкой текстом (как для Instagram)
+# 5 вариантов в стиле LinkedIn: длинные, личные, с историями + привязка к конкретным иконкам
 TEMPLATES = [
-    ("and",
-     "✏️ {icons} — now in Glyfiq 🩺\n"
-     "Find more medical & health icons for Figma, Framer & Illustrator.\n"
-     "Try it free 👉 glyfiq.link\n\n"
-     "#MedicalIcons #Figma #Framer #HealthcareDesign #IconDesign"),
-    ("&",
-     "Part of the Glyfiq medical icon library — available in Figma, Framer & Illustrator: {icons} 👍 "
-     "More icons & growing. Try free 👉 glyfiq.link\n\n"
-     "#HealthcareUI #MedicalUI #Figma #IconDesign #UIDesign"),
-    (",",
-     "✏️ {icons} — three more icons live in Glyfiq 🎨\n"
-     "Medical & health icon plugin for Figma, Framer & Illustrator.\n"
-     "Free tier available 👉 glyfiq.link\n\n"
-     "#Figma #Framer #AdobeIllustrator #MedicalIcons #HealthcareDesign"),
-    ("&",
-     "Now added: {icons} to Glyfiq ✏️\n"
-     "More thin-line medical icons. One style. Three platforms.\n"
-     "Try it free 👉 glyfiq.link\n"
-     "#IconDesign #MedicalUI #Figma #Framer #HealthcareDesign"),
-    ("&",
-     "✏️ {icons} - these icons are already available for Figma, Framer & Illustrator. "
-     "You can order the icons you need for your project directly from the Glyfiq plugin. "
-     "Try it free 👉 glyfiq.link\n\n"
-     "#Figma #Framer #AdobeIllustrator #MedicalIcons #HealthcareDesign"),
+    # Вариант 1:
+    ("🚀 Now available in Glyfiq!\n\n"
+     "Just added three new medical icons to the collection:\n\n"
+     "• {icon1}\n"
+     "• {icon2}\n"
+     "• {icon3}\n\n"
+     "Speed up your design workflow and elevate your healthcare projects today.\n"
+     "Glyfiq — Medical & Health Icon Plugin for Figma, Adobe Illustrator & Framer.\n\n"
+     "Try it free 👉 https://glyfiq.link/\n\n"
+     "#Figma #Framer #FigmaPlugin #HealthcareDesign #MedicalUI #UIDesign "
+     "#UXDesign #IconDesign #ProductDesign #DesignTools #AdobeIllustrator #Illustrator"),
+
+    # Вариант 2:
+    ("I drew medical icons for stock platforms for 10 years. Now I turned that archive "
+     "into a Figma, Adobe Illustrator & Framer plugin. Vibe coded the whole thing. "
+     "Zero dev experience. Lots of praying. It got approved. 🙏\n\n"
+     "Today's fresh additions:\n\n"
+     "• {icon1}\n"
+     "• {icon2}\n"
+     "• {icon3}\n\n"
+     "If you design healthcare apps — try it free 👇\n"
+     "https://glyfiq.link/\n\n"
+     "#Figma #Framer #FigmaPlugin #HealthcareDesign #MedicalUI #UIDesign "
+     "#UXDesign #IconDesign #ProductDesign #AdobeIllustrator #BuildInPublic"),
+
+    # Вариант 3:
+    ("I've been drawing medical and health icons for stock platforms for 10 years. "
+     "Shutterstock, Adobe Stock, iStock — thousands of icons sold over the years.\n\n"
+     "Now I'm putting that entire archive into a Figma, Adobe Illustrator & Framer "
+     "plugin called Glyfiq. Working toward 6,000+ icons from my existing archive over "
+     "the next couple of years.\n\n"
+     "Three more added today:\n\n"
+     "• {icon1}\n"
+     "• {icon2}\n"
+     "• {icon3}\n\n"
+     "Would love to hear what you think. Try it 👉 https://glyfiq.link/\n\n"
+     "#Figma #Framer #FigmaPlugin #HealthcareDesign #MedicalUI #UIDesign "
+     "#UXDesign #IconDesign #ProductDesign #DesignTools #AdobeIllustrator #Illustrator"),
+
+    # Вариант 4:
+    ("Which one would you use first in your healthcare project? 👇\n\n"
+     "• {icon1}\n"
+     "• {icon2}\n"
+     "• {icon3}\n\n"
+     "These three just landed in Glyfiq — the medical icon plugin I'm building for "
+     "Figma, Adobe Illustrator & Framer.\n\n"
+     "Every week I'm adding new icons from my 10-year archive. The goal is 6,000+ "
+     "consistent thin-line medical icons in one place.\n\n"
+     "Try it free 👉 https://glyfiq.link/\n\n"
+     "Drop a comment — which one do you need most in your current project?\n\n"
+     "#Figma #Framer #FigmaPlugin #HealthcareDesign #MedicalUI #UIDesign "
+     "#UXDesign #IconDesign #ProductDesign #AdobeIllustrator"),
+
+    # Вариант 5:
+    ("10 years of drawing medical icons. Thousands sold on Shutterstock, Adobe Stock, "
+     "iStock. Now that entire archive is becoming a single plugin.\n\n"
+     "Today's drop:\n\n"
+     "• {icon1}\n"
+     "• {icon2}\n"
+     "• {icon3}\n\n"
+     "Each one took me hours to draw back in the day. Now they're a click away in "
+     "Figma, Adobe Illustrator & Framer.\n\n"
+     "I built Glyfiq with zero dev experience — just Claude, vibes, and a lot of "
+     "Googling. Still can't believe it got approved. 🤯\n\n"
+     "If you design anything in healthcare, give it a try 👉 https://glyfiq.link/\n\n"
+     "#Figma #Framer #FigmaPlugin #HealthcareDesign #MedicalUI #UIDesign "
+     "#UXDesign #IconDesign #ProductDesign #AdobeIllustrator #BuildInPublic #NoCode"),
 ]
 
-def join_icons(names, conn):
-    if len(names) >= 3:
-        return f"{names[0]}, {names[1]}, {names[2]}" if conn == "," else f"{names[0]}, {names[1]} {conn} {names[2]}"
-    if len(names) == 2:
-        return f"{names[0]}, {names[1]}" if conn == "," else f"{names[0]} {conn} {names[1]}"
-    return names[0] if names else "New icons"
+def cap_name(n, cap=None):
+    if cap and len(n) > cap:
+        return n[:cap - 1].rstrip() + "…"
+    return n
 
 def build_text(tpl_idx, names):
-    conn, tpl = TEMPLATES[tpl_idx % len(TEMPLATES)]
-    return tpl.replace("{icons}", join_icons(names, conn))
+    tpl = TEMPLATES[tpl_idx % len(TEMPLATES)]
+    # Берём первые 3 иконки (или меньше, если их меньше)
+    icon1 = names[0].capitalize() if len(names) > 0 else "Medical icon"
+    icon2 = names[1].capitalize() if len(names) > 1 else "Medical icon"
+    icon3 = names[2].capitalize() if len(names) > 2 else "Medical icon"
+    return (tpl
+            .replace("{icon1}", icon1)
+            .replace("{icon2}", icon2)
+            .replace("{icon3}", icon3))
 
 # ---------- История ----------
 def load_posted():
@@ -90,7 +138,6 @@ def get_linkedin_channel_id(token):
     channels = [ch for ch in data.get("channels", []) if ch.get("service") == "linkedin"]
     if not channels:
         raise Exception("К Buffer не подключен LinkedIn-канал")
-    # Если подключено несколько LinkedIn-каналов — предпочитаем Glyfiq
     for ch in channels:
         if "glyfiq" in ch.get("name", "").lower():
             print(f"💼 Найден LinkedIn-канал Glyfiq: {ch['name']}")
@@ -145,7 +192,6 @@ def cmd_prepare():
         print("😴 Все GIF уже запощены в LinkedIn. Завершаемся.")
         return
 
-    # Используем готовый MP4 от Threads-скрипта
     gif_path = candidate.get("gif_path", "")
     mp4_path = gif_path.rsplit(".", 1)[0] + ".mp4" if gif_path else ""
 
