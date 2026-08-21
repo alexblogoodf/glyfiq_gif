@@ -207,6 +207,22 @@
       "gif_path": "output/animation_13.gif",
       "created_at": "2026-08-20T21:24:49.652777",
       "frame_count": 3
+    },
+    {
+      "gif_number": 14,
+      "icon_ids": [
+        14,
+        15,
+        16
+      ],
+      "icon_names": [
+        "unbalanced diet",
+        "arthroplasty",
+        "synovectomy"
+      ],
+      "gif_path": "output/animation_14.gif",
+      "created_at": "2026-08-21T01:06:58.032353",
+      "frame_count": 3
     }
   ]
 }
