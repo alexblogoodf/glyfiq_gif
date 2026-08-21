@@ -87,7 +87,18 @@
       ],
       "template": 3,
       "posted_at": "2026-08-21T12:51:34.126246"
+    },
+    {
+      "gif_number": 9,
+      "gif_path": "output/animation_9.gif",
+      "icon_names": [
+        "vertebral arthritis",
+        "arthroscopy",
+        "blood test"
+      ],
+      "template": 4,
+      "posted_at": "2026-08-21T18:38:59.924316"
     }
   ],
-  "posts_count": 8
+  "posts_count": 9
 }
