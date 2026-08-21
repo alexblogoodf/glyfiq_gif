@@ -271,6 +271,22 @@
       "gif_path": "output/animation_17.gif",
       "created_at": "2026-08-21T09:33:40.931348",
       "frame_count": 3
+    },
+    {
+      "gif_number": 18,
+      "icon_ids": [
+        18,
+        19,
+        20
+      ],
+      "icon_names": [
+        "acupuncture",
+        "massage",
+        "osteopathy"
+      ],
+      "gif_path": "output/animation_18.gif",
+      "created_at": "2026-08-21T12:40:11.888135",
+      "frame_count": 3
     }
   ]
 }
