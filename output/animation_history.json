@@ -415,6 +415,22 @@
       "gif_path": "output/animation_26.gif",
       "created_at": "2026-08-22T12:32:41.107963",
       "frame_count": 3
+    },
+    {
+      "gif_number": 27,
+      "icon_ids": [
+        27,
+        28,
+        29
+      ],
+      "icon_names": [
+        "insulin pen",
+        "insulin pump",
+        "blood glucose meter positively"
+      ],
+      "gif_path": "output/animation_27.gif",
+      "created_at": "2026-08-22T15:17:39.754392",
+      "frame_count": 3
     }
   ]
 }
