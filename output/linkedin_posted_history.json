@@ -59,7 +59,19 @@
       ],
       "template": 5,
       "posted_at": "2026-08-22T01:51:38.530829"
+    },
+    {
+      "gif_number": 6,
+      "gif_path": "output/animation_6.gif",
+      "mp4_path": "output/animation_6.mp4",
+      "icon_names": [
+        "elbow pain",
+        "knee pain",
+        "joint injury"
+      ],
+      "template": 1,
+      "posted_at": "2026-08-22T07:01:19.740212"
     }
   ],
-  "posts_count": 5
+  "posts_count": 6
 }
