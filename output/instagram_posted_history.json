@@ -116,7 +116,20 @@
       "template": 4,
       "buffer_post_id": "6a8949243869cf66589ed79a",
       "posted_at": "2026-08-22T07:02:02.925771"
+    },
+    {
+      "gif_number": 10,
+      "gif_path": "output/animation_10.gif",
+      "mp4_path": "output/animation_10.mp4",
+      "icon_names": [
+        "arthroscopy",
+        "blood test",
+        "MRI knee"
+      ],
+      "template": 5,
+      "buffer_post_id": "6a899dea859b98c365edb3ae",
+      "posted_at": "2026-08-22T13:03:44.955549"
     }
   ],
-  "posts_count": 9
+  "posts_count": 10
 }
