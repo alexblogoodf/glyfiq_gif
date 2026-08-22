@@ -103,7 +103,20 @@
       "template": 3,
       "facebook_video_id": "1370760208586752",
       "posted_at": "2026-08-22T06:54:33.726709"
+    },
+    {
+      "gif_number": 9,
+      "gif_path": "output/animation_9.gif",
+      "mp4_path": "output/animation_9.mp4",
+      "icon_names": [
+        "vertebral arthritis",
+        "arthroscopy",
+        "blood test"
+      ],
+      "template": 4,
+      "facebook_video_id": "1806999333655277",
+      "posted_at": "2026-08-22T12:55:12.726019"
     }
   ],
-  "posts_count": 8
+  "posts_count": 9
 }
