@@ -351,6 +351,22 @@
       "gif_path": "output/animation_22.gif",
       "created_at": "2026-08-22T01:02:58.505439",
       "frame_count": 3
+    },
+    {
+      "gif_number": 23,
+      "icon_ids": [
+        23,
+        24,
+        25
+      ],
+      "icon_names": [
+        "blood sugar",
+        "kidney diabetes",
+        "insulin"
+      ],
+      "gif_path": "output/animation_23.gif",
+      "created_at": "2026-08-22T03:38:59.022048",
+      "frame_count": 3
     }
   ]
 }
