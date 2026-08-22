@@ -90,7 +90,20 @@
       "template": 2,
       "facebook_video_id": "1385582830382260",
       "posted_at": "2026-08-22T01:44:50.490665"
+    },
+    {
+      "gif_number": 8,
+      "gif_path": "output/animation_8.gif",
+      "mp4_path": "output/animation_8.mp4",
+      "icon_names": [
+        "joint injury",
+        "vertebral arthritis",
+        "arthroscopy"
+      ],
+      "template": 3,
+      "facebook_video_id": "1370760208586752",
+      "posted_at": "2026-08-22T06:54:33.726709"
     }
   ],
-  "posts_count": 7
+  "posts_count": 8
 }
