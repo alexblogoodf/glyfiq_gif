@@ -111,7 +111,21 @@
       "threads_post_id": "18088907060165352",
       "threads_reply_id": "18130159672645657",
       "posted_at": "2026-08-21T19:17:05.761546"
+    },
+    {
+      "gif_number": 9,
+      "gif_path": "output/animation_9.gif",
+      "mp4_path": "output/animation_9.mp4",
+      "icon_names": [
+        "vertebral arthritis",
+        "arthroscopy",
+        "blood test"
+      ],
+      "template": 4,
+      "threads_post_id": "17943808500272125",
+      "threads_reply_id": "18118545052910285",
+      "posted_at": "2026-08-22T02:06:31.582944"
     }
   ],
-  "posts_count": 8
+  "posts_count": 9
 }
