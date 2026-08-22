@@ -77,7 +77,20 @@
       "template": 1,
       "facebook_video_id": "1039446705672247",
       "posted_at": "2026-08-21T18:50:42.509641"
+    },
+    {
+      "gif_number": 7,
+      "gif_path": "output/animation_7.gif",
+      "mp4_path": "output/animation_7.mp4",
+      "icon_names": [
+        "knee pain",
+        "joint injury",
+        "vertebral arthritis"
+      ],
+      "template": 2,
+      "facebook_video_id": "1385582830382260",
+      "posted_at": "2026-08-22T01:44:50.490665"
     }
   ],
-  "posts_count": 6
+  "posts_count": 7
 }
