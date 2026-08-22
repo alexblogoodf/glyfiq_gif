@@ -90,7 +90,20 @@
       "template": 2,
       "buffer_post_id": "6a889f925b4a6e681b2f94ae",
       "posted_at": "2026-08-21T18:58:33.245815"
+    },
+    {
+      "gif_number": 8,
+      "gif_path": "output/animation_8.gif",
+      "mp4_path": "output/animation_8.mp4",
+      "icon_names": [
+        "joint injury",
+        "vertebral arthritis",
+        "arthroscopy"
+      ],
+      "template": 3,
+      "buffer_post_id": "6a8900b0c5db1e9cdcd92a67",
+      "posted_at": "2026-08-22T01:52:54.839948"
     }
   ],
-  "posts_count": 7
+  "posts_count": 8
 }
