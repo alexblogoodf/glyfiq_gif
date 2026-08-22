@@ -431,6 +431,22 @@
       "gif_path": "output/animation_27.gif",
       "created_at": "2026-08-22T15:17:39.754392",
       "frame_count": 3
+    },
+    {
+      "gif_number": 28,
+      "icon_ids": [
+        28,
+        29,
+        30
+      ],
+      "icon_names": [
+        "insulin pump",
+        "blood glucose meter positively",
+        "blood glucose meter negatively"
+      ],
+      "gif_path": "output/animation_28.gif",
+      "created_at": "2026-08-22T18:25:12.063069",
+      "frame_count": 3
     }
   ]
 }
