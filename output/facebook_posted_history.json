@@ -168,7 +168,20 @@
       "template": 3,
       "facebook_video_id": "1063306662728383",
       "posted_at": "2026-08-23T12:56:47.937676"
+    },
+    {
+      "gif_number": 14,
+      "gif_path": "output/animation_14.gif",
+      "mp4_path": "output/animation_14.mp4",
+      "icon_names": [
+        "unbalanced diet",
+        "arthroplasty",
+        "synovectomy"
+      ],
+      "template": 4,
+      "facebook_video_id": "1037082009200732",
+      "posted_at": "2026-08-23T18:42:08.770154"
     }
   ],
-  "posts_count": 13
+  "posts_count": 14
 }
