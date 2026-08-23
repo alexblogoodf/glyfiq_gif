@@ -175,7 +175,18 @@
       ],
       "template": 1,
       "posted_at": "2026-08-23T12:42:30.308157"
+    },
+    {
+      "gif_number": 17,
+      "gif_path": "output/animation_17.gif",
+      "icon_names": [
+        "arthrodesis",
+        "acupuncture",
+        "massage"
+      ],
+      "template": 2,
+      "posted_at": "2026-08-23T18:32:07.511091"
     }
   ],
-  "posts_count": 16
+  "posts_count": 17
 }
