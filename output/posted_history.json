@@ -164,7 +164,18 @@
       ],
       "template": 5,
       "posted_at": "2026-08-23T06:43:21.720560"
+    },
+    {
+      "gif_number": 16,
+      "gif_path": "output/animation_16.gif",
+      "icon_names": [
+        "synovectomy",
+        "arthrodesis",
+        "acupuncture"
+      ],
+      "template": 1,
+      "posted_at": "2026-08-23T12:42:30.308157"
     }
   ],
-  "posts_count": 15
+  "posts_count": 16
 }
