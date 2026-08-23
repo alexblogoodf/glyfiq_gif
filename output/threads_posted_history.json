@@ -209,7 +209,21 @@
       "threads_post_id": "18164910994462318",
       "threads_reply_id": "18092020229452767",
       "posted_at": "2026-08-23T13:22:16.925694"
+    },
+    {
+      "gif_number": 16,
+      "gif_path": "output/animation_16.gif",
+      "mp4_path": "output/animation_16.mp4",
+      "icon_names": [
+        "synovectomy",
+        "arthrodesis",
+        "acupuncture"
+      ],
+      "template": 1,
+      "threads_post_id": "17953969803215476",
+      "threads_reply_id": "18069566225470676",
+      "posted_at": "2026-08-23T19:06:47.580657"
     }
   ],
-  "posts_count": 15
+  "posts_count": 16
 }
