@@ -142,7 +142,20 @@
       "template": 1,
       "buffer_post_id": "6a89ef69deb4b57dfea7f216",
       "posted_at": "2026-08-22T18:51:27.920612"
+    },
+    {
+      "gif_number": 12,
+      "gif_path": "output/animation_12.gif",
+      "mp4_path": "output/animation_12.mp4",
+      "icon_names": [
+        "MRI knee",
+        "excess weight",
+        "unbalanced diet"
+      ],
+      "template": 2,
+      "buffer_post_id": "6a8a543edeb4b57dfeae00a3",
+      "posted_at": "2026-08-23T02:01:41.084345"
     }
   ],
-  "posts_count": 11
+  "posts_count": 12
 }
