@@ -559,6 +559,22 @@
       "gif_path": "output/animation_35.gif",
       "created_at": "2026-08-23T15:19:28.657599",
       "frame_count": 3
+    },
+    {
+      "gif_number": 36,
+      "icon_ids": [
+        36,
+        37,
+        38
+      ],
+      "icon_names": [
+        "diabetic foot",
+        "insulin level",
+        "ban on sweets"
+      ],
+      "gif_path": "output/animation_36.gif",
+      "created_at": "2026-08-23T18:24:18.035434",
+      "frame_count": 3
     }
   ]
 }
