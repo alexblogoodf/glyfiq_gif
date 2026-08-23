@@ -155,7 +155,20 @@
       "template": 2,
       "facebook_video_id": "1632279905179651",
       "posted_at": "2026-08-23T06:55:21.489971"
+    },
+    {
+      "gif_number": 13,
+      "gif_path": "output/animation_13.gif",
+      "mp4_path": "output/animation_13.mp4",
+      "icon_names": [
+        "excess weight",
+        "unbalanced diet",
+        "arthroplasty"
+      ],
+      "template": 3,
+      "facebook_video_id": "1063306662728383",
+      "posted_at": "2026-08-23T12:56:47.937676"
     }
   ],
-  "posts_count": 12
+  "posts_count": 13
 }
