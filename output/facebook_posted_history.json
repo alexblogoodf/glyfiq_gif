@@ -142,7 +142,20 @@
       "template": 1,
       "facebook_video_id": "937146156073699",
       "posted_at": "2026-08-23T01:54:49.836657"
+    },
+    {
+      "gif_number": 12,
+      "gif_path": "output/animation_12.gif",
+      "mp4_path": "output/animation_12.mp4",
+      "icon_names": [
+        "MRI knee",
+        "excess weight",
+        "unbalanced diet"
+      ],
+      "template": 2,
+      "facebook_video_id": "1632279905179651",
+      "posted_at": "2026-08-23T06:55:21.489971"
     }
   ],
-  "posts_count": 11
+  "posts_count": 12
 }
