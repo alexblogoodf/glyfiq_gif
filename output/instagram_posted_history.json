@@ -168,7 +168,20 @@
       "template": 3,
       "buffer_post_id": "6a8a9b0ddeb4b57dfeb18e15",
       "posted_at": "2026-08-23T07:03:47.908622"
+    },
+    {
+      "gif_number": 14,
+      "gif_path": "output/animation_14.gif",
+      "mp4_path": "output/animation_14.mp4",
+      "icon_names": [
+        "unbalanced diet",
+        "arthroplasty",
+        "synovectomy"
+      ],
+      "template": 4,
+      "buffer_post_id": "6a8aef9bdf65a5c68b0687a5",
+      "posted_at": "2026-08-23T13:04:33.608656"
     }
   ],
-  "posts_count": 13
+  "posts_count": 14
 }
