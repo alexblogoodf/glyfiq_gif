@@ -153,7 +153,18 @@
       ],
       "template": 4,
       "posted_at": "2026-08-23T01:25:51.440545"
+    },
+    {
+      "gif_number": 15,
+      "gif_path": "output/animation_15.gif",
+      "icon_names": [
+        "arthroplasty",
+        "synovectomy",
+        "arthrodesis"
+      ],
+      "template": 5,
+      "posted_at": "2026-08-23T06:43:21.720560"
     }
   ],
-  "posts_count": 14
+  "posts_count": 15
 }
