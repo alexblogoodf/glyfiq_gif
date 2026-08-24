@@ -194,7 +194,20 @@
       "template": 5,
       "facebook_video_id": "1758890401911928",
       "posted_at": "2026-08-24T01:51:47.678325"
+    },
+    {
+      "gif_number": 16,
+      "gif_path": "output/animation_16.gif",
+      "mp4_path": "output/animation_16.mp4",
+      "icon_names": [
+        "synovectomy",
+        "arthrodesis",
+        "acupuncture"
+      ],
+      "template": 1,
+      "facebook_video_id": "1409445577984676",
+      "posted_at": "2026-08-24T07:14:23.441819"
     }
   ],
-  "posts_count": 15
+  "posts_count": 16
 }
