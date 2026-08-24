@@ -623,6 +623,22 @@
       "gif_path": "output/animation_39.gif",
       "created_at": "2026-08-24T03:52:21.917573",
       "frame_count": 3
+    },
+    {
+      "gif_number": 40,
+      "icon_ids": [
+        40,
+        41,
+        42
+      ],
+      "icon_names": [
+        "medical checkup",
+        "MRI scanner type 1",
+        "MRI diagnostics top view"
+      ],
+      "gif_path": "output/animation_40.gif",
+      "created_at": "2026-08-24T06:52:16.411899",
+      "frame_count": 3
     }
   ]
 }
