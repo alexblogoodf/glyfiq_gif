@@ -671,6 +671,22 @@
       "gif_path": "output/animation_42.gif",
       "created_at": "2026-08-24T12:43:03.918969",
       "frame_count": 3
+    },
+    {
+      "gif_number": 43,
+      "icon_ids": [
+        43,
+        44,
+        45
+      ],
+      "icon_names": [
+        "MRI scanner type 2",
+        "MRI diagnostics side view",
+        "MRI scanner close view"
+      ],
+      "gif_path": "output/animation_43.gif",
+      "created_at": "2026-08-24T15:36:20.422258",
+      "frame_count": 3
     }
   ]
 }
