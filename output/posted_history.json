@@ -208,7 +208,18 @@
       ],
       "template": 4,
       "posted_at": "2026-08-24T07:01:47.095238"
+    },
+    {
+      "gif_number": 20,
+      "gif_path": "output/animation_20.gif",
+      "icon_names": [
+        "osteopathy",
+        "finger blood",
+        "glucose level"
+      ],
+      "template": 5,
+      "posted_at": "2026-08-24T12:53:29.735662"
     }
   ],
-  "posts_count": 19
+  "posts_count": 20
 }
