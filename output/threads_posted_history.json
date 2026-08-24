@@ -237,7 +237,21 @@
       "threads_post_id": "17907555222467936",
       "threads_reply_id": "18126853987763870",
       "posted_at": "2026-08-24T02:13:53.420422"
+    },
+    {
+      "gif_number": 18,
+      "gif_path": "output/animation_18.gif",
+      "mp4_path": "output/animation_18.mp4",
+      "icon_names": [
+        "acupuncture",
+        "massage",
+        "osteopathy"
+      ],
+      "template": 3,
+      "threads_post_id": "17874877518554956",
+      "threads_reply_id": "17983537274875266",
+      "posted_at": "2026-08-24T07:46:15.554020"
     }
   ],
-  "posts_count": 17
+  "posts_count": 18
 }
