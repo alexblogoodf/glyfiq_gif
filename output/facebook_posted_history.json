@@ -207,7 +207,20 @@
       "template": 1,
       "facebook_video_id": "1409445577984676",
       "posted_at": "2026-08-24T07:14:23.441819"
+    },
+    {
+      "gif_number": 17,
+      "gif_path": "output/animation_17.gif",
+      "mp4_path": "output/animation_17.mp4",
+      "icon_names": [
+        "arthrodesis",
+        "acupuncture",
+        "massage"
+      ],
+      "template": 2,
+      "facebook_video_id": "2182337692712364",
+      "posted_at": "2026-08-24T13:07:08.003118"
     }
   ],
-  "posts_count": 16
+  "posts_count": 17
 }
