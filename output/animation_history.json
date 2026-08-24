@@ -591,6 +591,22 @@
       "gif_path": "output/animation_37.gif",
       "created_at": "2026-08-23T21:18:58.632504",
       "frame_count": 3
+    },
+    {
+      "gif_number": 38,
+      "icon_ids": [
+        38,
+        39,
+        40
+      ],
+      "icon_names": [
+        "ban on sweets",
+        "excess weight",
+        "medical checkup"
+      ],
+      "gif_path": "output/animation_38.gif",
+      "created_at": "2026-08-24T01:06:07.232652",
+      "frame_count": 3
     }
   ]
 }
