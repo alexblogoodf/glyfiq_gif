@@ -687,6 +687,22 @@
       "gif_path": "output/animation_43.gif",
       "created_at": "2026-08-24T15:36:20.422258",
       "frame_count": 3
+    },
+    {
+      "gif_number": 44,
+      "icon_ids": [
+        44,
+        45,
+        46
+      ],
+      "icon_names": [
+        "MRI diagnostics side view",
+        "MRI scanner close view",
+        "brain MRI"
+      ],
+      "gif_path": "output/animation_44.gif",
+      "created_at": "2026-08-24T18:35:53.597608",
+      "frame_count": 3
     }
   ]
 }
