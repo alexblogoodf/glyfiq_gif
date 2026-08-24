@@ -186,7 +186,18 @@
       ],
       "template": 2,
       "posted_at": "2026-08-23T18:32:07.511091"
+    },
+    {
+      "gif_number": 18,
+      "gif_path": "output/animation_18.gif",
+      "icon_names": [
+        "acupuncture",
+        "massage",
+        "osteopathy"
+      ],
+      "template": 3,
+      "posted_at": "2026-08-24T01:23:48.729945"
     }
   ],
-  "posts_count": 17
+  "posts_count": 18
 }
