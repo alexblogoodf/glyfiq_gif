@@ -607,6 +607,22 @@
       "gif_path": "output/animation_38.gif",
       "created_at": "2026-08-24T01:06:07.232652",
       "frame_count": 3
+    },
+    {
+      "gif_number": 39,
+      "icon_ids": [
+        39,
+        40,
+        41
+      ],
+      "icon_names": [
+        "excess weight",
+        "medical checkup",
+        "MRI scanner type 1"
+      ],
+      "gif_path": "output/animation_39.gif",
+      "created_at": "2026-08-24T03:52:21.917573",
+      "frame_count": 3
     }
   ]
 }
