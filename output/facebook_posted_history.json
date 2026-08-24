@@ -181,7 +181,20 @@
       "template": 4,
       "facebook_video_id": "1037082009200732",
       "posted_at": "2026-08-23T18:42:08.770154"
+    },
+    {
+      "gif_number": 15,
+      "gif_path": "output/animation_15.gif",
+      "mp4_path": "output/animation_15.mp4",
+      "icon_names": [
+        "arthroplasty",
+        "synovectomy",
+        "arthrodesis"
+      ],
+      "template": 5,
+      "facebook_video_id": "1758890401911928",
+      "posted_at": "2026-08-24T01:51:47.678325"
     }
   ],
-  "posts_count": 14
+  "posts_count": 15
 }
