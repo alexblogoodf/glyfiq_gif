@@ -143,7 +143,19 @@
       ],
       "template": 2,
       "posted_at": "2026-08-23T18:49:33.269810"
+    },
+    {
+      "gif_number": 13,
+      "gif_path": "output/animation_13.gif",
+      "mp4_path": "output/animation_13.mp4",
+      "icon_names": [
+        "excess weight",
+        "unbalanced diet",
+        "arthroplasty"
+      ],
+      "template": 3,
+      "posted_at": "2026-08-24T01:59:19.424251"
     }
   ],
-  "posts_count": 12
+  "posts_count": 13
 }
