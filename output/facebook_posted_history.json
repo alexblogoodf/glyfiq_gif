@@ -233,7 +233,20 @@
       "template": 3,
       "facebook_video_id": "1382973873333783",
       "posted_at": "2026-08-24T18:53:18.911756"
+    },
+    {
+      "gif_number": 19,
+      "gif_path": "output/animation_19.gif",
+      "mp4_path": "output/animation_19.mp4",
+      "icon_names": [
+        "massage",
+        "osteopathy",
+        "finger blood"
+      ],
+      "template": 4,
+      "facebook_video_id": "949271868214428",
+      "posted_at": "2026-08-25T01:46:43.600789"
     }
   ],
-  "posts_count": 18
+  "posts_count": 19
 }
