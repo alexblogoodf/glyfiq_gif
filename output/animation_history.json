@@ -735,6 +735,22 @@
       "gif_path": "output/animation_46.gif",
       "created_at": "2026-08-25T01:05:04.845941",
       "frame_count": 3
+    },
+    {
+      "gif_number": 47,
+      "icon_ids": [
+        47,
+        48,
+        49
+      ],
+      "icon_names": [
+        "lungs MRI",
+        "chest MRI",
+        "spine MRI"
+      ],
+      "gif_path": "output/animation_47.gif",
+      "created_at": "2026-08-25T03:46:05.282475",
+      "frame_count": 3
     }
   ]
 }
