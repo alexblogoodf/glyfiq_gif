@@ -241,7 +241,18 @@
       ],
       "template": 2,
       "posted_at": "2026-08-25T01:21:07.279605"
+    },
+    {
+      "gif_number": 23,
+      "gif_path": "output/animation_23.gif",
+      "icon_names": [
+        "blood sugar",
+        "kidney diabetes",
+        "insulin"
+      ],
+      "template": 3,
+      "posted_at": "2026-08-25T06:51:09.414945"
     }
   ],
-  "posts_count": 22
+  "posts_count": 23
 }
