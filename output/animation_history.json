@@ -799,6 +799,22 @@
       "gif_path": "output/animation_50.gif",
       "created_at": "2026-08-25T09:32:28.836140",
       "frame_count": 3
+    },
+    {
+      "gif_number": 51,
+      "icon_ids": [
+        51,
+        52,
+        53
+      ],
+      "icon_names": [
+        "MRI side view",
+        "MRI scanner type 3",
+        "MRI diagnostics scheme"
+      ],
+      "gif_path": "output/animation_51.gif",
+      "created_at": "2026-08-25T12:41:19.364705",
+      "frame_count": 3
     }
   ]
 }
