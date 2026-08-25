@@ -272,7 +272,20 @@
       "template": 1,
       "facebook_video_id": "1358676069761552",
       "posted_at": "2026-08-25T13:04:54.906669"
+    },
+    {
+      "gif_number": 22,
+      "gif_path": "output/animation_22.gif",
+      "mp4_path": "output/animation_22.mp4",
+      "icon_names": [
+        "glucose level",
+        "blood sugar",
+        "kidney diabetes"
+      ],
+      "template": 2,
+      "facebook_video_id": "2253549502163100",
+      "posted_at": "2026-08-25T18:51:55.867885"
     }
   ],
-  "posts_count": 21
+  "posts_count": 22
 }
