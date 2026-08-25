@@ -847,6 +847,22 @@
       "gif_path": "output/animation_53.gif",
       "created_at": "2026-08-25T18:35:39.105776",
       "frame_count": 3
+    },
+    {
+      "gif_number": 54,
+      "icon_ids": [
+        54,
+        55,
+        56
+      ],
+      "icon_names": [
+        "doctor",
+        "nurse",
+        "hospital"
+      ],
+      "gif_path": "output/animation_54.gif",
+      "created_at": "2026-08-25T21:25:12.324219",
+      "frame_count": 3
     }
   ]
 }
