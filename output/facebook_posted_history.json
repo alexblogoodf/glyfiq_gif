@@ -246,7 +246,20 @@
       "template": 4,
       "facebook_video_id": "949271868214428",
       "posted_at": "2026-08-25T01:46:43.600789"
+    },
+    {
+      "gif_number": 20,
+      "gif_path": "output/animation_20.gif",
+      "mp4_path": "output/animation_20.mp4",
+      "icon_names": [
+        "osteopathy",
+        "finger blood",
+        "glucose level"
+      ],
+      "template": 5,
+      "facebook_video_id": "1583029203283819",
+      "posted_at": "2026-08-25T07:02:11.779626"
     }
   ],
-  "posts_count": 19
+  "posts_count": 20
 }
