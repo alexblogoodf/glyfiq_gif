@@ -831,6 +831,22 @@
       "gif_path": "output/animation_52.gif",
       "created_at": "2026-08-25T15:39:14.166608",
       "frame_count": 3
+    },
+    {
+      "gif_number": 53,
+      "icon_ids": [
+        53,
+        54,
+        55
+      ],
+      "icon_names": [
+        "MRI diagnostics scheme",
+        "doctor",
+        "nurse"
+      ],
+      "gif_path": "output/animation_53.gif",
+      "created_at": "2026-08-25T18:35:39.105776",
+      "frame_count": 3
     }
   ]
 }
