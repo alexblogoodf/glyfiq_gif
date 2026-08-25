@@ -783,6 +783,22 @@
       "gif_path": "output/animation_49.gif",
       "created_at": "2026-08-25T08:18:47.721847",
       "frame_count": 3
+    },
+    {
+      "gif_number": 50,
+      "icon_ids": [
+        50,
+        51,
+        52
+      ],
+      "icon_names": [
+        "heart MRI",
+        "MRI side view",
+        "MRI scanner type 3"
+      ],
+      "gif_path": "output/animation_50.gif",
+      "created_at": "2026-08-25T09:32:28.836140",
+      "frame_count": 3
     }
   ]
 }
