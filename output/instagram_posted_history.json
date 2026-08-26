@@ -324,7 +324,20 @@
       "template": 5,
       "buffer_post_id": "6a8e915399f3f7567bc6aac3",
       "posted_at": "2026-08-26T07:11:21.970003"
+    },
+    {
+      "gif_number": 26,
+      "gif_path": "output/animation_26.gif",
+      "mp4_path": "output/animation_26.mp4",
+      "icon_names": [
+        "hyperglycemia",
+        "insulin pen",
+        "insulin pump"
+      ],
+      "template": 1,
+      "buffer_post_id": "6a8f46a2114fe1e8fd7934dd",
+      "posted_at": "2026-08-26T20:04:57.182326"
     }
   ],
-  "posts_count": 25
+  "posts_count": 26
 }
