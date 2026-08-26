@@ -298,7 +298,20 @@
       "template": 3,
       "facebook_video_id": "2209601729605380",
       "posted_at": "2026-08-26T01:51:53.119913"
+    },
+    {
+      "gif_number": 24,
+      "gif_path": "output/animation_24.gif",
+      "mp4_path": "output/animation_24.mp4",
+      "icon_names": [
+        "kidney diabetes",
+        "insulin",
+        "hyperglycemia"
+      ],
+      "template": 4,
+      "facebook_video_id": "1547217120540886",
+      "posted_at": "2026-08-26T07:02:50.775871"
     }
   ],
-  "posts_count": 23
+  "posts_count": 24
 }
