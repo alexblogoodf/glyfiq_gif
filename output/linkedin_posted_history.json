@@ -251,7 +251,19 @@
       ],
       "template": 1,
       "posted_at": "2026-08-26T01:59:41.152606"
+    },
+    {
+      "gif_number": 22,
+      "gif_path": "output/animation_22.gif",
+      "mp4_path": "output/animation_22.mp4",
+      "icon_names": [
+        "glucose level",
+        "blood sugar",
+        "kidney diabetes"
+      ],
+      "template": 2,
+      "posted_at": "2026-08-26T07:10:43.432735"
     }
   ],
-  "posts_count": 21
+  "posts_count": 22
 }
