@@ -943,6 +943,22 @@
       "gif_path": "output/animation_59.gif",
       "created_at": "2026-08-26T12:44:55.815148",
       "frame_count": 3
+    },
+    {
+      "gif_number": 60,
+      "icon_ids": [
+        60,
+        61,
+        62
+      ],
+      "icon_names": [
+        "MRI top view",
+        "ophthalmology",
+        "laser eye surgery"
+      ],
+      "gif_path": "output/animation_60.gif",
+      "created_at": "2026-08-26T16:15:26.750304",
+      "frame_count": 3
     }
   ]
 }
