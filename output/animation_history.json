@@ -927,6 +927,22 @@
       "gif_path": "output/animation_58.gif",
       "created_at": "2026-08-26T09:37:38.929688",
       "frame_count": 3
+    },
+    {
+      "gif_number": 59,
+      "icon_ids": [
+        59,
+        60,
+        61
+      ],
+      "icon_names": [
+        "MRI diagnostics close-up side view",
+        "MRI top view",
+        "ophthalmology"
+      ],
+      "gif_path": "output/animation_59.gif",
+      "created_at": "2026-08-26T12:44:55.815148",
+      "frame_count": 3
     }
   ]
 }
