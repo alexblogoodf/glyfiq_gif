@@ -285,7 +285,20 @@
       "template": 2,
       "facebook_video_id": "2253549502163100",
       "posted_at": "2026-08-25T18:51:55.867885"
+    },
+    {
+      "gif_number": 23,
+      "gif_path": "output/animation_23.gif",
+      "mp4_path": "output/animation_23.mp4",
+      "icon_names": [
+        "blood sugar",
+        "kidney diabetes",
+        "insulin"
+      ],
+      "template": 3,
+      "facebook_video_id": "2209601729605380",
+      "posted_at": "2026-08-26T01:51:53.119913"
     }
   ],
-  "posts_count": 22
+  "posts_count": 23
 }
