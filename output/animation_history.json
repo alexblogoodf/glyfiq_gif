@@ -895,6 +895,22 @@
       "gif_path": "output/animation_56.gif",
       "created_at": "2026-08-26T03:52:07.509835",
       "frame_count": 3
+    },
+    {
+      "gif_number": 57,
+      "icon_ids": [
+        57,
+        58,
+        59
+      ],
+      "icon_names": [
+        "MRI diagnostics with a wave",
+        "MRI front view",
+        "MRI diagnostics close-up side view"
+      ],
+      "gif_path": "output/animation_57.gif",
+      "created_at": "2026-08-26T06:42:46.046160",
+      "frame_count": 3
     }
   ]
 }
