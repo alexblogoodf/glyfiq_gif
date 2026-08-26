@@ -311,7 +311,20 @@
       "template": 4,
       "facebook_video_id": "1547217120540886",
       "posted_at": "2026-08-26T07:02:50.775871"
+    },
+    {
+      "gif_number": 25,
+      "gif_path": "output/animation_25.gif",
+      "mp4_path": "output/animation_25.mp4",
+      "icon_names": [
+        "insulin",
+        "hyperglycemia",
+        "insulin pen"
+      ],
+      "template": 5,
+      "facebook_video_id": "1064698525965038",
+      "posted_at": "2026-08-26T13:09:30.499768"
     }
   ],
-  "posts_count": 24
+  "posts_count": 25
 }
