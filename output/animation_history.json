@@ -1023,6 +1023,22 @@
       "gif_path": "output/animation_64.gif",
       "created_at": "2026-08-27T17:31:43.445320",
       "frame_count": 3
+    },
+    {
+      "gif_number": 65,
+      "icon_ids": [
+        65,
+        66,
+        67
+      ],
+      "icon_names": [
+        "vision diagnostics",
+        "farsightedness",
+        "nearsightedness"
+      ],
+      "gif_path": "output/animation_65.gif",
+      "created_at": "2026-08-27T19:01:41.783732",
+      "frame_count": 3
     }
   ]
 }
