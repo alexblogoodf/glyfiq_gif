@@ -1,9 +1,6 @@
 name: Post GIF to LinkedIn
 
 on:
-  schedule:
-    # Каждые 6 часов в :20 (генератор :00, fb :05, instagram :15, linkedin :20, twitter :30, threads :45)
-    - cron: '20 */6 * * *'
   workflow_dispatch:
 
 permissions:
