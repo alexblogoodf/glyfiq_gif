@@ -1,9 +1,6 @@
 name: Generate GIF from Supabase Icons
 
 on:
-  schedule:
-    # Запуск каждые 3 часов (можно изменить)
-    - cron: '0 */3 * * *'
   workflow_dispatch:
     # Ручной запуск
     inputs:
