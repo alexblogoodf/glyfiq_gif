@@ -377,7 +377,21 @@
       "threads_post_id": "18421240753146884",
       "threads_reply_id": "18125460430748975",
       "posted_at": "2026-08-26T21:16:58.002446"
+    },
+    {
+      "gif_number": 28,
+      "gif_path": "output/animation_28.gif",
+      "mp4_path": "output/animation_28.mp4",
+      "icon_names": [
+        "insulin pump",
+        "blood glucose meter positively",
+        "blood glucose meter negatively"
+      ],
+      "template": 3,
+      "threads_post_id": "17882443113618128",
+      "threads_reply_id": "18093044018103574",
+      "posted_at": "2026-08-27T10:36:53.378305"
     }
   ],
-  "posts_count": 27
+  "posts_count": 28
 }
