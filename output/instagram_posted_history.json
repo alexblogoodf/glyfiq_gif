@@ -350,7 +350,20 @@
       "template": 2,
       "buffer_post_id": "6a9008ba7f8235be553975b9",
       "posted_at": "2026-08-27T09:53:05.465575"
+    },
+    {
+      "gif_number": 28,
+      "gif_path": "output/animation_28.gif",
+      "mp4_path": "output/animation_28.mp4",
+      "icon_names": [
+        "insulin pump",
+        "blood glucose meter positively",
+        "blood glucose meter negatively"
+      ],
+      "template": 3,
+      "buffer_post_id": "6a907615479d79c4495d6044",
+      "posted_at": "2026-08-27T17:39:39.992452"
     }
   ],
-  "posts_count": 27
+  "posts_count": 28
 }
