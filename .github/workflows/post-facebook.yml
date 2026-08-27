@@ -1,9 +1,6 @@
 name: Post GIF to Facebook Page
 
 on:
-  schedule:
-    # Каждые 6 часов в :05 (генератор :00, fb :05, instagram :15, twitter :30, threads :45)
-    - cron: '5 */6 * * *'
   workflow_dispatch:
 
 permissions:
