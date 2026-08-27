@@ -1039,6 +1039,22 @@
       "gif_path": "output/animation_65.gif",
       "created_at": "2026-08-27T19:01:41.783732",
       "frame_count": 3
+    },
+    {
+      "gif_number": 66,
+      "icon_ids": [
+        66,
+        67,
+        68
+      ],
+      "icon_names": [
+        "farsightedness",
+        "nearsightedness",
+        "lasik"
+      ],
+      "gif_path": "output/animation_66.gif",
+      "created_at": "2026-08-27T22:01:40.392278",
+      "frame_count": 3
     }
   ]
 }
