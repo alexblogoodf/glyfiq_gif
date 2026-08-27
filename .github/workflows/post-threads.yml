@@ -1,8 +1,6 @@
 name: Post GIF to Threads
 
 on:
-  schedule:
-    - cron: '45 */6 * * *'
   workflow_dispatch:
 
 permissions:
