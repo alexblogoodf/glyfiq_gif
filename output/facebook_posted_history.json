@@ -363,7 +363,20 @@
       "template": 3,
       "facebook_video_id": "1595697461960192",
       "posted_at": "2026-08-27T17:33:51.682276"
+    },
+    {
+      "gif_number": 29,
+      "gif_path": "output/animation_29.gif",
+      "mp4_path": "output/animation_29.mp4",
+      "icon_names": [
+        "blood glucose meter positively",
+        "blood glucose meter negatively",
+        "diet"
+      ],
+      "template": 4,
+      "facebook_video_id": "1662532182167679",
+      "posted_at": "2026-08-27T18:03:20.612487"
     }
   ],
-  "posts_count": 28
+  "posts_count": 29
 }
