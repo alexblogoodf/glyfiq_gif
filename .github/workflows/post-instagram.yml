@@ -1,9 +1,6 @@
 name: Post GIF to Instagram
 
 on:
-  schedule:
-    # Каждые 6 часов в :15 (генератор :00, instagram :15, twitter :30, threads :45)
-    - cron: '15 */6 * * *'
   workflow_dispatch:
 
 permissions:
