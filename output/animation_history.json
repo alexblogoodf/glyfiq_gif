@@ -975,6 +975,22 @@
       "gif_path": "output/animation_61.gif",
       "created_at": "2026-08-26T19:44:43.964331",
       "frame_count": 3
+    },
+    {
+      "gif_number": 62,
+      "icon_ids": [
+        62,
+        63,
+        64
+      ],
+      "icon_names": [
+        "laser eye surgery",
+        "vision correction",
+        "eye test"
+      ],
+      "gif_path": "output/animation_62.gif",
+      "created_at": "2026-08-27T00:25:54.251811",
+      "frame_count": 3
     }
   ]
 }
