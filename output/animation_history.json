@@ -1151,6 +1151,22 @@
       "gif_path": "output/animation_72.gif",
       "created_at": "2026-08-28T16:01:35.610384",
       "frame_count": 3
+    },
+    {
+      "gif_number": 73,
+      "icon_ids": [
+        73,
+        74,
+        75
+      ],
+      "icon_names": [
+        "cornea",
+        "consultation",
+        "contact lenses"
+      ],
+      "gif_path": "output/animation_73.gif",
+      "created_at": "2026-08-28T19:01:38.713831",
+      "frame_count": 3
     }
   ]
 }
