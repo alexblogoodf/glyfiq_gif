@@ -347,7 +347,19 @@
       ],
       "template": 4,
       "posted_at": "2026-08-28T10:17:25.484498"
+    },
+    {
+      "gif_number": 30,
+      "gif_path": "output/animation_30.gif",
+      "mp4_path": "output/animation_30.mp4",
+      "icon_names": [
+        "blood glucose meter negatively",
+        "diet",
+        "pills & tablets"
+      ],
+      "template": 5,
+      "posted_at": "2026-08-28T16:17:29.209444"
     }
   ],
-  "posts_count": 29
+  "posts_count": 30
 }
