@@ -376,7 +376,20 @@
       "template": 4,
       "facebook_video_id": "1662532182167679",
       "posted_at": "2026-08-27T18:03:20.612487"
+    },
+    {
+      "gif_number": 30,
+      "gif_path": "output/animation_30.gif",
+      "mp4_path": "output/animation_30.mp4",
+      "icon_names": [
+        "blood glucose meter negatively",
+        "diet",
+        "pills & tablets"
+      ],
+      "template": 5,
+      "facebook_video_id": "3254442638093094",
+      "posted_at": "2026-08-28T03:03:23.129533"
     }
   ],
-  "posts_count": 29
+  "posts_count": 30
 }
