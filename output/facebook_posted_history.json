@@ -402,7 +402,20 @@
       "template": 1,
       "facebook_video_id": "1349129077304152",
       "posted_at": "2026-08-28T08:03:22.847886"
+    },
+    {
+      "gif_number": 32,
+      "gif_path": "output/animation_32.gif",
+      "mp4_path": "output/animation_32.mp4",
+      "icon_names": [
+        "pills & tablets",
+        "obesity",
+        "diabetes"
+      ],
+      "template": 2,
+      "facebook_video_id": "1620219939661143",
+      "posted_at": "2026-08-28T13:03:24.431413"
     }
   ],
-  "posts_count": 31
+  "posts_count": 32
 }
