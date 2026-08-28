@@ -1087,6 +1087,22 @@
       "gif_path": "output/animation_68.gif",
       "created_at": "2026-08-28T04:01:44.683126",
       "frame_count": 3
+    },
+    {
+      "gif_number": 69,
+      "icon_ids": [
+        69,
+        70,
+        71
+      ],
+      "icon_names": [
+        "astigmatism",
+        "eye health with eyelashes",
+        "eye health"
+      ],
+      "gif_path": "output/animation_69.gif",
+      "created_at": "2026-08-28T07:01:34.584013",
+      "frame_count": 3
     }
   ]
 }
