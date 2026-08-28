@@ -1119,6 +1119,22 @@
       "gif_path": "output/animation_70.gif",
       "created_at": "2026-08-28T10:01:38.752530",
       "frame_count": 3
+    },
+    {
+      "gif_number": 71,
+      "icon_ids": [
+        71,
+        72,
+        73
+      ],
+      "icon_names": [
+        "eye health",
+        "eye drops",
+        "cornea"
+      ],
+      "gif_path": "output/animation_71.gif",
+      "created_at": "2026-08-28T13:01:33.825877",
+      "frame_count": 3
     }
   ]
 }
