@@ -1103,6 +1103,22 @@
       "gif_path": "output/animation_69.gif",
       "created_at": "2026-08-28T07:01:34.584013",
       "frame_count": 3
+    },
+    {
+      "gif_number": 70,
+      "icon_ids": [
+        70,
+        71,
+        72
+      ],
+      "icon_names": [
+        "eye health with eyelashes",
+        "eye health",
+        "eye drops"
+      ],
+      "gif_path": "output/animation_70.gif",
+      "created_at": "2026-08-28T10:01:38.752530",
+      "frame_count": 3
     }
   ]
 }
