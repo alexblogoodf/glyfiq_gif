@@ -517,7 +517,21 @@
       "threads_post_id": "17986589946109866",
       "threads_reply_id": "17995709639992777",
       "posted_at": "2026-08-29T16:22:37.798033"
+    },
+    {
+      "gif_number": 38,
+      "gif_path": "output/animation_38.gif",
+      "mp4_path": "output/animation_38.mp4",
+      "icon_names": [
+        "ban on sweets",
+        "excess weight",
+        "medical checkup"
+      ],
+      "template": 3,
+      "threads_post_id": "18622353334022815",
+      "threads_reply_id": "17961689585979952",
+      "posted_at": "2026-08-29T22:22:51.115794"
     }
   ],
-  "posts_count": 37
+  "posts_count": 38
 }
