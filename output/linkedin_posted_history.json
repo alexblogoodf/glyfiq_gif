@@ -407,7 +407,19 @@
       ],
       "template": 4,
       "posted_at": "2026-08-29T16:17:29.422977"
+    },
+    {
+      "gif_number": 35,
+      "gif_path": "output/animation_35.gif",
+      "mp4_path": "output/animation_35.mp4",
+      "icon_names": [
+        "diabetic retinopathy",
+        "diabetic foot",
+        "insulin level"
+      ],
+      "template": 5,
+      "posted_at": "2026-08-29T22:17:28.436774"
     }
   ],
-  "posts_count": 34
+  "posts_count": 35
 }
