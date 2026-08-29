@@ -428,7 +428,20 @@
       "template": 3,
       "facebook_video_id": "1595337868968688",
       "posted_at": "2026-08-28T18:03:36.783299"
+    },
+    {
+      "gif_number": 34,
+      "gif_path": "output/animation_34.gif",
+      "mp4_path": "output/animation_34.mp4",
+      "icon_names": [
+        "diabetes",
+        "diabetic retinopathy",
+        "diabetic foot"
+      ],
+      "template": 4,
+      "facebook_video_id": "2645283315926926",
+      "posted_at": "2026-08-29T03:03:21.476498"
     }
   ],
-  "posts_count": 33
+  "posts_count": 34
 }
