@@ -1279,6 +1279,22 @@
       "gif_path": "output/animation_80.gif",
       "created_at": "2026-08-29T16:01:36.177705",
       "frame_count": 3
+    },
+    {
+      "gif_number": 81,
+      "icon_ids": [
+        81,
+        82,
+        83
+      ],
+      "icon_names": [
+        "hospital minimalistic",
+        "ambulance",
+        "doctor in mask"
+      ],
+      "gif_path": "output/animation_81.gif",
+      "created_at": "2026-08-29T19:01:41.852312",
+      "frame_count": 3
     }
   ]
 }
