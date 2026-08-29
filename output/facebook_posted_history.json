@@ -454,7 +454,20 @@
       "template": 5,
       "facebook_video_id": "3472563286240556",
       "posted_at": "2026-08-29T08:03:26.454626"
+    },
+    {
+      "gif_number": 36,
+      "gif_path": "output/animation_36.gif",
+      "mp4_path": "output/animation_36.mp4",
+      "icon_names": [
+        "diabetic foot",
+        "insulin level",
+        "ban on sweets"
+      ],
+      "template": 1,
+      "facebook_video_id": "1076090138225044",
+      "posted_at": "2026-08-29T13:03:20.466742"
     }
   ],
-  "posts_count": 35
+  "posts_count": 36
 }
