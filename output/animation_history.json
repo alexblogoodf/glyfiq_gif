@@ -1199,6 +1199,22 @@
       "gif_path": "output/animation_75.gif",
       "created_at": "2026-08-29T01:01:39.601987",
       "frame_count": 3
+    },
+    {
+      "gif_number": 76,
+      "icon_ids": [
+        76,
+        77,
+        78
+      ],
+      "icon_names": [
+        "cataract surgery",
+        "glasses",
+        "phoropter"
+      ],
+      "gif_path": "output/animation_76.gif",
+      "created_at": "2026-08-29T04:01:38.741474",
+      "frame_count": 3
     }
   ]
 }
