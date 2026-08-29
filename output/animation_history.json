@@ -1183,6 +1183,22 @@
       "gif_path": "output/animation_74.gif",
       "created_at": "2026-08-28T22:01:32.356315",
       "frame_count": 3
+    },
+    {
+      "gif_number": 75,
+      "icon_ids": [
+        75,
+        76,
+        77
+      ],
+      "icon_names": [
+        "contact lenses",
+        "cataract surgery",
+        "glasses"
+      ],
+      "gif_path": "output/animation_75.gif",
+      "created_at": "2026-08-29T01:01:39.601987",
+      "frame_count": 3
     }
   ]
 }
