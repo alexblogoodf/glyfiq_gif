@@ -475,7 +475,21 @@
       "threads_post_id": "18024261167875463",
       "threads_reply_id": "18626706442019584",
       "posted_at": "2026-08-28T22:22:32.963939"
+    },
+    {
+      "gif_number": 35,
+      "gif_path": "output/animation_35.gif",
+      "mp4_path": "output/animation_35.mp4",
+      "icon_names": [
+        "diabetic retinopathy",
+        "diabetic foot",
+        "insulin level"
+      ],
+      "template": 5,
+      "threads_post_id": "18112210717818314",
+      "threads_reply_id": "18165798781466470",
+      "posted_at": "2026-08-29T04:22:52.485336"
     }
   ],
-  "posts_count": 34
+  "posts_count": 35
 }
