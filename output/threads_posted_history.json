@@ -503,7 +503,21 @@
       "threads_post_id": "18102365813351922",
       "threads_reply_id": "18085665923355078",
       "posted_at": "2026-08-29T14:37:05.630639"
+    },
+    {
+      "gif_number": 37,
+      "gif_path": "output/animation_37.gif",
+      "mp4_path": "output/animation_37.mp4",
+      "icon_names": [
+        "insulin level",
+        "ban on sweets",
+        "excess weight"
+      ],
+      "template": 2,
+      "threads_post_id": "17986589946109866",
+      "threads_reply_id": "17995709639992777",
+      "posted_at": "2026-08-29T16:22:37.798033"
     }
   ],
-  "posts_count": 36
+  "posts_count": 37
 }
