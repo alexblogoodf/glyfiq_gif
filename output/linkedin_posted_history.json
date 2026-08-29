@@ -371,7 +371,19 @@
       ],
       "template": 1,
       "posted_at": "2026-08-28T22:17:25.843762"
+    },
+    {
+      "gif_number": 32,
+      "gif_path": "output/animation_32.gif",
+      "mp4_path": "output/animation_32.mp4",
+      "icon_names": [
+        "pills & tablets",
+        "obesity",
+        "diabetes"
+      ],
+      "template": 2,
+      "posted_at": "2026-08-29T04:17:27.101629"
     }
   ],
-  "posts_count": 31
+  "posts_count": 32
 }
