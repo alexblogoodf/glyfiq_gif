@@ -1263,6 +1263,22 @@
       "gif_path": "output/animation_79.gif",
       "created_at": "2026-08-29T13:01:42.595633",
       "frame_count": 3
+    },
+    {
+      "gif_number": 80,
+      "icon_ids": [
+        80,
+        81,
+        82
+      ],
+      "icon_names": [
+        "microscope",
+        "hospital minimalistic",
+        "ambulance"
+      ],
+      "gif_path": "output/animation_80.gif",
+      "created_at": "2026-08-29T16:01:36.177705",
+      "frame_count": 3
     }
   ]
 }
