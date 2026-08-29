@@ -467,7 +467,20 @@
       "template": 1,
       "facebook_video_id": "1076090138225044",
       "posted_at": "2026-08-29T13:03:20.466742"
+    },
+    {
+      "gif_number": 37,
+      "gif_path": "output/animation_37.gif",
+      "mp4_path": "output/animation_37.mp4",
+      "icon_names": [
+        "insulin level",
+        "ban on sweets",
+        "excess weight"
+      ],
+      "template": 2,
+      "facebook_video_id": "1075112315099760",
+      "posted_at": "2026-08-29T18:03:25.160478"
     }
   ],
-  "posts_count": 36
+  "posts_count": 37
 }
