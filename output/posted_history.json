@@ -428,7 +428,18 @@
       ],
       "template": 4,
       "posted_at": "2026-08-29T16:05:28.409458"
+    },
+    {
+      "gif_number": 40,
+      "gif_path": "output/animation_40.gif",
+      "icon_names": [
+        "medical checkup",
+        "MRI scanner type 1",
+        "MRI diagnostics top view"
+      ],
+      "template": 5,
+      "posted_at": "2026-08-29T22:05:27.986221"
     }
   ],
-  "posts_count": 39
+  "posts_count": 40
 }
