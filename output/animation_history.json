@@ -1215,6 +1215,22 @@
       "gif_path": "output/animation_76.gif",
       "created_at": "2026-08-29T04:01:38.741474",
       "frame_count": 3
+    },
+    {
+      "gif_number": 77,
+      "icon_ids": [
+        77,
+        78,
+        79
+      ],
+      "icon_names": [
+        "glasses",
+        "phoropter",
+        "urine test"
+      ],
+      "gif_path": "output/animation_77.gif",
+      "created_at": "2026-08-29T07:01:36.937157",
+      "frame_count": 3
     }
   ]
 }
