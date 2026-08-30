@@ -480,7 +480,20 @@
       "template": 2,
       "facebook_video_id": "1075112315099760",
       "posted_at": "2026-08-29T18:03:25.160478"
+    },
+    {
+      "gif_number": 38,
+      "gif_path": "output/animation_38.gif",
+      "mp4_path": "output/animation_38.mp4",
+      "icon_names": [
+        "ban on sweets",
+        "excess weight",
+        "medical checkup"
+      ],
+      "template": 3,
+      "facebook_video_id": "1053587810887727",
+      "posted_at": "2026-08-30T03:03:24.475070"
     }
   ],
-  "posts_count": 37
+  "posts_count": 38
 }
