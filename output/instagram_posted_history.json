@@ -493,7 +493,20 @@
       "template": 3,
       "buffer_post_id": "6a93adddf7f5d8f78d106788",
       "posted_at": "2026-08-30T04:14:27.507297"
+    },
+    {
+      "gif_number": 39,
+      "gif_path": "output/animation_39.gif",
+      "mp4_path": "output/animation_39.mp4",
+      "icon_names": [
+        "excess weight",
+        "medical checkup",
+        "MRI scanner type 1"
+      ],
+      "template": 4,
+      "buffer_post_id": "6a94023ae7e04684c6f9362e",
+      "posted_at": "2026-08-30T10:14:25.134788"
     }
   ],
-  "posts_count": 38
+  "posts_count": 39
 }
