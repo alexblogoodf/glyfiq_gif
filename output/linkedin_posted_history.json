@@ -443,7 +443,19 @@
       ],
       "template": 2,
       "posted_at": "2026-08-30T10:17:32.734261"
+    },
+    {
+      "gif_number": 38,
+      "gif_path": "output/animation_38.gif",
+      "mp4_path": "output/animation_38.mp4",
+      "icon_names": [
+        "ban on sweets",
+        "excess weight",
+        "medical checkup"
+      ],
+      "template": 3,
+      "posted_at": "2026-08-30T16:17:27.547544"
     }
   ],
-  "posts_count": 37
+  "posts_count": 38
 }
