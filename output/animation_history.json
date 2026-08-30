@@ -1375,6 +1375,22 @@
       "gif_path": "output/animation_86.gif",
       "created_at": "2026-08-30T10:01:44.894875",
       "frame_count": 3
+    },
+    {
+      "gif_number": 87,
+      "icon_ids": [
+        87,
+        88,
+        89
+      ],
+      "icon_names": [
+        "woman silhouette",
+        "germs",
+        "petri dish"
+      ],
+      "gif_path": "output/animation_87.gif",
+      "created_at": "2026-08-30T13:01:45.263628",
+      "frame_count": 3
     }
   ]
 }
