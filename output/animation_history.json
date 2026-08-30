@@ -1407,6 +1407,22 @@
       "gif_path": "output/animation_88.gif",
       "created_at": "2026-08-30T16:01:33.553021",
       "frame_count": 3
+    },
+    {
+      "gif_number": 89,
+      "icon_ids": [
+        89,
+        90,
+        91
+      ],
+      "icon_names": [
+        "petri dish",
+        "RNA/DNA purifier",
+        "PCR amplifier"
+      ],
+      "gif_path": "output/animation_89.gif",
+      "created_at": "2026-08-30T19:01:42.925605",
+      "frame_count": 3
     }
   ]
 }
