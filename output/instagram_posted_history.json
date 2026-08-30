@@ -519,7 +519,20 @@
       "template": 5,
       "buffer_post_id": "6a9456a294904b3a23ebe996",
       "posted_at": "2026-08-30T16:14:32.990279"
+    },
+    {
+      "gif_number": 41,
+      "gif_path": "output/animation_41.gif",
+      "mp4_path": "output/animation_41.mp4",
+      "icon_names": [
+        "MRI scanner type 1",
+        "MRI diagnostics top view",
+        "MRI scanner type 2"
+      ],
+      "template": 1,
+      "buffer_post_id": "6a94aafffd31f7e50b79c20e",
+      "posted_at": "2026-08-30T22:14:38.058125"
     }
   ],
-  "posts_count": 40
+  "posts_count": 41
 }
