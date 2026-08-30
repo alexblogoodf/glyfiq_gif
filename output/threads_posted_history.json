@@ -545,7 +545,21 @@
       "threads_post_id": "18090871841305997",
       "threads_reply_id": "18075664835707745",
       "posted_at": "2026-08-30T04:23:19.985251"
+    },
+    {
+      "gif_number": 40,
+      "gif_path": "output/animation_40.gif",
+      "mp4_path": "output/animation_40.mp4",
+      "icon_names": [
+        "medical checkup",
+        "MRI scanner type 1",
+        "MRI diagnostics top view"
+      ],
+      "template": 5,
+      "threads_post_id": "18140746309580049",
+      "threads_reply_id": "18117922184295145",
+      "posted_at": "2026-08-30T10:22:34.160124"
     }
   ],
-  "posts_count": 39
+  "posts_count": 40
 }
