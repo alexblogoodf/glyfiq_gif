@@ -1423,6 +1423,22 @@
       "gif_path": "output/animation_89.gif",
       "created_at": "2026-08-30T19:01:42.925605",
       "frame_count": 3
+    },
+    {
+      "gif_number": 90,
+      "icon_ids": [
+        90,
+        91,
+        92
+      ],
+      "icon_names": [
+        "RNA/DNA purifier",
+        "PCR amplifier",
+        "tube check mark"
+      ],
+      "gif_path": "output/animation_90.gif",
+      "created_at": "2026-08-30T22:01:41.622544",
+      "frame_count": 3
     }
   ]
 }
