@@ -450,7 +450,18 @@
       ],
       "template": 1,
       "posted_at": "2026-08-30T04:05:29.645861"
+    },
+    {
+      "gif_number": 42,
+      "gif_path": "output/animation_42.gif",
+      "icon_names": [
+        "MRI diagnostics top view",
+        "MRI scanner type 2",
+        "MRI diagnostics side view"
+      ],
+      "template": 2,
+      "posted_at": "2026-08-30T10:05:24.310244"
     }
   ],
-  "posts_count": 41
+  "posts_count": 42
 }
