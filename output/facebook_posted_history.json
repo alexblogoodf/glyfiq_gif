@@ -493,7 +493,20 @@
       "template": 3,
       "facebook_video_id": "1053587810887727",
       "posted_at": "2026-08-30T03:03:24.475070"
+    },
+    {
+      "gif_number": 39,
+      "gif_path": "output/animation_39.gif",
+      "mp4_path": "output/animation_39.mp4",
+      "icon_names": [
+        "excess weight",
+        "medical checkup",
+        "MRI scanner type 1"
+      ],
+      "template": 4,
+      "facebook_video_id": "4613488245538900",
+      "posted_at": "2026-08-30T08:03:25.383666"
     }
   ],
-  "posts_count": 38
+  "posts_count": 39
 }
