@@ -1359,6 +1359,22 @@
       "gif_path": "output/animation_85.gif",
       "created_at": "2026-08-30T07:01:34.122048",
       "frame_count": 3
+    },
+    {
+      "gif_number": 86,
+      "icon_ids": [
+        86,
+        87,
+        88
+      ],
+      "icon_names": [
+        "money cash",
+        "woman silhouette",
+        "germs"
+      ],
+      "gif_path": "output/animation_86.gif",
+      "created_at": "2026-08-30T10:01:44.894875",
+      "frame_count": 3
     }
   ]
 }
