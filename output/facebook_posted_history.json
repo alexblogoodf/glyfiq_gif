@@ -558,7 +558,20 @@
       "template": 3,
       "facebook_video_id": "815952854908942",
       "posted_at": "2026-08-31T08:03:22.509712"
+    },
+    {
+      "gif_number": 44,
+      "gif_path": "output/animation_44.gif",
+      "mp4_path": "output/animation_44.mp4",
+      "icon_names": [
+        "MRI diagnostics side view",
+        "MRI scanner close view",
+        "brain MRI"
+      ],
+      "template": 4,
+      "facebook_video_id": "1044829198363587",
+      "posted_at": "2026-08-31T13:03:25.738213"
     }
   ],
-  "posts_count": 43
+  "posts_count": 44
 }
