@@ -1551,6 +1551,22 @@
       "gif_path": "output/animation_97.gif",
       "created_at": "2026-08-31T19:01:45.692879",
       "frame_count": 3
+    },
+    {
+      "gif_number": 98,
+      "icon_ids": [
+        98,
+        99,
+        100
+      ],
+      "icon_names": [
+        "petri germs",
+        "computer research",
+        "urinary biofilm"
+      ],
+      "gif_path": "output/animation_98.gif",
+      "created_at": "2026-08-31T22:01:45.388550",
+      "frame_count": 3
     }
   ]
 }
