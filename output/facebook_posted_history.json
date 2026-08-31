@@ -571,7 +571,20 @@
       "template": 4,
       "facebook_video_id": "1044829198363587",
       "posted_at": "2026-08-31T13:03:25.738213"
+    },
+    {
+      "gif_number": 45,
+      "gif_path": "output/animation_45.gif",
+      "mp4_path": "output/animation_45.mp4",
+      "icon_names": [
+        "MRI scanner close view",
+        "brain MRI",
+        "lungs MRI"
+      ],
+      "template": 5,
+      "facebook_video_id": "2146515469596333",
+      "posted_at": "2026-08-31T18:03:24.148717"
     }
   ],
-  "posts_count": 44
+  "posts_count": 45
 }
