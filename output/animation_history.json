@@ -1503,6 +1503,22 @@
       "gif_path": "output/animation_94.gif",
       "created_at": "2026-08-31T10:01:37.945210",
       "frame_count": 3
+    },
+    {
+      "gif_number": 95,
+      "icon_ids": [
+        95,
+        96,
+        97
+      ],
+      "icon_names": [
+        "centrifuge",
+        "test tubes",
+        "test tube"
+      ],
+      "gif_path": "output/animation_95.gif",
+      "created_at": "2026-08-31T13:01:35.953062",
+      "frame_count": 3
     }
   ]
 }
