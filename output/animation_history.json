@@ -1535,6 +1535,22 @@
       "gif_path": "output/animation_96.gif",
       "created_at": "2026-08-31T16:01:47.843916",
       "frame_count": 3
+    },
+    {
+      "gif_number": 97,
+      "icon_ids": [
+        97,
+        98,
+        99
+      ],
+      "icon_names": [
+        "test tube",
+        "petri germs",
+        "computer research"
+      ],
+      "gif_path": "output/animation_97.gif",
+      "created_at": "2026-08-31T19:01:45.692879",
+      "frame_count": 3
     }
   ]
 }
