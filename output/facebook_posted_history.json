@@ -532,7 +532,20 @@
       "template": 1,
       "facebook_video_id": "1053624190812848",
       "posted_at": "2026-08-30T18:03:22.878469"
+    },
+    {
+      "gif_number": 42,
+      "gif_path": "output/animation_42.gif",
+      "mp4_path": "output/animation_42.mp4",
+      "icon_names": [
+        "MRI diagnostics top view",
+        "MRI scanner type 2",
+        "MRI diagnostics side view"
+      ],
+      "template": 2,
+      "facebook_video_id": "1716013323031277",
+      "posted_at": "2026-08-31T03:03:24.135862"
     }
   ],
-  "posts_count": 41
+  "posts_count": 42
 }
