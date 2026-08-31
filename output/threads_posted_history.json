@@ -615,7 +615,21 @@
       "threads_post_id": "17865023562660631",
       "threads_reply_id": "17905916883516644",
       "posted_at": "2026-08-31T10:23:04.717620"
+    },
+    {
+      "gif_number": 45,
+      "gif_path": "output/animation_45.gif",
+      "mp4_path": "output/animation_45.mp4",
+      "icon_names": [
+        "MRI scanner close view",
+        "brain MRI",
+        "lungs MRI"
+      ],
+      "template": 5,
+      "threads_post_id": "18153410425513362",
+      "threads_reply_id": "18103415755953163",
+      "posted_at": "2026-08-31T16:22:50.031368"
     }
   ],
-  "posts_count": 44
+  "posts_count": 45
 }
