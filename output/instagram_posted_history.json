@@ -558,7 +558,20 @@
       "template": 3,
       "buffer_post_id": "6a9553bc2986185ba1833c54",
       "posted_at": "2026-08-31T10:14:26.648438"
+    },
+    {
+      "gif_number": 44,
+      "gif_path": "output/animation_44.gif",
+      "mp4_path": "output/animation_44.mp4",
+      "icon_names": [
+        "MRI diagnostics side view",
+        "MRI scanner close view",
+        "brain MRI"
+      ],
+      "template": 4,
+      "buffer_post_id": "6a95a81c1c92e1807477dd5c",
+      "posted_at": "2026-08-31T16:14:27.134745"
     }
   ],
-  "posts_count": 43
+  "posts_count": 44
 }
