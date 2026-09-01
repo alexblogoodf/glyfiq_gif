@@ -538,7 +538,18 @@
       ],
       "template": 4,
       "posted_at": "2026-09-01T04:05:30.133628"
+    },
+    {
+      "gif_number": 50,
+      "gif_path": "output/animation_50.gif",
+      "icon_names": [
+        "heart MRI",
+        "MRI side view",
+        "MRI scanner type 3"
+      ],
+      "template": 5,
+      "posted_at": "2026-09-01T10:05:27.259360"
     }
   ],
-  "posts_count": 49
+  "posts_count": 50
 }
