@@ -1631,6 +1631,22 @@
       "gif_path": "output/animation_102.gif",
       "created_at": "2026-09-01T10:01:41.999723",
       "frame_count": 3
+    },
+    {
+      "gif_number": 103,
+      "icon_ids": [
+        103,
+        104,
+        105
+      ],
+      "icon_names": [
+        "product consignment",
+        "cms account",
+        "medical billing"
+      ],
+      "gif_path": "output/animation_103.gif",
+      "created_at": "2026-09-01T13:01:37.489684",
+      "frame_count": 3
     }
   ]
 }
