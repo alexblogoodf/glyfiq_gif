@@ -610,7 +610,20 @@
       "template": 2,
       "buffer_post_id": "6a96a5407e2f22b3738f8c50",
       "posted_at": "2026-09-01T10:14:30.659515"
+    },
+    {
+      "gif_number": 48,
+      "gif_path": "output/animation_48.gif",
+      "mp4_path": "output/animation_48.mp4",
+      "icon_names": [
+        "chest MRI",
+        "spine MRI",
+        "heart MRI"
+      ],
+      "template": 3,
+      "buffer_post_id": "6a96f9a36e5ad3b0b11cc935",
+      "posted_at": "2026-09-01T16:14:35.630893"
     }
   ],
-  "posts_count": 47
+  "posts_count": 48
 }
