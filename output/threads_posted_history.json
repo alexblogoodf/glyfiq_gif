@@ -657,7 +657,21 @@
       "threads_post_id": "17933698692125989",
       "threads_reply_id": "17923583694420646",
       "posted_at": "2026-09-01T04:22:55.603367"
+    },
+    {
+      "gif_number": 48,
+      "gif_path": "output/animation_48.gif",
+      "mp4_path": "output/animation_48.mp4",
+      "icon_names": [
+        "chest MRI",
+        "spine MRI",
+        "heart MRI"
+      ],
+      "template": 3,
+      "threads_post_id": "18435460372134795",
+      "threads_reply_id": "18120739639880345",
+      "posted_at": "2026-09-01T10:22:37.119805"
     }
   ],
-  "posts_count": 47
+  "posts_count": 48
 }
