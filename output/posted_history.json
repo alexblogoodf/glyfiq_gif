@@ -527,7 +527,18 @@
       ],
       "template": 3,
       "posted_at": "2026-08-31T22:05:29.055589"
+    },
+    {
+      "gif_number": 49,
+      "gif_path": "output/animation_49.gif",
+      "icon_names": [
+        "spine MRI",
+        "heart MRI",
+        "MRI side view"
+      ],
+      "template": 4,
+      "posted_at": "2026-09-01T04:05:30.133628"
     }
   ],
-  "posts_count": 48
+  "posts_count": 49
 }
