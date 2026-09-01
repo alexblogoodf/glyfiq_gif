@@ -527,7 +527,19 @@
       ],
       "template": 4,
       "posted_at": "2026-09-01T04:22:28.510132"
+    },
+    {
+      "gif_number": 45,
+      "gif_path": "output/animation_45.gif",
+      "mp4_path": "output/animation_45.mp4",
+      "icon_names": [
+        "MRI scanner close view",
+        "brain MRI",
+        "lungs MRI"
+      ],
+      "template": 5,
+      "posted_at": "2026-09-01T10:17:32.795319"
     }
   ],
-  "posts_count": 44
+  "posts_count": 45
 }
