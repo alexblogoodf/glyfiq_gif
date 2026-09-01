@@ -1663,6 +1663,22 @@
       "gif_path": "output/animation_104.gif",
       "created_at": "2026-09-01T16:01:40.709356",
       "frame_count": 3
+    },
+    {
+      "gif_number": 105,
+      "icon_ids": [
+        105,
+        106,
+        107
+      ],
+      "icon_names": [
+        "medical billing",
+        "turn-key operation",
+        "direct pay option"
+      ],
+      "gif_path": "output/animation_105.gif",
+      "created_at": "2026-09-01T19:01:47.399150",
+      "frame_count": 3
     }
   ]
 }
