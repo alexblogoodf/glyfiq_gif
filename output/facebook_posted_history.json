@@ -597,7 +597,20 @@
       "template": 1,
       "facebook_video_id": "4092034174434210",
       "posted_at": "2026-09-01T03:03:22.531051"
+    },
+    {
+      "gif_number": 47,
+      "gif_path": "output/animation_47.gif",
+      "mp4_path": "output/animation_47.mp4",
+      "icon_names": [
+        "lungs MRI",
+        "chest MRI",
+        "spine MRI"
+      ],
+      "template": 2,
+      "facebook_video_id": "1051424367649912",
+      "posted_at": "2026-09-01T08:03:24.940748"
     }
   ],
-  "posts_count": 46
+  "posts_count": 47
 }
