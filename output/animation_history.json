@@ -1647,6 +1647,22 @@
       "gif_path": "output/animation_103.gif",
       "created_at": "2026-09-01T13:01:37.489684",
       "frame_count": 3
+    },
+    {
+      "gif_number": 104,
+      "icon_ids": [
+        104,
+        105,
+        106
+      ],
+      "icon_names": [
+        "cms account",
+        "medical billing",
+        "turn-key operation"
+      ],
+      "gif_path": "output/animation_104.gif",
+      "created_at": "2026-09-01T16:01:40.709356",
+      "frame_count": 3
     }
   ]
 }
