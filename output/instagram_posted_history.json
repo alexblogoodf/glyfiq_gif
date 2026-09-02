@@ -662,7 +662,20 @@
       "template": 1,
       "buffer_post_id": "6a97f6bfc8b3bc938a415115",
       "posted_at": "2026-09-02T10:14:30.141488"
+    },
+    {
+      "gif_number": 52,
+      "gif_path": "output/animation_52.gif",
+      "mp4_path": "output/animation_52.mp4",
+      "icon_names": [
+        "MRI scanner type 3",
+        "MRI diagnostics scheme",
+        "doctor"
+      ],
+      "template": 2,
+      "buffer_post_id": "6a984b256816b2dc66d1e6e9",
+      "posted_at": "2026-09-02T16:14:36.445045"
     }
   ],
-  "posts_count": 51
+  "posts_count": 52
 }
