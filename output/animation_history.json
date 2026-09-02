@@ -1743,6 +1743,22 @@
       "gif_path": "output/animation_109.gif",
       "created_at": "2026-09-02T07:01:46.994611",
       "frame_count": 3
+    },
+    {
+      "gif_number": 110,
+      "icon_ids": [
+        110,
+        111,
+        112
+      ],
+      "icon_names": [
+        "hand washing",
+        "medical mask",
+        "person-to-person"
+      ],
+      "gif_path": "output/animation_110.gif",
+      "created_at": "2026-09-02T10:02:02.692759",
+      "frame_count": 3
     }
   ]
 }
