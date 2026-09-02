@@ -1759,6 +1759,22 @@
       "gif_path": "output/animation_110.gif",
       "created_at": "2026-09-02T10:02:02.692759",
       "frame_count": 3
+    },
+    {
+      "gif_number": 111,
+      "icon_ids": [
+        111,
+        112,
+        113
+      ],
+      "icon_names": [
+        "medical mask",
+        "person-to-person",
+        "pneumonia"
+      ],
+      "gif_path": "output/animation_111.gif",
+      "created_at": "2026-09-02T13:01:40.018000",
+      "frame_count": 3
     }
   ]
 }
