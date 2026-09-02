@@ -599,7 +599,19 @@
       ],
       "template": 5,
       "posted_at": "2026-09-02T16:17:29.852266"
+    },
+    {
+      "gif_number": 51,
+      "gif_path": "output/animation_51.gif",
+      "mp4_path": "output/animation_51.mp4",
+      "icon_names": [
+        "MRI side view",
+        "MRI scanner type 3",
+        "MRI diagnostics scheme"
+      ],
+      "template": 1,
+      "posted_at": "2026-09-02T22:17:30.012742"
     }
   ],
-  "posts_count": 50
+  "posts_count": 51
 }
