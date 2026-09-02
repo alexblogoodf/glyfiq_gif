@@ -662,7 +662,20 @@
       "template": 1,
       "facebook_video_id": "2297275467737727",
       "posted_at": "2026-09-02T08:03:23.226211"
+    },
+    {
+      "gif_number": 52,
+      "gif_path": "output/animation_52.gif",
+      "mp4_path": "output/animation_52.mp4",
+      "icon_names": [
+        "MRI scanner type 3",
+        "MRI diagnostics scheme",
+        "doctor"
+      ],
+      "template": 2,
+      "facebook_video_id": "1509883540941728",
+      "posted_at": "2026-09-02T13:03:30.842657"
     }
   ],
-  "posts_count": 51
+  "posts_count": 52
 }
