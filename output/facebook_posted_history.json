@@ -675,7 +675,20 @@
       "template": 2,
       "facebook_video_id": "1509883540941728",
       "posted_at": "2026-09-02T13:03:30.842657"
+    },
+    {
+      "gif_number": 53,
+      "gif_path": "output/animation_53.gif",
+      "mp4_path": "output/animation_53.mp4",
+      "icon_names": [
+        "MRI diagnostics scheme",
+        "doctor",
+        "nurse"
+      ],
+      "template": 3,
+      "facebook_video_id": "1081862511257262",
+      "posted_at": "2026-09-02T18:03:21.541778"
     }
   ],
-  "posts_count": 52
+  "posts_count": 53
 }
