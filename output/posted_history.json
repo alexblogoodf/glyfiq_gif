@@ -571,7 +571,18 @@
       ],
       "template": 2,
       "posted_at": "2026-09-01T22:05:29.682657"
+    },
+    {
+      "gif_number": 53,
+      "gif_path": "output/animation_53.gif",
+      "icon_names": [
+        "MRI diagnostics scheme",
+        "doctor",
+        "nurse"
+      ],
+      "template": 3,
+      "posted_at": "2026-09-02T04:05:28.505110"
     }
   ],
-  "posts_count": 52
+  "posts_count": 53
 }
