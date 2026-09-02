@@ -1791,6 +1791,22 @@
       "gif_path": "output/animation_112.gif",
       "created_at": "2026-09-02T16:03:18.995083",
       "frame_count": 3
+    },
+    {
+      "gif_number": 113,
+      "icon_ids": [
+        113,
+        114,
+        115
+      ],
+      "icon_names": [
+        "pneumonia",
+        "virus",
+        "bronchitis"
+      ],
+      "gif_path": "output/animation_113.gif",
+      "created_at": "2026-09-02T19:01:46.237527",
+      "frame_count": 3
     }
   ]
 }
