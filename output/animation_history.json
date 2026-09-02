@@ -1695,6 +1695,22 @@
       "gif_path": "output/animation_106.gif",
       "created_at": "2026-09-01T22:02:38.298838",
       "frame_count": 3
+    },
+    {
+      "gif_number": 107,
+      "icon_ids": [
+        107,
+        108,
+        109
+      ],
+      "icon_names": [
+        "direct pay option",
+        "prior authorization",
+        "2019-nCov"
+      ],
+      "gif_path": "output/animation_107.gif",
+      "created_at": "2026-09-02T01:01:52.958777",
+      "frame_count": 3
     }
   ]
 }
