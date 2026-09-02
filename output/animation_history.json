@@ -1727,6 +1727,22 @@
       "gif_path": "output/animation_108.gif",
       "created_at": "2026-09-02T04:02:19.078410",
       "frame_count": 3
+    },
+    {
+      "gif_number": 109,
+      "icon_ids": [
+        109,
+        110,
+        111
+      ],
+      "icon_names": [
+        "2019-nCov",
+        "hand washing",
+        "medical mask"
+      ],
+      "gif_path": "output/animation_109.gif",
+      "created_at": "2026-09-02T07:01:46.994611",
+      "frame_count": 3
     }
   ]
 }
