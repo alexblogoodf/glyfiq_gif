@@ -636,7 +636,20 @@
       "template": 4,
       "facebook_video_id": "2488937774945547",
       "posted_at": "2026-09-01T18:03:24.096124"
+    },
+    {
+      "gif_number": 50,
+      "gif_path": "output/animation_50.gif",
+      "mp4_path": "output/animation_50.mp4",
+      "icon_names": [
+        "heart MRI",
+        "MRI side view",
+        "MRI scanner type 3"
+      ],
+      "template": 5,
+      "facebook_video_id": "1977433946251835",
+      "posted_at": "2026-09-02T03:03:23.140832"
     }
   ],
-  "posts_count": 49
+  "posts_count": 50
 }
