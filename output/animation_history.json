@@ -1775,6 +1775,22 @@
       "gif_path": "output/animation_111.gif",
       "created_at": "2026-09-02T13:01:40.018000",
       "frame_count": 3
+    },
+    {
+      "gif_number": 112,
+      "icon_ids": [
+        112,
+        113,
+        114
+      ],
+      "icon_names": [
+        "person-to-person",
+        "pneumonia",
+        "virus"
+      ],
+      "gif_path": "output/animation_112.gif",
+      "created_at": "2026-09-02T16:03:18.995083",
+      "frame_count": 3
     }
   ]
 }
