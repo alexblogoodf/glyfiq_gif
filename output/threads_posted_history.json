@@ -783,7 +783,21 @@
       "threads_post_id": "18093588353428751",
       "threads_reply_id": "18115323464318799",
       "posted_at": "2026-09-03T10:22:45.712011"
+    },
+    {
+      "gif_number": 57,
+      "gif_path": "output/animation_57.gif",
+      "mp4_path": "output/animation_57.mp4",
+      "icon_names": [
+        "MRI diagnostics with a wave",
+        "MRI front view",
+        "MRI diagnostics close-up side view"
+      ],
+      "template": 2,
+      "threads_post_id": "17945187126282236",
+      "threads_reply_id": "18123997372880519",
+      "posted_at": "2026-09-03T16:22:54.941716"
     }
   ],
-  "posts_count": 56
+  "posts_count": 57
 }
