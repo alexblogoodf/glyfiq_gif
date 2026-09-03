@@ -1855,6 +1855,22 @@
       "gif_path": "output/animation_116.gif",
       "created_at": "2026-09-03T04:01:43.555246",
       "frame_count": 3
+    },
+    {
+      "gif_number": 117,
+      "icon_ids": [
+        117,
+        118,
+        119
+      ],
+      "icon_names": [
+        "virus protection",
+        "fatigue",
+        "ICU ventilator"
+      ],
+      "gif_path": "output/animation_117.gif",
+      "created_at": "2026-09-03T07:01:51.396218",
+      "frame_count": 3
     }
   ]
 }
