@@ -1903,6 +1903,22 @@
       "gif_path": "output/animation_119.gif",
       "created_at": "2026-09-03T13:01:40.439247",
       "frame_count": 3
+    },
+    {
+      "gif_number": 120,
+      "icon_ids": [
+        120,
+        121,
+        122
+      ],
+      "icon_names": [
+        "artificial ventilation of the lungs",
+        "fever",
+        "vaccine"
+      ],
+      "gif_path": "output/animation_120.gif",
+      "created_at": "2026-09-03T16:02:05.421424",
+      "frame_count": 3
     }
   ]
 }
