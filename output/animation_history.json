@@ -1935,6 +1935,22 @@
       "gif_path": "output/animation_121.gif",
       "created_at": "2026-09-03T19:02:00.703881",
       "frame_count": 3
+    },
+    {
+      "gif_number": 122,
+      "icon_ids": [
+        122,
+        123,
+        124
+      ],
+      "icon_names": [
+        "vaccine",
+        "airborne infection",
+        "pills"
+      ],
+      "gif_path": "output/animation_122.gif",
+      "created_at": "2026-09-03T22:01:46.954169",
+      "frame_count": 3
     }
   ]
 }
