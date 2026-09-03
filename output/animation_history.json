@@ -1823,6 +1823,22 @@
       "gif_path": "output/animation_114.gif",
       "created_at": "2026-09-02T22:01:40.164316",
       "frame_count": 3
+    },
+    {
+      "gif_number": 115,
+      "icon_ids": [
+        115,
+        116,
+        117
+      ],
+      "icon_names": [
+        "bronchitis",
+        "flu",
+        "virus protection"
+      ],
+      "gif_path": "output/animation_115.gif",
+      "created_at": "2026-09-03T01:01:44.991166",
+      "frame_count": 3
     }
   ]
 }
