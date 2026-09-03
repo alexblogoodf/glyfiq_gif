@@ -714,7 +714,20 @@
       "template": 5,
       "facebook_video_id": "4680666245490656",
       "posted_at": "2026-09-03T08:03:23.852417"
+    },
+    {
+      "gif_number": 56,
+      "gif_path": "output/animation_56.gif",
+      "mp4_path": "output/animation_56.mp4",
+      "icon_names": [
+        "hospital",
+        "MRI diagnostics with a wave",
+        "MRI front view"
+      ],
+      "template": 1,
+      "facebook_video_id": "1964003984287331",
+      "posted_at": "2026-09-03T13:03:26.394476"
     }
   ],
-  "posts_count": 55
+  "posts_count": 56
 }
