@@ -727,7 +727,20 @@
       "template": 1,
       "buffer_post_id": "6a999ca18db9c254b4e8a0f8",
       "posted_at": "2026-09-03T16:14:32.021344"
+    },
+    {
+      "gif_number": 57,
+      "gif_path": "output/animation_57.gif",
+      "mp4_path": "output/animation_57.mp4",
+      "icon_names": [
+        "MRI diagnostics with a wave",
+        "MRI front view",
+        "MRI diagnostics close-up side view"
+      ],
+      "template": 2,
+      "buffer_post_id": "6a99f0fed54bb74a297b75c9",
+      "posted_at": "2026-09-03T22:14:29.134362"
     }
   ],
-  "posts_count": 56
+  "posts_count": 57
 }
