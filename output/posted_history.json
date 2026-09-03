@@ -648,7 +648,18 @@
       ],
       "template": 4,
       "posted_at": "2026-09-03T16:05:27.321211"
+    },
+    {
+      "gif_number": 60,
+      "gif_path": "output/animation_60.gif",
+      "icon_names": [
+        "MRI top view",
+        "ophthalmology",
+        "laser eye surgery"
+      ],
+      "template": 5,
+      "posted_at": "2026-09-03T22:05:33.028554"
     }
   ],
-  "posts_count": 59
+  "posts_count": 60
 }
