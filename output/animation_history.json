@@ -1871,6 +1871,22 @@
       "gif_path": "output/animation_117.gif",
       "created_at": "2026-09-03T07:01:51.396218",
       "frame_count": 3
+    },
+    {
+      "gif_number": 118,
+      "icon_ids": [
+        118,
+        119,
+        120
+      ],
+      "icon_names": [
+        "fatigue",
+        "ICU ventilator",
+        "artificial ventilation of the lungs"
+      ],
+      "gif_path": "output/animation_118.gif",
+      "created_at": "2026-09-03T10:01:59.908205",
+      "frame_count": 3
     }
   ]
 }
