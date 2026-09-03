@@ -637,7 +637,18 @@
       ],
       "template": 3,
       "posted_at": "2026-09-03T10:05:31.220245"
+    },
+    {
+      "gif_number": 59,
+      "gif_path": "output/animation_59.gif",
+      "icon_names": [
+        "MRI diagnostics close-up side view",
+        "MRI top view",
+        "ophthalmology"
+      ],
+      "template": 4,
+      "posted_at": "2026-09-03T16:05:27.321211"
     }
   ],
-  "posts_count": 58
+  "posts_count": 59
 }
