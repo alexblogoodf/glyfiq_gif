@@ -839,7 +839,21 @@
       "threads_post_id": "18140087506592508",
       "threads_reply_id": "18109070996162563",
       "posted_at": "2026-09-04T10:22:32.910098"
+    },
+    {
+      "gif_number": 61,
+      "gif_path": "output/animation_61.gif",
+      "mp4_path": "output/animation_61.mp4",
+      "icon_names": [
+        "ophthalmology",
+        "laser eye surgery",
+        "vision correction"
+      ],
+      "template": 1,
+      "threads_post_id": "17892580386417459",
+      "threads_reply_id": "18060170177782330",
+      "posted_at": "2026-09-04T16:23:14.260194"
     }
   ],
-  "posts_count": 60
+  "posts_count": 61
 }
