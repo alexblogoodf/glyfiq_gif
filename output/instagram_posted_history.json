@@ -766,7 +766,20 @@
       "template": 4,
       "buffer_post_id": "6a9a99bd3aa9acec7f3b33f6",
       "posted_at": "2026-09-04T10:14:28.129185"
+    },
+    {
+      "gif_number": 60,
+      "gif_path": "output/animation_60.gif",
+      "mp4_path": "output/animation_60.mp4",
+      "icon_names": [
+        "MRI top view",
+        "ophthalmology",
+        "laser eye surgery"
+      ],
+      "template": 5,
+      "buffer_post_id": "6a9aee34ef3e19024e8d980b",
+      "posted_at": "2026-09-04T16:14:50.761341"
     }
   ],
-  "posts_count": 59
+  "posts_count": 60
 }
