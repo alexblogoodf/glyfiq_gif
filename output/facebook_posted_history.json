@@ -740,7 +740,20 @@
       "template": 2,
       "facebook_video_id": "1516529267158364",
       "posted_at": "2026-09-03T18:03:26.295652"
+    },
+    {
+      "gif_number": 58,
+      "gif_path": "output/animation_58.gif",
+      "mp4_path": "output/animation_58.mp4",
+      "icon_names": [
+        "MRI front view",
+        "MRI diagnostics close-up side view",
+        "MRI top view"
+      ],
+      "template": 3,
+      "facebook_video_id": "1591964645667197",
+      "posted_at": "2026-09-04T03:03:29.205284"
     }
   ],
-  "posts_count": 57
+  "posts_count": 58
 }
