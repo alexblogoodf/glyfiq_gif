@@ -683,7 +683,19 @@
       ],
       "template": 2,
       "posted_at": "2026-09-04T09:17:30.006254"
+    },
+    {
+      "gif_number": 58,
+      "gif_path": "output/animation_58.gif",
+      "mp4_path": "output/animation_58.mp4",
+      "icon_names": [
+        "MRI front view",
+        "MRI diagnostics close-up side view",
+        "MRI top view"
+      ],
+      "template": 3,
+      "posted_at": "2026-09-04T21:17:31.674339"
     }
   ],
-  "posts_count": 57
+  "posts_count": 58
 }
