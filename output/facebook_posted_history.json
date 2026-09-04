@@ -792,7 +792,20 @@
       "template": 1,
       "facebook_video_id": "1087376900923931",
       "posted_at": "2026-09-04T21:03:24.228035"
+    },
+    {
+      "gif_number": 62,
+      "gif_path": "output/animation_62.gif",
+      "mp4_path": "output/animation_62.mp4",
+      "icon_names": [
+        "laser eye surgery",
+        "vision correction",
+        "eye test"
+      ],
+      "template": 2,
+      "facebook_video_id": "1541518904670723",
+      "posted_at": "2026-09-04T22:03:24.092124"
     }
   ],
-  "posts_count": 61
+  "posts_count": 62
 }
