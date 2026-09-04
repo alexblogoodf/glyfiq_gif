@@ -740,7 +740,20 @@
       "template": 2,
       "buffer_post_id": "6a99f0fed54bb74a297b75c9",
       "posted_at": "2026-09-03T22:14:29.134362"
+    },
+    {
+      "gif_number": 58,
+      "gif_path": "output/animation_58.gif",
+      "mp4_path": "output/animation_58.mp4",
+      "icon_names": [
+        "MRI front view",
+        "MRI diagnostics close-up side view",
+        "MRI top view"
+      ],
+      "template": 3,
+      "buffer_post_id": "6a9a455c3134b0c21abf9783",
+      "posted_at": "2026-09-04T04:14:26.712541"
     }
   ],
-  "posts_count": 57
+  "posts_count": 58
 }
