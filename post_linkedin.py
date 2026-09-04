@@ -31,7 +31,7 @@ TEMPLATES = [
      "• {icon1}\n"
      "• {icon2}\n"
      "• {icon3}\n\n"
-     "If you design healthcare apps — try it free 👇\n"
+     "If you design healthcare apps — see it live 👇\n"
      "https://glyfiq.link/\n\n"
      "#Figma #Framer #FigmaPlugin #HealthcareDesign #MedicalUI #UIDesign "
      "#UXDesign #IconDesign #AdobeIllustrator #BuildInPublic"),
@@ -46,7 +46,7 @@ TEMPLATES = [
      "• {icon1}\n"
      "• {icon2}\n"
      "• {icon3}\n\n"
-     "Would love to hear what you think. Try it 👉 https://glyfiq.link/\n\n"
+     "Would love to hear what you think. Check it out 👉 https://glyfiq.link/\n\n"
      "#Figma #Framer #FigmaPlugin #HealthcareDesign #MedicalUI #UIDesign "
      "#UXDesign #IconDesign #DesignTools #AdobeIllustrator #Illustrator"),
 
@@ -59,7 +59,7 @@ TEMPLATES = [
      "Figma, Adobe Illustrator & Framer.\n\n"
      "Every week I'm adding new icons from my 10-year archive. The goal is 6,000+ "
      "consistent thin-line medical icons in one place.\n\n"
-     "Try it free 👉 https://glyfiq.link/\n\n"
+     "Grab it free 👉 https://glyfiq.link/\n\n"
      "Drop a comment — which one do you need most in your current project?\n\n"
      "#Figma #Framer #FigmaPlugin #HealthcareDesign #MedicalUI #UIDesign "
      "#UXDesign #IconDesign #AdobeIllustrator"),
@@ -77,7 +77,7 @@ TEMPLATES = [
      "Googling. Still can't believe it got approved. 🤯\n\n"
      "If you design anything in healthcare, give it a try 👉 https://glyfiq.link/\n\n"
      "#Figma #Framer #FigmaPlugin #HealthcareDesign #MedicalUI #UIDesign "
-     "#UXDesign #IconDesign #AdobeIllustrator #BuildInPublic #NoCode"),
+     "#UXDesign #IconDesign #AdobeIllustrator "),
 ]
 
 def cap_name(n, cap=None):
