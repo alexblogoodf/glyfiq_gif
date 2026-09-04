@@ -853,7 +853,21 @@
       "threads_post_id": "17892580386417459",
       "threads_reply_id": "18060170177782330",
       "posted_at": "2026-09-04T16:23:14.260194"
+    },
+    {
+      "gif_number": 62,
+      "gif_path": "output/animation_62.gif",
+      "mp4_path": "output/animation_62.mp4",
+      "icon_names": [
+        "laser eye surgery",
+        "vision correction",
+        "eye test"
+      ],
+      "template": 2,
+      "threads_post_id": "18214076974358098",
+      "threads_reply_id": "18046831448811131",
+      "posted_at": "2026-09-04T20:23:48.394464"
     }
   ],
-  "posts_count": 61
+  "posts_count": 62
 }
