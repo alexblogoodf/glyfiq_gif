@@ -825,7 +825,21 @@
       "threads_post_id": "18016158002949533",
       "threads_reply_id": "18109895150127539",
       "posted_at": "2026-09-04T04:23:15.109227"
+    },
+    {
+      "gif_number": 60,
+      "gif_path": "output/animation_60.gif",
+      "mp4_path": "output/animation_60.mp4",
+      "icon_names": [
+        "MRI top view",
+        "ophthalmology",
+        "laser eye surgery"
+      ],
+      "template": 5,
+      "threads_post_id": "18140087506592508",
+      "threads_reply_id": "18109070996162563",
+      "posted_at": "2026-09-04T10:22:32.910098"
     }
   ],
-  "posts_count": 59
+  "posts_count": 60
 }
