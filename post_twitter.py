@@ -11,29 +11,29 @@ LINK = "glyfiq.link"
 # 5 вариантов сообщений (чередуются по кругу)
 TEMPLATES = [
     ("and",
-     "✏️ {icons} — now in Glyfiq 🩺\n"
+     "🩺 {icons} — now in Glyfiq *️⃣\n"
      "Find more medical & health icons for Figma, Framer & Illustrator.\n"
      "Try it free 👉 glyfiq.link\n\n"
-     "#MedicalIcons #Figma #Framer #HealthcareDesign #IconDesign"),
+     "#Figma #Framer"),
     ("&",
      "Part of the Glyfiq medical icon library — available in Figma, Framer & Illustrator: {icons} 👍 "
      "More icons & growing. Try free 👉 glyfiq.link\n\n"
-     "#HealthcareUI #MedicalUI #Figma #IconDesign #UIDesign"),
+     "#HealthcareUI #IconDesign"),
     (",",
-     "✏️ {icons} — three more icons live in Glyfiq 🎨\n"
+     "🩺 {icons} — three more icons live in Glyfiq *️⃣\n"
      "Medical & health icon plugin for Figma, Framer & Illustrator.\n"
      "Free tier available 👉 glyfiq.link\n\n"
-     "#Figma #Framer #AdobeIllustrator #MedicalIcons #HealthcareDesign"),
+     "#Figma #Framer"),
     ("&",
-     "Now added: {icons} to Glyfiq ✏️\n"
+     "Now added: {icons} to Glyfiq 🩺\n"
      "More thin-line medical icons. One style. Three platforms.\n"
      "Try it free 👉 glyfiq.link\n"
-     "#IconDesign #MedicalUI #Figma #Framer #HealthcareDesign"),
+     "#IconDesign #Figma"),
     ("&",
-     "✏️ {icons} - these icons are already available for Figma, Framer & Illustrator. "
+     "🩺 {icons} - these icons are already available for Figma, Framer & Illustrator. "
      "You can order the icons you need directly from the Glyfiq plugin. "
      "👉 glyfiq.link\n\n"
-     "#Figma #Framer #AdobeIllustrator #MedicalIcons #HealthcareDesign"),
+     "#Figma #Framer"),
 ]
 
 def tweet_len(text):
