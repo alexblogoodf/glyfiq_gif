@@ -1999,6 +1999,22 @@
       "gif_path": "output/animation_125.gif",
       "created_at": "2026-09-04T07:01:37.226704",
       "frame_count": 3
+    },
+    {
+      "gif_number": 126,
+      "icon_ids": [
+        126,
+        127,
+        128
+      ],
+      "icon_names": [
+        "headache",
+        "working fatigue",
+        "burnout head"
+      ],
+      "gif_path": "output/animation_126.gif",
+      "created_at": "2026-09-04T10:01:38.893222",
+      "frame_count": 3
     }
   ]
 }
