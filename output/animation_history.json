@@ -1983,6 +1983,22 @@
       "gif_path": "output/animation_124.gif",
       "created_at": "2026-09-04T04:01:42.129804",
       "frame_count": 3
+    },
+    {
+      "gif_number": 125,
+      "icon_ids": [
+        125,
+        126,
+        127
+      ],
+      "icon_names": [
+        "ICU ventilator side view",
+        "headache",
+        "working fatigue"
+      ],
+      "gif_path": "output/animation_125.gif",
+      "created_at": "2026-09-04T07:01:37.226704",
+      "frame_count": 3
     }
   ]
 }
