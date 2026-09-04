@@ -2031,6 +2031,22 @@
       "gif_path": "output/animation_127.gif",
       "created_at": "2026-09-04T13:02:14.899349",
       "frame_count": 3
+    },
+    {
+      "gif_number": 128,
+      "icon_ids": [
+        128,
+        129,
+        130
+      ],
+      "icon_names": [
+        "burnout head",
+        "burnout man",
+        "asthma"
+      ],
+      "gif_path": "output/animation_128.gif",
+      "created_at": "2026-09-04T16:01:46.857883",
+      "frame_count": 3
     }
   ]
 }
