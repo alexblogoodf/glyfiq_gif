@@ -20,19 +20,19 @@ PENDING_FILE = "output/threads_pending.json"
 # 5 вариантов сообщений (БЕЗ хэштегов и БЕЗ ссылки)
 TEMPLATES = [
     ("and",
-     "✏️ {icons} — now in Glyfiq 🩺\n"
+     "🩺 {icons} — now in Glyfiq *️⃣\n"
      "Find more medical & health icons for Figma, Framer & Illustrator."),
     ("&",
      "Part of the Glyfiq medical icon library — available in Figma, Framer & Illustrator: {icons} 👍 "
      "More icons & growing."),
     (",",
-     "✏️ {icons} — three more icons live in Glyfiq 🎨\n"
+     "🩺 {icons} — three more icons live in Glyfiq *️⃣\n"
      "Medical & health icon plugin for Figma, Framer & Illustrator."),
     ("&",
-     "Now added: {icons} to Glyfiq ✏️\n"
+     "Now added: {icons} to Glyfiq *️⃣\n"
      "More thin-line medical icons. One style. Three platforms."),
     ("&",
-     "✏️ {icons} - these icons are already available for Figma, Framer & Illustrator. "
+     "🩺 {icons} - these icons are already available for Figma, Framer & Illustrator. "
      "You can order the icons you need for your project directly from the Glyfiq plugin."),
 ]
 
