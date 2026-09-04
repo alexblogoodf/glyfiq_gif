@@ -867,7 +867,21 @@
       "threads_post_id": "18214076974358098",
       "threads_reply_id": "18046831448811131",
       "posted_at": "2026-09-04T20:23:48.394464"
+    },
+    {
+      "gif_number": 63,
+      "gif_path": "output/animation_63.gif",
+      "mp4_path": "output/animation_63.mp4",
+      "icon_names": [
+        "vision correction",
+        "eye test",
+        "vision diagnostics"
+      ],
+      "template": 3,
+      "threads_post_id": "18111893063108511",
+      "threads_reply_id": "18117232667319248",
+      "posted_at": "2026-09-04T22:22:38.261112"
     }
   ],
-  "posts_count": 62
+  "posts_count": 63
 }
