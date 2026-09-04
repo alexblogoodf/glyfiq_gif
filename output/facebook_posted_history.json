@@ -753,7 +753,20 @@
       "template": 3,
       "facebook_video_id": "1591964645667197",
       "posted_at": "2026-09-04T03:03:29.205284"
+    },
+    {
+      "gif_number": 59,
+      "gif_path": "output/animation_59.gif",
+      "mp4_path": "output/animation_59.mp4",
+      "icon_names": [
+        "MRI diagnostics close-up side view",
+        "MRI top view",
+        "ophthalmology"
+      ],
+      "template": 4,
+      "facebook_video_id": "1635973604904530",
+      "posted_at": "2026-09-04T08:03:26.182615"
     }
   ],
-  "posts_count": 58
+  "posts_count": 59
 }
