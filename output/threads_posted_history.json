@@ -895,7 +895,21 @@
       "threads_post_id": "17867729874641669",
       "threads_reply_id": "18127366930814040",
       "posted_at": "2026-09-05T08:22:31.546992"
+    },
+    {
+      "gif_number": 65,
+      "gif_path": "output/animation_65.gif",
+      "mp4_path": "output/animation_65.mp4",
+      "icon_names": [
+        "vision diagnostics",
+        "farsightedness",
+        "nearsightedness"
+      ],
+      "template": 5,
+      "threads_post_id": "18088346591673305",
+      "threads_reply_id": "18091675709391783",
+      "posted_at": "2026-09-05T18:22:51.895136"
     }
   ],
-  "posts_count": 64
+  "posts_count": 65
 }
