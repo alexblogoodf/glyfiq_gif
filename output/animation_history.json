@@ -2079,6 +2079,22 @@
       "gif_path": "output/animation_130.gif",
       "created_at": "2026-09-05T02:01:38.064809",
       "frame_count": 3
+    },
+    {
+      "gif_number": 131,
+      "icon_ids": [
+        131,
+        132,
+        133
+      ],
+      "icon_names": [
+        "dyspnea",
+        "wheezing",
+        "cough"
+      ],
+      "gif_path": "output/animation_131.gif",
+      "created_at": "2026-09-05T06:02:08.473700",
+      "frame_count": 3
     }
   ]
 }
