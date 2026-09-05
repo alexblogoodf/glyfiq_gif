@@ -805,7 +805,20 @@
       "template": 2,
       "buffer_post_id": "6a9bd00e7d92102e219fbc7f",
       "posted_at": "2026-09-05T08:18:28.881378"
+    },
+    {
+      "gif_number": 63,
+      "gif_path": "output/animation_63.gif",
+      "mp4_path": "output/animation_63.mp4",
+      "icon_names": [
+        "vision correction",
+        "eye test",
+        "vision diagnostics"
+      ],
+      "template": 3,
+      "buffer_post_id": "6a9c5cb6e6524401a65ab5f8",
+      "posted_at": "2026-09-05T18:18:37.014088"
     }
   ],
-  "posts_count": 62
+  "posts_count": 63
 }
