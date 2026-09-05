@@ -792,7 +792,20 @@
       "template": 1,
       "buffer_post_id": "6a9b436edca05898bf4571c1",
       "posted_at": "2026-09-04T22:18:29.140399"
+    },
+    {
+      "gif_number": 62,
+      "gif_path": "output/animation_62.gif",
+      "mp4_path": "output/animation_62.mp4",
+      "icon_names": [
+        "laser eye surgery",
+        "vision correction",
+        "eye test"
+      ],
+      "template": 2,
+      "buffer_post_id": "6a9bd00e7d92102e219fbc7f",
+      "posted_at": "2026-09-05T08:18:28.881378"
     }
   ],
-  "posts_count": 61
+  "posts_count": 62
 }
