@@ -818,7 +818,20 @@
       "template": 3,
       "facebook_video_id": "1721720383088161",
       "posted_at": "2026-09-05T21:03:25.901539"
+    },
+    {
+      "gif_number": 64,
+      "gif_path": "output/animation_64.gif",
+      "mp4_path": "output/animation_64.mp4",
+      "icon_names": [
+        "eye test",
+        "vision diagnostics",
+        "farsightedness"
+      ],
+      "template": 4,
+      "facebook_video_id": "1440664401296482",
+      "posted_at": "2026-09-05T22:03:20.968188"
     }
   ],
-  "posts_count": 63
+  "posts_count": 64
 }
