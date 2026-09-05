@@ -909,7 +909,21 @@
       "threads_post_id": "18088346591673305",
       "threads_reply_id": "18091675709391783",
       "posted_at": "2026-09-05T18:22:51.895136"
+    },
+    {
+      "gif_number": 66,
+      "gif_path": "output/animation_66.gif",
+      "mp4_path": "output/animation_66.mp4",
+      "icon_names": [
+        "farsightedness",
+        "nearsightedness",
+        "lasik"
+      ],
+      "template": 1,
+      "threads_post_id": "18103674269243986",
+      "threads_reply_id": "18099044744457559",
+      "posted_at": "2026-09-05T22:22:52.689275"
     }
   ],
-  "posts_count": 65
+  "posts_count": 66
 }
