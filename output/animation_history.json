@@ -2111,6 +2111,22 @@
       "gif_path": "output/animation_132.gif",
       "created_at": "2026-09-05T10:01:54.868993",
       "frame_count": 3
+    },
+    {
+      "gif_number": 133,
+      "icon_ids": [
+        133,
+        134,
+        135
+      ],
+      "icon_names": [
+        "cough",
+        "chest pain",
+        "allergen"
+      ],
+      "gif_path": "output/animation_133.gif",
+      "created_at": "2026-09-05T14:01:42.431164",
+      "frame_count": 3
     }
   ]
 }
