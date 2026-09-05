@@ -719,7 +719,19 @@
       ],
       "template": 5,
       "posted_at": "2026-09-05T21:17:31.309108"
+    },
+    {
+      "gif_number": 61,
+      "gif_path": "output/animation_61.gif",
+      "mp4_path": "output/animation_61.mp4",
+      "icon_names": [
+        "ophthalmology",
+        "laser eye surgery",
+        "vision correction"
+      ],
+      "template": 1,
+      "posted_at": "2026-09-05T22:17:30.083504"
     }
   ],
-  "posts_count": 60
+  "posts_count": 61
 }
