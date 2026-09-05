@@ -714,7 +714,18 @@
       ],
       "template": 5,
       "posted_at": "2026-09-05T14:05:26.516325"
+    },
+    {
+      "gif_number": 66,
+      "gif_path": "output/animation_66.gif",
+      "icon_names": [
+        "farsightedness",
+        "nearsightedness",
+        "lasik"
+      ],
+      "template": 1,
+      "posted_at": "2026-09-05T22:05:27.453473"
     }
   ],
-  "posts_count": 65
+  "posts_count": 66
 }
