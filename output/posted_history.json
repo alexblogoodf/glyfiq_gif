@@ -725,7 +725,18 @@
       ],
       "template": 1,
       "posted_at": "2026-09-05T22:05:27.453473"
+    },
+    {
+      "gif_number": 67,
+      "gif_path": "output/animation_67.gif",
+      "icon_names": [
+        "nearsightedness",
+        "lasik",
+        "astigmatism"
+      ],
+      "template": 2,
+      "posted_at": "2026-09-06T06:05:27.005380"
     }
   ],
-  "posts_count": 66
+  "posts_count": 67
 }
