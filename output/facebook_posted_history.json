@@ -844,7 +844,20 @@
       "template": 5,
       "facebook_video_id": "1586537899595637",
       "posted_at": "2026-09-06T21:03:22.510462"
+    },
+    {
+      "gif_number": 66,
+      "gif_path": "output/animation_66.gif",
+      "mp4_path": "output/animation_66.mp4",
+      "icon_names": [
+        "farsightedness",
+        "nearsightedness",
+        "lasik"
+      ],
+      "template": 1,
+      "facebook_video_id": "1794724085090195",
+      "posted_at": "2026-09-06T22:03:35.707534"
     }
   ],
-  "posts_count": 65
+  "posts_count": 66
 }
