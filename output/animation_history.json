@@ -2207,6 +2207,22 @@
       "gif_path": "output/animation_138.gif",
       "created_at": "2026-09-06T10:01:43.390613",
       "frame_count": 3
+    },
+    {
+      "gif_number": 139,
+      "icon_ids": [
+        139,
+        140,
+        141
+      ],
+      "icon_names": [
+        "sputum",
+        "healthy bronchus",
+        "inflamed bronchus"
+      ],
+      "gif_path": "output/animation_139.gif",
+      "created_at": "2026-09-06T14:01:37.823330",
+      "frame_count": 3
     }
   ]
 }
