@@ -2239,6 +2239,22 @@
       "gif_path": "output/animation_140.gif",
       "created_at": "2026-09-06T18:01:35.107109",
       "frame_count": 3
+    },
+    {
+      "gif_number": 141,
+      "icon_ids": [
+        141,
+        142,
+        143
+      ],
+      "icon_names": [
+        "inflamed bronchus",
+        "peak flow meter",
+        "inhaler"
+      ],
+      "gif_path": "output/animation_141.gif",
+      "created_at": "2026-09-06T22:01:39.574439",
+      "frame_count": 3
     }
   ]
 }
