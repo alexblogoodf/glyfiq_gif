@@ -831,7 +831,20 @@
       "template": 4,
       "facebook_video_id": "1440664401296482",
       "posted_at": "2026-09-05T22:03:20.968188"
+    },
+    {
+      "gif_number": 65,
+      "gif_path": "output/animation_65.gif",
+      "mp4_path": "output/animation_65.mp4",
+      "icon_names": [
+        "vision diagnostics",
+        "farsightedness",
+        "nearsightedness"
+      ],
+      "template": 5,
+      "facebook_video_id": "1586537899595637",
+      "posted_at": "2026-09-06T21:03:22.510462"
     }
   ],
-  "posts_count": 64
+  "posts_count": 65
 }
