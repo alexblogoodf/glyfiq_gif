@@ -747,7 +747,18 @@
       ],
       "template": 3,
       "posted_at": "2026-09-06T14:05:28.642361"
+    },
+    {
+      "gif_number": 69,
+      "gif_path": "output/animation_69.gif",
+      "icon_names": [
+        "astigmatism",
+        "eye health with eyelashes",
+        "eye health"
+      ],
+      "template": 4,
+      "posted_at": "2026-09-06T22:05:27.641081"
     }
   ],
-  "posts_count": 68
+  "posts_count": 69
 }
