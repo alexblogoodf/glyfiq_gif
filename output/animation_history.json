@@ -2175,6 +2175,22 @@
       "gif_path": "output/animation_136.gif",
       "created_at": "2026-09-06T02:01:36.961669",
       "frame_count": 3
+    },
+    {
+      "gif_number": 137,
+      "icon_ids": [
+        137,
+        138,
+        139
+      ],
+      "icon_names": [
+        "diaphragm",
+        "hives",
+        "sputum"
+      ],
+      "gif_path": "output/animation_137.gif",
+      "created_at": "2026-09-06T06:01:36.817106",
+      "frame_count": 3
     }
   ]
 }
