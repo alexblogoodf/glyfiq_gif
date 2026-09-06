@@ -844,7 +844,20 @@
       "template": 5,
       "buffer_post_id": "6a9d218efd1c461b008fdfa0",
       "posted_at": "2026-09-06T08:18:28.664546"
+    },
+    {
+      "gif_number": 66,
+      "gif_path": "output/animation_66.gif",
+      "mp4_path": "output/animation_66.mp4",
+      "icon_names": [
+        "farsightedness",
+        "nearsightedness",
+        "lasik"
+      ],
+      "template": 1,
+      "buffer_post_id": "6a9dae2f6acbdfc9eda604d6",
+      "posted_at": "2026-09-06T18:18:30.224766"
     }
   ],
-  "posts_count": 65
+  "posts_count": 66
 }
