@@ -743,7 +743,19 @@
       ],
       "template": 2,
       "posted_at": "2026-09-06T21:17:30.874643"
+    },
+    {
+      "gif_number": 63,
+      "gif_path": "output/animation_63.gif",
+      "mp4_path": "output/animation_63.mp4",
+      "icon_names": [
+        "vision correction",
+        "eye test",
+        "vision diagnostics"
+      ],
+      "template": 3,
+      "posted_at": "2026-09-06T22:17:26.992068"
     }
   ],
-  "posts_count": 62
+  "posts_count": 63
 }
