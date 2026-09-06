@@ -951,7 +951,21 @@
       "threads_post_id": "17987099799051417",
       "threads_reply_id": "18016613474941995",
       "posted_at": "2026-09-06T18:22:32.510259"
+    },
+    {
+      "gif_number": 69,
+      "gif_path": "output/animation_69.gif",
+      "mp4_path": "output/animation_69.mp4",
+      "icon_names": [
+        "astigmatism",
+        "eye health with eyelashes",
+        "eye health"
+      ],
+      "template": 4,
+      "threads_post_id": "18116573189291083",
+      "threads_reply_id": "18094601702103814",
+      "posted_at": "2026-09-06T22:22:33.152014"
     }
   ],
-  "posts_count": 68
+  "posts_count": 69
 }
