@@ -937,7 +937,21 @@
       "threads_post_id": "18093607301119529",
       "threads_reply_id": "18016718600728110",
       "posted_at": "2026-09-06T08:22:33.406849"
+    },
+    {
+      "gif_number": 68,
+      "gif_path": "output/animation_68.gif",
+      "mp4_path": "output/animation_68.mp4",
+      "icon_names": [
+        "lasik",
+        "astigmatism",
+        "eye health with eyelashes"
+      ],
+      "template": 3,
+      "threads_post_id": "17987099799051417",
+      "threads_reply_id": "18016613474941995",
+      "posted_at": "2026-09-06T18:22:32.510259"
     }
   ],
-  "posts_count": 67
+  "posts_count": 68
 }
