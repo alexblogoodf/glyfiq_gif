@@ -870,7 +870,20 @@
       "template": 2,
       "facebook_video_id": "2477925199339891",
       "posted_at": "2026-09-07T21:03:23.214254"
+    },
+    {
+      "gif_number": 68,
+      "gif_path": "output/animation_68.gif",
+      "mp4_path": "output/animation_68.mp4",
+      "icon_names": [
+        "lasik",
+        "astigmatism",
+        "eye health with eyelashes"
+      ],
+      "template": 3,
+      "facebook_video_id": "2168085537927061",
+      "posted_at": "2026-09-07T22:03:22.563350"
     }
   ],
-  "posts_count": 67
+  "posts_count": 68
 }
