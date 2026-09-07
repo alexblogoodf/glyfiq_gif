@@ -769,7 +769,18 @@
       ],
       "template": 5,
       "posted_at": "2026-09-07T06:05:28.336946"
+    },
+    {
+      "gif_number": 71,
+      "gif_path": "output/animation_71.gif",
+      "icon_names": [
+        "eye health",
+        "eye drops",
+        "cornea"
+      ],
+      "template": 1,
+      "posted_at": "2026-09-07T14:05:29.839374"
     }
   ],
-  "posts_count": 70
+  "posts_count": 71
 }
