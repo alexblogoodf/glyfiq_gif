@@ -2303,6 +2303,22 @@
       "gif_path": "output/animation_144.gif",
       "created_at": "2026-09-07T10:01:42.094595",
       "frame_count": 3
+    },
+    {
+      "gif_number": 145,
+      "icon_ids": [
+        145,
+        146,
+        147
+      ],
+      "icon_names": [
+        "drowsiness",
+        "syringe and ampoule",
+        "pill"
+      ],
+      "gif_path": "output/animation_145.gif",
+      "created_at": "2026-09-07T14:01:44.374413",
+      "frame_count": 3
     }
   ]
 }
