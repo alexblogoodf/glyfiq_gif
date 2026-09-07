@@ -979,7 +979,21 @@
       "threads_post_id": "18115463230760123",
       "threads_reply_id": "18087987638475589",
       "posted_at": "2026-09-07T08:23:38.753690"
+    },
+    {
+      "gif_number": 71,
+      "gif_path": "output/animation_71.gif",
+      "mp4_path": "output/animation_71.mp4",
+      "icon_names": [
+        "eye health",
+        "eye drops",
+        "cornea"
+      ],
+      "template": 1,
+      "threads_post_id": "17965378524148976",
+      "threads_reply_id": "18145333162562947",
+      "posted_at": "2026-09-07T18:22:38.984242"
     }
   ],
-  "posts_count": 70
+  "posts_count": 71
 }
