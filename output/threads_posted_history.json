@@ -965,7 +965,21 @@
       "threads_post_id": "18116573189291083",
       "threads_reply_id": "18094601702103814",
       "posted_at": "2026-09-06T22:22:33.152014"
+    },
+    {
+      "gif_number": 70,
+      "gif_path": "output/animation_70.gif",
+      "mp4_path": "output/animation_70.mp4",
+      "icon_names": [
+        "eye health with eyelashes",
+        "eye health",
+        "eye drops"
+      ],
+      "template": 5,
+      "threads_post_id": "18115463230760123",
+      "threads_reply_id": "18087987638475589",
+      "posted_at": "2026-09-07T08:23:38.753690"
     }
   ],
-  "posts_count": 69
+  "posts_count": 70
 }
