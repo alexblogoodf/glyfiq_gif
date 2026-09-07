@@ -857,7 +857,20 @@
       "template": 1,
       "facebook_video_id": "1794724085090195",
       "posted_at": "2026-09-06T22:03:35.707534"
+    },
+    {
+      "gif_number": 67,
+      "gif_path": "output/animation_67.gif",
+      "mp4_path": "output/animation_67.mp4",
+      "icon_names": [
+        "nearsightedness",
+        "lasik",
+        "astigmatism"
+      ],
+      "template": 2,
+      "facebook_video_id": "2477925199339891",
+      "posted_at": "2026-09-07T21:03:23.214254"
     }
   ],
-  "posts_count": 66
+  "posts_count": 67
 }
