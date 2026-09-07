@@ -993,7 +993,21 @@
       "threads_post_id": "17965378524148976",
       "threads_reply_id": "18145333162562947",
       "posted_at": "2026-09-07T18:22:38.984242"
+    },
+    {
+      "gif_number": 72,
+      "gif_path": "output/animation_72.gif",
+      "mp4_path": "output/animation_72.mp4",
+      "icon_names": [
+        "eye drops",
+        "cornea",
+        "consultation"
+      ],
+      "template": 2,
+      "threads_post_id": "18095789150098825",
+      "threads_reply_id": "18149467312478817",
+      "posted_at": "2026-09-07T22:22:31.051264"
     }
   ],
-  "posts_count": 71
+  "posts_count": 72
 }
