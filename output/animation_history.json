@@ -2319,6 +2319,22 @@
       "gif_path": "output/animation_145.gif",
       "created_at": "2026-09-07T14:01:44.374413",
       "frame_count": 3
+    },
+    {
+      "gif_number": 146,
+      "icon_ids": [
+        146,
+        147,
+        148
+      ],
+      "icon_names": [
+        "syringe and ampoule",
+        "pill",
+        "laboratory"
+      ],
+      "gif_path": "output/animation_146.gif",
+      "created_at": "2026-09-07T18:02:09.940545",
+      "frame_count": 3
     }
   ]
 }
