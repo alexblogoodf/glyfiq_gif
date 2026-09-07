@@ -896,7 +896,20 @@
       "template": 4,
       "buffer_post_id": "6a9effad1d17e4bff020b108",
       "posted_at": "2026-09-07T18:18:28.245514"
+    },
+    {
+      "gif_number": 70,
+      "gif_path": "output/animation_70.gif",
+      "mp4_path": "output/animation_70.mp4",
+      "icon_names": [
+        "eye health with eyelashes",
+        "eye health",
+        "eye drops"
+      ],
+      "template": 5,
+      "buffer_post_id": "6a9f37f27e178ae863230ee6",
+      "posted_at": "2026-09-07T22:18:33.043202"
     }
   ],
-  "posts_count": 69
+  "posts_count": 70
 }
