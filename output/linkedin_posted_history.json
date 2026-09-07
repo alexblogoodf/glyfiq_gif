@@ -767,7 +767,19 @@
       ],
       "template": 4,
       "posted_at": "2026-09-07T21:17:27.578176"
+    },
+    {
+      "gif_number": 65,
+      "gif_path": "output/animation_65.gif",
+      "mp4_path": "output/animation_65.mp4",
+      "icon_names": [
+        "vision diagnostics",
+        "farsightedness",
+        "nearsightedness"
+      ],
+      "template": 5,
+      "posted_at": "2026-09-07T22:17:28.589981"
     }
   ],
-  "posts_count": 64
+  "posts_count": 65
 }
