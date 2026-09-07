@@ -2255,6 +2255,22 @@
       "gif_path": "output/animation_141.gif",
       "created_at": "2026-09-06T22:01:39.574439",
       "frame_count": 3
+    },
+    {
+      "gif_number": 142,
+      "icon_ids": [
+        142,
+        143,
+        144
+      ],
+      "icon_names": [
+        "peak flow meter",
+        "inhaler",
+        "nebulizer"
+      ],
+      "gif_path": "output/animation_142.gif",
+      "created_at": "2026-09-07T02:01:45.849465",
+      "frame_count": 3
     }
   ]
 }
