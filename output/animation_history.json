@@ -2271,6 +2271,22 @@
       "gif_path": "output/animation_142.gif",
       "created_at": "2026-09-07T02:01:45.849465",
       "frame_count": 3
+    },
+    {
+      "gif_number": 143,
+      "icon_ids": [
+        143,
+        144,
+        145
+      ],
+      "icon_names": [
+        "inhaler",
+        "nebulizer",
+        "drowsiness"
+      ],
+      "gif_path": "output/animation_143.gif",
+      "created_at": "2026-09-07T06:01:36.731366",
+      "frame_count": 3
     }
   ]
 }
