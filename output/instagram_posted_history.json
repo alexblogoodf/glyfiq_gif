@@ -922,7 +922,20 @@
       "template": 1,
       "buffer_post_id": "6a9fc48fd71d97c471edbc98",
       "posted_at": "2026-09-08T08:18:29.969746"
+    },
+    {
+      "gif_number": 72,
+      "gif_path": "output/animation_72.gif",
+      "mp4_path": "output/animation_72.mp4",
+      "icon_names": [
+        "eye drops",
+        "cornea",
+        "consultation"
+      ],
+      "template": 2,
+      "buffer_post_id": "6aa051383f77e5af54cae8c2",
+      "posted_at": "2026-09-08T18:18:38.716818"
     }
   ],
-  "posts_count": 71
+  "posts_count": 72
 }
