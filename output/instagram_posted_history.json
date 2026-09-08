@@ -909,7 +909,20 @@
       "template": 5,
       "buffer_post_id": "6a9f37f27e178ae863230ee6",
       "posted_at": "2026-09-07T22:18:33.043202"
+    },
+    {
+      "gif_number": 71,
+      "gif_path": "output/animation_71.gif",
+      "mp4_path": "output/animation_71.mp4",
+      "icon_names": [
+        "eye health",
+        "eye drops",
+        "cornea"
+      ],
+      "template": 1,
+      "buffer_post_id": "6a9fc48fd71d97c471edbc98",
+      "posted_at": "2026-09-08T08:18:29.969746"
     }
   ],
-  "posts_count": 70
+  "posts_count": 71
 }
