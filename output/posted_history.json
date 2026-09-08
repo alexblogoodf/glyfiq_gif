@@ -791,7 +791,18 @@
       ],
       "template": 2,
       "posted_at": "2026-09-07T22:05:27.511799"
+    },
+    {
+      "gif_number": 73,
+      "gif_path": "output/animation_73.gif",
+      "icon_names": [
+        "cornea",
+        "consultation",
+        "contact lenses"
+      ],
+      "template": 3,
+      "posted_at": "2026-09-08T06:05:28.924561"
     }
   ],
-  "posts_count": 72
+  "posts_count": 73
 }
