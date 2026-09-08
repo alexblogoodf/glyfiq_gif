@@ -896,7 +896,20 @@
       "template": 4,
       "facebook_video_id": "1030047820032724",
       "posted_at": "2026-09-08T21:03:24.424567"
+    },
+    {
+      "gif_number": 70,
+      "gif_path": "output/animation_70.gif",
+      "mp4_path": "output/animation_70.mp4",
+      "icon_names": [
+        "eye health with eyelashes",
+        "eye health",
+        "eye drops"
+      ],
+      "template": 5,
+      "facebook_video_id": "1683092109943673",
+      "posted_at": "2026-09-08T22:03:36.664019"
     }
   ],
-  "posts_count": 69
+  "posts_count": 70
 }
