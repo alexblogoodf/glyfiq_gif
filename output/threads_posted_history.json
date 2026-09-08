@@ -1007,7 +1007,21 @@
       "threads_post_id": "18095789150098825",
       "threads_reply_id": "18149467312478817",
       "posted_at": "2026-09-07T22:22:31.051264"
+    },
+    {
+      "gif_number": 73,
+      "gif_path": "output/animation_73.gif",
+      "mp4_path": "output/animation_73.mp4",
+      "icon_names": [
+        "cornea",
+        "consultation",
+        "contact lenses"
+      ],
+      "template": 3,
+      "threads_post_id": "18053653205797493",
+      "threads_reply_id": "18106259621234856",
+      "posted_at": "2026-09-08T08:22:30.484604"
     }
   ],
-  "posts_count": 72
+  "posts_count": 73
 }
