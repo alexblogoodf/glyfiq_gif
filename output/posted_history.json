@@ -813,7 +813,18 @@
       ],
       "template": 4,
       "posted_at": "2026-09-08T14:05:34.212228"
+    },
+    {
+      "gif_number": 75,
+      "gif_path": "output/animation_75.gif",
+      "icon_names": [
+        "contact lenses",
+        "cataract surgery",
+        "glasses"
+      ],
+      "template": 5,
+      "posted_at": "2026-09-08T22:05:29.382599"
     }
   ],
-  "posts_count": 74
+  "posts_count": 75
 }
