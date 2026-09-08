@@ -1021,7 +1021,21 @@
       "threads_post_id": "18053653205797493",
       "threads_reply_id": "18106259621234856",
       "posted_at": "2026-09-08T08:22:30.484604"
+    },
+    {
+      "gif_number": 74,
+      "gif_path": "output/animation_74.gif",
+      "mp4_path": "output/animation_74.mp4",
+      "icon_names": [
+        "consultation",
+        "contact lenses",
+        "cataract surgery"
+      ],
+      "template": 4,
+      "threads_post_id": "18103185071253829",
+      "threads_reply_id": "17867656476647457",
+      "posted_at": "2026-09-08T18:22:33.455062"
     }
   ],
-  "posts_count": 73
+  "posts_count": 74
 }
