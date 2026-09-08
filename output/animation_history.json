@@ -2431,6 +2431,22 @@
       "gif_path": "output/animation_152.gif",
       "created_at": "2026-09-08T18:01:38.812357",
       "frame_count": 3
+    },
+    {
+      "gif_number": 153,
+      "icon_ids": [
+        153,
+        154,
+        155
+      ],
+      "icon_names": [
+        "vaccine search",
+        "virus in DNA",
+        "vaccine trials"
+      ],
+      "gif_path": "output/animation_153.gif",
+      "created_at": "2026-09-08T22:01:40.802670",
+      "frame_count": 3
     }
   ]
 }
