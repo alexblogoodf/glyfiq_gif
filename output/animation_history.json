@@ -2415,6 +2415,22 @@
       "gif_path": "output/animation_151.gif",
       "created_at": "2026-09-08T14:01:37.735519",
       "frame_count": 3
+    },
+    {
+      "gif_number": 152,
+      "icon_ids": [
+        152,
+        153,
+        154
+      ],
+      "icon_names": [
+        "immune system",
+        "vaccine search",
+        "virus in DNA"
+      ],
+      "gif_path": "output/animation_152.gif",
+      "created_at": "2026-09-08T18:01:38.812357",
+      "frame_count": 3
     }
   ]
 }
