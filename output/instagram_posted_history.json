@@ -974,7 +974,20 @@
       "template": 5,
       "buffer_post_id": "6aa1a2b364ff2af5dcf8f392",
       "posted_at": "2026-09-09T18:18:33.989139"
+    },
+    {
+      "gif_number": 76,
+      "gif_path": "output/animation_76.gif",
+      "mp4_path": "output/animation_76.mp4",
+      "icon_names": [
+        "cataract surgery",
+        "glasses",
+        "phoropter"
+      ],
+      "template": 1,
+      "buffer_post_id": "6aa1daf2aeef2171f12aa031",
+      "posted_at": "2026-09-09T22:18:32.356410"
     }
   ],
-  "posts_count": 75
+  "posts_count": 76
 }
