@@ -846,7 +846,18 @@
       ],
       "template": 2,
       "posted_at": "2026-09-09T14:05:33.178096"
+    },
+    {
+      "gif_number": 78,
+      "gif_path": "output/animation_78.gif",
+      "icon_names": [
+        "phoropter",
+        "urine test",
+        "microscope"
+      ],
+      "template": 3,
+      "posted_at": "2026-09-09T22:05:32.340722"
     }
   ],
-  "posts_count": 77
+  "posts_count": 78
 }
