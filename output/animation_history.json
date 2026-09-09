@@ -2463,6 +2463,22 @@
       "gif_path": "output/animation_154.gif",
       "created_at": "2026-09-09T02:01:37.301146",
       "frame_count": 3
+    },
+    {
+      "gif_number": 155,
+      "icon_ids": [
+        155,
+        156,
+        157
+      ],
+      "icon_names": [
+        "vaccine trials",
+        "laboratory tests",
+        "vaccine shot"
+      ],
+      "gif_path": "output/animation_155.gif",
+      "created_at": "2026-09-09T06:01:46.370144",
+      "frame_count": 3
     }
   ]
 }
