@@ -961,7 +961,20 @@
       "template": 4,
       "buffer_post_id": "6aa1160f1b2e90ab73ab390c",
       "posted_at": "2026-09-09T08:18:29.440743"
+    },
+    {
+      "gif_number": 75,
+      "gif_path": "output/animation_75.gif",
+      "mp4_path": "output/animation_75.mp4",
+      "icon_names": [
+        "contact lenses",
+        "cataract surgery",
+        "glasses"
+      ],
+      "template": 5,
+      "buffer_post_id": "6aa1a2b364ff2af5dcf8f392",
+      "posted_at": "2026-09-09T18:18:33.989139"
     }
   ],
-  "posts_count": 74
+  "posts_count": 75
 }
