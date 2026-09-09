@@ -1063,7 +1063,21 @@
       "threads_post_id": "17900581977361956",
       "threads_reply_id": "18092233757312731",
       "posted_at": "2026-09-09T08:22:38.385153"
+    },
+    {
+      "gif_number": 77,
+      "gif_path": "output/animation_77.gif",
+      "mp4_path": "output/animation_77.mp4",
+      "icon_names": [
+        "glasses",
+        "phoropter",
+        "urine test"
+      ],
+      "template": 2,
+      "threads_post_id": "17907678450540104",
+      "threads_reply_id": "18127459264688118",
+      "posted_at": "2026-09-09T18:22:57.625411"
     }
   ],
-  "posts_count": 76
+  "posts_count": 77
 }
