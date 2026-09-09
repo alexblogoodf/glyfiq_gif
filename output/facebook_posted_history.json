@@ -909,7 +909,20 @@
       "template": 5,
       "facebook_video_id": "1683092109943673",
       "posted_at": "2026-09-08T22:03:36.664019"
+    },
+    {
+      "gif_number": 71,
+      "gif_path": "output/animation_71.gif",
+      "mp4_path": "output/animation_71.mp4",
+      "icon_names": [
+        "eye health",
+        "eye drops",
+        "cornea"
+      ],
+      "template": 1,
+      "facebook_video_id": "1402746468501221",
+      "posted_at": "2026-09-09T21:03:28.487597"
     }
   ],
-  "posts_count": 70
+  "posts_count": 71
 }
