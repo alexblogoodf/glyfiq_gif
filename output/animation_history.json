@@ -2495,6 +2495,22 @@
       "gif_path": "output/animation_156.gif",
       "created_at": "2026-09-09T10:01:38.637731",
       "frame_count": 3
+    },
+    {
+      "gif_number": 157,
+      "icon_ids": [
+        157,
+        158,
+        159
+      ],
+      "icon_names": [
+        "vaccine shot",
+        "timetable",
+        "virus vaccine"
+      ],
+      "gif_path": "output/animation_157.gif",
+      "created_at": "2026-09-09T14:01:38.491855",
+      "frame_count": 3
     }
   ]
 }
