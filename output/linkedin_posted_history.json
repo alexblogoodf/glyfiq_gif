@@ -803,7 +803,19 @@
       ],
       "template": 2,
       "posted_at": "2026-09-08T22:17:31.512641"
+    },
+    {
+      "gif_number": 68,
+      "gif_path": "output/animation_68.gif",
+      "mp4_path": "output/animation_68.mp4",
+      "icon_names": [
+        "lasik",
+        "astigmatism",
+        "eye health with eyelashes"
+      ],
+      "template": 3,
+      "posted_at": "2026-09-09T21:17:31.708219"
     }
   ],
-  "posts_count": 67
+  "posts_count": 68
 }
