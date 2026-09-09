@@ -1049,7 +1049,21 @@
       "threads_post_id": "17956165305226671",
       "threads_reply_id": "18131859232735182",
       "posted_at": "2026-09-08T22:23:05.976501"
+    },
+    {
+      "gif_number": 76,
+      "gif_path": "output/animation_76.gif",
+      "mp4_path": "output/animation_76.mp4",
+      "icon_names": [
+        "cataract surgery",
+        "glasses",
+        "phoropter"
+      ],
+      "template": 1,
+      "threads_post_id": "17900581977361956",
+      "threads_reply_id": "18092233757312731",
+      "posted_at": "2026-09-09T08:22:38.385153"
     }
   ],
-  "posts_count": 75
+  "posts_count": 76
 }
