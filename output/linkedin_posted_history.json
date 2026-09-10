@@ -827,7 +827,19 @@
       ],
       "template": 4,
       "posted_at": "2026-09-09T22:17:32.426417"
+    },
+    {
+      "gif_number": 70,
+      "gif_path": "output/animation_70.gif",
+      "mp4_path": "output/animation_70.mp4",
+      "icon_names": [
+        "eye health with eyelashes",
+        "eye health",
+        "eye drops"
+      ],
+      "template": 5,
+      "posted_at": "2026-09-10T21:17:29.220551"
     }
   ],
-  "posts_count": 69
+  "posts_count": 70
 }
