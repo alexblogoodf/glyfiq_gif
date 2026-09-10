@@ -987,7 +987,20 @@
       "template": 1,
       "buffer_post_id": "6aa1daf2aeef2171f12aa031",
       "posted_at": "2026-09-09T22:18:32.356410"
+    },
+    {
+      "gif_number": 77,
+      "gif_path": "output/animation_77.gif",
+      "mp4_path": "output/animation_77.mp4",
+      "icon_names": [
+        "glasses",
+        "phoropter",
+        "urine test"
+      ],
+      "template": 2,
+      "buffer_post_id": "6aa267928c4c5b7073eddd69",
+      "posted_at": "2026-09-10T08:18:33.130552"
     }
   ],
-  "posts_count": 76
+  "posts_count": 77
 }
