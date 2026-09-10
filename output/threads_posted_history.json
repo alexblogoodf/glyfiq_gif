@@ -1091,7 +1091,21 @@
       "threads_post_id": "18048337400803736",
       "threads_reply_id": "17892053064426946",
       "posted_at": "2026-09-09T22:22:58.015305"
+    },
+    {
+      "gif_number": 79,
+      "gif_path": "output/animation_79.gif",
+      "mp4_path": "output/animation_79.mp4",
+      "icon_names": [
+        "urine test",
+        "microscope",
+        "hospital minimalistic"
+      ],
+      "template": 4,
+      "threads_post_id": "18091877525229787",
+      "threads_reply_id": "18108685886135347",
+      "posted_at": "2026-09-10T08:23:16.439644"
     }
   ],
-  "posts_count": 78
+  "posts_count": 79
 }
