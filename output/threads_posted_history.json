@@ -1119,7 +1119,21 @@
       "threads_post_id": "18204936766367725",
       "threads_reply_id": "17884757094618194",
       "posted_at": "2026-09-10T18:22:55.738402"
+    },
+    {
+      "gif_number": 81,
+      "gif_path": "output/animation_81.gif",
+      "mp4_path": "output/animation_81.mp4",
+      "icon_names": [
+        "hospital minimalistic",
+        "ambulance",
+        "doctor in mask"
+      ],
+      "template": 1,
+      "threads_post_id": "18406070161089819",
+      "threads_reply_id": "18119485394480222",
+      "posted_at": "2026-09-10T22:22:33.664806"
     }
   ],
-  "posts_count": 80
+  "posts_count": 81
 }
