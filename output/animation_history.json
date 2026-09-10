@@ -2559,6 +2559,22 @@
       "gif_path": "output/animation_160.gif",
       "created_at": "2026-09-10T02:01:38.538960",
       "frame_count": 3
+    },
+    {
+      "gif_number": 161,
+      "icon_ids": [
+        161,
+        162,
+        163
+      ],
+      "icon_names": [
+        "nano vaccine",
+        "dental instruments",
+        "caries"
+      ],
+      "gif_path": "output/animation_161.gif",
+      "created_at": "2026-09-10T06:01:42.062880",
+      "frame_count": 3
     }
   ]
 }
