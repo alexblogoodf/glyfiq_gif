@@ -1000,7 +1000,20 @@
       "template": 2,
       "buffer_post_id": "6aa267928c4c5b7073eddd69",
       "posted_at": "2026-09-10T08:18:33.130552"
+    },
+    {
+      "gif_number": 78,
+      "gif_path": "output/animation_78.gif",
+      "mp4_path": "output/animation_78.mp4",
+      "icon_names": [
+        "phoropter",
+        "urine test",
+        "microscope"
+      ],
+      "template": 3,
+      "buffer_post_id": "6aa2f431fa741ccdc33060db",
+      "posted_at": "2026-09-10T18:18:31.576345"
     }
   ],
-  "posts_count": 77
+  "posts_count": 78
 }
