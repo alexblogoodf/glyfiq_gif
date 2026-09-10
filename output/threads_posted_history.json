@@ -1105,7 +1105,21 @@
       "threads_post_id": "18091877525229787",
       "threads_reply_id": "18108685886135347",
       "posted_at": "2026-09-10T08:23:16.439644"
+    },
+    {
+      "gif_number": 80,
+      "gif_path": "output/animation_80.gif",
+      "mp4_path": "output/animation_80.mp4",
+      "icon_names": [
+        "microscope",
+        "hospital minimalistic",
+        "ambulance"
+      ],
+      "template": 5,
+      "threads_post_id": "18204936766367725",
+      "threads_reply_id": "17884757094618194",
+      "posted_at": "2026-09-10T18:22:55.738402"
     }
   ],
-  "posts_count": 79
+  "posts_count": 80
 }
