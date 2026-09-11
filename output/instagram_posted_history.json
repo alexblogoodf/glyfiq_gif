@@ -1026,7 +1026,20 @@
       "template": 4,
       "buffer_post_id": "6aa32c6f85199affc93aba3f",
       "posted_at": "2026-09-10T22:18:29.926405"
+    },
+    {
+      "gif_number": 80,
+      "gif_path": "output/animation_80.gif",
+      "mp4_path": "output/animation_80.mp4",
+      "icon_names": [
+        "microscope",
+        "hospital minimalistic",
+        "ambulance"
+      ],
+      "template": 5,
+      "buffer_post_id": "6aa3b91330bad4fb8339b80e",
+      "posted_at": "2026-09-11T08:18:33.377443"
     }
   ],
-  "posts_count": 79
+  "posts_count": 80
 }
