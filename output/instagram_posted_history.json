@@ -1052,7 +1052,20 @@
       "template": 1,
       "buffer_post_id": "6aa445b40c93ca7cb9f13cf0",
       "posted_at": "2026-09-11T18:18:35.229265"
+    },
+    {
+      "gif_number": 82,
+      "gif_path": "output/animation_82.gif",
+      "mp4_path": "output/animation_82.mp4",
+      "icon_names": [
+        "ambulance",
+        "doctor in mask",
+        "nurse in mask"
+      ],
+      "template": 2,
+      "buffer_post_id": "6aa47defaa296f331c7c5dec",
+      "posted_at": "2026-09-11T22:18:31.539189"
     }
   ],
-  "posts_count": 81
+  "posts_count": 82
 }
