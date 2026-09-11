@@ -2639,6 +2639,22 @@
       "gif_path": "output/animation_165.gif",
       "created_at": "2026-09-10T22:01:37.966488",
       "frame_count": 3
+    },
+    {
+      "gif_number": 166,
+      "icon_ids": [
+        166,
+        167,
+        168
+      ],
+      "icon_names": [
+        "extraction",
+        "veneers",
+        "dental hygiene"
+      ],
+      "gif_path": "output/animation_166.gif",
+      "created_at": "2026-09-11T02:01:42.349276",
+      "frame_count": 3
     }
   ]
 }
