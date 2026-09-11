@@ -1147,7 +1147,21 @@
       "threads_post_id": "18093791336354542",
       "threads_reply_id": "18342568609283690",
       "posted_at": "2026-09-11T08:22:37.335067"
+    },
+    {
+      "gif_number": 83,
+      "gif_path": "output/animation_83.gif",
+      "mp4_path": "output/animation_83.mp4",
+      "icon_names": [
+        "doctor in mask",
+        "nurse in mask",
+        "coins"
+      ],
+      "template": 3,
+      "threads_post_id": "17909133630535879",
+      "threads_reply_id": "17940319470357661",
+      "posted_at": "2026-09-11T18:23:01.255314"
     }
   ],
-  "posts_count": 82
+  "posts_count": 83
 }
