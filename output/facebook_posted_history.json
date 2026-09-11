@@ -974,7 +974,20 @@
       "template": 5,
       "facebook_video_id": "2219562398900042",
       "posted_at": "2026-09-11T21:03:26.288102"
+    },
+    {
+      "gif_number": 76,
+      "gif_path": "output/animation_76.gif",
+      "mp4_path": "output/animation_76.mp4",
+      "icon_names": [
+        "cataract surgery",
+        "glasses",
+        "phoropter"
+      ],
+      "template": 1,
+      "facebook_video_id": "1008168965577689",
+      "posted_at": "2026-09-11T22:03:25.831368"
     }
   ],
-  "posts_count": 75
+  "posts_count": 76
 }
