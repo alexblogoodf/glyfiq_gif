@@ -2719,6 +2719,22 @@
       "gif_path": "output/animation_170.gif",
       "created_at": "2026-09-11T18:01:38.839629",
       "frame_count": 3
+    },
+    {
+      "gif_number": 171,
+      "icon_ids": [
+        171,
+        172,
+        173
+      ],
+      "icon_names": [
+        "dental implant",
+        "braces",
+        "dental calculus"
+      ],
+      "gif_path": "output/animation_171.gif",
+      "created_at": "2026-09-11T22:01:37.864978",
+      "frame_count": 3
     }
   ]
 }
