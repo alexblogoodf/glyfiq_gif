@@ -2703,6 +2703,22 @@
       "gif_path": "output/animation_169.gif",
       "created_at": "2026-09-11T14:02:19.225184",
       "frame_count": 3
+    },
+    {
+      "gif_number": 170,
+      "icon_ids": [
+        170,
+        171,
+        172
+      ],
+      "icon_names": [
+        "dental bridge",
+        "dental implant",
+        "braces"
+      ],
+      "gif_path": "output/animation_170.gif",
+      "created_at": "2026-09-11T18:01:38.839629",
+      "frame_count": 3
     }
   ]
 }
