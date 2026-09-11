@@ -2671,6 +2671,22 @@
       "gif_path": "output/animation_167.gif",
       "created_at": "2026-09-11T06:01:38.743811",
       "frame_count": 3
+    },
+    {
+      "gif_number": 168,
+      "icon_ids": [
+        168,
+        169,
+        170
+      ],
+      "icon_names": [
+        "dental hygiene",
+        "teeth whitening",
+        "dental bridge"
+      ],
+      "gif_path": "output/animation_168.gif",
+      "created_at": "2026-09-11T10:01:43.400089",
+      "frame_count": 3
     }
   ]
 }
