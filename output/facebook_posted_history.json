@@ -961,7 +961,20 @@
       "template": 4,
       "facebook_video_id": "1107508571837657",
       "posted_at": "2026-09-10T22:03:20.906965"
+    },
+    {
+      "gif_number": 75,
+      "gif_path": "output/animation_75.gif",
+      "mp4_path": "output/animation_75.mp4",
+      "icon_names": [
+        "contact lenses",
+        "cataract surgery",
+        "glasses"
+      ],
+      "template": 5,
+      "facebook_video_id": "2219562398900042",
+      "posted_at": "2026-09-11T21:03:26.288102"
     }
   ],
-  "posts_count": 74
+  "posts_count": 75
 }
