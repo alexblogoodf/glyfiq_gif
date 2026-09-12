@@ -1175,7 +1175,21 @@
       "threads_post_id": "18115042798974469",
       "threads_reply_id": "18165570574479322",
       "posted_at": "2026-09-11T22:22:33.322496"
+    },
+    {
+      "gif_number": 85,
+      "gif_path": "output/animation_85.gif",
+      "mp4_path": "output/animation_85.mp4",
+      "icon_names": [
+        "coins",
+        "money cash",
+        "woman silhouette"
+      ],
+      "template": 5,
+      "threads_post_id": "18177302230431187",
+      "threads_reply_id": "18116923558978066",
+      "posted_at": "2026-09-12T08:22:34.458720"
     }
   ],
-  "posts_count": 84
+  "posts_count": 85
 }
