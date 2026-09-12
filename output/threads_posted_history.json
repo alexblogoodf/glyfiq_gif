@@ -1203,7 +1203,21 @@
       "threads_post_id": "17958723171217253",
       "threads_reply_id": "17989304388051756",
       "posted_at": "2026-09-12T18:22:39.540184"
+    },
+    {
+      "gif_number": 87,
+      "gif_path": "output/animation_87.gif",
+      "mp4_path": "output/animation_87.mp4",
+      "icon_names": [
+        "woman silhouette",
+        "germs",
+        "petri dish"
+      ],
+      "template": 2,
+      "threads_post_id": "18069754907749416",
+      "threads_reply_id": "18071907011545009",
+      "posted_at": "2026-09-12T22:23:52.763212"
     }
   ],
-  "posts_count": 86
+  "posts_count": 87
 }
