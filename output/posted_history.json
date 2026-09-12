@@ -923,7 +923,18 @@
       ],
       "template": 4,
       "posted_at": "2026-09-11T22:05:31.759690"
+    },
+    {
+      "gif_number": 85,
+      "gif_path": "output/animation_85.gif",
+      "icon_names": [
+        "coins",
+        "money cash",
+        "woman silhouette"
+      ],
+      "template": 5,
+      "posted_at": "2026-09-12T06:05:31.771361"
     }
   ],
-  "posts_count": 84
+  "posts_count": 85
 }
