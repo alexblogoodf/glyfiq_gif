@@ -2799,6 +2799,22 @@
       "gif_path": "output/animation_175.gif",
       "created_at": "2026-09-12T14:01:36.176461",
       "frame_count": 3
+    },
+    {
+      "gif_number": 176,
+      "icon_ids": [
+        176,
+        177,
+        178
+      ],
+      "icon_names": [
+        "preventive dentistry",
+        "ultrasonic cleaning",
+        "blood test"
+      ],
+      "gif_path": "output/animation_176.gif",
+      "created_at": "2026-09-12T18:01:43.737373",
+      "frame_count": 3
     }
   ]
 }
