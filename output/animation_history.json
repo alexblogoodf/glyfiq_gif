@@ -2767,6 +2767,22 @@
       "gif_path": "output/animation_173.gif",
       "created_at": "2026-09-12T06:01:36.135590",
       "frame_count": 3
+    },
+    {
+      "gif_number": 174,
+      "icon_ids": [
+        174,
+        175,
+        176
+      ],
+      "icon_names": [
+        "healthy tooth",
+        "floss",
+        "preventive dentistry"
+      ],
+      "gif_path": "output/animation_174.gif",
+      "created_at": "2026-09-12T10:01:59.658484",
+      "frame_count": 3
     }
   ]
 }
