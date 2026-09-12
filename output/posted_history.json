@@ -945,7 +945,18 @@
       ],
       "template": 1,
       "posted_at": "2026-09-12T14:05:29.708501"
+    },
+    {
+      "gif_number": 87,
+      "gif_path": "output/animation_87.gif",
+      "icon_names": [
+        "woman silhouette",
+        "germs",
+        "petri dish"
+      ],
+      "template": 2,
+      "posted_at": "2026-09-12T22:05:30.207095"
     }
   ],
-  "posts_count": 86
+  "posts_count": 87
 }
