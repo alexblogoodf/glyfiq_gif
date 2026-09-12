@@ -2735,6 +2735,22 @@
       "gif_path": "output/animation_171.gif",
       "created_at": "2026-09-11T22:01:37.864978",
       "frame_count": 3
+    },
+    {
+      "gif_number": 172,
+      "icon_ids": [
+        172,
+        173,
+        174
+      ],
+      "icon_names": [
+        "braces",
+        "dental calculus",
+        "healthy tooth"
+      ],
+      "gif_path": "output/animation_172.gif",
+      "created_at": "2026-09-12T02:01:40.644935",
+      "frame_count": 3
     }
   ]
 }
