@@ -2815,6 +2815,22 @@
       "gif_path": "output/animation_176.gif",
       "created_at": "2026-09-12T18:01:43.737373",
       "frame_count": 3
+    },
+    {
+      "gif_number": 177,
+      "icon_ids": [
+        177,
+        178,
+        179
+      ],
+      "icon_names": [
+        "ultrasonic cleaning",
+        "blood test",
+        "test tube"
+      ],
+      "gif_path": "output/animation_177.gif",
+      "created_at": "2026-09-12T22:01:44.327304",
+      "frame_count": 3
     }
   ]
 }
