@@ -2783,6 +2783,22 @@
       "gif_path": "output/animation_174.gif",
       "created_at": "2026-09-12T10:01:59.658484",
       "frame_count": 3
+    },
+    {
+      "gif_number": 175,
+      "icon_ids": [
+        175,
+        176,
+        177
+      ],
+      "icon_names": [
+        "floss",
+        "preventive dentistry",
+        "ultrasonic cleaning"
+      ],
+      "gif_path": "output/animation_175.gif",
+      "created_at": "2026-09-12T14:01:36.176461",
+      "frame_count": 3
     }
   ]
 }
