@@ -1078,7 +1078,20 @@
       "template": 3,
       "buffer_post_id": "6aa50a8d2bf0da839a6eaf55",
       "posted_at": "2026-09-12T08:18:27.615747"
+    },
+    {
+      "gif_number": 84,
+      "gif_path": "output/animation_84.gif",
+      "mp4_path": "output/animation_84.mp4",
+      "icon_names": [
+        "nurse in mask",
+        "coins",
+        "money cash"
+      ],
+      "template": 4,
+      "buffer_post_id": "6aa5972e9a7f0553d1704ae6",
+      "posted_at": "2026-09-12T18:18:28.507799"
     }
   ],
-  "posts_count": 83
+  "posts_count": 84
 }
