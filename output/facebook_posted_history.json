@@ -1000,7 +1000,20 @@
       "template": 2,
       "facebook_video_id": "1020174547644501",
       "posted_at": "2026-09-12T21:03:26.614989"
+    },
+    {
+      "gif_number": 78,
+      "gif_path": "output/animation_78.gif",
+      "mp4_path": "output/animation_78.mp4",
+      "icon_names": [
+        "phoropter",
+        "urine test",
+        "microscope"
+      ],
+      "template": 3,
+      "facebook_video_id": "2595894074165246",
+      "posted_at": "2026-09-12T22:03:25.629560"
     }
   ],
-  "posts_count": 77
+  "posts_count": 78
 }
