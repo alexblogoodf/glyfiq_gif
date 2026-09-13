@@ -1231,7 +1231,21 @@
       "threads_post_id": "17946531108296063",
       "threads_reply_id": "17971226211137320",
       "posted_at": "2026-09-13T08:22:53.198748"
+    },
+    {
+      "gif_number": 89,
+      "gif_path": "output/animation_89.gif",
+      "mp4_path": "output/animation_89.mp4",
+      "icon_names": [
+        "petri dish",
+        "RNA/DNA purifier",
+        "PCR amplifier"
+      ],
+      "template": 4,
+      "threads_post_id": "17934638034125505",
+      "threads_reply_id": "18088056956436147",
+      "posted_at": "2026-09-13T18:22:41.078756"
     }
   ],
-  "posts_count": 88
+  "posts_count": 89
 }
