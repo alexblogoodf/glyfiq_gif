@@ -1245,7 +1245,21 @@
       "threads_post_id": "17934638034125505",
       "threads_reply_id": "18088056956436147",
       "posted_at": "2026-09-13T18:22:41.078756"
+    },
+    {
+      "gif_number": 90,
+      "gif_path": "output/animation_90.gif",
+      "mp4_path": "output/animation_90.mp4",
+      "icon_names": [
+        "RNA/DNA purifier",
+        "PCR amplifier",
+        "tube check mark"
+      ],
+      "template": 5,
+      "threads_post_id": "17910510450285832",
+      "threads_reply_id": "18087682640215236",
+      "posted_at": "2026-09-13T22:22:36.180471"
     }
   ],
-  "posts_count": 89
+  "posts_count": 90
 }
