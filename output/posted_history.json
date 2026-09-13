@@ -967,7 +967,18 @@
       ],
       "template": 3,
       "posted_at": "2026-09-13T06:05:32.753035"
+    },
+    {
+      "gif_number": 89,
+      "gif_path": "output/animation_89.gif",
+      "icon_names": [
+        "petri dish",
+        "RNA/DNA purifier",
+        "PCR amplifier"
+      ],
+      "template": 4,
+      "posted_at": "2026-09-13T14:05:30.303739"
     }
   ],
-  "posts_count": 88
+  "posts_count": 89
 }
