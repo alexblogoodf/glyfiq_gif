@@ -1013,7 +1013,20 @@
       "template": 3,
       "facebook_video_id": "2595894074165246",
       "posted_at": "2026-09-12T22:03:25.629560"
+    },
+    {
+      "gif_number": 79,
+      "gif_path": "output/animation_79.gif",
+      "mp4_path": "output/animation_79.mp4",
+      "icon_names": [
+        "urine test",
+        "microscope",
+        "hospital minimalistic"
+      ],
+      "template": 4,
+      "facebook_video_id": "28419977727662627",
+      "posted_at": "2026-09-13T21:03:26.254650"
     }
   ],
-  "posts_count": 78
+  "posts_count": 79
 }
