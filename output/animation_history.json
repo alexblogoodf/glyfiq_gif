@@ -2831,6 +2831,22 @@
       "gif_path": "output/animation_177.gif",
       "created_at": "2026-09-12T22:01:44.327304",
       "frame_count": 3
+    },
+    {
+      "gif_number": 178,
+      "icon_ids": [
+        178,
+        179,
+        180
+      ],
+      "icon_names": [
+        "blood test",
+        "test tube",
+        "good urine test"
+      ],
+      "gif_path": "output/animation_178.gif",
+      "created_at": "2026-09-13T02:01:41.374834",
+      "frame_count": 3
     }
   ]
 }
