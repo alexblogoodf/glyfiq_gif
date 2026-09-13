@@ -1026,7 +1026,20 @@
       "template": 4,
       "facebook_video_id": "28419977727662627",
       "posted_at": "2026-09-13T21:03:26.254650"
+    },
+    {
+      "gif_number": 80,
+      "gif_path": "output/animation_80.gif",
+      "mp4_path": "output/animation_80.mp4",
+      "icon_names": [
+        "microscope",
+        "hospital minimalistic",
+        "ambulance"
+      ],
+      "template": 5,
+      "facebook_video_id": "2189500961912957",
+      "posted_at": "2026-09-13T22:03:25.619391"
     }
   ],
-  "posts_count": 79
+  "posts_count": 80
 }
