@@ -911,7 +911,19 @@
       ],
       "template": 1,
       "posted_at": "2026-09-13T21:17:32.802592"
+    },
+    {
+      "gif_number": 77,
+      "gif_path": "output/animation_77.gif",
+      "mp4_path": "output/animation_77.mp4",
+      "icon_names": [
+        "glasses",
+        "phoropter",
+        "urine test"
+      ],
+      "template": 2,
+      "posted_at": "2026-09-13T22:17:31.111873"
     }
   ],
-  "posts_count": 76
+  "posts_count": 77
 }
