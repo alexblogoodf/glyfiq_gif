@@ -1104,7 +1104,20 @@
       "template": 5,
       "buffer_post_id": "6aa5cf7066679b076f191713",
       "posted_at": "2026-09-12T22:18:31.033212"
+    },
+    {
+      "gif_number": 86,
+      "gif_path": "output/animation_86.gif",
+      "mp4_path": "output/animation_86.mp4",
+      "icon_names": [
+        "money cash",
+        "woman silhouette",
+        "germs"
+      ],
+      "template": 1,
+      "buffer_post_id": "6aa65c10eba7bc5677908175",
+      "posted_at": "2026-09-13T08:18:30.716627"
     }
   ],
-  "posts_count": 85
+  "posts_count": 86
 }
