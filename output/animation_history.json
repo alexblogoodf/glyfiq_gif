@@ -2879,6 +2879,22 @@
       "gif_path": "output/animation_180.gif",
       "created_at": "2026-09-13T10:03:54.425154",
       "frame_count": 3
+    },
+    {
+      "gif_number": 181,
+      "icon_ids": [
+        181,
+        182,
+        183
+      ],
+      "icon_names": [
+        "bad urine test",
+        "stool test",
+        "good stool test"
+      ],
+      "gif_path": "output/animation_181.gif",
+      "created_at": "2026-09-13T14:01:40.258968",
+      "frame_count": 3
     }
   ]
 }
