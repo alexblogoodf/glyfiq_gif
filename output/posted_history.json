@@ -978,7 +978,18 @@
       ],
       "template": 4,
       "posted_at": "2026-09-13T14:05:30.303739"
+    },
+    {
+      "gif_number": 90,
+      "gif_path": "output/animation_90.gif",
+      "icon_names": [
+        "RNA/DNA purifier",
+        "PCR amplifier",
+        "tube check mark"
+      ],
+      "template": 5,
+      "posted_at": "2026-09-13T22:05:29.752320"
     }
   ],
-  "posts_count": 89
+  "posts_count": 90
 }
