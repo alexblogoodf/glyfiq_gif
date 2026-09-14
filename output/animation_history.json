@@ -2975,6 +2975,22 @@
       "gif_path": "output/animation_186.gif",
       "created_at": "2026-09-14T10:01:56.364918",
       "frame_count": 3
+    },
+    {
+      "gif_number": 187,
+      "icon_ids": [
+        187,
+        188,
+        189
+      ],
+      "icon_names": [
+        "allergy test",
+        "ultrasound",
+        "eeg"
+      ],
+      "gif_path": "output/animation_187.gif",
+      "created_at": "2026-09-14T14:01:58.107677",
+      "frame_count": 3
     }
   ]
 }
