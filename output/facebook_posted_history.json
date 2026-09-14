@@ -1039,7 +1039,20 @@
       "template": 5,
       "facebook_video_id": "2189500961912957",
       "posted_at": "2026-09-13T22:03:25.619391"
+    },
+    {
+      "gif_number": 81,
+      "gif_path": "output/animation_81.gif",
+      "mp4_path": "output/animation_81.mp4",
+      "icon_names": [
+        "hospital minimalistic",
+        "ambulance",
+        "doctor in mask"
+      ],
+      "template": 1,
+      "facebook_video_id": "4024756307821098",
+      "posted_at": "2026-09-14T21:03:30.392008"
     }
   ],
-  "posts_count": 80
+  "posts_count": 81
 }
