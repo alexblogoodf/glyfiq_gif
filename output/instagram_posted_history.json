@@ -1156,7 +1156,20 @@
       "template": 4,
       "buffer_post_id": "6aa7ad93b78fe872efc28797",
       "posted_at": "2026-09-14T08:18:34.266484"
+    },
+    {
+      "gif_number": 90,
+      "gif_path": "output/animation_90.gif",
+      "mp4_path": "output/animation_90.mp4",
+      "icon_names": [
+        "RNA/DNA purifier",
+        "PCR amplifier",
+        "tube check mark"
+      ],
+      "template": 5,
+      "buffer_post_id": "6aa83a32ccf15e3e961b3d6f",
+      "posted_at": "2026-09-14T18:18:32.898937"
     }
   ],
-  "posts_count": 89
+  "posts_count": 90
 }
