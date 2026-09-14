@@ -1052,7 +1052,20 @@
       "template": 1,
       "facebook_video_id": "4024756307821098",
       "posted_at": "2026-09-14T21:03:30.392008"
+    },
+    {
+      "gif_number": 82,
+      "gif_path": "output/animation_82.gif",
+      "mp4_path": "output/animation_82.mp4",
+      "icon_names": [
+        "ambulance",
+        "doctor in mask",
+        "nurse in mask"
+      ],
+      "template": 2,
+      "facebook_video_id": "1619474392908522",
+      "posted_at": "2026-09-14T22:03:29.765408"
     }
   ],
-  "posts_count": 81
+  "posts_count": 82
 }
