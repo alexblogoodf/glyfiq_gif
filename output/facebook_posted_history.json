@@ -1078,7 +1078,20 @@
       "template": 3,
       "facebook_video_id": "1369160114941874",
       "posted_at": "2026-09-15T21:03:25.502054"
+    },
+    {
+      "gif_number": 84,
+      "gif_path": "output/animation_84.gif",
+      "mp4_path": "output/animation_84.mp4",
+      "icon_names": [
+        "nurse in mask",
+        "coins",
+        "money cash"
+      ],
+      "template": 4,
+      "facebook_video_id": "2284264245447232",
+      "posted_at": "2026-09-15T22:03:25.753053"
     }
   ],
-  "posts_count": 83
+  "posts_count": 84
 }
