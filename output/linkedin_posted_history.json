@@ -947,7 +947,19 @@
       ],
       "template": 4,
       "posted_at": "2026-09-14T22:17:34.947680"
+    },
+    {
+      "gif_number": 80,
+      "gif_path": "output/animation_80.gif",
+      "mp4_path": "output/animation_80.mp4",
+      "icon_names": [
+        "microscope",
+        "hospital minimalistic",
+        "ambulance"
+      ],
+      "template": 5,
+      "posted_at": "2026-09-15T21:17:44.904495"
     }
   ],
-  "posts_count": 79
+  "posts_count": 80
 }
