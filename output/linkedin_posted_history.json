@@ -959,7 +959,19 @@
       ],
       "template": 5,
       "posted_at": "2026-09-15T21:17:44.904495"
+    },
+    {
+      "gif_number": 81,
+      "gif_path": "output/animation_81.gif",
+      "mp4_path": "output/animation_81.mp4",
+      "icon_names": [
+        "hospital minimalistic",
+        "ambulance",
+        "doctor in mask"
+      ],
+      "template": 1,
+      "posted_at": "2026-09-15T22:17:34.538055"
     }
   ],
-  "posts_count": 80
+  "posts_count": 81
 }
