@@ -983,7 +983,19 @@
       ],
       "template": 2,
       "posted_at": "2026-09-16T21:17:31.506755"
+    },
+    {
+      "gif_number": 83,
+      "gif_path": "output/animation_83.gif",
+      "mp4_path": "output/animation_83.mp4",
+      "icon_names": [
+        "doctor in mask",
+        "nurse in mask",
+        "coins"
+      ],
+      "template": 3,
+      "posted_at": "2026-09-16T22:17:28.743537"
     }
   ],
-  "posts_count": 82
+  "posts_count": 83
 }
