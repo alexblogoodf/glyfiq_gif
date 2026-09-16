@@ -1329,7 +1329,21 @@
       "threads_post_id": "17944646553073995",
       "threads_reply_id": "17919866178439421",
       "posted_at": "2026-09-16T05:42:24.877349"
+    },
+    {
+      "gif_number": 96,
+      "gif_path": "output/animation_96.gif",
+      "mp4_path": "output/animation_96.mp4",
+      "icon_names": [
+        "test tubes",
+        "test tube",
+        "petri germs"
+      ],
+      "template": 1,
+      "threads_post_id": "17931963618397144",
+      "threads_reply_id": "18125237513494222",
+      "posted_at": "2026-09-16T12:22:51.709840"
     }
   ],
-  "posts_count": 95
+  "posts_count": 96
 }
