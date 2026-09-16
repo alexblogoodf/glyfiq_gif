@@ -1104,7 +1104,20 @@
       "template": 5,
       "facebook_video_id": "2025820101397402",
       "posted_at": "2026-09-16T21:03:26.454739"
+    },
+    {
+      "gif_number": 86,
+      "gif_path": "output/animation_86.gif",
+      "mp4_path": "output/animation_86.mp4",
+      "icon_names": [
+        "money cash",
+        "woman silhouette",
+        "germs"
+      ],
+      "template": 1,
+      "facebook_video_id": "908325852358605",
+      "posted_at": "2026-09-16T22:03:55.803860"
     }
   ],
-  "posts_count": 85
+  "posts_count": 86
 }
