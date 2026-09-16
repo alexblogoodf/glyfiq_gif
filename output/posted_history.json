@@ -1055,7 +1055,18 @@
       ],
       "template": 1,
       "posted_at": "2026-09-15T22:05:31.839317"
+    },
+    {
+      "gif_number": 97,
+      "gif_path": "output/animation_97.gif",
+      "icon_names": [
+        "test tube",
+        "petri germs",
+        "computer research"
+      ],
+      "template": 2,
+      "posted_at": "2026-09-16T12:05:27.516012"
     }
   ],
-  "posts_count": 96
+  "posts_count": 97
 }
