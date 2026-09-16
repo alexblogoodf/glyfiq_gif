@@ -1234,7 +1234,20 @@
       "template": 5,
       "buffer_post_id": "6aaadda841e98c53477b7d67",
       "posted_at": "2026-09-16T18:20:30.786001"
+    },
+    {
+      "gif_number": 96,
+      "gif_path": "output/animation_96.gif",
+      "mp4_path": "output/animation_96.mp4",
+      "icon_names": [
+        "test tubes",
+        "test tube",
+        "petri germs"
+      ],
+      "template": 1,
+      "buffer_post_id": "6aab15e980b24cdcb5f757ee",
+      "posted_at": "2026-09-16T22:20:22.666491"
     }
   ],
-  "posts_count": 95
+  "posts_count": 96
 }
