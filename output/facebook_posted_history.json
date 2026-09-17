@@ -1130,7 +1130,20 @@
       "template": 2,
       "facebook_video_id": "964900209981184",
       "posted_at": "2026-09-17T21:03:25.900453"
+    },
+    {
+      "gif_number": 88,
+      "gif_path": "output/animation_88.gif",
+      "mp4_path": "output/animation_88.mp4",
+      "icon_names": [
+        "germs",
+        "petri dish",
+        "RNA/DNA purifier"
+      ],
+      "template": 3,
+      "facebook_video_id": "1073037678665587",
+      "posted_at": "2026-09-17T22:03:22.015769"
     }
   ],
-  "posts_count": 87
+  "posts_count": 88
 }
