@@ -1007,7 +1007,19 @@
       ],
       "template": 4,
       "posted_at": "2026-09-17T21:17:30.674475"
+    },
+    {
+      "gif_number": 85,
+      "gif_path": "output/animation_85.gif",
+      "mp4_path": "output/animation_85.mp4",
+      "icon_names": [
+        "coins",
+        "money cash",
+        "woman silhouette"
+      ],
+      "template": 5,
+      "posted_at": "2026-09-17T22:17:29.388113"
     }
   ],
-  "posts_count": 84
+  "posts_count": 85
 }
