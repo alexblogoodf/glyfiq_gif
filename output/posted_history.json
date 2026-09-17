@@ -1077,7 +1077,18 @@
       ],
       "template": 3,
       "posted_at": "2026-09-16T22:05:31.473262"
+    },
+    {
+      "gif_number": 99,
+      "gif_path": "output/animation_99.gif",
+      "icon_names": [
+        "computer research",
+        "urinary biofilm",
+        "urine dipstick"
+      ],
+      "template": 4,
+      "posted_at": "2026-09-17T22:05:28.051051"
     }
   ],
-  "posts_count": 98
+  "posts_count": 99
 }
