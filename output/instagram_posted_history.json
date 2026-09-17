@@ -1260,7 +1260,20 @@
       "template": 2,
       "buffer_post_id": "6aac2f27bd5de22624acd1e8",
       "posted_at": "2026-09-17T18:20:29.418271"
+    },
+    {
+      "gif_number": 98,
+      "gif_path": "output/animation_98.gif",
+      "mp4_path": "output/animation_98.mp4",
+      "icon_names": [
+        "petri germs",
+        "computer research",
+        "urinary biofilm"
+      ],
+      "template": 3,
+      "buffer_post_id": "6aac67687ef82440293155c6",
+      "posted_at": "2026-09-17T22:20:30.344784"
     }
   ],
-  "posts_count": 97
+  "posts_count": 98
 }
