@@ -1357,7 +1357,21 @@
       "threads_post_id": "18095188847388628",
       "threads_reply_id": "17978843571121085",
       "posted_at": "2026-09-16T22:23:12.656846"
+    },
+    {
+      "gif_number": 98,
+      "gif_path": "output/animation_98.gif",
+      "mp4_path": "output/animation_98.mp4",
+      "icon_names": [
+        "petri germs",
+        "computer research",
+        "urinary biofilm"
+      ],
+      "template": 3,
+      "threads_post_id": "17978082519066761",
+      "threads_reply_id": "18115010089928333",
+      "posted_at": "2026-09-17T12:22:30.260699"
     }
   ],
-  "posts_count": 97
+  "posts_count": 98
 }
