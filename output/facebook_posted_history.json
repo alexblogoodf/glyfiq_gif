@@ -1143,7 +1143,20 @@
       "template": 3,
       "facebook_video_id": "1073037678665587",
       "posted_at": "2026-09-17T22:03:22.015769"
+    },
+    {
+      "gif_number": 89,
+      "gif_path": "output/animation_89.gif",
+      "mp4_path": "output/animation_89.mp4",
+      "icon_names": [
+        "petri dish",
+        "RNA/DNA purifier",
+        "PCR amplifier"
+      ],
+      "template": 4,
+      "facebook_video_id": "1057977930565212",
+      "posted_at": "2026-09-18T21:03:23.048935"
     }
   ],
-  "posts_count": 88
+  "posts_count": 89
 }
