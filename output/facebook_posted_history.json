@@ -1156,7 +1156,20 @@
       "template": 4,
       "facebook_video_id": "1057977930565212",
       "posted_at": "2026-09-18T21:03:23.048935"
+    },
+    {
+      "gif_number": 90,
+      "gif_path": "output/animation_90.gif",
+      "mp4_path": "output/animation_90.mp4",
+      "icon_names": [
+        "RNA/DNA purifier",
+        "PCR amplifier",
+        "tube check mark"
+      ],
+      "template": 5,
+      "facebook_video_id": "2067783140602337",
+      "posted_at": "2026-09-18T22:03:29.671889"
     }
   ],
-  "posts_count": 89
+  "posts_count": 90
 }
