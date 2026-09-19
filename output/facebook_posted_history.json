@@ -1182,7 +1182,20 @@
       "template": 1,
       "facebook_video_id": "2131063551171780",
       "posted_at": "2026-09-19T21:03:24.795694"
+    },
+    {
+      "gif_number": 92,
+      "gif_path": "output/animation_92.gif",
+      "mp4_path": "output/animation_92.mp4",
+      "icon_names": [
+        "tube check mark",
+        "pipette",
+        "doctor & microscope"
+      ],
+      "template": 2,
+      "facebook_video_id": "938519155483123",
+      "posted_at": "2026-09-19T22:03:20.965618"
     }
   ],
-  "posts_count": 91
+  "posts_count": 92
 }
