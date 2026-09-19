@@ -1312,7 +1312,20 @@
       "template": 1,
       "buffer_post_id": "6aaed2279a30e1221c1191d1",
       "posted_at": "2026-09-19T18:20:30.295576"
+    },
+    {
+      "gif_number": 102,
+      "gif_path": "output/animation_102.gif",
+      "mp4_path": "output/animation_102.mp4",
+      "icon_names": [
+        "dna",
+        "product consignment",
+        "cms account"
+      ],
+      "template": 2,
+      "buffer_post_id": "6aaf0a676e039ccbc8268a1f",
+      "posted_at": "2026-09-19T22:20:29.683986"
     }
   ],
-  "posts_count": 101
+  "posts_count": 102
 }
