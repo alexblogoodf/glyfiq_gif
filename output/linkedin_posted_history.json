@@ -1043,7 +1043,19 @@
       ],
       "template": 2,
       "posted_at": "2026-09-18T22:17:28.463868"
+    },
+    {
+      "gif_number": 88,
+      "gif_path": "output/animation_88.gif",
+      "mp4_path": "output/animation_88.mp4",
+      "icon_names": [
+        "germs",
+        "petri dish",
+        "RNA/DNA purifier"
+      ],
+      "template": 3,
+      "posted_at": "2026-09-19T21:17:30.415450"
     }
   ],
-  "posts_count": 87
+  "posts_count": 88
 }
