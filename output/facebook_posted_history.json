@@ -1208,7 +1208,20 @@
       "template": 3,
       "facebook_video_id": "1133474432435709",
       "posted_at": "2026-09-20T21:03:27.132323"
+    },
+    {
+      "gif_number": 94,
+      "gif_path": "output/animation_94.gif",
+      "mp4_path": "output/animation_94.mp4",
+      "icon_names": [
+        "doctor & microscope",
+        "centrifuge",
+        "test tubes"
+      ],
+      "template": 4,
+      "facebook_video_id": "1558502232249965",
+      "posted_at": "2026-09-20T22:03:23.329341"
     }
   ],
-  "posts_count": 93
+  "posts_count": 94
 }
