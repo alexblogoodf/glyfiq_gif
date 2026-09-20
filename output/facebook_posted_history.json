@@ -1195,7 +1195,20 @@
       "template": 2,
       "facebook_video_id": "938519155483123",
       "posted_at": "2026-09-19T22:03:20.965618"
+    },
+    {
+      "gif_number": 93,
+      "gif_path": "output/animation_93.gif",
+      "mp4_path": "output/animation_93.mp4",
+      "icon_names": [
+        "pipette",
+        "doctor & microscope",
+        "centrifuge"
+      ],
+      "template": 3,
+      "facebook_video_id": "1133474432435709",
+      "posted_at": "2026-09-20T21:03:27.132323"
     }
   ],
-  "posts_count": 92
+  "posts_count": 93
 }
