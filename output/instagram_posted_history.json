@@ -1338,7 +1338,20 @@
       "template": 3,
       "buffer_post_id": "6ab023a7ca3da6544356bb4d",
       "posted_at": "2026-09-20T18:20:29.937986"
+    },
+    {
+      "gif_number": 104,
+      "gif_path": "output/animation_104.gif",
+      "mp4_path": "output/animation_104.mp4",
+      "icon_names": [
+        "cms account",
+        "medical billing",
+        "turn-key operation"
+      ],
+      "template": 4,
+      "buffer_post_id": "6ab05be6b07e536c5a1dfbd1",
+      "posted_at": "2026-09-20T22:20:28.895561"
     }
   ],
-  "posts_count": 103
+  "posts_count": 104
 }
