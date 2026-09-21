@@ -1234,7 +1234,20 @@
       "template": 5,
       "facebook_video_id": "1098257189255085",
       "posted_at": "2026-09-21T21:03:27.782132"
+    },
+    {
+      "gif_number": 96,
+      "gif_path": "output/animation_96.gif",
+      "mp4_path": "output/animation_96.mp4",
+      "icon_names": [
+        "test tubes",
+        "test tube",
+        "petri germs"
+      ],
+      "template": 1,
+      "facebook_video_id": "1482789557009083",
+      "posted_at": "2026-09-21T22:03:27.926792"
     }
   ],
-  "posts_count": 95
+  "posts_count": 96
 }
