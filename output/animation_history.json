@@ -3199,6 +3199,22 @@
       "gif_path": "output/animation_201.gif",
       "created_at": "2026-09-20T22:15:51.746158",
       "frame_count": 3
+    },
+    {
+      "gif_number": 201,
+      "icon_ids": [
+        202,
+        203,
+        204
+      ],
+      "icon_names": [
+        "pregnancy",
+        "fetus",
+        "gynecological surgery"
+      ],
+      "gif_path": "output/animation_202.gif",
+      "created_at": "2026-09-21T04:15:54.239416",
+      "frame_count": 3
     }
   ]
 }
