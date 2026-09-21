@@ -1455,7 +1455,21 @@
       "threads_post_id": "17908500012514669",
       "threads_reply_id": "18151308232532987",
       "posted_at": "2026-09-20T12:23:11.995573"
+    },
+    {
+      "gif_number": 105,
+      "gif_path": "output/animation_105.gif",
+      "mp4_path": "output/animation_105.mp4",
+      "icon_names": [
+        "medical billing",
+        "turn-key operation",
+        "direct pay option"
+      ],
+      "template": 5,
+      "threads_post_id": "18410118997082151",
+      "threads_reply_id": "18178321903442254",
+      "posted_at": "2026-09-21T12:21:38.688348"
     }
   ],
-  "posts_count": 104
+  "posts_count": 105
 }
