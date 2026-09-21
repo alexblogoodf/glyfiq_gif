@@ -1165,7 +1165,18 @@
       ],
       "template": 1,
       "posted_at": "2026-09-21T12:05:30.257615"
+    },
+    {
+      "gif_number": 107,
+      "gif_path": "output/animation_107.gif",
+      "icon_names": [
+        "direct pay option",
+        "prior authorization",
+        "2019-nCov"
+      ],
+      "template": 2,
+      "posted_at": "2026-09-21T22:05:30.756673"
     }
   ],
-  "posts_count": 106
+  "posts_count": 107
 }
