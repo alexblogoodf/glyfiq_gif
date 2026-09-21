@@ -1351,7 +1351,20 @@
       "template": 4,
       "buffer_post_id": "6ab05be6b07e536c5a1dfbd1",
       "posted_at": "2026-09-20T22:20:28.895561"
+    },
+    {
+      "gif_number": 105,
+      "gif_path": "output/animation_105.gif",
+      "mp4_path": "output/animation_105.mp4",
+      "icon_names": [
+        "medical billing",
+        "turn-key operation",
+        "direct pay option"
+      ],
+      "template": 5,
+      "buffer_post_id": "6ab17529628e6abac177a319",
+      "posted_at": "2026-09-21T18:20:31.957079"
     }
   ],
-  "posts_count": 104
+  "posts_count": 105
 }
