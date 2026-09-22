@@ -3263,6 +3263,22 @@
       "gif_path": "output/animation_205.gif",
       "created_at": "2026-09-21T22:15:52.512631",
       "frame_count": 3
+    },
+    {
+      "gif_number": 205,
+      "icon_ids": [
+        206,
+        207,
+        208
+      ],
+      "icon_names": [
+        "menstruation",
+        "pregnancy management",
+        "cesarean section"
+      ],
+      "gif_path": "output/animation_206.gif",
+      "created_at": "2026-09-22T04:15:49.007362",
+      "frame_count": 3
     }
   ]
 }
