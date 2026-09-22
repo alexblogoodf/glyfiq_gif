@@ -3279,6 +3279,22 @@
       "gif_path": "output/animation_206.gif",
       "created_at": "2026-09-22T04:15:49.007362",
       "frame_count": 3
+    },
+    {
+      "gif_number": 206,
+      "icon_ids": [
+        207,
+        208,
+        209
+      ],
+      "icon_names": [
+        "pregnancy management",
+        "cesarean section",
+        "intrauterine insemination"
+      ],
+      "gif_path": "output/animation_207.gif",
+      "created_at": "2026-09-22T10:15:48.389470",
+      "frame_count": 3
     }
   ]
 }
