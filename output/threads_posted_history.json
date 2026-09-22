@@ -1483,7 +1483,21 @@
       "threads_post_id": "17906231928483521",
       "threads_reply_id": "17911164231527708",
       "posted_at": "2026-09-22T12:22:05.793866"
+    },
+    {
+      "gif_number": 107,
+      "gif_path": "output/animation_107.gif",
+      "mp4_path": "output/animation_107.mp4",
+      "icon_names": [
+        "direct pay option",
+        "prior authorization",
+        "2019-nCov"
+      ],
+      "template": 2,
+      "threads_post_id": "18175930030435281",
+      "threads_reply_id": "18283019965294278",
+      "posted_at": "2026-09-22T22:22:55.573496"
     }
   ],
-  "posts_count": 106
+  "posts_count": 107
 }
