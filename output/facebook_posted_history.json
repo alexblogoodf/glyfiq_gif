@@ -1247,7 +1247,20 @@
       "template": 1,
       "facebook_video_id": "1482789557009083",
       "posted_at": "2026-09-21T22:03:27.926792"
+    },
+    {
+      "gif_number": 97,
+      "gif_path": "output/animation_97.gif",
+      "mp4_path": "output/animation_97.mp4",
+      "icon_names": [
+        "test tube",
+        "petri germs",
+        "computer research"
+      ],
+      "template": 2,
+      "facebook_video_id": "881420658258526",
+      "posted_at": "2026-09-22T21:03:22.125345"
     }
   ],
-  "posts_count": 96
+  "posts_count": 97
 }
