@@ -1390,7 +1390,20 @@
       "template": 2,
       "buffer_post_id": "6ab4182917effeabdc58dbc0",
       "posted_at": "2026-09-23T18:20:32.197647"
+    },
+    {
+      "gif_number": 108,
+      "gif_path": "output/animation_108.gif",
+      "mp4_path": "output/animation_108.mp4",
+      "icon_names": [
+        "prior authorization",
+        "2019-nCov",
+        "hand washing"
+      ],
+      "template": 3,
+      "buffer_post_id": "6ab4508d82fbc26ecf056c37",
+      "posted_at": "2026-09-23T22:21:07.946334"
     }
   ],
-  "posts_count": 107
+  "posts_count": 108
 }
