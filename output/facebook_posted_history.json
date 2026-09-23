@@ -1273,7 +1273,20 @@
       "template": 3,
       "facebook_video_id": "933332772723918",
       "posted_at": "2026-09-22T22:03:23.674988"
+    },
+    {
+      "gif_number": 99,
+      "gif_path": "output/animation_99.gif",
+      "mp4_path": "output/animation_99.mp4",
+      "icon_names": [
+        "computer research",
+        "urinary biofilm",
+        "urine dipstick"
+      ],
+      "template": 4,
+      "facebook_video_id": "2861878797538362",
+      "posted_at": "2026-09-23T21:03:26.259139"
     }
   ],
-  "posts_count": 98
+  "posts_count": 99
 }
