@@ -1497,7 +1497,21 @@
       "threads_post_id": "18175930030435281",
       "threads_reply_id": "18283019965294278",
       "posted_at": "2026-09-22T22:22:55.573496"
+    },
+    {
+      "gif_number": 108,
+      "gif_path": "output/animation_108.gif",
+      "mp4_path": "output/animation_108.mp4",
+      "icon_names": [
+        "prior authorization",
+        "2019-nCov",
+        "hand washing"
+      ],
+      "template": 3,
+      "threads_post_id": "18114180242095411",
+      "threads_reply_id": "18428091787151999",
+      "posted_at": "2026-09-23T12:22:35.274125"
     }
   ],
-  "posts_count": 107
+  "posts_count": 108
 }
