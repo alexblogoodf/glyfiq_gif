@@ -1377,7 +1377,20 @@
       "template": 1,
       "buffer_post_id": "6ab2c6aab451d21e9baa582d",
       "posted_at": "2026-09-22T18:20:32.695583"
+    },
+    {
+      "gif_number": 107,
+      "gif_path": "output/animation_107.gif",
+      "mp4_path": "output/animation_107.mp4",
+      "icon_names": [
+        "direct pay option",
+        "prior authorization",
+        "2019-nCov"
+      ],
+      "template": 2,
+      "buffer_post_id": "6ab4182917effeabdc58dbc0",
+      "posted_at": "2026-09-23T18:20:32.197647"
     }
   ],
-  "posts_count": 106
+  "posts_count": 107
 }
