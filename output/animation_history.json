@@ -3439,6 +3439,22 @@
       "gif_path": "output/animation_216.gif",
       "created_at": "2026-09-24T16:16:02.264399",
       "frame_count": 3
+    },
+    {
+      "gif_number": 216,
+      "icon_ids": [
+        217,
+        218,
+        219
+      ],
+      "icon_names": [
+        "brain and thinking",
+        "emotional reasoning",
+        "logical thinking"
+      ],
+      "gif_path": "output/animation_217.gif",
+      "created_at": "2026-09-24T22:15:58.070540",
+      "frame_count": 3
     }
   ]
 }
