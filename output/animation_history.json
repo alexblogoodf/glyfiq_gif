@@ -3407,6 +3407,22 @@
       "gif_path": "output/animation_214.gif",
       "created_at": "2026-09-24T04:15:53.837966",
       "frame_count": 3
+    },
+    {
+      "gif_number": 214,
+      "icon_ids": [
+        215,
+        216,
+        217
+      ],
+      "icon_names": [
+        "mental health",
+        "negative thinking",
+        "brain and thinking"
+      ],
+      "gif_path": "output/animation_215.gif",
+      "created_at": "2026-09-24T10:15:55.570817",
+      "frame_count": 3
     }
   ]
 }
