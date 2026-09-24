@@ -1403,7 +1403,20 @@
       "template": 3,
       "buffer_post_id": "6ab4508d82fbc26ecf056c37",
       "posted_at": "2026-09-23T22:21:07.946334"
+    },
+    {
+      "gif_number": 109,
+      "gif_path": "output/animation_109.gif",
+      "mp4_path": "output/animation_109.mp4",
+      "icon_names": [
+        "2019-nCov",
+        "hand washing",
+        "medical mask"
+      ],
+      "template": 4,
+      "buffer_post_id": "6ab569a7e065597a3dea3aa5",
+      "posted_at": "2026-09-24T18:20:30.216638"
     }
   ],
-  "posts_count": 108
+  "posts_count": 109
 }
