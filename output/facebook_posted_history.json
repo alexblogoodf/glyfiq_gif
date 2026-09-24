@@ -1312,7 +1312,20 @@
       "template": 1,
       "facebook_video_id": "2106724029917957",
       "posted_at": "2026-09-24T21:03:29.285182"
+    },
+    {
+      "gif_number": 102,
+      "gif_path": "output/animation_102.gif",
+      "mp4_path": "output/animation_102.mp4",
+      "icon_names": [
+        "dna",
+        "product consignment",
+        "cms account"
+      ],
+      "template": 2,
+      "facebook_video_id": "1617393383111720",
+      "posted_at": "2026-09-24T22:03:22.462949"
     }
   ],
-  "posts_count": 101
+  "posts_count": 102
 }
