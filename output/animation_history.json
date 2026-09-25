@@ -3503,6 +3503,22 @@
       "gif_path": "output/animation_220.gif",
       "created_at": "2026-09-25T16:15:53.037480",
       "frame_count": 3
+    },
+    {
+      "gif_number": 220,
+      "icon_ids": [
+        221,
+        222,
+        223
+      ],
+      "icon_names": [
+        "inner dialogue",
+        "emotions",
+        "thinking process"
+      ],
+      "gif_path": "output/animation_221.gif",
+      "created_at": "2026-09-25T22:16:11.662471",
+      "frame_count": 3
     }
   ]
 }
