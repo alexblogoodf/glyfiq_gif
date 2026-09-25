@@ -3455,6 +3455,22 @@
       "gif_path": "output/animation_217.gif",
       "created_at": "2026-09-24T22:15:58.070540",
       "frame_count": 3
+    },
+    {
+      "gif_number": 217,
+      "icon_ids": [
+        218,
+        219,
+        220
+      ],
+      "icon_names": [
+        "emotional reasoning",
+        "logical thinking",
+        "obsession"
+      ],
+      "gif_path": "output/animation_218.gif",
+      "created_at": "2026-09-25T04:15:55.281366",
+      "frame_count": 3
     }
   ]
 }
