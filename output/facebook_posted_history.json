@@ -1338,7 +1338,20 @@
       "template": 3,
       "facebook_video_id": "1651328256531564",
       "posted_at": "2026-09-25T21:03:24.737432"
+    },
+    {
+      "gif_number": 104,
+      "gif_path": "output/animation_104.gif",
+      "mp4_path": "output/animation_104.mp4",
+      "icon_names": [
+        "cms account",
+        "medical billing",
+        "turn-key operation"
+      ],
+      "template": 4,
+      "facebook_video_id": "3598955886921640",
+      "posted_at": "2026-09-25T22:03:23.368388"
     }
   ],
-  "posts_count": 103
+  "posts_count": 104
 }
