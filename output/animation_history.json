@@ -3487,6 +3487,22 @@
       "gif_path": "output/animation_219.gif",
       "created_at": "2026-09-25T10:15:55.473770",
       "frame_count": 3
+    },
+    {
+      "gif_number": 219,
+      "icon_ids": [
+        220,
+        221,
+        222
+      ],
+      "icon_names": [
+        "obsession",
+        "inner dialogue",
+        "emotions"
+      ],
+      "gif_path": "output/animation_220.gif",
+      "created_at": "2026-09-25T16:15:53.037480",
+      "frame_count": 3
     }
   ]
 }
