@@ -1553,7 +1553,21 @@
       "threads_post_id": "17999627975798292",
       "threads_reply_id": "18008586050971374",
       "posted_at": "2026-09-25T12:22:33.277978"
+    },
+    {
+      "gif_number": 112,
+      "gif_path": "output/animation_112.gif",
+      "mp4_path": "output/animation_112.mp4",
+      "icon_names": [
+        "person-to-person",
+        "pneumonia",
+        "virus"
+      ],
+      "template": 2,
+      "threads_post_id": "18119917220485717",
+      "threads_reply_id": "18187348114408412",
+      "posted_at": "2026-09-25T22:22:30.838517"
     }
   ],
-  "posts_count": 111
+  "posts_count": 112
 }
