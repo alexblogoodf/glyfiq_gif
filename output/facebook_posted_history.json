@@ -1325,7 +1325,20 @@
       "template": 2,
       "facebook_video_id": "1617393383111720",
       "posted_at": "2026-09-24T22:03:22.462949"
+    },
+    {
+      "gif_number": 103,
+      "gif_path": "output/animation_103.gif",
+      "mp4_path": "output/animation_103.mp4",
+      "icon_names": [
+        "product consignment",
+        "cms account",
+        "medical billing"
+      ],
+      "template": 3,
+      "facebook_video_id": "1651328256531564",
+      "posted_at": "2026-09-25T21:03:24.737432"
     }
   ],
-  "posts_count": 102
+  "posts_count": 103
 }
