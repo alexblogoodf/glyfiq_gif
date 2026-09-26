@@ -3519,6 +3519,22 @@
       "gif_path": "output/animation_221.gif",
       "created_at": "2026-09-25T22:16:11.662471",
       "frame_count": 3
+    },
+    {
+      "gif_number": 221,
+      "icon_ids": [
+        222,
+        223,
+        224
+      ],
+      "icon_names": [
+        "emotions",
+        "thinking process",
+        "musicality"
+      ],
+      "gif_path": "output/animation_222.gif",
+      "created_at": "2026-09-26T04:15:58.763046",
+      "frame_count": 3
     }
   ]
 }
