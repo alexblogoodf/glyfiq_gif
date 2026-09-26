@@ -1364,7 +1364,20 @@
       "template": 5,
       "facebook_video_id": "29014390011513079",
       "posted_at": "2026-09-26T21:03:21.999721"
+    },
+    {
+      "gif_number": 106,
+      "gif_path": "output/animation_106.gif",
+      "mp4_path": "output/animation_106.mp4",
+      "icon_names": [
+        "turn-key operation",
+        "direct pay option",
+        "prior authorization"
+      ],
+      "template": 1,
+      "facebook_video_id": "1105074755773729",
+      "posted_at": "2026-09-26T22:03:25.372557"
     }
   ],
-  "posts_count": 105
+  "posts_count": 106
 }
