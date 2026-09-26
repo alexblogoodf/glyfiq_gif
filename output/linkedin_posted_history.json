@@ -1223,7 +1223,19 @@
       ],
       "template": 2,
       "posted_at": "2026-09-26T21:17:31.345200"
+    },
+    {
+      "gif_number": 103,
+      "gif_path": "output/animation_103.gif",
+      "mp4_path": "output/animation_103.mp4",
+      "icon_names": [
+        "product consignment",
+        "cms account",
+        "medical billing"
+      ],
+      "template": 3,
+      "posted_at": "2026-09-26T22:17:30.296959"
     }
   ],
-  "posts_count": 102
+  "posts_count": 103
 }
