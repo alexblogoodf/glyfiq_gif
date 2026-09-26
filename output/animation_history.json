@@ -3567,6 +3567,22 @@
       "gif_path": "output/animation_224.gif",
       "created_at": "2026-09-26T16:15:50.469420",
       "frame_count": 3
+    },
+    {
+      "gif_number": 224,
+      "icon_ids": [
+        225,
+        226,
+        227
+      ],
+      "icon_names": [
+        "balance",
+        "positive thinking",
+        "brilliant thought"
+      ],
+      "gif_path": "output/animation_225.gif",
+      "created_at": "2026-09-26T22:16:06.096891",
+      "frame_count": 3
     }
   ]
 }
