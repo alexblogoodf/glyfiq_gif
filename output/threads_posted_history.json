@@ -1581,7 +1581,21 @@
       "threads_post_id": "17992238697040844",
       "threads_reply_id": "17981572118902801",
       "posted_at": "2026-09-26T12:22:32.363013"
+    },
+    {
+      "gif_number": 114,
+      "gif_path": "output/animation_114.gif",
+      "mp4_path": "output/animation_114.mp4",
+      "icon_names": [
+        "virus",
+        "bronchitis",
+        "flu"
+      ],
+      "template": 4,
+      "threads_post_id": "18635073361010805",
+      "threads_reply_id": "18107818985594529",
+      "posted_at": "2026-09-26T22:23:33.011236"
     }
   ],
-  "posts_count": 113
+  "posts_count": 114
 }
