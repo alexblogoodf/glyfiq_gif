@@ -1609,7 +1609,21 @@
       "threads_post_id": "17986100196112775",
       "threads_reply_id": "18104887382206143",
       "posted_at": "2026-09-27T12:22:57.067438"
+    },
+    {
+      "gif_number": 116,
+      "gif_path": "output/animation_116.gif",
+      "mp4_path": "output/animation_116.mp4",
+      "icon_names": [
+        "flu",
+        "virus protection",
+        "fatigue"
+      ],
+      "template": 1,
+      "threads_post_id": "18395872636164649",
+      "threads_reply_id": "18103498823148523",
+      "posted_at": "2026-09-27T22:23:20.550359"
     }
   ],
-  "posts_count": 115
+  "posts_count": 116
 }
