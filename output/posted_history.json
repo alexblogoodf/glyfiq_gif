@@ -1297,7 +1297,18 @@
       ],
       "template": 3,
       "posted_at": "2026-09-27T12:05:27.666861"
+    },
+    {
+      "gif_number": 119,
+      "gif_path": "output/animation_119.gif",
+      "icon_names": [
+        "ICU ventilator",
+        "artificial ventilation of the lungs",
+        "fever"
+      ],
+      "template": 4,
+      "posted_at": "2026-09-27T22:05:30.501526"
     }
   ],
-  "posts_count": 118
+  "posts_count": 119
 }
