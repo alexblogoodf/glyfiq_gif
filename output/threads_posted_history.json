@@ -1651,7 +1651,21 @@
       "threads_post_id": "17992818042026138",
       "threads_reply_id": "17949645687280924",
       "posted_at": "2026-09-28T19:54:37.130748"
+    },
+    {
+      "gif_number": 119,
+      "gif_path": "output/animation_119.gif",
+      "mp4_path": "output/animation_119.mp4",
+      "icon_names": [
+        "ICU ventilator",
+        "artificial ventilation of the lungs",
+        "fever"
+      ],
+      "template": 4,
+      "threads_post_id": "18125792366311008",
+      "threads_reply_id": "18212606947361023",
+      "posted_at": "2026-09-28T19:58:16.319315"
     }
   ],
-  "posts_count": 118
+  "posts_count": 119
 }
