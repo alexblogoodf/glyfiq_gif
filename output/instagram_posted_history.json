@@ -1507,7 +1507,20 @@
       "template": 1,
       "buffer_post_id": "6abaafa87b12118e0add1826",
       "posted_at": "2026-09-28T18:20:31.076679"
+    },
+    {
+      "gif_number": 117,
+      "gif_path": "output/animation_117.gif",
+      "mp4_path": "output/animation_117.mp4",
+      "icon_names": [
+        "virus protection",
+        "fatigue",
+        "ICU ventilator"
+      ],
+      "template": 2,
+      "buffer_post_id": "6abae7e593a81b612b51096e",
+      "posted_at": "2026-09-28T22:20:28.077810"
     }
   ],
-  "posts_count": 116
+  "posts_count": 117
 }
