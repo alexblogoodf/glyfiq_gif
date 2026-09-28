@@ -1665,7 +1665,21 @@
       "threads_post_id": "18125792366311008",
       "threads_reply_id": "18212606947361023",
       "posted_at": "2026-09-28T19:58:16.319315"
+    },
+    {
+      "gif_number": 120,
+      "gif_path": "output/animation_120.gif",
+      "mp4_path": "output/animation_120.mp4",
+      "icon_names": [
+        "artificial ventilation of the lungs",
+        "fever",
+        "vaccine"
+      ],
+      "template": 5,
+      "threads_post_id": "18140359168581413",
+      "threads_reply_id": "18137155003627059",
+      "posted_at": "2026-09-28T22:22:55.072189"
     }
   ],
-  "posts_count": 119
+  "posts_count": 120
 }
