@@ -3663,6 +3663,22 @@
       "gif_path": "output/animation_230.gif",
       "created_at": "2026-09-28T04:15:52.898455",
       "frame_count": 3
+    },
+    {
+      "gif_number": 230,
+      "icon_ids": [
+        231,
+        232,
+        233
+      ],
+      "icon_names": [
+        "scoliosis",
+        "compression stockings",
+        "orthopedic mattress"
+      ],
+      "gif_path": "output/animation_231.gif",
+      "created_at": "2026-09-28T10:15:58.755241",
+      "frame_count": 3
     }
   ]
 }
