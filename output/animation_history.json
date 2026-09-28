@@ -3647,6 +3647,22 @@
       "gif_path": "output/animation_229.gif",
       "created_at": "2026-09-27T22:15:59.435440",
       "frame_count": 3
+    },
+    {
+      "gif_number": 229,
+      "icon_ids": [
+        230,
+        231,
+        232
+      ],
+      "icon_names": [
+        "flat foot",
+        "scoliosis",
+        "compression stockings"
+      ],
+      "gif_path": "output/animation_230.gif",
+      "created_at": "2026-09-28T04:15:52.898455",
+      "frame_count": 3
     }
   ]
 }
