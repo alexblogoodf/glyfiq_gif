@@ -1416,7 +1416,20 @@
       "template": 4,
       "facebook_video_id": "1370145902846493",
       "posted_at": "2026-09-28T21:03:25.156493"
+    },
+    {
+      "gif_number": 110,
+      "gif_path": "output/animation_110.gif",
+      "mp4_path": "output/animation_110.mp4",
+      "icon_names": [
+        "hand washing",
+        "medical mask",
+        "person-to-person"
+      ],
+      "template": 5,
+      "facebook_video_id": "2465082670982213",
+      "posted_at": "2026-09-28T22:03:20.900145"
     }
   ],
-  "posts_count": 109
+  "posts_count": 110
 }
