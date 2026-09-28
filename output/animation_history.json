@@ -3695,6 +3695,22 @@
       "gif_path": "output/animation_232.gif",
       "created_at": "2026-09-28T16:16:02.985295",
       "frame_count": 3
+    },
+    {
+      "gif_number": 232,
+      "icon_ids": [
+        233,
+        234,
+        235
+      ],
+      "icon_names": [
+        "orthopedic mattress",
+        "electric wheelchair",
+        "walking sticks"
+      ],
+      "gif_path": "output/animation_233.gif",
+      "created_at": "2026-09-28T22:15:54.885276",
+      "frame_count": 3
     }
   ]
 }
