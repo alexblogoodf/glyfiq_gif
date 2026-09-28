@@ -37,7 +37,13 @@ TEMPLATES = [
 ]
 
 REPLY_TEXT = "Try it free 👉 https://glyfiq.link/"
-TOPIC = "Design Threads"
+TOPICS = [
+    "Design Threads",
+    "Med Threads",
+    "Health",
+    "UIUX Design",
+    "MedicalUI",
+]
 
 def tweet_len(text):
     n = 0
@@ -207,6 +213,8 @@ def cmd_prepare():
         print("❌ Не удалось сконвертировать GIF в MP4. Повторим в следующем запуске.")
         return
 
+    topic = TOPICS[posted.get("posts_count", 0) % len(TOPICS)]
+
     with open(PENDING_FILE, "w", encoding="utf-8") as f:
         json.dump({
             "gif_number": candidate.get("gif_number"),
@@ -214,12 +222,13 @@ def cmd_prepare():
             "mp4_path": mp4_path,
             "text": text,
             "reply_text": REPLY_TEXT,
-            "topic": TOPIC,
+            "topic": topic,
             "icon_names": candidate.get("icon_names", []),
             "template": tpl_idx + 1,
         }, f, ensure_ascii=False, indent=2)
 
     print(f"📦 Подготовлен пост: {mp4_path} (GIF № {candidate.get('gif_number')}, вариант {tpl_idx + 1})")
+    print(f"🏷️  Тема: {topic}")
     print(f"📝 Текст:\n{text}")
     print(f"💬 Reply: {REPLY_TEXT}")
 
@@ -246,7 +255,7 @@ def cmd_post():
     video_url = get_raw_url(pending["mp4_path"])
     text = pending.get("text", "")
     reply_text = pending.get("reply_text", REPLY_TEXT)
-    topic = pending.get("topic", TOPIC)
+    topic = pending.get("topic", TOPICS[0] if TOPICS else "Design Threads")
 
     try:
         # 1. Основной пост — только если ещё не опубликован
