@@ -3759,6 +3759,22 @@
       "gif_path": "output/animation_236.gif",
       "created_at": "2026-09-29T16:15:55.021265",
       "frame_count": 3
+    },
+    {
+      "gif_number": 236,
+      "icon_ids": [
+        237,
+        238,
+        239
+      ],
+      "icon_names": [
+        "orthopedic pillow",
+        "crutches",
+        "broken arm"
+      ],
+      "gif_path": "output/animation_237.gif",
+      "created_at": "2026-09-29T22:15:58.142233",
+      "frame_count": 3
     }
   ]
 }
