@@ -16,7 +16,7 @@ CHANNEL_ID = "6abb8d29ea19ca0bde20fa10"
 # Доска Pinterest для пинов Glyfiq.
 # BOARD_ID: вставьте boardServiceId сюда, если автопоиск не сработает (найдёт debug-режим).
 # BOARD_NAME: скрипт сам найдёт доску по этому имени, если API отдаст список досок.
-BOARD_ID = ""
+BOARD_ID = "6abb8ca6e6e0080ae50b1028"
 BOARD_NAME = "Medical & Health Icons | Figma Framer Illustrator"
 
 # 5 шаблонов: title (до 100 симв.) + description (до 500 симв.) + хештеги
