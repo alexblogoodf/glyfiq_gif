@@ -11,7 +11,19 @@
       "template": 1,
       "title": "Arthritis in fingers, X-ray & Joint damage — Medical & Health Icons",
       "posted_at": "2026-09-29T12:00:51.201842"
+    },
+    {
+      "gif_number": 2,
+      "gif_path": "output/animation_2.gif",
+      "icon_names": [
+        "x-ray",
+        "joint damage",
+        "gout arthritis"
+      ],
+      "template": 2,
+      "title": "X-ray, Joint damage & Gout arthritis — Glyfiq Figma & Framer Plugin",
+      "posted_at": "2026-09-29T17:59:30.736850"
     }
   ],
-  "posts_count": 1
+  "posts_count": 2
 }
