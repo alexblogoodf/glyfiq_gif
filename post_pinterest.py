@@ -12,7 +12,7 @@ TARGET_LINK = "https://glyfiq.link/"
 CHANNEL_ID = "6abb8d29ea19ca0bde20fa10"
 
 # Запасной вариант: если вдруг union-запрос перестанет работать — вставьте serviceId сюда
-BOARD_ID = ""
+BOARD_ID = "488570328265605395"
 BOARD_NAME = "Medical & Health Icons | Figma Framer Illustrator"
 
 # 5 шаблонов: title (до 100 симв.) + description (до 500 симв.) + хештеги
