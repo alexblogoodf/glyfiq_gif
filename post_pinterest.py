@@ -9,8 +9,8 @@ POSTED_FILE = "output/pinterest_posted_history.json"
 TARGET_LINK = "https://glyfiq.link/"
 
 # Доска Pinterest для пинов Glyfiq.
-# BOARD_ID: если узнаете ID доски в Buffer — вставьте сюда (тогда имя не нужно).
-# BOARD_NAME: скрипт сам найдёт доску по этому имени.
+# BOARD_ID: если хотите жёстко задать доску — вставьте её boardServiceId сюда.
+# BOARD_NAME: скрипт сам найдёт доску по этому имени в списке канала.
 BOARD_ID = ""
 BOARD_NAME = "Medical & Health Icons | Figma Framer Illustrator"
 
@@ -127,84 +127,89 @@ def buffer_graphql(token, query):
         raise Exception(f"GraphQL error: {data['errors']}")
     return data["data"]
 
-def get_pinterest_channel_id(token):
+def get_pinterest_channel(token):
+    """Возвращает (channel_id, boards_list)"""
     data = buffer_graphql(token, "query { account { organizations { id name } } }")
     orgs = data["account"]["organizations"]
     if not orgs:
         raise Exception("В аккаунте Buffer нет организаций")
-    data = buffer_graphql(token,
-                          'query { channels(input: { organizationId: "%s" }) { id name service } }' % orgs[0]["id"])
+    
+    # Запрашиваем канал С досками (boards внутри channel)
+    query = '''query {
+      channels(input: { organizationId: "%s" }) {
+        id
+        name
+        service
+        boards {
+          serviceId
+          name
+        }
+      }
+    }''' % orgs[0]["id"]
+    
+    data = buffer_graphql(token, query)
     channels = data.get("channels", [])
+    
     for ch in channels:
         if ch.get("service") == "pinterest":
             print(f"📌 Найден Pinterest-канал: {ch['name']}")
-            return ch["id"]
+            return ch["id"], ch.get("boards", [])
+    
     raise Exception("К Buffer не подключен Pinterest-канал")
 
-def resolve_board_id(token, channel_id):
-    """Ищем доску по имени. Если не получилось — постим в доску по умолчанию."""
+def resolve_board_service_id(boards):
+    """Ищем доску по имени. Возвращаем serviceId (boardServiceId)."""
     if BOARD_ID:
+        print(f"📋 Используем BOARD_ID: {BOARD_ID}")
         return BOARD_ID
+    
     if not BOARD_NAME:
         return None
-    try:
-        data = buffer_graphql(token, 'query { boards(input: { channelId: "%s" }) { id name } }' % channel_id)
-        for b in data.get("boards", []) or []:
-            if b.get("name", "").strip().lower() == BOARD_NAME.lower():
-                print(f"📋 Найдена доска: {b['name']} (id: {b['id']})")
-                return b["id"]
-        print(f"⚠️ Доска '{BOARD_NAME}' не найдена через API — пиним в доску по умолчанию.")
-    except Exception as e:
-        print(f"⚠️ Не удалось получить список досок ({e}) — пиним в доску по умолчанию.")
+    
+    for board in boards:
+        if board.get("name", "").strip().lower() == BOARD_NAME.lower():
+            print(f"📋 Найдена доска: {board['name']} (serviceId: {board['serviceId']})")
+            return board["serviceId"]
+    
+    print(f"⚠️ Доска '{BOARD_NAME}' не найдена. Доступные доски:")
+    for board in boards:
+        print(f"  - {board['name']} (serviceId: {board['serviceId']})")
     return None
 
-def buffer_create_pinterest_post(token, channel_id, title, description, image_url, board_id=None):
-    """Создаём пин. Если Buffer не примет какой-то параметр metadata — пробуем без него."""
+def buffer_create_pinterest_post(token, channel_id, title, description, image_url, board_service_id):
+    """Создаём пин через Buffer GraphQL API"""
     text_lit = json.dumps(description, ensure_ascii=False)
     ch_lit = json.dumps(channel_id)
     url_lit = json.dumps(image_url)
-    link_lit = json.dumps(TARGET_LINK)
     title_lit = json.dumps(title, ensure_ascii=False)
-
-    full_meta = [f"title: {title_lit}", f"link: {link_lit}"]
-    meta_variants = []
-    if board_id:
-        meta_variants.append(full_meta + [f"board: {json.dumps(board_id)}"])
-    meta_variants.append(full_meta)
-    meta_variants.append([f"link: {link_lit}"])
-    meta_variants.append(None)
-
-    last_err = None
-    for meta in meta_variants:
-        meta_block = ""
-        if meta:
-            meta_block = ",\n        metadata: { pinterest: { " + ", ".join(meta) + " } }"
-        query = f'''mutation {{
-          createPost(input: {{
-            text: {text_lit},
-            channelId: {ch_lit},
-            schedulingType: automatic,
-            mode: shareNow,
-            assets: [{{ image: {{ url: {url_lit} }} }}]{meta_block}
-          }}) {{
-            ... on PostActionSuccess {{ post {{ id text }} }}
-            ... on MutationError {{ message }}
-          }}
-        }}'''
-        try:
-            data = buffer_graphql(token, query)
-        except Exception as e:
-            last_err = e
-            # Ошибка валидации схемы (неизвестное поле) — пробуем следующий вариант metadata
-            if any(k in str(e) for k in ("GRAPHQL_VALIDATION_FAILED", "is not defined", "Unknown argument", "cannot be found")):
-                print(f"⚠️ Вариант metadata не принят, упрощаю: {str(e)[:150]}")
-                continue
-            return False, str(e)
-        res = data.get("createPost", {})
-        if res.get("post"):
-            return True, res["post"].get("id")
-        return False, res.get("message", "неизвестная ошибка Buffer")
-    return False, str(last_err)
+    link_lit = json.dumps(TARGET_LINK)
+    board_lit = json.dumps(board_service_id) if board_service_id else "null"
+    
+    # Формируем metadata.pinterest с правильными полями
+    metadata_fields = [f"title: {title_lit}", f"url: {link_lit}"]
+    if board_service_id:
+        metadata_fields.append(f"boardServiceId: {board_lit}")
+    
+    metadata_block = ",\n        metadata: { pinterest: { " + ", ".join(metadata_fields) + " } }"
+    
+    query = f'''mutation {{
+      createPost(input: {{
+        text: {text_lit},
+        channelId: {ch_lit},
+        schedulingType: automatic,
+        mode: shareNow,
+        assets: [{{ image: {{ url: {url_lit} }} }}]{metadata_block}
+      }}) {{
+        ... on PostActionSuccess {{ post {{ id text }} }}
+        ... on MutationError {{ message }}
+      }}
+    }}'''
+    
+    data = buffer_graphql(token, query)
+    res = data.get("createPost", {})
+    if res.get("post"):
+        return True, res["post"].get("id")
+    return False, res.get("message", "неизвестная ошибка Buffer")
 
 # ---------- История постов ----------
 def load_posted():
@@ -221,23 +226,19 @@ def save_posted(h):
     with open(POSTED_FILE, "w", encoding="utf-8") as f:
         json.dump(h, f, ensure_ascii=False, indent=2)
 
-# ---------- Debug: посмотреть схему API и список досок ----------
+# ---------- Debug: посмотреть доступные доски ----------
 def cmd_debug():
     token = os.environ.get("PP_STORE_BUFFER_API_KEY", "")
     if not token:
         print("⚠️ Нет PP_STORE_BUFFER_API_KEY")
         return
     try:
-        q = '{ __type(name: "PinterestPostMetadataInput") { fields { name } } }'
-        print("Поля metadata.pinterest:", json.dumps(buffer_graphql(token, q), ensure_ascii=False))
+        channel_id, boards = get_pinterest_channel(token)
+        print(f"\n📋 Доступные доски канала:")
+        for board in boards:
+            print(f"  - {board['name']} (serviceId: {board['serviceId']})")
     except Exception as e:
-        print("Ошибка introspection:", e)
-    try:
-        ch = get_pinterest_channel_id(token)
-        q2 = 'query { boards(input: { channelId: "%s" }) { id name } }' % ch
-        print("Доски канала:", json.dumps(buffer_graphql(token, q2), ensure_ascii=False))
-    except Exception as e:
-        print("Ошибка запроса досок:", e)
+        print(f"Ошибка: {e}")
 
 def main():
     print("📌 Постинг GIF в Pinterest через Buffer...")
@@ -292,9 +293,16 @@ def main():
     image_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{gif_path}"
 
     try:
-        channel_id = get_pinterest_channel_id(token)
-        board_id = resolve_board_id(token, channel_id)
-        ok, info = buffer_create_pinterest_post(token, channel_id, title, description, image_url, board_id)
+        channel_id, boards = get_pinterest_channel(token)
+        board_service_id = resolve_board_service_id(boards)
+        
+        if not board_service_id:
+            print("❌ Не удалось найти доску. Pinterest требует выбора доски!")
+            return
+        
+        ok, info = buffer_create_pinterest_post(
+            token, channel_id, title, description, image_url, board_service_id
+        )
     except Exception as e:
         ok, info = False, str(e)
 
