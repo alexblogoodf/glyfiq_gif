@@ -1679,7 +1679,21 @@
       "threads_post_id": "18140359168581413",
       "threads_reply_id": "18137155003627059",
       "posted_at": "2026-09-28T22:22:55.072189"
+    },
+    {
+      "gif_number": 121,
+      "gif_path": "output/animation_121.gif",
+      "mp4_path": "output/animation_121.mp4",
+      "icon_names": [
+        "fever",
+        "vaccine",
+        "airborne infection"
+      ],
+      "template": 1,
+      "threads_post_id": "18088496786691823",
+      "threads_reply_id": "17991878016051480",
+      "posted_at": "2026-09-29T12:22:33.515051"
     }
   ],
-  "posts_count": 120
+  "posts_count": 121
 }
