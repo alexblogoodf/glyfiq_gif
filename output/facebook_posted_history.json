@@ -1442,7 +1442,20 @@
       "template": 1,
       "facebook_video_id": "1078441064937023",
       "posted_at": "2026-09-29T21:03:28.581269"
+    },
+    {
+      "gif_number": 112,
+      "gif_path": "output/animation_112.gif",
+      "mp4_path": "output/animation_112.mp4",
+      "icon_names": [
+        "person-to-person",
+        "pneumonia",
+        "virus"
+      ],
+      "template": 2,
+      "facebook_video_id": "1723273672080218",
+      "posted_at": "2026-09-29T22:03:26.941944"
     }
   ],
-  "posts_count": 111
+  "posts_count": 112
 }
