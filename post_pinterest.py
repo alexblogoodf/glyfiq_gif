@@ -1,60 +1,400 @@
 import os
+import sys
 import json
 import requests
+from datetime import datetime
 
 BUFFER_API = "https://api.buffer.com"
+ANIM_HISTORY_FILE = "output/animation_history.json"
+POSTED_FILE = "output/pinterest_posted_history.json"
+TARGET_LINK = "https://glyfiq.link/"
+
 CHANNEL_ID = "6abb8d29ea19ca0bde20fa10"
 
-def gql(token, query):
+# Если вдруг union-путь не сработает — вставьте boardServiceId сюда вручную
+BOARD_ID = ""
+BOARD_NAME = "Medical & Health Icons | Figma Framer Illustrator"
+
+# 5 шаблонов: title (до 100 симв.) + description (до 500 симв.) + хештеги
+TEMPLATES = [
+    {
+        "title": "{icons} — Medical & Health Icons",
+        "description": (
+            "Three new thin-line medical icons added to Glyfiq: {icons}.\n\n"
+            "Perfect for healthcare apps, medical dashboards, and patient interfaces. "
+            "Part of our growing library of 6,000+ consistent medical icons for designers.\n\n"
+            "Available as a plugin for Figma, Framer & Adobe Illustrator.\n"
+            "Try it free 👉 glyfiq.link"
+        ),
+        "tags": ["#MedicalIcons", "#HealthcareDesign", "#FigmaPlugin"],
+    },
+    {
+        "title": "{icons} — Glyfiq Figma & Framer Plugin",
+        "description": (
+            "Just dropped: {icons} — now available in the Glyfiq plugin for Figma, "
+            "Framer & Adobe Illustrator.\n\n"
+            "A consistent thin-line style for medical and health UI design. "
+            "Speed up your workflow with thousands of ready-to-use healthcare icons "
+            "organized in one plugin.\n\n"
+            "Free tier available 👉 glyfiq.link"
+        ),
+        "tags": ["#Figma", "#Framer", "#IconDesign"],
+    },
+    {
+        "title": "{icons} — Healthcare UI Icons",
+        "description": (
+            "New icons for healthcare designers: {icons}.\n\n"
+            "Designed for medical apps, telemedicine platforms, patient portals, "
+            "and health-tech products. Thin-line style with consistent stroke weight "
+            "across the entire Glyfiq library.\n\n"
+            "Works in Figma, Framer & Adobe Illustrator.\n"
+            "Try it free 👉 glyfiq.link"
+        ),
+        "tags": ["#MedicalUI", "#UXDesign", "#HealthcareDesign"],
+    },
+    {
+        "title": "{icons} — Part of 6,000+ Medical Icons",
+        "description": (
+            "{icons} — three more icons from my 10-year medical illustration archive, "
+            "now available in the Glyfiq plugin.\n\n"
+            "Working toward 6,000+ consistent thin-line medical icons for Figma, "
+            "Framer & Adobe Illustrator. One style. Three platforms. "
+            "Everything a healthcare designer needs.\n\n"
+            "Try it free 👉 glyfiq.link"
+        ),
+        "tags": ["#IconDesign", "#MedicalIcons", "#AdobeIllustrator"],
+    },
+    {
+        "title": "{icons} — Which One Do You Need?",
+        "description": (
+            "Just added to Glyfiq: {icons}.\n\n"
+            "Which of these medical icons would you use first in your healthcare project? "
+            "They're part of our growing thin-line medical icon library for Figma, "
+            "Framer & Adobe Illustrator.\n\n"
+            "Free tier available — try it 👉 glyfiq.link"
+        ),
+        "tags": ["#FigmaPlugin", "#MedicalUI", "#UIDesign"],
+    },
+]
+
+
+def cap_name(n, cap):
+    return n if len(n) <= cap else n[:cap - 1].rstrip() + "…"
+
+
+def join_icons(names, conn):
+    if len(names) >= 3:
+        return f"{names[0]}, {names[1]} {conn} {names[2]}"
+    if len(names) == 2:
+        return f"{names[0]} {conn} {names[1]}"
+    return names[0] if names else "New medical icons"
+
+
+def build_text(tpl_idx, names):
+    tpl = TEMPLATES[tpl_idx % len(TEMPLATES)]
+    tags_line = " ".join(tpl["tags"])
+
+    for cap in (None, 22, 16, 12):
+        nm = names if cap is None else [cap_name(n, cap) for n in names]
+        icons = join_icons(nm, "&")
+        title = tpl["title"].replace("{icons}", icons)
+        body = tpl["description"].replace("{icons}", icons)
+
+        description = body + "\n\n" + tags_line
+        if len(description) > 500:
+            body = body[:500 - len(tags_line) - 2].rstrip() + "…"
+            description = body + "\n\n" + tags_line
+
+        if len(title) > 100:
+            title = title[:97].rstrip() + "..."
+
+        if len(title) <= 100 and len(description) <= 500:
+            return title, description
+
+    title = tpl["title"].replace("{icons}", join_icons(names, "&"))[:97] + "..."
+    description = tpl["description"].replace("{icons}", join_icons(names, "&"))
+    description = description[:500 - len(tags_line) - 2].rstrip() + "…\n\n" + tags_line
+    return title, description
+
+
+# ---------- Buffer API ----------
+def buffer_graphql(token, query):
     r = requests.post(BUFFER_API,
                       headers={"Content-Type": "application/json",
                                "Authorization": f"Bearer {token}"},
                       json={"query": query}, timeout=30)
-    return r.json()
+    r.raise_for_status()
+    data = r.json()
+    if data.get("errors"):
+        raise Exception(f"GraphQL error: {data['errors']}")
+    return data["data"]
 
-token = os.environ.get("PP_STORE_BUFFER_API_KEY", "")
 
-print("="*70)
-print("🔍 ТЕСТ 5: Запрашиваем channel.metadata (полностью)")
-print("="*70)
-q = f'''query {{
-  channel(input: {{ id: "{CHANNEL_ID}" }}) {{
-    id
-    name
-    service
-    metadata
-  }}
-}}'''
-print(json.dumps(gql(token, q), ensure_ascii=False, indent=2))
+# ---------- Introspection ----------
+_INTRO_CACHE = {}
 
-print("\n" + "="*70)
-print("🔍 ТЕСТ 6: Запрашиваем последние посты канала (ищем boardServiceId)")
-print("="*70)
-q = f'''query {{
-  posts(filter: {{ channelIds: ["{CHANNEL_ID}"], statuses: [sent, draft] }}, first: 10) {{
-    edges {{
-      node {{
-        id
-        text
-        status
-        metadata
+
+def introspect_fields(token, type_name):
+    if type_name in _INTRO_CACHE:
+        return _INTRO_CACHE[type_name]
+    q = ('{ __type(name: "%s") { fields { name type { kind name ofType { kind name ofType { kind name } } } } } }'
+         % type_name)
+    try:
+        data = buffer_graphql(token, q)
+    except Exception:
+        _INTRO_CACHE[type_name] = {}
+        return {}
+    t = data.get("__type") or {}
+    res = {}
+    for f in (t.get("fields") or []):
+        if isinstance(f, dict) and f.get("name"):
+            res[f["name"]] = f.get("type") or {}
+    _INTRO_CACHE[type_name] = res
+    return res
+
+
+def unwrap_name(t):
+    cur = t or {}
+    while cur.get("kind") in ("NON_NULL", "LIST"):
+        cur = cur.get("ofType") or {}
+    return cur.get("name")
+
+
+# ---------- Доски через UNION ChannelMetadata ----------
+def find_pinterest_metadata_type(token):
+    """ChannelMetadata — UNION. Ищем среди его типов Pinterest-вариант."""
+    q = '{ __type(name: "ChannelMetadata") { possibleTypes { name } } }'
+    try:
+        data = buffer_graphql(token, q)
+    except Exception as e:
+        print(f"⚠️ Не удалось получить possibleTypes: {str(e)[:120]}")
+        return None
+    types = ((data.get("__type") or {}).get("possibleTypes")) or []
+    names = [t.get("name") for t in types if isinstance(t, dict)]
+    print(f"🔎 Типы union ChannelMetadata: {', '.join(names) or '(нет)'}")
+    for n in names:
+        if n and "pinterest" in n.lower():
+            return n
+    return None
+
+
+def find_boards(token):
+    """Доски канала: channel { metadata { ...on PinterestX { boards } } }"""
+    if BOARD_ID:
+        print(f"📋 Используем BOARD_ID из константы: {BOARD_ID}")
+        return [{"name": BOARD_NAME, "serviceId": BOARD_ID}]
+
+    tname = find_pinterest_metadata_type(token)
+    if not tname:
+        print("⚠️ Pinterest-тип в union ChannelMetadata не найден.")
+        return []
+
+    fields = introspect_fields(token, tname)
+    if "boards" not in fields:
+        print(f"⚠️ У типа {tname} нет поля boards. Поля: {', '.join(fields.keys())}")
+        return []
+
+    board_type = unwrap_name(fields["boards"])
+    bfields = introspect_fields(token, board_type)
+    sel = " ".join([w for w in ("serviceId", "id", "name") if w in bfields]) or "name"
+
+    query = ('query { channel(input: { id: "%s" }) { id metadata { ... on %s { boards { %s } } } } }'
+             % (CHANNEL_ID, tname, sel))
+    try:
+        data = buffer_graphql(token, query)
+    except Exception as e:
+        print(f"⚠️ Ошибка запроса досок: {str(e)[:200]}")
+        return []
+
+    meta = ((data.get("channel") or {}).get("metadata")) or {}
+    boards = meta.get("boards") or []
+    boards = [b for b in boards if isinstance(b, dict) and b.get("name")]
+    if boards:
+        print(f"✅ Доски получены через channel.metadata ({tname})")
+    return boards
+
+
+def resolve_board_service_id(token):
+    boards = find_boards(token)
+    if not boards:
+        return None
+
+    print(f"📋 Найдено досок: {len(boards)}")
+    for b in boards:
+        sid = b.get("serviceId") or b.get("id")
+        print(f"   - {b.get('name')} → {sid}")
+
+    for b in boards:
+        if b.get("name", "").strip().lower() == BOARD_NAME.lower():
+            sid = b.get("serviceId") or b.get("id")
+            print(f"✅ Выбрана доска: {b['name']} ({sid})")
+            return sid
+
+    # Если точного совпадения нет — берём первую доску
+    sid = boards[0].get("serviceId") or boards[0].get("id")
+    print(f"⚠️ Доска '{BOARD_NAME}' не найдена — беру первую: {boards[0]['name']} ({sid})")
+    return sid
+
+
+def buffer_create_pinterest_post(token, title, description, image_url, board_service_id):
+    """metadata.pinterest: title, url, boardServiceId (по официальной схеме)"""
+    text_lit = json.dumps(description, ensure_ascii=False)
+    ch_lit = json.dumps(CHANNEL_ID)
+    url_lit = json.dumps(image_url)
+    title_lit = json.dumps(title, ensure_ascii=False)
+    link_lit = json.dumps(TARGET_LINK)
+    board_lit = json.dumps(board_service_id)
+
+    query = f'''mutation {{
+      createPost(input: {{
+        text: {text_lit},
+        channelId: {ch_lit},
+        schedulingType: automatic,
+        mode: shareNow,
+        assets: [{{ image: {{ url: {url_lit} }} }}],
+        metadata: {{
+          pinterest: {{
+            title: {title_lit},
+            url: {link_lit},
+            boardServiceId: {board_lit}
+          }}
+        }}
+      }}) {{
+        ... on PostActionSuccess {{ post {{ id text }} }}
+        ... on MutationError {{ message }}
       }}
-    }}
-  }}
-}}'''
-print(json.dumps(gql(token, q), ensure_ascii=False, indent=2))
+    }}'''
+    data = buffer_graphql(token, query)
+    res = data.get("createPost", {})
+    if res.get("post"):
+        return True, res["post"].get("id")
+    return False, res.get("message", "неизвестная ошибка Buffer")
 
-print("\n" + "="*70)
-print("🔍 ТЕСТ 7: Introspection ChannelMetadata")
-print("="*70)
-q = '''{
-  __type(name: "ChannelMetadata") {
-    name
-    kind
-    fields {
-      name
-      type { name kind ofType { name } }
-    }
-  }
-}'''
-print(json.dumps(gql(token, q), ensure_ascii=False, indent=2))
+
+# ---------- История постов ----------
+def load_posted():
+    if os.path.exists(POSTED_FILE):
+        try:
+            with open(POSTED_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"⚠️ Не удалось прочитать историю Pinterest: {e}")
+    return {"posted": [], "posts_count": 0}
+
+
+def save_posted(h):
+    os.makedirs(os.path.dirname(POSTED_FILE), exist_ok=True)
+    with open(POSTED_FILE, "w", encoding="utf-8") as f:
+        json.dump(h, f, ensure_ascii=False, indent=2)
+
+
+# ---------- Debug ----------
+def cmd_debug():
+    token = os.environ.get("PP_STORE_BUFFER_API_KEY", "")
+    if not token:
+        print("⚠️ Нет PP_STORE_BUFFER_API_KEY")
+        return
+    boards = find_boards(token)
+    if boards:
+        print("\n📋 Доски:")
+        for b in boards:
+            print(f"   - {b.get('name')} → serviceId: {b.get('serviceId') or b.get('id')}")
+    else:
+        print("\n❌ Доски не получены.")
+
+
+# ---------- Основной запуск ----------
+def main():
+    print("📌 Постинг GIF в Pinterest через Buffer...")
+
+    if not os.path.exists(ANIM_HISTORY_FILE):
+        print("❌ Файл истории анимаций не найден — постить нечего.")
+        return
+
+    with open(ANIM_HISTORY_FILE, "r", encoding="utf-8") as f:
+        anim = json.load(f)
+
+    animations = sorted(anim.get("animations", []), key=lambda a: a.get("gif_number", 0))
+
+    posted = load_posted()
+    posted_numbers = {p.get("gif_number") for p in posted.get("posted", [])}
+
+    candidate = None
+    for a in animations:
+        if a.get("gif_number") not in posted_numbers:
+            candidate = a
+            break
+
+    if candidate is None:
+        print("😴 Все доступные GIF уже запощены. Завершаемся.")
+        return
+
+    gif_path = candidate.get("gif_path", "")
+    if not gif_path or not os.path.exists(gif_path):
+        print(f"❌ Файл {gif_path} не найден в папке. Доступных GIF нет — завершаемся.")
+        return
+
+    names = [n[0].upper() + n[1:] if n else n for n in candidate.get("icon_names", [])]
+
+    tpl_idx = posted.get("posts_count", 0) % len(TEMPLATES)
+    title, description = build_text(tpl_idx, names)
+
+    print(f"📌 Постим: {gif_path} (GIF № {candidate.get('gif_number')})")
+    print(f"🏷️  Title (вариант {tpl_idx + 1}):\n{title}\n")
+    print(f"📝 Description:\n{description}\n")
+
+    token = os.environ.get("PP_STORE_BUFFER_API_KEY", "")
+    if not token:
+        print("⚠️ PP_STORE_BUFFER_API_KEY не задан в секретах — пост отложен.")
+        return
+
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    branch = os.environ.get("GITHUB_REF_NAME", "main")
+    if not repo:
+        print("❌ Нет GITHUB_REPOSITORY (запуск вне GitHub Actions).")
+        return
+
+    image_url = f"https://raw.githubusercontent.com/{repo}/{branch}/{gif_path}"
+
+    board_service_id = None
+    try:
+        board_service_id = resolve_board_service_id(token)
+    except Exception as e:
+        print(f"❌ Ошибка определения доски: {e}")
+    if not board_service_id:
+        print("❌ Не удалось определить доску. Pinterest требует выбора доски!")
+        return
+
+    try:
+        ok, info = buffer_create_pinterest_post(token, title, description, image_url, board_service_id)
+    except Exception as e:
+        ok, info = False, str(e)
+
+    already_posted = "already got this one scheduled" in str(info) or "same thing twice" in str(info)
+
+    if ok or already_posted:
+        if already_posted:
+            print("⚠️ Buffer сообщает, что пост уже опубликован. Помечаем как запощенный.")
+        else:
+            print(f"✅ Пин опубликован через Buffer, id: {info}")
+
+        posted.setdefault("posted", []).append({
+            "gif_number": candidate.get("gif_number"),
+            "gif_path": gif_path,
+            "icon_names": candidate.get("icon_names", []),
+            "template": tpl_idx + 1,
+            "title": title,
+            "posted_at": datetime.now().isoformat(),
+        })
+        posted["posts_count"] = posted.get("posts_count", 0) + 1
+        save_posted(posted)
+        print("💾 История Pinterest обновлена.")
+    else:
+        print(f"❌ Buffer не опубликовал: {info}. Повторим в следующем запуске.")
+
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1 and sys.argv[1] == "debug":
+        cmd_debug()
+    else:
+        main()
