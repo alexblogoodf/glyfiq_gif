@@ -15,91 +15,46 @@ def gql(token, query):
 token = os.environ.get("PP_STORE_BUFFER_API_KEY", "")
 
 print("="*70)
-print("🧪 ТЕСТ 1: Пост БЕЗ metadata вообще")
+print("🔍 ТЕСТ 5: Запрашиваем channel.metadata (полностью)")
 print("="*70)
-q = '''mutation {
-  createPost(input: {
-    text: "Test post without board specification",
-    channelId: "6abb8d29ea19ca0bde20fa10",
-    schedulingType: automatic,
-    mode: shareNow,
-    assets: [{ image: { url: "https://via.placeholder.com/100" } }]
-  }) {
-    ... on PostActionSuccess { post { id text } }
-    ... on MutationError { message }
-  }
-}'''
-result = gql(token, q)
-print(json.dumps(result, ensure_ascii=False, indent=2))
+q = f'''query {{
+  channel(input: {{ id: "{CHANNEL_ID}" }}) {{
+    id
+    name
+    service
+    metadata
+  }}
+}}'''
+print(json.dumps(gql(token, q), ensure_ascii=False, indent=2))
 
 print("\n" + "="*70)
-print("🧪 ТЕСТ 2: Пост с metadata, но БЕЗ boardServiceId")
+print("🔍 ТЕСТ 6: Запрашиваем последние посты канала (ищем boardServiceId)")
 print("="*70)
-q = '''mutation {
-  createPost(input: {
-    text: "Test post with metadata but no board",
-    channelId: "6abb8d29ea19ca0bde20fa10",
-    schedulingType: automatic,
-    mode: shareNow,
-    assets: [{ image: { url: "https://via.placeholder.com/100" } }],
-    metadata: {
-      pinterest: {
-        title: "Test Title",
-        url: "https://glyfiq.link"
-      }
-    }
-  }) {
-    ... on PostActionSuccess { post { id text } }
-    ... on MutationError { message }
-  }
-}'''
-result = gql(token, q)
-print(json.dumps(result, ensure_ascii=False, indent=2))
+q = f'''query {{
+  posts(filter: {{ channelIds: ["{CHANNEL_ID}"], statuses: [sent, draft] }}, first: 10) {{
+    edges {{
+      node {{
+        id
+        text
+        status
+        metadata
+      }}
+    }}
+  }}
+}}'''
+print(json.dumps(gql(token, q), ensure_ascii=False, indent=2))
 
 print("\n" + "="*70)
-print("🧪 ТЕСТ 3: Пост с указанием доски по ИМЕНИ (не ID)")
-print("="*70)
-q = '''mutation {
-  createPost(input: {
-    text: "Test post with board name",
-    channelId: "6abb8d29ea19ca0bde20fa10",
-    schedulingType: automatic,
-    mode: shareNow,
-    assets: [{ image: { url: "https://via.placeholder.com/100" } }],
-    metadata: {
-      pinterest: {
-        title: "Test Title",
-        url: "https://glyfiq.link",
-        board: "Medical & Health Icons | Figma Framer Illustrator"
-      }
-    }
-  }) {
-    ... on PostActionSuccess { post { id text } }
-    ... on MutationError { message }
-  }
-}'''
-result = gql(token, q)
-print(json.dumps(result, ensure_ascii=False, indent=2))
-
-print("\n" + "="*70)
-print("🧪 ТЕСТ 4: Интроспекция PinterestPostMetadataInput (полная)")
+print("🔍 ТЕСТ 7: Introspection ChannelMetadata")
 print("="*70)
 q = '''{
-  __type(name: "PinterestPostMetadataInput") {
+  __type(name: "ChannelMetadata") {
     name
     kind
-    inputFields {
+    fields {
       name
-      type {
-        name
-        kind
-        ofType {
-          name
-          kind
-        }
-      }
+      type { name kind ofType { name } }
     }
   }
 }'''
-result = gql(token, q)
-print(json.dumps(result, ensure_ascii=False, indent=2))
+print(json.dumps(gql(token, q), ensure_ascii=False, indent=2))
