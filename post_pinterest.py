@@ -9,15 +9,24 @@ ANIM_HISTORY_FILE = "output/animation_history.json"
 POSTED_FILE = "output/pinterest_posted_history.json"
 TARGET_LINK = "https://glyfiq.link/"
 
-# Известные ID (найдены через debug / DevTools)
+# Известные ID (найдены ранее)
 ORG_ID = "6abb8ca6e6e0080ae50b1028"
 CHANNEL_ID = "6abb8d29ea19ca0bde20fa10"
 
-# Доска Pinterest для пинов Glyfiq.
-# BOARD_ID: вставьте boardServiceId сюда, если автопоиск не сработает (найдёт debug-режим).
-# BOARD_NAME: скрипт сам найдёт доску по этому имени, если API отдаст список досок.
-BOARD_ID = "6abb8ca6e6e0080ae50b1028"
+# Доска: если автопоиск не сработает — вставьте boardServiceId сюда вручную
+BOARD_ID = ""
 BOARD_NAME = "Medical & Health Icons | Figma Framer Illustrator"
+
+MANUAL_HELP = """
+   РУЧНОЙ СПОСОБ ПОЛУЧИТЬ boardServiceId:
+   1. Откройте https://publish.buffer.com (аккаунт PP_STORE)
+   2. Начните создавать пост для Pinterest-канала
+   3. Откройте DevTools (F12) → вкладка Network → фильтр "graphql"
+   4. Нажмите на выпадающий список досок (Board) — Buffer отправит запрос со списком досок
+   5. В ответе (Response) найдите массив "boards" и вашу доску по имени
+   6. Скопируйте её "serviceId" (или "id") — это длинная строка из цифр
+   7. Вставьте значение в константу BOARD_ID в начале файла post_pinterest.py
+"""
 
 # 5 шаблонов: title (до 100 симв.) + description (до 500 симв.) + хештеги
 TEMPLATES = [
@@ -81,17 +90,6 @@ TEMPLATES = [
     },
 ]
 
-# Варианты запросов списка досок (схема Buffer может меняться — пробуем все)
-BOARD_QUERY_CANDIDATES = [
-    'query { channel(input: { id: "%s" }) { boards { %s } } }',
-    'query { channel(input: { id: "%s" }) { pinterest { boards { %s } } } }',
-    'query { channel(input: { id: "%s" }) { pinterestMetadata { boards { %s } } } }',
-    'query { channel(input: { id: "%s" }) { metadata { boards { %s } } } }',
-    'query { pinterestBoards(channelId: "%s") { %s } }',
-    'query { boards(channelId: "%s") { %s } }',
-]
-BOARD_FIELD_SETS = ["serviceId name", "id name", "serviceId id name"]
-
 
 def cap_name(n, cap):
     return n if len(n) <= cap else n[:cap - 1].rstrip() + "…"
@@ -106,7 +104,6 @@ def join_icons(names, conn):
 
 
 def build_text(tpl_idx, names):
-    """Возвращает (title, description с хештегами) с учётом лимитов Pinterest"""
     tpl = TEMPLATES[tpl_idx % len(TEMPLATES)]
     tags_line = " ".join(tpl["tags"])
 
@@ -146,49 +143,100 @@ def buffer_graphql(token, query):
     return data["data"]
 
 
-def collect_boards(obj, found):
-    """Рекурсивно ищем любой список boards в ответе, независимо от вложенности"""
-    if isinstance(obj, dict):
-        for k, v in obj.items():
-            if k == "boards" and isinstance(v, list):
-                for b in v:
-                    if isinstance(b, dict) and "name" in b:
-                        found.append(b)
-            else:
-                collect_boards(v, found)
-    elif isinstance(obj, list):
-        for item in obj:
-            collect_boards(item, found)
-    return found
+# ---------- Introspection: скрипт сам изучает схему API ----------
+_INTRO_CACHE = {}
 
 
-def find_boards(token, verbose=False):
-    """Пробуем все варианты запроса досок. Возвращает список досок или []"""
-    for fields in BOARD_FIELD_SETS:
-        for tpl in BOARD_QUERY_CANDIDATES:
-            query = tpl % (CHANNEL_ID, fields)
-            try:
-                data = buffer_graphql(token, query)
-                found = collect_boards(data, [])
-                if found:
-                    if verbose:
-                        print(f"✅ Сработал запрос: {tpl % ('...', fields)}")
-                    return found
-            except Exception as e:
-                if verbose:
-                    print(f"   ❌ {tpl % ('...', fields)}\n      → {str(e)[:150]}")
+def introspect_fields(token, type_name):
+    """Возвращает {имя_поля: тип} для типа схемы GraphQL"""
+    if type_name in _INTRO_CACHE:
+        return _INTRO_CACHE[type_name]
+    q = ('{ __type(name: "%s") { fields { name type { kind name ofType { kind name ofType { kind name } } } } } }'
+         % type_name)
+    try:
+        data = buffer_graphql(token, q)
+    except Exception:
+        _INTRO_CACHE[type_name] = {}
+        return {}
+    t = data.get("__type") or {}
+    res = {f["name"]: (f.get("type") or {}) for f in t.get("fields", [])}
+    _INTRO_CACHE[type_name] = res
+    return res
+
+
+def unwrap_name(t):
+    """Спускается сквозь NON_NULL/LIST до имени базового типа"""
+    cur = t or {}
+    while cur.get("kind") in ("NON_NULL", "LIST"):
+        cur = cur.get("ofType") or {}
+    return cur.get("name")
+
+
+def pick_board_fields(token, type_name):
+    fields = introspect_fields(token, type_name)
+    return [w for w in ("serviceId", "id", "name") if w in fields]
+
+
+def find_boards_auto(token, verbose=False):
+    """Сам находит путь до списка досок в схеме и возвращает список досок"""
+    ch = introspect_fields(token, "Channel")
+    if not ch:
+        print("⚠️ Introspection недоступна (Buffer не отдаёт схему).")
+        return []
+    if verbose:
+        print("🔎 Поля типа Channel: " + ", ".join(sorted(ch.keys())))
+
+    paths = []
+    for fname, ftype in ch.items():
+        t = unwrap_name(ftype)
+        if not t:
+            continue
+        if "board" in t.lower():
+            paths.append(([fname], t))
+            continue
+        sub = introspect_fields(token, t)
+        for sname, stype in sub.items():
+            st = unwrap_name(stype)
+            if st and "board" in st.lower():
+                paths.append(([fname, sname], st))
+
+    if verbose:
+        print("🔎 Кандидаты-пути: " + (", ".join(".".join(p) for p, _ in paths) or "не найдены"))
+
+    for path, btype in paths:
+        fields = pick_board_fields(token, btype)
+        if not fields:
+            continue
+        sel = " ".join(fields)
+        node_sel = sel
+        for part in reversed(path):
+            node_sel = "%s { %s }" % (part, node_sel)
+        query = 'query { channel(input: { id: "%s" }) { id %s } }' % (CHANNEL_ID, node_sel)
+        try:
+            data = buffer_graphql(token, query)
+        except Exception as e:
+            if verbose:
+                print(f"   ❌ {'.'.join(path)}: {str(e)[:120]}")
+            continue
+        node = data.get("channel") or {}
+        for part in path:
+            node = node.get(part) if isinstance(node, dict) else None
+        boards = [b for b in node if isinstance(b, dict) and b.get("name")] if isinstance(node, list) else []
+        if boards:
+            print(f"✅ Доски получены через поле: {'.'.join(path)}")
+            return boards
     return []
 
 
 def resolve_board_service_id(token):
-    """Возвращает boardServiceId нужной доски или None"""
     if BOARD_ID:
         print(f"📋 Используем BOARD_ID из константы: {BOARD_ID}")
         return BOARD_ID
 
-    boards = find_boards(token)
+    boards = find_boards_auto(token)
     if not boards:
-        print("⚠️ API не отдал список досок ни одним из вариантов запроса.")
+        print("⚠️ Не удалось получить список досок через API.")
+        print(MANUAL_HELP)
         return None
 
     print(f"📋 Найдено досок: {len(boards)}")
@@ -207,7 +255,7 @@ def resolve_board_service_id(token):
 
 
 def buffer_create_pinterest_post(token, title, description, image_url, board_service_id):
-    """Создаём пин. Правильные поля metadata.pinterest: title, url, boardServiceId"""
+    """Правильные поля metadata.pinterest: title, url, boardServiceId"""
     text_lit = json.dumps(description, ensure_ascii=False)
     ch_lit = json.dumps(CHANNEL_ID)
     url_lit = json.dumps(image_url)
@@ -264,30 +312,24 @@ def cmd_debug():
     if not token:
         print("⚠️ Нет PP_STORE_BUFFER_API_KEY")
         return
-
     print("=" * 70)
     print(f"🎯 Org: {ORG_ID} | Channel: {CHANNEL_ID}")
     print("=" * 70)
 
-    for type_name in ("Channel", "PinterestBoard", "PinterestPostMetadataInput"):
-        print(f"\n🔍 Introspection типа {type_name}:")
-        try:
-            data = buffer_graphql(token, '{ __type(name: "%s") { fields { name } } }' % type_name)
-            fields = (data.get("__type") or {}).get("fields") or []
-            print("   " + ", ".join(f["name"] for f in fields) if fields else "   (тип не найден)")
-        except Exception as e:
-            print(f"   ❌ {str(e)[:150]}")
+    for tn in ("Channel", "PinterestBoard", "PinterestPostMetadataInput"):
+        fields = introspect_fields(token, tn)
+        print(f"\n🔍 Поля типа {tn}: " + (", ".join(sorted(fields.keys())) if fields else "(недоступно)"))
 
-    print("\n🔍 Пробуем запросы досок:")
-    boards = find_boards(token, verbose=True)
+    print("\n🔍 Автопоиск досок:")
+    boards = find_boards_auto(token, verbose=True)
     if boards:
         print("\n📋 Доски:")
         for b in boards:
             print(f"   - {b.get('name')} → serviceId: {b.get('serviceId') or b.get('id')}")
+        print("\n💡 При желании зафиксируйте serviceId нужной доски в BOARD_ID.")
     else:
-        print("\n❌ Доски не получены. Смотрите boardServiceId вручную:")
-        print("   Buffer веб → Create Post → выбрать доску → DevTools/Network →")
-        print("   в GraphQL-запросе найти boardServiceId и вставить в BOARD_ID.")
+        print("\n❌ Доски не получены.")
+        print(MANUAL_HELP)
 
 
 # ---------- Основной запуск ----------
@@ -347,7 +389,6 @@ def main():
         board_service_id = resolve_board_service_id(token)
         if not board_service_id:
             print("❌ Не удалось определить доску. Pinterest требует выбора доски!")
-            print("   Запустите workflow с debug=true или вставьте BOARD_ID вручную.")
             return
         ok, info = buffer_create_pinterest_post(token, title, description, image_url, board_service_id)
     except Exception as e:
