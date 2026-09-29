@@ -1520,7 +1520,20 @@
       "template": 2,
       "buffer_post_id": "6abae7e593a81b612b51096e",
       "posted_at": "2026-09-28T22:20:28.077810"
+    },
+    {
+      "gif_number": 118,
+      "gif_path": "output/animation_118.gif",
+      "mp4_path": "output/animation_118.mp4",
+      "icon_names": [
+        "fatigue",
+        "ICU ventilator",
+        "artificial ventilation of the lungs"
+      ],
+      "template": 3,
+      "buffer_post_id": "6abc0134945e596c7039e5e3",
+      "posted_at": "2026-09-29T18:20:42.863640"
     }
   ],
-  "posts_count": 117
+  "posts_count": 118
 }
