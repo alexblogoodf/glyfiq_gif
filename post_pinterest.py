@@ -11,7 +11,7 @@ TARGET_LINK = "https://glyfiq.link/"
 
 CHANNEL_ID = "6abb8d29ea19ca0bde20fa10"
 
-# Если вдруг union-путь не сработает — вставьте boardServiceId сюда вручную
+# Запасной вариант: если вдруг union-запрос перестанет работать — вставьте serviceId сюда
 BOARD_ID = ""
 BOARD_NAME = "Medical & Health Icons | Figma Framer Illustrator"
 
@@ -130,99 +130,53 @@ def buffer_graphql(token, query):
     return data["data"]
 
 
-# ---------- Introspection ----------
-_INTRO_CACHE = {}
-
-
-def introspect_fields(token, type_name):
-    if type_name in _INTRO_CACHE:
-        return _INTRO_CACHE[type_name]
-    q = ('{ __type(name: "%s") { fields { name type { kind name ofType { kind name ofType { kind name } } } } } }'
-         % type_name)
-    try:
-        data = buffer_graphql(token, q)
-    except Exception:
-        _INTRO_CACHE[type_name] = {}
-        return {}
-    t = data.get("__type") or {}
-    res = {}
-    for f in (t.get("fields") or []):
-        if isinstance(f, dict) and f.get("name"):
-            res[f["name"]] = f.get("type") or {}
-    _INTRO_CACHE[type_name] = res
-    return res
-
-
-def unwrap_name(t):
-    cur = t or {}
-    while cur.get("kind") in ("NON_NULL", "LIST"):
-        cur = cur.get("ofType") or {}
-    return cur.get("name")
-
-
 # ---------- Доски через UNION ChannelMetadata ----------
 def find_pinterest_metadata_type(token):
-    """ChannelMetadata — UNION. Ищем среди его типов Pinterest-вариант."""
+    """ChannelMetadata — UNION. Находим его pinterest-вариант."""
     q = '{ __type(name: "ChannelMetadata") { possibleTypes { name } } }'
-    try:
-        data = buffer_graphql(token, q)
-    except Exception as e:
-        print(f"⚠️ Не удалось получить possibleTypes: {str(e)[:120]}")
-        return None
-    types = ((data.get("__type") or {}).get("possibleTypes")) or []
-    names = [t.get("name") for t in types if isinstance(t, dict)]
-    print(f"🔎 Типы union ChannelMetadata: {', '.join(names) or '(нет)'}")
-    for n in names:
-        if n and "pinterest" in n.lower():
-            return n
+    data = buffer_graphql(token, q)
+    types = [t["name"] for t in (data.get("__type") or {}).get("possibleTypes") or []]
+    print(f"🔎 Варианты ChannelMetadata: {types}")
+    for tn in types:
+        if "pinterest" in tn.lower():
+            return tn
     return None
 
 
 def find_boards(token):
-    """Доски канала: channel { metadata { ...on PinterestX { boards } } }"""
-    if BOARD_ID:
-        print(f"📋 Используем BOARD_ID из константы: {BOARD_ID}")
-        return [{"name": BOARD_NAME, "serviceId": BOARD_ID}]
-
-    tname = find_pinterest_metadata_type(token)
-    if not tname:
-        print("⚠️ Pinterest-тип в union ChannelMetadata не найден.")
+    """Достаём доски канала через inline-фрагмент на pinterest-варианте union."""
+    mt = find_pinterest_metadata_type(token)
+    if not mt:
+        print("⚠️ Pinterest-вариант ChannelMetadata не найден.")
         return []
 
-    fields = introspect_fields(token, tname)
+    q = '{ __type(name: "%s") { fields { name } } }' % mt
+    data = buffer_graphql(token, q)
+    fields = [f["name"] for f in (data.get("__type") or {}).get("fields") or []]
+    print(f"🔎 Поля {mt}: {fields}")
     if "boards" not in fields:
-        print(f"⚠️ У типа {tname} нет поля boards. Поля: {', '.join(fields.keys())}")
         return []
 
-    board_type = unwrap_name(fields["boards"])
-    bfields = introspect_fields(token, board_type)
-    sel = " ".join([w for w in ("serviceId", "id", "name") if w in bfields]) or "name"
-
-    query = ('query { channel(input: { id: "%s" }) { id metadata { ... on %s { boards { %s } } } } }'
-             % (CHANNEL_ID, tname, sel))
-    try:
-        data = buffer_graphql(token, query)
-    except Exception as e:
-        print(f"⚠️ Ошибка запроса досок: {str(e)[:200]}")
-        return []
-
-    meta = ((data.get("channel") or {}).get("metadata")) or {}
-    boards = meta.get("boards") or []
-    boards = [b for b in boards if isinstance(b, dict) and b.get("name")]
-    if boards:
-        print(f"✅ Доски получены через channel.metadata ({tname})")
-    return boards
+    q = ('query { channel(input: { id: "%s" }) { id metadata { ... on %s { boards { serviceId id name } } } } }'
+         % (CHANNEL_ID, mt))
+    data = buffer_graphql(token, q)
+    meta = (data.get("channel") or {}).get("metadata") or {}
+    return meta.get("boards") or []
 
 
 def resolve_board_service_id(token):
+    if BOARD_ID:
+        print(f"📋 Используем BOARD_ID из константы: {BOARD_ID}")
+        return BOARD_ID
+
     boards = find_boards(token)
     if not boards:
+        print("⚠️ Список досок пуст.")
         return None
 
     print(f"📋 Найдено досок: {len(boards)}")
     for b in boards:
-        sid = b.get("serviceId") or b.get("id")
-        print(f"   - {b.get('name')} → {sid}")
+        print(f"   - {b.get('name')} → {b.get('serviceId') or b.get('id')}")
 
     for b in boards:
         if b.get("name", "").strip().lower() == BOARD_NAME.lower():
@@ -230,14 +184,11 @@ def resolve_board_service_id(token):
             print(f"✅ Выбрана доска: {b['name']} ({sid})")
             return sid
 
-    # Если точного совпадения нет — берём первую доску
-    sid = boards[0].get("serviceId") or boards[0].get("id")
-    print(f"⚠️ Доска '{BOARD_NAME}' не найдена — беру первую: {boards[0]['name']} ({sid})")
-    return sid
+    print(f"⚠️ Доска '{BOARD_NAME}' не найдена — беру первую доступную.")
+    return boards[0].get("serviceId") or boards[0].get("id")
 
 
 def buffer_create_pinterest_post(token, title, description, image_url, board_service_id):
-    """metadata.pinterest: title, url, boardServiceId (по официальной схеме)"""
     text_lit = json.dumps(description, ensure_ascii=False)
     ch_lit = json.dumps(CHANNEL_ID)
     url_lit = json.dumps(image_url)
