@@ -1283,7 +1283,19 @@
       ],
       "template": 2,
       "posted_at": "2026-09-28T22:17:30.053743"
+    },
+    {
+      "gif_number": 108,
+      "gif_path": "output/animation_108.gif",
+      "mp4_path": "output/animation_108.mp4",
+      "icon_names": [
+        "prior authorization",
+        "2019-nCov",
+        "hand washing"
+      ],
+      "template": 3,
+      "posted_at": "2026-09-29T21:17:30.494007"
     }
   ],
-  "posts_count": 107
+  "posts_count": 108
 }
