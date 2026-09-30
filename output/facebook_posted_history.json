@@ -1455,7 +1455,20 @@
       "template": 2,
       "facebook_video_id": "1723273672080218",
       "posted_at": "2026-09-29T22:03:26.941944"
+    },
+    {
+      "gif_number": 113,
+      "gif_path": "output/animation_113.gif",
+      "mp4_path": "output/animation_113.mp4",
+      "icon_names": [
+        "pneumonia",
+        "virus",
+        "bronchitis"
+      ],
+      "template": 3,
+      "facebook_video_id": "2349322879231921",
+      "posted_at": "2026-09-30T21:03:25.986056"
     }
   ],
-  "posts_count": 112
+  "posts_count": 113
 }
