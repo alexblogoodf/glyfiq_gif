@@ -35,7 +35,19 @@
       "template": 3,
       "title": "Joint damage, Gout arthritis & Backache — Healthcare UI Icons",
       "posted_at": "2026-09-29T22:10:38.826072"
+    },
+    {
+      "gif_number": 4,
+      "gif_path": "output/animation_4.gif",
+      "icon_names": [
+        "gout arthritis",
+        "backache",
+        "elbow pain"
+      ],
+      "template": 4,
+      "title": "Gout arthritis, Backache & Elbow pain — Part of 6,000+ Medical Icons",
+      "posted_at": "2026-09-30T17:55:06.539636"
     }
   ],
-  "posts_count": 3
+  "posts_count": 4
 }
