@@ -1546,7 +1546,20 @@
       "template": 4,
       "buffer_post_id": "6abc3969f3db08ac9269faab",
       "posted_at": "2026-09-29T22:20:31.708360"
+    },
+    {
+      "gif_number": 120,
+      "gif_path": "output/animation_120.gif",
+      "mp4_path": "output/animation_120.mp4",
+      "icon_names": [
+        "artificial ventilation of the lungs",
+        "fever",
+        "vaccine"
+      ],
+      "template": 5,
+      "buffer_post_id": "6abd52aa2f3e6ae2be67430e",
+      "posted_at": "2026-09-30T18:20:32.760443"
     }
   ],
-  "posts_count": 119
+  "posts_count": 120
 }
