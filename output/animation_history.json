@@ -3807,6 +3807,22 @@
       "gif_path": "output/animation_239.gif",
       "created_at": "2026-09-30T10:15:59.346919",
       "frame_count": 3
+    },
+    {
+      "gif_number": 239,
+      "icon_ids": [
+        240,
+        241,
+        242
+      ],
+      "icon_names": [
+        "knee-joint",
+        "rehabilitation",
+        "vertebrae of the spine"
+      ],
+      "gif_path": "output/animation_240.gif",
+      "created_at": "2026-09-30T22:15:59.996100",
+      "frame_count": 3
     }
   ]
 }
