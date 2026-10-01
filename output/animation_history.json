@@ -3839,6 +3839,22 @@
       "gif_path": "output/animation_241.gif",
       "created_at": "2026-10-01T04:15:54.211039",
       "frame_count": 3
+    },
+    {
+      "gif_number": 241,
+      "icon_ids": [
+        242,
+        243,
+        244
+      ],
+      "icon_names": [
+        "vertebrae of the spine",
+        "bone fracture",
+        "x-ray"
+      ],
+      "gif_path": "output/animation_242.gif",
+      "created_at": "2026-10-01T10:16:02.649945",
+      "frame_count": 3
     }
   ]
 }
