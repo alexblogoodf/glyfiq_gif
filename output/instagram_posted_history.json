@@ -1572,7 +1572,20 @@
       "template": 1,
       "buffer_post_id": "6abd8af004278f16f2fa7903",
       "posted_at": "2026-09-30T22:20:38.728776"
+    },
+    {
+      "gif_number": 122,
+      "gif_path": "output/animation_122.gif",
+      "mp4_path": "output/animation_122.mp4",
+      "icon_names": [
+        "vaccine",
+        "airborne infection",
+        "pills"
+      ],
+      "template": 2,
+      "buffer_post_id": "6abedc66b435ee011902fa7e",
+      "posted_at": "2026-10-01T22:20:29.237365"
     }
   ],
-  "posts_count": 121
+  "posts_count": 122
 }
