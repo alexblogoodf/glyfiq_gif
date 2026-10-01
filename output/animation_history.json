@@ -3823,6 +3823,22 @@
       "gif_path": "output/animation_240.gif",
       "created_at": "2026-09-30T22:15:59.996100",
       "frame_count": 3
+    },
+    {
+      "gif_number": 240,
+      "icon_ids": [
+        241,
+        242,
+        243
+      ],
+      "icon_names": [
+        "rehabilitation",
+        "vertebrae of the spine",
+        "bone fracture"
+      ],
+      "gif_path": "output/animation_241.gif",
+      "created_at": "2026-10-01T04:15:54.211039",
+      "frame_count": 3
     }
   ]
 }
