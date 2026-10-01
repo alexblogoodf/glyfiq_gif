@@ -59,7 +59,19 @@
       "template": 5,
       "title": "Backache, Elbow pain & Knee pain — Which One Do You Need?",
       "posted_at": "2026-09-30T22:07:38.305344"
+    },
+    {
+      "gif_number": 6,
+      "gif_path": "output/animation_6.gif",
+      "icon_names": [
+        "elbow pain",
+        "knee pain",
+        "joint injury"
+      ],
+      "template": 1,
+      "title": "Elbow pain, Knee pain & Joint injury — Medical & Health Icons",
+      "posted_at": "2026-10-01T18:20:32.164847"
     }
   ],
-  "posts_count": 5
+  "posts_count": 6
 }
