@@ -1481,7 +1481,20 @@
       "template": 4,
       "facebook_video_id": "1627989219030009",
       "posted_at": "2026-09-30T22:03:31.698720"
+    },
+    {
+      "gif_number": 115,
+      "gif_path": "output/animation_115.gif",
+      "mp4_path": "output/animation_115.mp4",
+      "icon_names": [
+        "bronchitis",
+        "flu",
+        "virus protection"
+      ],
+      "template": 5,
+      "facebook_video_id": "1625632139094600",
+      "posted_at": "2026-10-01T21:03:22.761566"
     }
   ],
-  "posts_count": 114
+  "posts_count": 115
 }
