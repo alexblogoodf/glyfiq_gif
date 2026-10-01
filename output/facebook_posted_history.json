@@ -1494,7 +1494,20 @@
       "template": 5,
       "facebook_video_id": "1625632139094600",
       "posted_at": "2026-10-01T21:03:22.761566"
+    },
+    {
+      "gif_number": 116,
+      "gif_path": "output/animation_116.gif",
+      "mp4_path": "output/animation_116.mp4",
+      "icon_names": [
+        "flu",
+        "virus protection",
+        "fatigue"
+      ],
+      "template": 1,
+      "facebook_video_id": "1646337477067829",
+      "posted_at": "2026-10-01T22:03:27.375647"
     }
   ],
-  "posts_count": 115
+  "posts_count": 116
 }
