@@ -3903,6 +3903,22 @@
       "gif_path": "output/animation_245.gif",
       "created_at": "2026-10-02T04:15:57.325392",
       "frame_count": 3
+    },
+    {
+      "gif_number": 245,
+      "icon_ids": [
+        247,
+        249,
+        254
+      ],
+      "icon_names": [
+        "mammography machine",
+        "ultrasound",
+        "ribbon"
+      ],
+      "gif_path": "output/animation_247.gif",
+      "created_at": "2026-10-02T10:15:53.567148",
+      "frame_count": 3
     }
   ]
 }
