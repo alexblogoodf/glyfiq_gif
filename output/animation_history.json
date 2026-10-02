@@ -3919,6 +3919,22 @@
       "gif_path": "output/animation_247.gif",
       "created_at": "2026-10-02T10:15:53.567148",
       "frame_count": 3
+    },
+    {
+      "gif_number": 246,
+      "icon_ids": [
+        249,
+        254,
+        255
+      ],
+      "icon_names": [
+        "ultrasound",
+        "ribbon",
+        "diagnostics and stethoscope"
+      ],
+      "gif_path": "output/animation_249.gif",
+      "created_at": "2026-10-02T16:15:56.505058",
+      "frame_count": 3
     }
   ]
 }
