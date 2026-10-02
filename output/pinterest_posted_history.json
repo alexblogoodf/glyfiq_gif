@@ -71,7 +71,19 @@
       "template": 1,
       "title": "Elbow pain, Knee pain & Joint injury — Medical & Health Icons",
       "posted_at": "2026-10-01T18:20:32.164847"
+    },
+    {
+      "gif_number": 7,
+      "gif_path": "output/animation_7.gif",
+      "icon_names": [
+        "knee pain",
+        "joint injury",
+        "vertebral arthritis"
+      ],
+      "template": 2,
+      "title": "Knee pain, Joint injury & Vertebral arthritis — Glyfiq Figma & Framer Plugin",
+      "posted_at": "2026-10-02T17:46:03.749146"
     }
   ],
-  "posts_count": 6
+  "posts_count": 7
 }
