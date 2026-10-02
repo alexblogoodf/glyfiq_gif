@@ -1777,7 +1777,21 @@
       "threads_post_id": "18206519671324655",
       "threads_reply_id": "18128766208754385",
       "posted_at": "2026-10-02T08:51:53.721621"
+    },
+    {
+      "gif_number": 128,
+      "gif_path": "output/animation_128.gif",
+      "mp4_path": "output/animation_128.mp4",
+      "icon_names": [
+        "burnout head",
+        "burnout man",
+        "asthma"
+      ],
+      "template": 3,
+      "threads_post_id": "17959761900222716",
+      "threads_reply_id": "17910072654506765",
+      "posted_at": "2026-10-02T12:22:35.812729"
     }
   ],
-  "posts_count": 127
+  "posts_count": 128
 }
