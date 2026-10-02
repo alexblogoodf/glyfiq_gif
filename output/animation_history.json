@@ -3887,6 +3887,22 @@
       "gif_path": "output/animation_244.gif",
       "created_at": "2026-10-01T22:16:35.543377",
       "frame_count": 3
+    },
+    {
+      "gif_number": 244,
+      "icon_ids": [
+        245,
+        247,
+        249
+      ],
+      "icon_names": [
+        "orthopedics",
+        "mammography machine",
+        "ultrasound"
+      ],
+      "gif_path": "output/animation_245.gif",
+      "created_at": "2026-10-02T04:15:57.325392",
+      "frame_count": 3
     }
   ]
 }
