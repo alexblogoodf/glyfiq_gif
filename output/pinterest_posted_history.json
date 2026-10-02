@@ -83,7 +83,19 @@
       "template": 2,
       "title": "Knee pain, Joint injury & Vertebral arthritis — Glyfiq Figma & Framer Plugin",
       "posted_at": "2026-10-02T17:46:03.749146"
+    },
+    {
+      "gif_number": 8,
+      "gif_path": "output/animation_8.gif",
+      "icon_names": [
+        "joint injury",
+        "vertebral arthritis",
+        "arthroscopy"
+      ],
+      "template": 3,
+      "title": "Joint injury, Vertebral arthritis & Arthroscopy — Healthcare UI Icons",
+      "posted_at": "2026-10-02T22:04:00.206919"
     }
   ],
-  "posts_count": 7
+  "posts_count": 8
 }
