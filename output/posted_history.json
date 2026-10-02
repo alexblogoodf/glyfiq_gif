@@ -1407,7 +1407,18 @@
       ],
       "template": 3,
       "posted_at": "2026-10-02T12:05:31.209318"
+    },
+    {
+      "gif_number": 129,
+      "gif_path": "output/animation_129.gif",
+      "icon_names": [
+        "burnout man",
+        "asthma",
+        "dyspnea"
+      ],
+      "template": 4,
+      "posted_at": "2026-10-02T22:05:29.213139"
     }
   ],
-  "posts_count": 128
+  "posts_count": 129
 }
