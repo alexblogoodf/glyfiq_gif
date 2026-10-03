@@ -95,7 +95,19 @@
       "template": 3,
       "title": "Joint injury, Vertebral arthritis & Arthroscopy — Healthcare UI Icons",
       "posted_at": "2026-10-02T22:04:00.206919"
+    },
+    {
+      "gif_number": 9,
+      "gif_path": "output/animation_9.gif",
+      "icon_names": [
+        "vertebral arthritis",
+        "arthroscopy",
+        "blood test"
+      ],
+      "template": 4,
+      "title": "Vertebral arthritis, Arthroscopy & Blood test — Part of 6,000+ Medical Icons",
+      "posted_at": "2026-10-03T16:05:25.571639"
     }
   ],
-  "posts_count": 8
+  "posts_count": 9
 }
