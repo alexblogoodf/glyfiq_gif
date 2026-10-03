@@ -1805,7 +1805,21 @@
       "threads_post_id": "18114018608038140",
       "threads_reply_id": "18077651483408803",
       "posted_at": "2026-10-02T22:22:32.680540"
+    },
+    {
+      "gif_number": 130,
+      "gif_path": "output/animation_130.gif",
+      "mp4_path": "output/animation_130.mp4",
+      "icon_names": [
+        "asthma",
+        "dyspnea",
+        "wheezing"
+      ],
+      "template": 5,
+      "threads_post_id": "18167242129418049",
+      "threads_reply_id": "18112715267119320",
+      "posted_at": "2026-10-03T12:23:00.495519"
     }
   ],
-  "posts_count": 129
+  "posts_count": 130
 }
