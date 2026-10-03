@@ -1533,7 +1533,20 @@
       "template": 3,
       "facebook_video_id": "1658955429074697",
       "posted_at": "2026-10-02T22:03:25.617043"
+    },
+    {
+      "gif_number": 119,
+      "gif_path": "output/animation_119.gif",
+      "mp4_path": "output/animation_119.mp4",
+      "icon_names": [
+        "ICU ventilator",
+        "artificial ventilation of the lungs",
+        "fever"
+      ],
+      "template": 4,
+      "facebook_video_id": "1449897380367070",
+      "posted_at": "2026-10-03T21:03:25.519252"
     }
   ],
-  "posts_count": 118
+  "posts_count": 119
 }
