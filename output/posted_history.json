@@ -1429,7 +1429,18 @@
       ],
       "template": 5,
       "posted_at": "2026-10-03T12:05:26.961444"
+    },
+    {
+      "gif_number": 131,
+      "gif_path": "output/animation_131.gif",
+      "icon_names": [
+        "dyspnea",
+        "wheezing",
+        "cough"
+      ],
+      "template": 1,
+      "posted_at": "2026-10-03T22:05:28.887897"
     }
   ],
-  "posts_count": 130
+  "posts_count": 131
 }
