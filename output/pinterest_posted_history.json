@@ -107,7 +107,19 @@
       "template": 4,
       "title": "Vertebral arthritis, Arthroscopy & Blood test — Part of 6,000+ Medical Icons",
       "posted_at": "2026-10-03T16:05:25.571639"
+    },
+    {
+      "gif_number": 10,
+      "gif_path": "output/animation_10.gif",
+      "icon_names": [
+        "arthroscopy",
+        "blood test",
+        "MRI knee"
+      ],
+      "template": 5,
+      "title": "Arthroscopy, Blood test & MRI knee — Which One Do You Need?",
+      "posted_at": "2026-10-03T20:55:29.623860"
     }
   ],
-  "posts_count": 9
+  "posts_count": 10
 }
