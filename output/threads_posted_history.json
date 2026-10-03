@@ -1819,7 +1819,21 @@
       "threads_post_id": "18167242129418049",
       "threads_reply_id": "18112715267119320",
       "posted_at": "2026-10-03T12:23:00.495519"
+    },
+    {
+      "gif_number": 131,
+      "gif_path": "output/animation_131.gif",
+      "mp4_path": "output/animation_131.mp4",
+      "icon_names": [
+        "dyspnea",
+        "wheezing",
+        "cough"
+      ],
+      "template": 1,
+      "threads_post_id": "18337620928285854",
+      "threads_reply_id": "17996594040044029",
+      "posted_at": "2026-10-03T22:23:58.434424"
     }
   ],
-  "posts_count": 130
+  "posts_count": 131
 }
