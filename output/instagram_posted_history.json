@@ -1650,7 +1650,20 @@
       "template": 2,
       "buffer_post_id": "6ac298a663761da98b57b078",
       "posted_at": "2026-10-04T18:20:29.306936"
+    },
+    {
+      "gif_number": 128,
+      "gif_path": "output/animation_128.gif",
+      "mp4_path": "output/animation_128.mp4",
+      "icon_names": [
+        "burnout head",
+        "burnout man",
+        "asthma"
+      ],
+      "template": 3,
+      "buffer_post_id": "6ac2d0e9ca1380ada83a1892",
+      "posted_at": "2026-10-04T22:20:31.604885"
     }
   ],
-  "posts_count": 127
+  "posts_count": 128
 }
