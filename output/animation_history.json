@@ -4015,6 +4015,22 @@
       "gif_path": "output/animation_263.gif",
       "created_at": "2026-10-03T22:16:32.635740",
       "frame_count": 3
+    },
+    {
+      "gif_number": 252,
+      "icon_ids": [
+        264,
+        265,
+        266
+      ],
+      "icon_names": [
+        "wound down person",
+        "tired person sitting",
+        "positive report"
+      ],
+      "gif_path": "output/animation_264.gif",
+      "created_at": "2026-10-04T04:16:07.778853",
+      "frame_count": 3
     }
   ]
 }
