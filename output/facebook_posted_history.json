@@ -1572,7 +1572,20 @@
       "template": 1,
       "facebook_video_id": "981607300879100",
       "posted_at": "2026-10-04T21:03:23.910114"
+    },
+    {
+      "gif_number": 122,
+      "gif_path": "output/animation_122.gif",
+      "mp4_path": "output/animation_122.mp4",
+      "icon_names": [
+        "vaccine",
+        "airborne infection",
+        "pills"
+      ],
+      "template": 2,
+      "facebook_video_id": "1442815574416719",
+      "posted_at": "2026-10-04T22:03:23.138097"
     }
   ],
-  "posts_count": 121
+  "posts_count": 122
 }
