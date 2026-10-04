@@ -131,7 +131,19 @@
       "template": 1,
       "title": "Blood test, MRI knee & Excess weight — Medical & Health Icons",
       "posted_at": "2026-10-04T16:45:37.428367"
+    },
+    {
+      "gif_number": 12,
+      "gif_path": "output/animation_12.gif",
+      "icon_names": [
+        "MRI knee",
+        "excess weight",
+        "unbalanced diet"
+      ],
+      "template": 2,
+      "title": "MRI knee, Excess weight & Unbalanced diet — Glyfiq Figma & Framer Plugin",
+      "posted_at": "2026-10-04T21:11:23.690361"
     }
   ],
-  "posts_count": 11
+  "posts_count": 12
 }
