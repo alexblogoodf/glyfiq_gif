@@ -1875,7 +1875,21 @@
       "threads_post_id": "18106329014212386",
       "threads_reply_id": "17874294048586068",
       "posted_at": "2026-10-05T12:23:16.214361"
+    },
+    {
+      "gif_number": 135,
+      "gif_path": "output/animation_135.gif",
+      "mp4_path": "output/animation_135.mp4",
+      "icon_names": [
+        "allergen",
+        "asthma attack",
+        "diaphragm"
+      ],
+      "template": 5,
+      "threads_post_id": "18217125739348789",
+      "threads_reply_id": "18179123677432281",
+      "posted_at": "2026-10-05T22:22:34.992023"
     }
   ],
-  "posts_count": 134
+  "posts_count": 135
 }
