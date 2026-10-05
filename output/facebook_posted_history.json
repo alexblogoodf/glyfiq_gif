@@ -1585,7 +1585,20 @@
       "template": 2,
       "facebook_video_id": "1442815574416719",
       "posted_at": "2026-10-04T22:03:23.138097"
+    },
+    {
+      "gif_number": 123,
+      "gif_path": "output/animation_123.gif",
+      "mp4_path": "output/animation_123.mp4",
+      "icon_names": [
+        "airborne infection",
+        "pills",
+        "ICU ventilator side view"
+      ],
+      "template": 3,
+      "facebook_video_id": "4537881826477429",
+      "posted_at": "2026-10-05T21:03:38.724211"
     }
   ],
-  "posts_count": 122
+  "posts_count": 123
 }
