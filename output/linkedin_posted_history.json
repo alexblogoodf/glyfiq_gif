@@ -1439,7 +1439,19 @@
       ],
       "template": 5,
       "posted_at": "2026-10-05T21:18:13.306276"
+    },
+    {
+      "gif_number": 121,
+      "gif_path": "output/animation_121.gif",
+      "mp4_path": "output/animation_121.mp4",
+      "icon_names": [
+        "fever",
+        "vaccine",
+        "airborne infection"
+      ],
+      "template": 1,
+      "posted_at": "2026-10-05T22:17:29.693703"
     }
   ],
-  "posts_count": 120
+  "posts_count": 121
 }
