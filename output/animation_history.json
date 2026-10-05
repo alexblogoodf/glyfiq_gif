@@ -4095,6 +4095,22 @@
       "gif_path": "output/animation_268.gif",
       "created_at": "2026-10-05T04:15:53.156726",
       "frame_count": 3
+    },
+    {
+      "gif_number": 257,
+      "icon_ids": [
+        269,
+        270,
+        271
+      ],
+      "icon_names": [
+        "negative",
+        "energized head",
+        "low energy head"
+      ],
+      "gif_path": "output/animation_269.gif",
+      "created_at": "2026-10-05T10:15:49.458751",
+      "frame_count": 3
     }
   ]
 }
