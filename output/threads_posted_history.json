@@ -1861,7 +1861,21 @@
       "threads_post_id": "17927605428180409",
       "threads_reply_id": "18116452112282566",
       "posted_at": "2026-10-04T22:22:44.074107"
+    },
+    {
+      "gif_number": 134,
+      "gif_path": "output/animation_134.gif",
+      "mp4_path": "output/animation_134.mp4",
+      "icon_names": [
+        "chest pain",
+        "allergen",
+        "asthma attack"
+      ],
+      "template": 4,
+      "threads_post_id": "18106329014212386",
+      "threads_reply_id": "17874294048586068",
+      "posted_at": "2026-10-05T12:23:16.214361"
     }
   ],
-  "posts_count": 133
+  "posts_count": 134
 }
