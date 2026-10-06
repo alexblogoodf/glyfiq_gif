@@ -1611,7 +1611,20 @@
       "template": 4,
       "facebook_video_id": "1447383060692472",
       "posted_at": "2026-10-05T22:03:27.643681"
+    },
+    {
+      "gif_number": 125,
+      "gif_path": "output/animation_125.gif",
+      "mp4_path": "output/animation_125.mp4",
+      "icon_names": [
+        "ICU ventilator side view",
+        "headache",
+        "working fatigue"
+      ],
+      "template": 5,
+      "facebook_video_id": "1447428890856122",
+      "posted_at": "2026-10-06T21:03:32.067953"
     }
   ],
-  "posts_count": 124
+  "posts_count": 125
 }
