@@ -1624,7 +1624,20 @@
       "template": 5,
       "facebook_video_id": "1447428890856122",
       "posted_at": "2026-10-06T21:03:32.067953"
+    },
+    {
+      "gif_number": 126,
+      "gif_path": "output/animation_126.gif",
+      "mp4_path": "output/animation_126.mp4",
+      "icon_names": [
+        "headache",
+        "working fatigue",
+        "burnout head"
+      ],
+      "template": 1,
+      "facebook_video_id": "1032114259856578",
+      "posted_at": "2026-10-06T22:03:29.886953"
     }
   ],
-  "posts_count": 125
+  "posts_count": 126
 }
