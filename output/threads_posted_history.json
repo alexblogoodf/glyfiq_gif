@@ -1889,7 +1889,21 @@
       "threads_post_id": "18217125739348789",
       "threads_reply_id": "18179123677432281",
       "posted_at": "2026-10-05T22:22:34.992023"
+    },
+    {
+      "gif_number": 136,
+      "gif_path": "output/animation_136.gif",
+      "mp4_path": "output/animation_136.mp4",
+      "icon_names": [
+        "asthma attack",
+        "diaphragm",
+        "hives"
+      ],
+      "template": 1,
+      "threads_post_id": "18493508470100224",
+      "threads_reply_id": "17905270968569297",
+      "posted_at": "2026-10-06T12:22:31.009894"
     }
   ],
-  "posts_count": 135
+  "posts_count": 136
 }
