@@ -4175,6 +4175,22 @@
       "gif_path": "output/animation_273.gif",
       "created_at": "2026-10-06T10:16:11.767611",
       "frame_count": 3
+    },
+    {
+      "gif_number": 262,
+      "icon_ids": [
+        285,
+        286,
+        287
+      ],
+      "icon_names": [
+        "despair",
+        "panic attack",
+        "stress at work"
+      ],
+      "gif_path": "output/animation_285.gif",
+      "created_at": "2026-10-06T16:15:59.708961",
+      "frame_count": 3
     }
   ]
 }
