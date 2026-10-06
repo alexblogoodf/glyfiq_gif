@@ -1702,7 +1702,20 @@
       "template": 1,
       "buffer_post_id": "6ac53ba90231af6af7bdb4b9",
       "posted_at": "2026-10-06T18:20:31.983965"
+    },
+    {
+      "gif_number": 132,
+      "gif_path": "output/animation_132.gif",
+      "mp4_path": "output/animation_132.mp4",
+      "icon_names": [
+        "wheezing",
+        "cough",
+        "chest pain"
+      ],
+      "template": 2,
+      "buffer_post_id": "6ac573e72b46a5da666dd867",
+      "posted_at": "2026-10-06T22:20:30.052083"
     }
   ],
-  "posts_count": 131
+  "posts_count": 132
 }
