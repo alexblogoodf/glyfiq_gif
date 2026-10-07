@@ -1487,7 +1487,19 @@
       ],
       "template": 4,
       "posted_at": "2026-10-07T21:17:32.260382"
+    },
+    {
+      "gif_number": 125,
+      "gif_path": "output/animation_125.gif",
+      "mp4_path": "output/animation_125.mp4",
+      "icon_names": [
+        "ICU ventilator side view",
+        "headache",
+        "working fatigue"
+      ],
+      "template": 5,
+      "posted_at": "2026-10-07T22:17:30.613154"
     }
   ],
-  "posts_count": 124
+  "posts_count": 125
 }
