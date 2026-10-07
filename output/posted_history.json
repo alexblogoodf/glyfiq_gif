@@ -1517,7 +1517,18 @@
       ],
       "template": 3,
       "posted_at": "2026-10-07T12:05:31.051127"
+    },
+    {
+      "gif_number": 139,
+      "gif_path": "output/animation_139.gif",
+      "icon_names": [
+        "sputum",
+        "healthy bronchus",
+        "inflamed bronchus"
+      ],
+      "template": 4,
+      "posted_at": "2026-10-07T22:05:32.182399"
     }
   ],
-  "posts_count": 138
+  "posts_count": 139
 }
