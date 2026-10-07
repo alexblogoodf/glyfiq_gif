@@ -155,7 +155,19 @@
       "template": 3,
       "title": "Excess weight, Unbalanced diet & Arthroplasty — Healthcare UI Icons",
       "posted_at": "2026-10-06T18:14:26.810435"
+    },
+    {
+      "gif_number": 14,
+      "gif_path": "output/animation_14.gif",
+      "icon_names": [
+        "unbalanced diet",
+        "arthroplasty",
+        "synovectomy"
+      ],
+      "template": 4,
+      "title": "Unbalanced diet, Arthroplasty & Synovectomy — Part of 6,000+ Medical Icons",
+      "posted_at": "2026-10-07T18:47:20.232819"
     }
   ],
-  "posts_count": 13
+  "posts_count": 14
 }
