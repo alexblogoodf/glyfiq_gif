@@ -1931,7 +1931,21 @@
       "threads_post_id": "17963829087221334",
       "threads_reply_id": "17908792020481560",
       "posted_at": "2026-10-07T12:22:33.493249"
+    },
+    {
+      "gif_number": 139,
+      "gif_path": "output/animation_139.gif",
+      "mp4_path": "output/animation_139.mp4",
+      "icon_names": [
+        "sputum",
+        "healthy bronchus",
+        "inflamed bronchus"
+      ],
+      "template": 4,
+      "threads_post_id": "17961998799246414",
+      "threads_reply_id": "18098577701451958",
+      "posted_at": "2026-10-07T22:22:36.200495"
     }
   ],
-  "posts_count": 138
+  "posts_count": 139
 }
