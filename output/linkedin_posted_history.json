@@ -1475,7 +1475,19 @@
       ],
       "template": 3,
       "posted_at": "2026-10-06T22:17:31.649820"
+    },
+    {
+      "gif_number": 124,
+      "gif_path": "output/animation_124.gif",
+      "mp4_path": "output/animation_124.mp4",
+      "icon_names": [
+        "pills",
+        "ICU ventilator side view",
+        "headache"
+      ],
+      "template": 4,
+      "posted_at": "2026-10-07T21:17:32.260382"
     }
   ],
-  "posts_count": 123
+  "posts_count": 124
 }
