@@ -1663,7 +1663,20 @@
       "template": 3,
       "facebook_video_id": "40162143206717791",
       "posted_at": "2026-10-07T22:03:27.518799"
+    },
+    {
+      "gif_number": 129,
+      "gif_path": "output/animation_129.gif",
+      "mp4_path": "output/animation_129.mp4",
+      "icon_names": [
+        "burnout man",
+        "asthma",
+        "dyspnea"
+      ],
+      "template": 4,
+      "facebook_video_id": "1389121540003305",
+      "posted_at": "2026-10-08T21:03:22.252610"
     }
   ],
-  "posts_count": 128
+  "posts_count": 129
 }
