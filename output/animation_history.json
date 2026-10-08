@@ -4287,6 +4287,22 @@
       "gif_path": "output/animation_291.gif",
       "created_at": "2026-10-08T04:15:50.464214",
       "frame_count": 3
+    },
+    {
+      "gif_number": 269,
+      "icon_ids": [
+        292,
+        293,
+        294
+      ],
+      "icon_names": [
+        "depressed person",
+        "slight fatigue",
+        "full of energy"
+      ],
+      "gif_path": "output/animation_292.gif",
+      "created_at": "2026-10-08T10:15:57.216626",
+      "frame_count": 3
     }
   ]
 }
