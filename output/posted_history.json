@@ -1528,7 +1528,18 @@
       ],
       "template": 4,
       "posted_at": "2026-10-07T22:05:32.182399"
+    },
+    {
+      "gif_number": 140,
+      "gif_path": "output/animation_140.gif",
+      "icon_names": [
+        "healthy bronchus",
+        "inflamed bronchus",
+        "peak flow meter"
+      ],
+      "template": 5,
+      "posted_at": "2026-10-08T12:05:33.903066"
     }
   ],
-  "posts_count": 139
+  "posts_count": 140
 }
