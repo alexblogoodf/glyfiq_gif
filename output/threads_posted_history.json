@@ -1945,7 +1945,21 @@
       "threads_post_id": "17961998799246414",
       "threads_reply_id": "18098577701451958",
       "posted_at": "2026-10-07T22:22:36.200495"
+    },
+    {
+      "gif_number": 140,
+      "gif_path": "output/animation_140.gif",
+      "mp4_path": "output/animation_140.mp4",
+      "icon_names": [
+        "healthy bronchus",
+        "inflamed bronchus",
+        "peak flow meter"
+      ],
+      "template": 5,
+      "threads_post_id": "18096475676450088",
+      "threads_reply_id": "18129797275750324",
+      "posted_at": "2026-10-08T12:23:00.885541"
     }
   ],
-  "posts_count": 139
+  "posts_count": 140
 }
