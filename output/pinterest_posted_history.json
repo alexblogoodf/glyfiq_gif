@@ -167,7 +167,19 @@
       "template": 4,
       "title": "Unbalanced diet, Arthroplasty & Synovectomy — Part of 6,000+ Medical Icons",
       "posted_at": "2026-10-07T18:47:20.232819"
+    },
+    {
+      "gif_number": 15,
+      "gif_path": "output/animation_15.gif",
+      "icon_names": [
+        "arthroplasty",
+        "synovectomy",
+        "arthrodesis"
+      ],
+      "template": 5,
+      "title": "Arthroplasty, Synovectomy & Arthrodesis — Which One Do You Need?",
+      "posted_at": "2026-10-08T18:45:20.814158"
     }
   ],
-  "posts_count": 14
+  "posts_count": 15
 }
