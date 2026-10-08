@@ -1499,7 +1499,19 @@
       ],
       "template": 5,
       "posted_at": "2026-10-07T22:17:30.613154"
+    },
+    {
+      "gif_number": 126,
+      "gif_path": "output/animation_126.gif",
+      "mp4_path": "output/animation_126.mp4",
+      "icon_names": [
+        "headache",
+        "working fatigue",
+        "burnout head"
+      ],
+      "template": 1,
+      "posted_at": "2026-10-08T21:17:33.810924"
     }
   ],
-  "posts_count": 125
+  "posts_count": 126
 }
