@@ -1987,7 +1987,21 @@
       "threads_post_id": "18132080062671337",
       "threads_reply_id": "17992578222111203",
       "posted_at": "2026-10-09T12:22:32.490012"
+    },
+    {
+      "gif_number": 143,
+      "gif_path": "output/animation_143.gif",
+      "mp4_path": "output/animation_143.mp4",
+      "icon_names": [
+        "inhaler",
+        "nebulizer",
+        "drowsiness"
+      ],
+      "template": 3,
+      "threads_post_id": "18116861168007380",
+      "threads_reply_id": "18095592959423282",
+      "posted_at": "2026-10-09T22:22:32.089951"
     }
   ],
-  "posts_count": 142
+  "posts_count": 143
 }
