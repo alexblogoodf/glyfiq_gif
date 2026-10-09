@@ -4367,6 +4367,22 @@
       "gif_path": "output/animation_296.gif",
       "created_at": "2026-10-09T10:15:53.199357",
       "frame_count": 3
+    },
+    {
+      "gif_number": 274,
+      "icon_ids": [
+        297,
+        298,
+        299
+      ],
+      "icon_names": [
+        "exhausted person",
+        "hopeless person",
+        "creative block"
+      ],
+      "gif_path": "output/animation_297.gif",
+      "created_at": "2026-10-09T16:15:50.614494",
+      "frame_count": 3
     }
   ]
 }
