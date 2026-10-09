@@ -4335,6 +4335,22 @@
       "gif_path": "output/animation_294.gif",
       "created_at": "2026-10-08T22:16:01.155773",
       "frame_count": 3
+    },
+    {
+      "gif_number": 272,
+      "icon_ids": [
+        295,
+        296,
+        297
+      ],
+      "icon_names": [
+        "insomnia",
+        "appetite disturbance",
+        "exhausted person"
+      ],
+      "gif_path": "output/animation_295.gif",
+      "created_at": "2026-10-09T04:16:04.194711",
+      "frame_count": 3
     }
   ]
 }
