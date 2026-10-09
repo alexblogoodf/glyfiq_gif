@@ -1702,7 +1702,20 @@
       "template": 1,
       "facebook_video_id": "1461358519201572",
       "posted_at": "2026-10-09T21:03:29.953326"
+    },
+    {
+      "gif_number": 132,
+      "gif_path": "output/animation_132.gif",
+      "mp4_path": "output/animation_132.mp4",
+      "icon_names": [
+        "wheezing",
+        "cough",
+        "chest pain"
+      ],
+      "template": 2,
+      "facebook_video_id": "1384566703663142",
+      "posted_at": "2026-10-09T22:03:23.938812"
     }
   ],
-  "posts_count": 131
+  "posts_count": 132
 }
