@@ -1550,7 +1550,18 @@
       ],
       "template": 1,
       "posted_at": "2026-10-08T22:05:29.459131"
+    },
+    {
+      "gif_number": 142,
+      "gif_path": "output/animation_142.gif",
+      "icon_names": [
+        "peak flow meter",
+        "inhaler",
+        "nebulizer"
+      ],
+      "template": 2,
+      "posted_at": "2026-10-09T12:05:28.834873"
     }
   ],
-  "posts_count": 141
+  "posts_count": 142
 }
