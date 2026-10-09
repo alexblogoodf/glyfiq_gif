@@ -1973,7 +1973,21 @@
       "threads_post_id": "18169860901407820",
       "threads_reply_id": "18109515545520923",
       "posted_at": "2026-10-08T22:22:38.942810"
+    },
+    {
+      "gif_number": 142,
+      "gif_path": "output/animation_142.gif",
+      "mp4_path": "output/animation_142.mp4",
+      "icon_names": [
+        "peak flow meter",
+        "inhaler",
+        "nebulizer"
+      ],
+      "template": 2,
+      "threads_post_id": "18132080062671337",
+      "threads_reply_id": "17992578222111203",
+      "posted_at": "2026-10-09T12:22:32.490012"
     }
   ],
-  "posts_count": 141
+  "posts_count": 142
 }
