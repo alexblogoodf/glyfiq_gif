@@ -1523,7 +1523,19 @@
       ],
       "template": 2,
       "posted_at": "2026-10-08T22:17:29.797066"
+    },
+    {
+      "gif_number": 128,
+      "gif_path": "output/animation_128.gif",
+      "mp4_path": "output/animation_128.mp4",
+      "icon_names": [
+        "burnout head",
+        "burnout man",
+        "asthma"
+      ],
+      "template": 3,
+      "posted_at": "2026-10-09T21:17:31.685959"
     }
   ],
-  "posts_count": 127
+  "posts_count": 128
 }
