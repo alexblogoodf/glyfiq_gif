@@ -1689,7 +1689,20 @@
       "template": 5,
       "facebook_video_id": "1623265816002196",
       "posted_at": "2026-10-08T22:03:24.721829"
+    },
+    {
+      "gif_number": 131,
+      "gif_path": "output/animation_131.gif",
+      "mp4_path": "output/animation_131.mp4",
+      "icon_names": [
+        "dyspnea",
+        "wheezing",
+        "cough"
+      ],
+      "template": 1,
+      "facebook_video_id": "1461358519201572",
+      "posted_at": "2026-10-09T21:03:29.953326"
     }
   ],
-  "posts_count": 130
+  "posts_count": 131
 }
