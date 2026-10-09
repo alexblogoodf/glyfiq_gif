@@ -1780,7 +1780,20 @@
       "template": 2,
       "buffer_post_id": "6ac93028f91f772d456af533",
       "posted_at": "2026-10-09T18:20:30.883099"
+    },
+    {
+      "gif_number": 138,
+      "gif_path": "output/animation_138.gif",
+      "mp4_path": "output/animation_138.mp4",
+      "icon_names": [
+        "hives",
+        "sputum",
+        "healthy bronchus"
+      ],
+      "template": 3,
+      "buffer_post_id": "6ac96867b07d37ac97529c5c",
+      "posted_at": "2026-10-09T22:20:30.224742"
     }
   ],
-  "posts_count": 137
+  "posts_count": 138
 }
