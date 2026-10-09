@@ -4383,6 +4383,22 @@
       "gif_path": "output/animation_297.gif",
       "created_at": "2026-10-09T16:15:50.614494",
       "frame_count": 3
+    },
+    {
+      "gif_number": 275,
+      "icon_ids": [
+        298,
+        299,
+        300
+      ],
+      "icon_names": [
+        "hopeless person",
+        "creative block",
+        "torn sheet"
+      ],
+      "gif_path": "output/animation_298.gif",
+      "created_at": "2026-10-09T22:15:51.309858",
+      "frame_count": 3
     }
   ]
 }
