@@ -1728,7 +1728,20 @@
       "template": 3,
       "facebook_video_id": "1596613828595187",
       "posted_at": "2026-10-10T21:03:23.433840"
+    },
+    {
+      "gif_number": 134,
+      "gif_path": "output/animation_134.gif",
+      "mp4_path": "output/animation_134.mp4",
+      "icon_names": [
+        "chest pain",
+        "allergen",
+        "asthma attack"
+      ],
+      "template": 4,
+      "facebook_video_id": "2762197557516273",
+      "posted_at": "2026-10-10T22:03:25.230097"
     }
   ],
-  "posts_count": 133
+  "posts_count": 134
 }
