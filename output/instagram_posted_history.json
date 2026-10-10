@@ -1793,7 +1793,20 @@
       "template": 3,
       "buffer_post_id": "6ac96867b07d37ac97529c5c",
       "posted_at": "2026-10-09T22:20:30.224742"
+    },
+    {
+      "gif_number": 139,
+      "gif_path": "output/animation_139.gif",
+      "mp4_path": "output/animation_139.mp4",
+      "icon_names": [
+        "sputum",
+        "healthy bronchus",
+        "inflamed bronchus"
+      ],
+      "template": 4,
+      "buffer_post_id": "6aca81a8f91f772d45a1e0d9",
+      "posted_at": "2026-10-10T18:20:31.157854"
     }
   ],
-  "posts_count": 138
+  "posts_count": 139
 }
