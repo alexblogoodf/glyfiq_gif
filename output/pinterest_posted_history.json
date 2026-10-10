@@ -203,7 +203,19 @@
       "template": 2,
       "title": "Arthrodesis, Acupuncture & Massage — Glyfiq Figma & Framer Plugin",
       "posted_at": "2026-10-10T17:14:42.841040"
+    },
+    {
+      "gif_number": 18,
+      "gif_path": "output/animation_18.gif",
+      "icon_names": [
+        "acupuncture",
+        "massage",
+        "osteopathy"
+      ],
+      "template": 3,
+      "title": "Acupuncture, Massage & Osteopathy — Healthcare UI Icons",
+      "posted_at": "2026-10-10T21:28:48.345272"
     }
   ],
-  "posts_count": 17
+  "posts_count": 18
 }
