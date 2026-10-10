@@ -2001,7 +2001,21 @@
       "threads_post_id": "18116861168007380",
       "threads_reply_id": "18095592959423282",
       "posted_at": "2026-10-09T22:22:32.089951"
+    },
+    {
+      "gif_number": 144,
+      "gif_path": "output/animation_144.gif",
+      "mp4_path": "output/animation_144.mp4",
+      "icon_names": [
+        "nebulizer",
+        "drowsiness",
+        "syringe and ampoule"
+      ],
+      "template": 4,
+      "threads_post_id": "18080631143348444",
+      "threads_reply_id": "18191625328404856",
+      "posted_at": "2026-10-10T12:22:33.227029"
     }
   ],
-  "posts_count": 143
+  "posts_count": 144
 }
