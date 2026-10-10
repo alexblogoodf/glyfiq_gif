@@ -2015,7 +2015,21 @@
       "threads_post_id": "18080631143348444",
       "threads_reply_id": "18191625328404856",
       "posted_at": "2026-10-10T12:22:33.227029"
+    },
+    {
+      "gif_number": 145,
+      "gif_path": "output/animation_145.gif",
+      "mp4_path": "output/animation_145.mp4",
+      "icon_names": [
+        "drowsiness",
+        "syringe and ampoule",
+        "pill"
+      ],
+      "template": 5,
+      "threads_post_id": "18116828461806027",
+      "threads_reply_id": "17901962343606824",
+      "posted_at": "2026-10-10T22:22:30.725327"
     }
   ],
-  "posts_count": 144
+  "posts_count": 145
 }
