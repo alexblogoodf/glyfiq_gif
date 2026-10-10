@@ -191,7 +191,19 @@
       "template": 1,
       "title": "Synovectomy, Arthrodesis & Acupuncture — Medical & Health Icons",
       "posted_at": "2026-10-09T18:16:03.403341"
+    },
+    {
+      "gif_number": 17,
+      "gif_path": "output/animation_17.gif",
+      "icon_names": [
+        "arthrodesis",
+        "acupuncture",
+        "massage"
+      ],
+      "template": 2,
+      "title": "Arthrodesis, Acupuncture & Massage — Glyfiq Figma & Framer Plugin",
+      "posted_at": "2026-10-10T17:14:42.841040"
     }
   ],
-  "posts_count": 16
+  "posts_count": 17
 }
