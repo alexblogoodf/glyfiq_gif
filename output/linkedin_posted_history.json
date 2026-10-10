@@ -1547,7 +1547,19 @@
       ],
       "template": 4,
       "posted_at": "2026-10-09T22:17:31.288873"
+    },
+    {
+      "gif_number": 130,
+      "gif_path": "output/animation_130.gif",
+      "mp4_path": "output/animation_130.mp4",
+      "icon_names": [
+        "asthma",
+        "dyspnea",
+        "wheezing"
+      ],
+      "template": 5,
+      "posted_at": "2026-10-10T21:17:30.257683"
     }
   ],
-  "posts_count": 129
+  "posts_count": 130
 }
