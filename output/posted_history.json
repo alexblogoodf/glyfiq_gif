@@ -1572,7 +1572,18 @@
       ],
       "template": 3,
       "posted_at": "2026-10-09T22:05:28.866671"
+    },
+    {
+      "gif_number": 144,
+      "gif_path": "output/animation_144.gif",
+      "icon_names": [
+        "nebulizer",
+        "drowsiness",
+        "syringe and ampoule"
+      ],
+      "template": 4,
+      "posted_at": "2026-10-10T12:05:35.655799"
     }
   ],
-  "posts_count": 143
+  "posts_count": 144
 }
