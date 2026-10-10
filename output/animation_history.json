@@ -4399,6 +4399,22 @@
       "gif_path": "output/animation_298.gif",
       "created_at": "2026-10-09T22:15:51.309858",
       "frame_count": 3
+    },
+    {
+      "gif_number": 276,
+      "icon_ids": [
+        299,
+        300,
+        301
+      ],
+      "icon_names": [
+        "creative block",
+        "torn sheet",
+        "headache"
+      ],
+      "gif_path": "output/animation_299.gif",
+      "created_at": "2026-10-10T04:16:00.379555",
+      "frame_count": 3
     }
   ]
 }
