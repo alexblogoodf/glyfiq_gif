@@ -4479,6 +4479,22 @@
       "gif_path": "output/animation_303.gif",
       "created_at": "2026-10-11T04:15:53.425667",
       "frame_count": 3
+    },
+    {
+      "gif_number": 281,
+      "icon_ids": [
+        304,
+        305,
+        306
+      ],
+      "icon_names": [
+        "vacation",
+        "mental clarity",
+        "tablet"
+      ],
+      "gif_path": "output/animation_304.gif",
+      "created_at": "2026-10-11T10:15:53.266566",
+      "frame_count": 3
     }
   ]
 }
