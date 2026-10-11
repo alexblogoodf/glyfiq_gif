@@ -4511,6 +4511,22 @@
       "gif_path": "output/animation_305.gif",
       "created_at": "2026-10-11T16:16:02.233498",
       "frame_count": 3
+    },
+    {
+      "gif_number": 283,
+      "icon_ids": [
+        306,
+        307,
+        308
+      ],
+      "icon_names": [
+        "tablet",
+        "sleeplessness",
+        "sleeping pillow"
+      ],
+      "gif_path": "output/animation_306.gif",
+      "created_at": "2026-10-11T22:15:55.231893",
+      "frame_count": 3
     }
   ]
 }
