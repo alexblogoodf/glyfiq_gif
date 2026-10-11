@@ -2043,7 +2043,21 @@
       "threads_post_id": "17906143923582483",
       "threads_reply_id": "18118679650982785",
       "posted_at": "2026-10-11T12:22:25.406022"
+    },
+    {
+      "gif_number": 147,
+      "gif_path": "output/animation_147.gif",
+      "mp4_path": "output/animation_147.mp4",
+      "icon_names": [
+        "pill",
+        "laboratory",
+        "microscope and virus"
+      ],
+      "template": 2,
+      "threads_post_id": "18125160235916200",
+      "threads_reply_id": "17912283897501006",
+      "posted_at": "2026-10-11T22:23:49.476663"
     }
   ],
-  "posts_count": 146
+  "posts_count": 147
 }
