@@ -1754,7 +1754,20 @@
       "template": 5,
       "facebook_video_id": "1609104891245838",
       "posted_at": "2026-10-11T21:03:23.270408"
+    },
+    {
+      "gif_number": 136,
+      "gif_path": "output/animation_136.gif",
+      "mp4_path": "output/animation_136.mp4",
+      "icon_names": [
+        "asthma attack",
+        "diaphragm",
+        "hives"
+      ],
+      "template": 1,
+      "facebook_video_id": "1069460642627435",
+      "posted_at": "2026-10-11T22:03:24.158900"
     }
   ],
-  "posts_count": 135
+  "posts_count": 136
 }
