@@ -1583,7 +1583,19 @@
       ],
       "template": 2,
       "posted_at": "2026-10-11T21:17:29.836500"
+    },
+    {
+      "gif_number": 133,
+      "gif_path": "output/animation_133.gif",
+      "mp4_path": "output/animation_133.mp4",
+      "icon_names": [
+        "cough",
+        "chest pain",
+        "allergen"
+      ],
+      "template": 3,
+      "posted_at": "2026-10-11T22:17:32.481262"
     }
   ],
-  "posts_count": 132
+  "posts_count": 133
 }
