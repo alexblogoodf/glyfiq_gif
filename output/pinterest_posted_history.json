@@ -227,7 +227,19 @@
       "template": 4,
       "title": "Massage, Osteopathy & Finger blood — Part of 6,000+ Medical Icons",
       "posted_at": "2026-10-11T17:37:18.705405"
+    },
+    {
+      "gif_number": 20,
+      "gif_path": "output/animation_20.gif",
+      "icon_names": [
+        "osteopathy",
+        "finger blood",
+        "glucose level"
+      ],
+      "template": 5,
+      "title": "Osteopathy, Finger blood & Glucose level — Which One Do You Need?",
+      "posted_at": "2026-10-11T21:44:56.151881"
     }
   ],
-  "posts_count": 19
+  "posts_count": 20
 }
