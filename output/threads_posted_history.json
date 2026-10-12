@@ -2057,7 +2057,21 @@
       "threads_post_id": "18125160235916200",
       "threads_reply_id": "17912283897501006",
       "posted_at": "2026-10-11T22:23:49.476663"
+    },
+    {
+      "gif_number": 148,
+      "gif_path": "output/animation_148.gif",
+      "mp4_path": "output/animation_148.mp4",
+      "icon_names": [
+        "laboratory",
+        "microscope and virus",
+        "virus test"
+      ],
+      "template": 3,
+      "threads_post_id": "18134697226655142",
+      "threads_reply_id": "17954699376339646",
+      "posted_at": "2026-10-12T12:22:52.254281"
     }
   ],
-  "posts_count": 147
+  "posts_count": 148
 }
