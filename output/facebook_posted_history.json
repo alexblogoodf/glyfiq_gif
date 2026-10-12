@@ -1767,7 +1767,20 @@
       "template": 1,
       "facebook_video_id": "1069460642627435",
       "posted_at": "2026-10-11T22:03:24.158900"
+    },
+    {
+      "gif_number": 137,
+      "gif_path": "output/animation_137.gif",
+      "mp4_path": "output/animation_137.mp4",
+      "icon_names": [
+        "diaphragm",
+        "hives",
+        "sputum"
+      ],
+      "template": 2,
+      "facebook_video_id": "1616003660204052",
+      "posted_at": "2026-10-12T21:03:22.472513"
     }
   ],
-  "posts_count": 136
+  "posts_count": 137
 }
