@@ -1595,7 +1595,19 @@
       ],
       "template": 3,
       "posted_at": "2026-10-11T22:17:32.481262"
+    },
+    {
+      "gif_number": 134,
+      "gif_path": "output/animation_134.gif",
+      "mp4_path": "output/animation_134.mp4",
+      "icon_names": [
+        "chest pain",
+        "allergen",
+        "asthma attack"
+      ],
+      "template": 4,
+      "posted_at": "2026-10-12T21:17:29.119831"
     }
   ],
-  "posts_count": 133
+  "posts_count": 134
 }
