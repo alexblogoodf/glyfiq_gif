@@ -2071,7 +2071,21 @@
       "threads_post_id": "18134697226655142",
       "threads_reply_id": "17954699376339646",
       "posted_at": "2026-10-12T12:22:52.254281"
+    },
+    {
+      "gif_number": 149,
+      "gif_path": "output/animation_149.gif",
+      "mp4_path": "output/animation_149.mp4",
+      "icon_names": [
+        "microscope and virus",
+        "virus test",
+        "COVID-19 test"
+      ],
+      "template": 4,
+      "threads_post_id": "17982674105897704",
+      "threads_reply_id": "18148304050562599",
+      "posted_at": "2026-10-12T22:23:00.899866"
     }
   ],
-  "posts_count": 148
+  "posts_count": 149
 }
