@@ -239,7 +239,19 @@
       "template": 5,
       "title": "Osteopathy, Finger blood & Glucose level — Which One Do You Need?",
       "posted_at": "2026-10-11T21:44:56.151881"
+    },
+    {
+      "gif_number": 21,
+      "gif_path": "output/animation_21.gif",
+      "icon_names": [
+        "finger blood",
+        "glucose level",
+        "blood sugar"
+      ],
+      "template": 1,
+      "title": "Finger blood, Glucose level & Blood sugar — Medical & Health Icons",
+      "posted_at": "2026-10-12T21:10:53.256824"
     }
   ],
-  "posts_count": 20
+  "posts_count": 21
 }
