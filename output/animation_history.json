@@ -4527,6 +4527,22 @@
       "gif_path": "output/animation_306.gif",
       "created_at": "2026-10-11T22:15:55.231893",
       "frame_count": 3
+    },
+    {
+      "gif_number": 284,
+      "icon_ids": [
+        307,
+        308,
+        309
+      ],
+      "icon_names": [
+        "sleeplessness",
+        "sleeping pillow",
+        "spa"
+      ],
+      "gif_path": "output/animation_307.gif",
+      "created_at": "2026-10-12T04:15:51.851221",
+      "frame_count": 3
     }
   ]
 }
