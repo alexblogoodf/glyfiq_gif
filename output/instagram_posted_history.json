@@ -1858,7 +1858,20 @@
       "template": 3,
       "buffer_post_id": "6acd24a7536740a2d1157a75",
       "posted_at": "2026-10-12T18:20:29.739913"
+    },
+    {
+      "gif_number": 144,
+      "gif_path": "output/animation_144.gif",
+      "mp4_path": "output/animation_144.mp4",
+      "icon_names": [
+        "nebulizer",
+        "drowsiness",
+        "syringe and ampoule"
+      ],
+      "template": 4,
+      "buffer_post_id": "6acd5ce89f22b96ae7e51ead",
+      "posted_at": "2026-10-12T22:20:30.758523"
     }
   ],
-  "posts_count": 143
+  "posts_count": 144
 }
