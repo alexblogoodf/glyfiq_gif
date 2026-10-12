@@ -1845,7 +1845,20 @@
       "template": 2,
       "buffer_post_id": "6acc0b6a63ff33d8c99a3f85",
       "posted_at": "2026-10-11T22:20:32.319888"
+    },
+    {
+      "gif_number": 143,
+      "gif_path": "output/animation_143.gif",
+      "mp4_path": "output/animation_143.mp4",
+      "icon_names": [
+        "inhaler",
+        "nebulizer",
+        "drowsiness"
+      ],
+      "template": 3,
+      "buffer_post_id": "6acd24a7536740a2d1157a75",
+      "posted_at": "2026-10-12T18:20:29.739913"
     }
   ],
-  "posts_count": 142
+  "posts_count": 143
 }
