@@ -1780,7 +1780,20 @@
       "template": 2,
       "facebook_video_id": "1616003660204052",
       "posted_at": "2026-10-12T21:03:22.472513"
+    },
+    {
+      "gif_number": 138,
+      "gif_path": "output/animation_138.gif",
+      "mp4_path": "output/animation_138.mp4",
+      "icon_names": [
+        "hives",
+        "sputum",
+        "healthy bronchus"
+      ],
+      "template": 3,
+      "facebook_video_id": "1801415094239037",
+      "posted_at": "2026-10-12T22:03:31.172673"
     }
   ],
-  "posts_count": 137
+  "posts_count": 138
 }
