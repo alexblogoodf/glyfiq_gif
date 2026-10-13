@@ -1806,7 +1806,20 @@
       "template": 4,
       "facebook_video_id": "1587245763142244",
       "posted_at": "2026-10-13T21:03:27.690202"
+    },
+    {
+      "gif_number": 140,
+      "gif_path": "output/animation_140.gif",
+      "mp4_path": "output/animation_140.mp4",
+      "icon_names": [
+        "healthy bronchus",
+        "inflamed bronchus",
+        "peak flow meter"
+      ],
+      "template": 5,
+      "facebook_video_id": "882084031560318",
+      "posted_at": "2026-10-13T22:03:29.268629"
     }
   ],
-  "posts_count": 139
+  "posts_count": 140
 }
