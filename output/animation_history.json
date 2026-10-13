@@ -4607,6 +4607,22 @@
       "gif_path": "output/animation_311.gif",
       "created_at": "2026-10-13T04:15:52.817539",
       "frame_count": 3
+    },
+    {
+      "gif_number": 289,
+      "icon_ids": [
+        312,
+        313,
+        314
+      ],
+      "icon_names": [
+        "prize",
+        "thermal camera",
+        "thermal scanner C"
+      ],
+      "gif_path": "output/animation_312.gif",
+      "created_at": "2026-10-13T10:16:06.393465",
+      "frame_count": 3
     }
   ]
 }
