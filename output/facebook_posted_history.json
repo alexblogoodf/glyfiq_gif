@@ -1793,7 +1793,20 @@
       "template": 3,
       "facebook_video_id": "1801415094239037",
       "posted_at": "2026-10-12T22:03:31.172673"
+    },
+    {
+      "gif_number": 139,
+      "gif_path": "output/animation_139.gif",
+      "mp4_path": "output/animation_139.mp4",
+      "icon_names": [
+        "sputum",
+        "healthy bronchus",
+        "inflamed bronchus"
+      ],
+      "template": 4,
+      "facebook_video_id": "1587245763142244",
+      "posted_at": "2026-10-13T21:03:27.690202"
     }
   ],
-  "posts_count": 138
+  "posts_count": 139
 }
