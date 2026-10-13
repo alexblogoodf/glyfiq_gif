@@ -251,7 +251,19 @@
       "template": 1,
       "title": "Finger blood, Glucose level & Blood sugar — Medical & Health Icons",
       "posted_at": "2026-10-12T21:10:53.256824"
+    },
+    {
+      "gif_number": 22,
+      "gif_path": "output/animation_22.gif",
+      "icon_names": [
+        "glucose level",
+        "blood sugar",
+        "kidney diabetes"
+      ],
+      "template": 2,
+      "title": "Glucose level, Blood sugar & Kidney diabetes — Glyfiq Figma & Framer Plugin",
+      "posted_at": "2026-10-13T19:10:07.714520"
     }
   ],
-  "posts_count": 21
+  "posts_count": 22
 }
