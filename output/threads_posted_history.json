@@ -2085,7 +2085,21 @@
       "threads_post_id": "17982674105897704",
       "threads_reply_id": "18148304050562599",
       "posted_at": "2026-10-12T22:23:00.899866"
+    },
+    {
+      "gif_number": 150,
+      "gif_path": "output/animation_150.gif",
+      "mp4_path": "output/animation_150.mp4",
+      "icon_names": [
+        "virus test",
+        "COVID-19 test",
+        "immune system"
+      ],
+      "template": 5,
+      "threads_post_id": "17865765399678422",
+      "threads_reply_id": "18030624521887495",
+      "posted_at": "2026-10-13T19:24:11.991215"
     }
   ],
-  "posts_count": 149
+  "posts_count": 150
 }
