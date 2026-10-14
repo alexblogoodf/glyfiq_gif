@@ -275,7 +275,19 @@
       "template": 3,
       "title": "Blood sugar, Kidney diabetes & Insulin — Healthcare UI Icons",
       "posted_at": "2026-10-14T16:59:10.803378"
+    },
+    {
+      "gif_number": 24,
+      "gif_path": "output/animation_24.gif",
+      "icon_names": [
+        "kidney diabetes",
+        "insulin",
+        "hyperglycemia"
+      ],
+      "template": 4,
+      "title": "Kidney diabetes, Insulin & Hyperglycemia — Part of 6,000+ Medical Icons",
+      "posted_at": "2026-10-14T21:31:23.221283"
     }
   ],
-  "posts_count": 23
+  "posts_count": 24
 }
