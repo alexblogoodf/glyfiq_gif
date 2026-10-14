@@ -263,7 +263,19 @@
       "template": 2,
       "title": "Glucose level, Blood sugar & Kidney diabetes — Glyfiq Figma & Framer Plugin",
       "posted_at": "2026-10-13T19:10:07.714520"
+    },
+    {
+      "gif_number": 23,
+      "gif_path": "output/animation_23.gif",
+      "icon_names": [
+        "blood sugar",
+        "kidney diabetes",
+        "insulin"
+      ],
+      "template": 3,
+      "title": "Blood sugar, Kidney diabetes & Insulin — Healthcare UI Icons",
+      "posted_at": "2026-10-14T16:59:10.803378"
     }
   ],
-  "posts_count": 22
+  "posts_count": 23
 }
