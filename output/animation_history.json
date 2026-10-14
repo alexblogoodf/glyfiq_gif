@@ -4655,6 +4655,22 @@
       "gif_path": "output/animation_314.gif",
       "created_at": "2026-10-13T22:15:51.694825",
       "frame_count": 3
+    },
+    {
+      "gif_number": 292,
+      "icon_ids": [
+        315,
+        316,
+        317
+      ],
+      "icon_names": [
+        "man in mask",
+        "woman in mask",
+        "social distancing"
+      ],
+      "gif_path": "output/animation_315.gif",
+      "created_at": "2026-10-14T04:15:55.900443",
+      "frame_count": 3
     }
   ]
 }
