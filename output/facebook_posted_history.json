@@ -1832,7 +1832,20 @@
       "template": 1,
       "facebook_video_id": "943644595092949",
       "posted_at": "2026-10-14T21:03:34.375669"
+    },
+    {
+      "gif_number": 142,
+      "gif_path": "output/animation_142.gif",
+      "mp4_path": "output/animation_142.mp4",
+      "icon_names": [
+        "peak flow meter",
+        "inhaler",
+        "nebulizer"
+      ],
+      "template": 2,
+      "facebook_video_id": "1135943195790787",
+      "posted_at": "2026-10-14T22:03:24.308748"
     }
   ],
-  "posts_count": 141
+  "posts_count": 142
 }
