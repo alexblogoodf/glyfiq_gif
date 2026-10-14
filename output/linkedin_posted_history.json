@@ -1643,7 +1643,19 @@
       ],
       "template": 2,
       "posted_at": "2026-10-13T22:17:30.003993"
+    },
+    {
+      "gif_number": 138,
+      "gif_path": "output/animation_138.gif",
+      "mp4_path": "output/animation_138.mp4",
+      "icon_names": [
+        "hives",
+        "sputum",
+        "healthy bronchus"
+      ],
+      "template": 3,
+      "posted_at": "2026-10-14T21:17:33.126062"
     }
   ],
-  "posts_count": 137
+  "posts_count": 138
 }
