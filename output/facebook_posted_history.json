@@ -1858,7 +1858,20 @@
       "template": 3,
       "facebook_video_id": "2124468055128531",
       "posted_at": "2026-10-15T21:03:24.559352"
+    },
+    {
+      "gif_number": 144,
+      "gif_path": "output/animation_144.gif",
+      "mp4_path": "output/animation_144.mp4",
+      "icon_names": [
+        "nebulizer",
+        "drowsiness",
+        "syringe and ampoule"
+      ],
+      "template": 4,
+      "facebook_video_id": "1833432267661863",
+      "posted_at": "2026-10-15T22:03:23.595040"
     }
   ],
-  "posts_count": 143
+  "posts_count": 144
 }
