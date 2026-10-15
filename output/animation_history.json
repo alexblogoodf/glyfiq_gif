@@ -4767,6 +4767,22 @@
       "gif_path": "output/animation_321.gif",
       "created_at": "2026-10-15T16:16:00.237055",
       "frame_count": 3
+    },
+    {
+      "gif_number": 299,
+      "icon_ids": [
+        322,
+        323,
+        324
+      ],
+      "icon_names": [
+        "oxygen mask",
+        "new normal",
+        "elderly protection"
+      ],
+      "gif_path": "output/animation_322.gif",
+      "created_at": "2026-10-15T22:15:51.820955",
+      "frame_count": 3
     }
   ]
 }
