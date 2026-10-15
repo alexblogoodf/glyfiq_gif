@@ -2183,7 +2183,21 @@
       "threads_post_id": "18117969223769508",
       "threads_reply_id": "18101069552061877",
       "posted_at": "2026-10-15T18:23:00.675824"
+    },
+    {
+      "gif_number": 157,
+      "gif_path": "output/animation_157.gif",
+      "mp4_path": "output/animation_157.mp4",
+      "icon_names": [
+        "vaccine shot",
+        "timetable",
+        "virus vaccine"
+      ],
+      "template": 2,
+      "threads_post_id": "18197568505382668",
+      "threads_reply_id": "17976915719932920",
+      "posted_at": "2026-10-15T22:22:39.662101"
     }
   ],
-  "posts_count": 156
+  "posts_count": 157
 }
