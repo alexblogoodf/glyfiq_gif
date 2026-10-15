@@ -1845,7 +1845,20 @@
       "template": 2,
       "facebook_video_id": "1135943195790787",
       "posted_at": "2026-10-14T22:03:24.308748"
+    },
+    {
+      "gif_number": 143,
+      "gif_path": "output/animation_143.gif",
+      "mp4_path": "output/animation_143.mp4",
+      "icon_names": [
+        "inhaler",
+        "nebulizer",
+        "drowsiness"
+      ],
+      "template": 3,
+      "facebook_video_id": "2124468055128531",
+      "posted_at": "2026-10-15T21:03:24.559352"
     }
   ],
-  "posts_count": 142
+  "posts_count": 143
 }
