@@ -4751,6 +4751,22 @@
       "gif_path": "output/animation_320.gif",
       "created_at": "2026-10-15T10:16:00.558717",
       "frame_count": 3
+    },
+    {
+      "gif_number": 298,
+      "icon_ids": [
+        321,
+        322,
+        323
+      ],
+      "icon_names": [
+        "ICU ventilator",
+        "oxygen mask",
+        "new normal"
+      ],
+      "gif_path": "output/animation_321.gif",
+      "created_at": "2026-10-15T16:16:00.237055",
+      "frame_count": 3
     }
   ]
 }
