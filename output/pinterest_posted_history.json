@@ -299,7 +299,19 @@
       "template": 5,
       "title": "Insulin, Hyperglycemia & Insulin pen — Which One Do You Need?",
       "posted_at": "2026-10-15T16:46:29.149038"
+    },
+    {
+      "gif_number": 26,
+      "gif_path": "output/animation_26.gif",
+      "icon_names": [
+        "hyperglycemia",
+        "insulin pen",
+        "insulin pump"
+      ],
+      "template": 1,
+      "title": "Hyperglycemia, Insulin pen & Insulin pump — Medical & Health Icons",
+      "posted_at": "2026-10-15T21:12:51.777814"
     }
   ],
-  "posts_count": 25
+  "posts_count": 26
 }
