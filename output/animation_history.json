@@ -4735,6 +4735,22 @@
       "gif_path": "output/animation_319.gif",
       "created_at": "2026-10-15T04:16:03.043150",
       "frame_count": 3
+    },
+    {
+      "gif_number": 297,
+      "icon_ids": [
+        320,
+        321,
+        322
+      ],
+      "icon_names": [
+        "sanitizer",
+        "ICU ventilator",
+        "oxygen mask"
+      ],
+      "gif_path": "output/animation_320.gif",
+      "created_at": "2026-10-15T10:16:00.558717",
+      "frame_count": 3
     }
   ]
 }
