@@ -2169,7 +2169,21 @@
       "threads_post_id": "18435007372180585",
       "threads_reply_id": "18140399308715758",
       "posted_at": "2026-10-15T08:22:36.722139"
+    },
+    {
+      "gif_number": 156,
+      "gif_path": "output/animation_156.gif",
+      "mp4_path": "output/animation_156.mp4",
+      "icon_names": [
+        "laboratory tests",
+        "vaccine shot",
+        "timetable"
+      ],
+      "template": 1,
+      "threads_post_id": "18117969223769508",
+      "threads_reply_id": "18101069552061877",
+      "posted_at": "2026-10-15T18:23:00.675824"
     }
   ],
-  "posts_count": 155
+  "posts_count": 156
 }
