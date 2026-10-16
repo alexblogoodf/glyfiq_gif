@@ -1884,7 +1884,20 @@
       "template": 5,
       "facebook_video_id": "2251222489113058",
       "posted_at": "2026-10-16T21:03:25.617481"
+    },
+    {
+      "gif_number": 146,
+      "gif_path": "output/animation_146.gif",
+      "mp4_path": "output/animation_146.mp4",
+      "icon_names": [
+        "syringe and ampoule",
+        "pill",
+        "laboratory"
+      ],
+      "template": 1,
+      "facebook_video_id": "1802559033964647",
+      "posted_at": "2026-10-16T22:03:27.484561"
     }
   ],
-  "posts_count": 145
+  "posts_count": 146
 }
