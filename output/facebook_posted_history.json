@@ -1871,7 +1871,20 @@
       "template": 4,
       "facebook_video_id": "1833432267661863",
       "posted_at": "2026-10-15T22:03:23.595040"
+    },
+    {
+      "gif_number": 145,
+      "gif_path": "output/animation_145.gif",
+      "mp4_path": "output/animation_145.mp4",
+      "icon_names": [
+        "drowsiness",
+        "syringe and ampoule",
+        "pill"
+      ],
+      "template": 5,
+      "facebook_video_id": "2251222489113058",
+      "posted_at": "2026-10-16T21:03:25.617481"
     }
   ],
-  "posts_count": 144
+  "posts_count": 145
 }
