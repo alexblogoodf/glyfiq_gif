@@ -311,7 +311,19 @@
       "template": 1,
       "title": "Hyperglycemia, Insulin pen & Insulin pump — Medical & Health Icons",
       "posted_at": "2026-10-15T21:12:51.777814"
+    },
+    {
+      "gif_number": 27,
+      "gif_path": "output/animation_27.gif",
+      "icon_names": [
+        "insulin pen",
+        "insulin pump",
+        "blood glucose meter positively"
+      ],
+      "template": 2,
+      "title": "Insulin pen, Insulin pump & Blood glucose meter positively — Glyfiq Figma & Framer Plugin",
+      "posted_at": "2026-10-16T16:28:47.286912"
     }
   ],
-  "posts_count": 26
+  "posts_count": 27
 }
