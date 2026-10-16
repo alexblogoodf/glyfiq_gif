@@ -2197,7 +2197,21 @@
       "threads_post_id": "18197568505382668",
       "threads_reply_id": "17976915719932920",
       "posted_at": "2026-10-15T22:22:39.662101"
+    },
+    {
+      "gif_number": 158,
+      "gif_path": "output/animation_158.gif",
+      "mp4_path": "output/animation_158.mp4",
+      "icon_names": [
+        "timetable",
+        "virus vaccine",
+        "AI investigates virus"
+      ],
+      "template": 3,
+      "threads_post_id": "17978954772131767",
+      "threads_reply_id": "18119644958516060",
+      "posted_at": "2026-10-16T08:22:33.571818"
     }
   ],
-  "posts_count": 157
+  "posts_count": 158
 }
