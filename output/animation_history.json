@@ -4799,6 +4799,22 @@
       "gif_path": "output/animation_323.gif",
       "created_at": "2026-10-16T04:15:55.983406",
       "frame_count": 3
+    },
+    {
+      "gif_number": 301,
+      "icon_ids": [
+        324,
+        325,
+        326
+      ],
+      "icon_names": [
+        "elderly protection",
+        "face shield",
+        "face shield & mask"
+      ],
+      "gif_path": "output/animation_324.gif",
+      "created_at": "2026-10-16T10:16:05.811847",
+      "frame_count": 3
     }
   ]
 }
