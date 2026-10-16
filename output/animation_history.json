@@ -4783,6 +4783,22 @@
       "gif_path": "output/animation_322.gif",
       "created_at": "2026-10-15T22:15:51.820955",
       "frame_count": 3
+    },
+    {
+      "gif_number": 300,
+      "icon_ids": [
+        323,
+        324,
+        325
+      ],
+      "icon_names": [
+        "new normal",
+        "elderly protection",
+        "face shield"
+      ],
+      "gif_path": "output/animation_323.gif",
+      "created_at": "2026-10-16T04:15:55.983406",
+      "frame_count": 3
     }
   ]
 }
