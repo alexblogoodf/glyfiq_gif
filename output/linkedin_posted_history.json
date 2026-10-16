@@ -1703,7 +1703,19 @@
       ],
       "template": 2,
       "posted_at": "2026-10-16T21:17:33.041051"
+    },
+    {
+      "gif_number": 143,
+      "gif_path": "output/animation_143.gif",
+      "mp4_path": "output/animation_143.mp4",
+      "icon_names": [
+        "inhaler",
+        "nebulizer",
+        "drowsiness"
+      ],
+      "template": 3,
+      "posted_at": "2026-10-16T22:17:35.000889"
     }
   ],
-  "posts_count": 142
+  "posts_count": 143
 }
