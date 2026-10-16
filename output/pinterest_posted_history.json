@@ -323,7 +323,19 @@
       "template": 2,
       "title": "Insulin pen, Insulin pump & Blood glucose meter positively — Glyfiq Figma & Framer Plugin",
       "posted_at": "2026-10-16T16:28:47.286912"
+    },
+    {
+      "gif_number": 28,
+      "gif_path": "output/animation_28.gif",
+      "icon_names": [
+        "insulin pump",
+        "blood glucose meter positively",
+        "blood glucose meter negatively"
+      ],
+      "template": 3,
+      "title": "Insulin pump, Blood glucose meter positively & Blood glucose meter negatively — Healthcare UI Icons",
+      "posted_at": "2026-10-16T20:51:47.143820"
     }
   ],
-  "posts_count": 27
+  "posts_count": 28
 }
