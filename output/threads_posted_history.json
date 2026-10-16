@@ -2225,7 +2225,21 @@
       "threads_post_id": "17912962656491828",
       "threads_reply_id": "18089094539305565",
       "posted_at": "2026-10-16T18:22:54.608520"
+    },
+    {
+      "gif_number": 160,
+      "gif_path": "output/animation_160.gif",
+      "mp4_path": "output/animation_160.mp4",
+      "icon_names": [
+        "AI investigates virus",
+        "nano vaccine",
+        "dental instruments"
+      ],
+      "template": 5,
+      "threads_post_id": "18123018467514372",
+      "threads_reply_id": "17880727902547651",
+      "posted_at": "2026-10-16T22:22:35.741506"
     }
   ],
-  "posts_count": 159
+  "posts_count": 160
 }
