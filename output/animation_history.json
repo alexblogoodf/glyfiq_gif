@@ -4863,6 +4863,22 @@
       "gif_path": "output/animation_327.gif",
       "created_at": "2026-10-17T04:15:53.052183",
       "frame_count": 3
+    },
+    {
+      "gif_number": 305,
+      "icon_ids": [
+        328,
+        329,
+        330
+      ],
+      "icon_names": [
+        "work from home",
+        "thermal scaner F",
+        "testing menu"
+      ],
+      "gif_path": "output/animation_328.gif",
+      "created_at": "2026-10-17T10:15:59.413160",
+      "frame_count": 3
     }
   ]
 }
