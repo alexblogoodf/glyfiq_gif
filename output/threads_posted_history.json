@@ -2267,7 +2267,21 @@
       "threads_post_id": "18106534721348094",
       "threads_reply_id": "18137220187653793",
       "posted_at": "2026-10-17T18:22:32.396430"
+    },
+    {
+      "gif_number": 163,
+      "gif_path": "output/animation_163.gif",
+      "mp4_path": "output/animation_163.mp4",
+      "icon_names": [
+        "caries",
+        "dental treatment",
+        "orthodontics"
+      ],
+      "template": 3,
+      "threads_post_id": "17950550769056359",
+      "threads_reply_id": "17951429229289128",
+      "posted_at": "2026-10-17T22:22:49.610173"
     }
   ],
-  "posts_count": 162
+  "posts_count": 163
 }
