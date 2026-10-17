@@ -1910,7 +1910,20 @@
       "template": 2,
       "facebook_video_id": "40261581993428953",
       "posted_at": "2026-10-17T21:03:22.750540"
+    },
+    {
+      "gif_number": 148,
+      "gif_path": "output/animation_148.gif",
+      "mp4_path": "output/animation_148.mp4",
+      "icon_names": [
+        "laboratory",
+        "microscope and virus",
+        "virus test"
+      ],
+      "template": 3,
+      "facebook_video_id": "2048698839165753",
+      "posted_at": "2026-10-17T22:03:31.949553"
     }
   ],
-  "posts_count": 147
+  "posts_count": 148
 }
