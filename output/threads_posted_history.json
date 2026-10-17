@@ -2239,7 +2239,21 @@
       "threads_post_id": "18123018467514372",
       "threads_reply_id": "17880727902547651",
       "posted_at": "2026-10-16T22:22:35.741506"
+    },
+    {
+      "gif_number": 161,
+      "gif_path": "output/animation_161.gif",
+      "mp4_path": "output/animation_161.mp4",
+      "icon_names": [
+        "nano vaccine",
+        "dental instruments",
+        "caries"
+      ],
+      "template": 1,
+      "threads_post_id": "17933342382408940",
+      "threads_reply_id": "18108591494628923",
+      "posted_at": "2026-10-17T08:22:29.634172"
     }
   ],
-  "posts_count": 160
+  "posts_count": 161
 }
