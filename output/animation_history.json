@@ -4895,6 +4895,22 @@
       "gif_path": "output/animation_329.gif",
       "created_at": "2026-10-17T16:16:02.004968",
       "frame_count": 3
+    },
+    {
+      "gif_number": 307,
+      "icon_ids": [
+        330,
+        331,
+        332
+      ],
+      "icon_names": [
+        "testing menu",
+        "laboratory",
+        "lab worker female"
+      ],
+      "gif_path": "output/animation_330.gif",
+      "created_at": "2026-10-17T22:15:53.719235",
+      "frame_count": 3
     }
   ]
 }
