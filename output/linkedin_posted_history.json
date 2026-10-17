@@ -1727,7 +1727,19 @@
       ],
       "template": 4,
       "posted_at": "2026-10-17T21:17:28.867877"
+    },
+    {
+      "gif_number": 145,
+      "gif_path": "output/animation_145.gif",
+      "mp4_path": "output/animation_145.mp4",
+      "icon_names": [
+        "drowsiness",
+        "syringe and ampoule",
+        "pill"
+      ],
+      "template": 5,
+      "posted_at": "2026-10-17T22:17:30.293548"
     }
   ],
-  "posts_count": 144
+  "posts_count": 145
 }
