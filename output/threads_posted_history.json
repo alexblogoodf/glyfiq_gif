@@ -2253,7 +2253,21 @@
       "threads_post_id": "17933342382408940",
       "threads_reply_id": "18108591494628923",
       "posted_at": "2026-10-17T08:22:29.634172"
+    },
+    {
+      "gif_number": 162,
+      "gif_path": "output/animation_162.gif",
+      "mp4_path": "output/animation_162.mp4",
+      "icon_names": [
+        "dental instruments",
+        "caries",
+        "dental treatment"
+      ],
+      "template": 2,
+      "threads_post_id": "18106534721348094",
+      "threads_reply_id": "18137220187653793",
+      "posted_at": "2026-10-17T18:22:32.396430"
     }
   ],
-  "posts_count": 161
+  "posts_count": 162
 }
