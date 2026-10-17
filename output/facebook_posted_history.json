@@ -1897,7 +1897,20 @@
       "template": 1,
       "facebook_video_id": "1802559033964647",
       "posted_at": "2026-10-16T22:03:27.484561"
+    },
+    {
+      "gif_number": 147,
+      "gif_path": "output/animation_147.gif",
+      "mp4_path": "output/animation_147.mp4",
+      "icon_names": [
+        "pill",
+        "laboratory",
+        "microscope and virus"
+      ],
+      "template": 2,
+      "facebook_video_id": "40261581993428953",
+      "posted_at": "2026-10-17T21:03:22.750540"
     }
   ],
-  "posts_count": 146
+  "posts_count": 147
 }
