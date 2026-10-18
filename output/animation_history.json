@@ -4959,6 +4959,22 @@
       "gif_path": "output/animation_333.gif",
       "created_at": "2026-10-18T16:15:54.099861",
       "frame_count": 3
+    },
+    {
+      "gif_number": 311,
+      "icon_ids": [
+        334,
+        335,
+        336
+      ],
+      "icon_names": [
+        "testing billing",
+        "proforma",
+        "license certification"
+      ],
+      "gif_path": "output/animation_334.gif",
+      "created_at": "2026-10-18T22:15:54.828519",
+      "frame_count": 3
     }
   ]
 }
