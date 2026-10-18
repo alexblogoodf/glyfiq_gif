@@ -1923,7 +1923,20 @@
       "template": 3,
       "facebook_video_id": "2048698839165753",
       "posted_at": "2026-10-17T22:03:31.949553"
+    },
+    {
+      "gif_number": 149,
+      "gif_path": "output/animation_149.gif",
+      "mp4_path": "output/animation_149.mp4",
+      "icon_names": [
+        "microscope and virus",
+        "virus test",
+        "COVID-19 test"
+      ],
+      "template": 4,
+      "facebook_video_id": "1406230647882431",
+      "posted_at": "2026-10-18T21:03:26.323283"
     }
   ],
-  "posts_count": 148
+  "posts_count": 149
 }
