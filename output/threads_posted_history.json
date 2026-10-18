@@ -2281,7 +2281,21 @@
       "threads_post_id": "17950550769056359",
       "threads_reply_id": "17951429229289128",
       "posted_at": "2026-10-17T22:22:49.610173"
+    },
+    {
+      "gif_number": 164,
+      "gif_path": "output/animation_164.gif",
+      "mp4_path": "output/animation_164.mp4",
+      "icon_names": [
+        "dental treatment",
+        "orthodontics",
+        "extraction"
+      ],
+      "template": 4,
+      "threads_post_id": "17871643641644417",
+      "threads_reply_id": "18100242809356173",
+      "posted_at": "2026-10-18T18:22:32.576729"
     }
   ],
-  "posts_count": 163
+  "posts_count": 164
 }
