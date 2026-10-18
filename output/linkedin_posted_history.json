@@ -1751,7 +1751,19 @@
       ],
       "template": 1,
       "posted_at": "2026-10-18T21:17:31.230280"
+    },
+    {
+      "gif_number": 147,
+      "gif_path": "output/animation_147.gif",
+      "mp4_path": "output/animation_147.mp4",
+      "icon_names": [
+        "pill",
+        "laboratory",
+        "microscope and virus"
+      ],
+      "template": 2,
+      "posted_at": "2026-10-18T22:17:30.587598"
     }
   ],
-  "posts_count": 146
+  "posts_count": 147
 }
