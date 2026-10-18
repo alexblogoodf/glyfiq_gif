@@ -371,7 +371,19 @@
       "template": 1,
       "title": "Diet, Pills & tablets & Obesity — Medical & Health Icons",
       "posted_at": "2026-10-18T15:44:26.025848"
+    },
+    {
+      "gif_number": 32,
+      "gif_path": "output/animation_32.gif",
+      "icon_names": [
+        "pills & tablets",
+        "obesity",
+        "diabetes"
+      ],
+      "template": 2,
+      "title": "Pills & tablets, Obesity & Diabetes — Glyfiq Figma & Framer Plugin",
+      "posted_at": "2026-10-18T20:26:49.912542"
     }
   ],
-  "posts_count": 31
+  "posts_count": 32
 }
