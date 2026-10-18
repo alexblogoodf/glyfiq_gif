@@ -1759,7 +1759,18 @@
       ],
       "template": 5,
       "posted_at": "2026-10-18T12:05:31.325897"
+    },
+    {
+      "gif_number": 161,
+      "gif_path": "output/animation_161.gif",
+      "icon_names": [
+        "nano vaccine",
+        "dental instruments",
+        "caries"
+      ],
+      "template": 1,
+      "posted_at": "2026-10-18T22:05:29.578284"
     }
   ],
-  "posts_count": 160
+  "posts_count": 161
 }
