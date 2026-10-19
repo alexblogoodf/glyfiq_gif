@@ -1962,7 +1962,20 @@
       "template": 1,
       "facebook_video_id": "1431293805744988",
       "posted_at": "2026-10-19T21:03:22.807096"
+    },
+    {
+      "gif_number": 152,
+      "gif_path": "output/animation_152.gif",
+      "mp4_path": "output/animation_152.mp4",
+      "icon_names": [
+        "immune system",
+        "vaccine search",
+        "virus in DNA"
+      ],
+      "template": 2,
+      "facebook_video_id": "3266127493596829",
+      "posted_at": "2026-10-19T22:03:26.832553"
     }
   ],
-  "posts_count": 151
+  "posts_count": 152
 }
