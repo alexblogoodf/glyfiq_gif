@@ -2323,7 +2323,21 @@
       "threads_post_id": "17966598051207054",
       "threads_reply_id": "18081011198380334",
       "posted_at": "2026-10-19T08:23:37.505384"
+    },
+    {
+      "gif_number": 167,
+      "gif_path": "output/animation_167.gif",
+      "mp4_path": "output/animation_167.mp4",
+      "icon_names": [
+        "veneers",
+        "dental hygiene",
+        "teeth whitening"
+      ],
+      "template": 2,
+      "threads_post_id": "18097305380378136",
+      "threads_reply_id": "17937635610402138",
+      "posted_at": "2026-10-19T18:23:45.467309"
     }
   ],
-  "posts_count": 166
+  "posts_count": 167
 }
