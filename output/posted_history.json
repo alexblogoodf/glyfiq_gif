@@ -1770,7 +1770,18 @@
       ],
       "template": 1,
       "posted_at": "2026-10-18T22:05:29.578284"
+    },
+    {
+      "gif_number": 162,
+      "gif_path": "output/animation_162.gif",
+      "icon_names": [
+        "dental instruments",
+        "caries",
+        "dental treatment"
+      ],
+      "template": 2,
+      "posted_at": "2026-10-19T12:05:30.390539"
     }
   ],
-  "posts_count": 161
+  "posts_count": 162
 }
