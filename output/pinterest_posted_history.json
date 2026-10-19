@@ -383,7 +383,19 @@
       "template": 2,
       "title": "Pills & tablets, Obesity & Diabetes — Glyfiq Figma & Framer Plugin",
       "posted_at": "2026-10-18T20:26:49.912542"
+    },
+    {
+      "gif_number": 33,
+      "gif_path": "output/animation_33.gif",
+      "icon_names": [
+        "obesity",
+        "diabetes",
+        "diabetic retinopathy"
+      ],
+      "template": 3,
+      "title": "Obesity, Diabetes & Diabetic retinopathy — Healthcare UI Icons",
+      "posted_at": "2026-10-19T18:38:14.000270"
     }
   ],
-  "posts_count": 32
+  "posts_count": 33
 }
