@@ -1949,7 +1949,20 @@
       "template": 5,
       "facebook_video_id": "2050707532983805",
       "posted_at": "2026-10-18T22:03:26.744552"
+    },
+    {
+      "gif_number": 151,
+      "gif_path": "output/animation_151.gif",
+      "mp4_path": "output/animation_151.mp4",
+      "icon_names": [
+        "COVID-19 test",
+        "immune system",
+        "vaccine search"
+      ],
+      "template": 1,
+      "facebook_video_id": "1431293805744988",
+      "posted_at": "2026-10-19T21:03:22.807096"
     }
   ],
-  "posts_count": 150
+  "posts_count": 151
 }
