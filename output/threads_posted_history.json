@@ -2337,7 +2337,21 @@
       "threads_post_id": "18097305380378136",
       "threads_reply_id": "17937635610402138",
       "posted_at": "2026-10-19T18:23:45.467309"
+    },
+    {
+      "gif_number": 168,
+      "gif_path": "output/animation_168.gif",
+      "mp4_path": "output/animation_168.mp4",
+      "icon_names": [
+        "dental hygiene",
+        "teeth whitening",
+        "dental bridge"
+      ],
+      "template": 3,
+      "threads_post_id": "18642087295004492",
+      "threads_reply_id": "17955916026260553",
+      "posted_at": "2026-10-19T22:22:44.136179"
     }
   ],
-  "posts_count": 167
+  "posts_count": 168
 }
