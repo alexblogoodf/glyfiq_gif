@@ -5007,6 +5007,22 @@
       "gif_path": "output/animation_336.gif",
       "created_at": "2026-10-19T10:15:51.996843",
       "frame_count": 3
+    },
+    {
+      "gif_number": 314,
+      "icon_ids": [
+        337,
+        338,
+        339
+      ],
+      "icon_names": [
+        "validation training",
+        "administrative support",
+        "turn key"
+      ],
+      "gif_path": "output/animation_337.gif",
+      "created_at": "2026-10-19T16:15:57.860536",
+      "frame_count": 3
     }
   ]
 }
