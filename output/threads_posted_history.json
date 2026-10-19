@@ -2309,7 +2309,21 @@
       "threads_post_id": "18074727695744639",
       "threads_reply_id": "17994944238058893",
       "posted_at": "2026-10-18T22:22:34.108406"
+    },
+    {
+      "gif_number": 166,
+      "gif_path": "output/animation_166.gif",
+      "mp4_path": "output/animation_166.mp4",
+      "icon_names": [
+        "extraction",
+        "veneers",
+        "dental hygiene"
+      ],
+      "template": 1,
+      "threads_post_id": "17966598051207054",
+      "threads_reply_id": "18081011198380334",
+      "posted_at": "2026-10-19T08:23:37.505384"
     }
   ],
-  "posts_count": 165
+  "posts_count": 166
 }
