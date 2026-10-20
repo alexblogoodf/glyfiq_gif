@@ -5071,6 +5071,22 @@
       "gif_path": "output/animation_340.gif",
       "created_at": "2026-10-20T10:15:52.052710",
       "frame_count": 3
+    },
+    {
+      "gif_number": 318,
+      "icon_ids": [
+        341,
+        342,
+        343
+      ],
+      "icon_names": [
+        "physician",
+        "operations",
+        "successful search"
+      ],
+      "gif_path": "output/animation_341.gif",
+      "created_at": "2026-10-20T16:15:52.994001",
+      "frame_count": 3
     }
   ]
 }
