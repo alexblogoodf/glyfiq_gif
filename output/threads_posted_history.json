@@ -2351,7 +2351,21 @@
       "threads_post_id": "18642087295004492",
       "threads_reply_id": "17955916026260553",
       "posted_at": "2026-10-19T22:22:44.136179"
+    },
+    {
+      "gif_number": 169,
+      "gif_path": "output/animation_169.gif",
+      "mp4_path": "output/animation_169.mp4",
+      "icon_names": [
+        "teeth whitening",
+        "dental bridge",
+        "dental implant"
+      ],
+      "template": 4,
+      "threads_post_id": "18007479638787853",
+      "threads_reply_id": "18115752296153916",
+      "posted_at": "2026-10-20T18:21:45.471008"
     }
   ],
-  "posts_count": 168
+  "posts_count": 169
 }
