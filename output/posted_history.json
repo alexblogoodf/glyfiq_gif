@@ -1803,7 +1803,18 @@
       ],
       "template": 4,
       "posted_at": "2026-10-20T12:05:34.854877"
+    },
+    {
+      "gif_number": 165,
+      "gif_path": "output/animation_165.gif",
+      "icon_names": [
+        "orthodontics",
+        "extraction",
+        "veneers"
+      ],
+      "template": 5,
+      "posted_at": "2026-10-20T22:05:33.379434"
     }
   ],
-  "posts_count": 164
+  "posts_count": 165
 }
