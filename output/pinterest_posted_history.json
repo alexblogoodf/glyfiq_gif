@@ -407,7 +407,19 @@
       "template": 4,
       "title": "Diabetes, Diabetic retinopathy & Diabetic foot — Part of 6,000+ Medical Icons",
       "posted_at": "2026-10-20T16:44:28.838930"
+    },
+    {
+      "gif_number": 35,
+      "gif_path": "output/animation_35.gif",
+      "icon_names": [
+        "diabetic retinopathy",
+        "diabetic foot",
+        "insulin level"
+      ],
+      "template": 5,
+      "title": "Diabetic retinopathy, Diabetic foot & Insulin level — Which One Do You Need?",
+      "posted_at": "2026-10-20T21:28:57.788725"
     }
   ],
-  "posts_count": 34
+  "posts_count": 35
 }
