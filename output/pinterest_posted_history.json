@@ -395,7 +395,19 @@
       "template": 3,
       "title": "Obesity, Diabetes & Diabetic retinopathy — Healthcare UI Icons",
       "posted_at": "2026-10-19T18:38:14.000270"
+    },
+    {
+      "gif_number": 34,
+      "gif_path": "output/animation_34.gif",
+      "icon_names": [
+        "diabetes",
+        "diabetic retinopathy",
+        "diabetic foot"
+      ],
+      "template": 4,
+      "title": "Diabetes, Diabetic retinopathy & Diabetic foot — Part of 6,000+ Medical Icons",
+      "posted_at": "2026-10-20T16:44:28.838930"
     }
   ],
-  "posts_count": 33
+  "posts_count": 34
 }
