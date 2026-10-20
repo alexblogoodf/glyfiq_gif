@@ -2365,7 +2365,21 @@
       "threads_post_id": "18007479638787853",
       "threads_reply_id": "18115752296153916",
       "posted_at": "2026-10-20T18:21:45.471008"
+    },
+    {
+      "gif_number": 170,
+      "gif_path": "output/animation_170.gif",
+      "mp4_path": "output/animation_170.mp4",
+      "icon_names": [
+        "dental bridge",
+        "dental implant",
+        "braces"
+      ],
+      "template": 5,
+      "threads_post_id": "18134078914802202",
+      "threads_reply_id": "18116112974045457",
+      "posted_at": "2026-10-20T22:22:41.842717"
     }
   ],
-  "posts_count": 169
+  "posts_count": 170
 }
