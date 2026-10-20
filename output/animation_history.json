@@ -5055,6 +5055,22 @@
       "gif_path": "output/animation_339.gif",
       "created_at": "2026-10-20T04:16:08.792820",
       "frame_count": 3
+    },
+    {
+      "gif_number": 317,
+      "icon_ids": [
+        340,
+        341,
+        342
+      ],
+      "icon_names": [
+        "helix",
+        "physician",
+        "operations"
+      ],
+      "gif_path": "output/animation_340.gif",
+      "created_at": "2026-10-20T10:15:52.052710",
+      "frame_count": 3
     }
   ]
 }
