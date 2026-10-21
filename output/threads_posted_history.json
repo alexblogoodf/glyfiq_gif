@@ -2379,7 +2379,21 @@
       "threads_post_id": "18134078914802202",
       "threads_reply_id": "18116112974045457",
       "posted_at": "2026-10-20T22:22:41.842717"
+    },
+    {
+      "gif_number": 171,
+      "gif_path": "output/animation_171.gif",
+      "mp4_path": "output/animation_171.mp4",
+      "icon_names": [
+        "dental implant",
+        "braces",
+        "dental calculus"
+      ],
+      "template": 1,
+      "threads_post_id": "17910586692502075",
+      "threads_reply_id": "17913911556287997",
+      "posted_at": "2026-10-21T08:23:49.406168"
     }
   ],
-  "posts_count": 170
+  "posts_count": 171
 }
