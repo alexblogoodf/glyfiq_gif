@@ -2393,7 +2393,21 @@
       "threads_post_id": "17910586692502075",
       "threads_reply_id": "17913911556287997",
       "posted_at": "2026-10-21T08:23:49.406168"
+    },
+    {
+      "gif_number": 172,
+      "gif_path": "output/animation_172.gif",
+      "mp4_path": "output/animation_172.mp4",
+      "icon_names": [
+        "braces",
+        "dental calculus",
+        "healthy tooth"
+      ],
+      "template": 2,
+      "threads_post_id": "18149846698510752",
+      "threads_reply_id": "18116507447104841",
+      "posted_at": "2026-10-21T18:23:15.928069"
     }
   ],
-  "posts_count": 171
+  "posts_count": 172
 }
