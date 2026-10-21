@@ -1825,7 +1825,18 @@
       ],
       "template": 1,
       "posted_at": "2026-10-21T12:05:36.487643"
+    },
+    {
+      "gif_number": 167,
+      "gif_path": "output/animation_167.gif",
+      "icon_names": [
+        "veneers",
+        "dental hygiene",
+        "teeth whitening"
+      ],
+      "template": 2,
+      "posted_at": "2026-10-21T22:05:32.770171"
     }
   ],
-  "posts_count": 166
+  "posts_count": 167
 }
