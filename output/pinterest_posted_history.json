@@ -431,7 +431,19 @@
       "template": 1,
       "title": "Diabetic foot, Insulin level & Ban on sweets — Medical & Health Icons",
       "posted_at": "2026-10-21T17:01:46.819250"
+    },
+    {
+      "gif_number": 37,
+      "gif_path": "output/animation_37.gif",
+      "icon_names": [
+        "insulin level",
+        "ban on sweets",
+        "excess weight"
+      ],
+      "template": 2,
+      "title": "Insulin level, Ban on sweets & Excess weight — Glyfiq Figma & Framer Plugin",
+      "posted_at": "2026-10-21T21:30:21.313208"
     }
   ],
-  "posts_count": 36
+  "posts_count": 37
 }
