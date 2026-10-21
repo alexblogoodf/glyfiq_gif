@@ -2407,7 +2407,21 @@
       "threads_post_id": "18149846698510752",
       "threads_reply_id": "18116507447104841",
       "posted_at": "2026-10-21T18:23:15.928069"
+    },
+    {
+      "gif_number": 173,
+      "gif_path": "output/animation_173.gif",
+      "mp4_path": "output/animation_173.mp4",
+      "icon_names": [
+        "dental calculus",
+        "healthy tooth",
+        "floss"
+      ],
+      "template": 3,
+      "threads_post_id": "18118089967970683",
+      "threads_reply_id": "18006608483791730",
+      "posted_at": "2026-10-21T22:22:38.197990"
     }
   ],
-  "posts_count": 172
+  "posts_count": 173
 }
