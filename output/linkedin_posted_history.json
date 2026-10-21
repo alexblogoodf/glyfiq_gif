@@ -1823,7 +1823,19 @@
       ],
       "template": 2,
       "posted_at": "2026-10-21T21:17:38.227325"
+    },
+    {
+      "gif_number": 153,
+      "gif_path": "output/animation_153.gif",
+      "mp4_path": "output/animation_153.mp4",
+      "icon_names": [
+        "vaccine search",
+        "virus in DNA",
+        "vaccine trials"
+      ],
+      "template": 3,
+      "posted_at": "2026-10-21T22:17:33.429137"
     }
   ],
-  "posts_count": 152
+  "posts_count": 153
 }
