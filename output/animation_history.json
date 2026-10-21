@@ -5151,6 +5151,22 @@
       "gif_path": "output/animation_345.gif",
       "created_at": "2026-10-21T16:16:04.989488",
       "frame_count": 3
+    },
+    {
+      "gif_number": 323,
+      "icon_ids": [
+        346,
+        347,
+        348
+      ],
+      "icon_names": [
+        "unsuccessful check up",
+        "couple vaccination",
+        "young couple vaccination"
+      ],
+      "gif_path": "output/animation_346.gif",
+      "created_at": "2026-10-21T22:16:00.618622",
+      "frame_count": 3
     }
   ]
 }
