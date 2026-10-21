@@ -419,7 +419,19 @@
       "template": 5,
       "title": "Diabetic retinopathy, Diabetic foot & Insulin level — Which One Do You Need?",
       "posted_at": "2026-10-20T21:28:57.788725"
+    },
+    {
+      "gif_number": 36,
+      "gif_path": "output/animation_36.gif",
+      "icon_names": [
+        "diabetic foot",
+        "insulin level",
+        "ban on sweets"
+      ],
+      "template": 1,
+      "title": "Diabetic foot, Insulin level & Ban on sweets — Medical & Health Icons",
+      "posted_at": "2026-10-21T17:01:46.819250"
     }
   ],
-  "posts_count": 35
+  "posts_count": 36
 }
