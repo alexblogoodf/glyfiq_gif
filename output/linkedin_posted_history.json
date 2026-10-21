@@ -1811,7 +1811,19 @@
       ],
       "template": 1,
       "posted_at": "2026-10-20T22:17:35.558747"
+    },
+    {
+      "gif_number": 152,
+      "gif_path": "output/animation_152.gif",
+      "mp4_path": "output/animation_152.mp4",
+      "icon_names": [
+        "immune system",
+        "vaccine search",
+        "virus in DNA"
+      ],
+      "template": 2,
+      "posted_at": "2026-10-21T21:17:38.227325"
     }
   ],
-  "posts_count": 151
+  "posts_count": 152
 }
