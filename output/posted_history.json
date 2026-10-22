@@ -1847,7 +1847,18 @@
       ],
       "template": 3,
       "posted_at": "2026-10-22T12:05:35.166075"
+    },
+    {
+      "gif_number": 169,
+      "gif_path": "output/animation_169.gif",
+      "icon_names": [
+        "teeth whitening",
+        "dental bridge",
+        "dental implant"
+      ],
+      "template": 4,
+      "posted_at": "2026-10-22T22:05:31.435484"
     }
   ],
-  "posts_count": 168
+  "posts_count": 169
 }
