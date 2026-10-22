@@ -2449,7 +2449,21 @@
       "threads_post_id": "18182798518437759",
       "threads_reply_id": "18136192732645487",
       "posted_at": "2026-10-22T18:23:00.282202"
+    },
+    {
+      "gif_number": 176,
+      "gif_path": "output/animation_176.gif",
+      "mp4_path": "output/animation_176.mp4",
+      "icon_names": [
+        "preventive dentistry",
+        "ultrasonic cleaning",
+        "blood test"
+      ],
+      "template": 1,
+      "threads_post_id": "17961905076232075",
+      "threads_reply_id": "18077862734424054",
+      "posted_at": "2026-10-22T22:22:36.230899"
     }
   ],
-  "posts_count": 175
+  "posts_count": 176
 }
