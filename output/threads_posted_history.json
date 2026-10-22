@@ -2421,7 +2421,21 @@
       "threads_post_id": "18118089967970683",
       "threads_reply_id": "18006608483791730",
       "posted_at": "2026-10-21T22:22:38.197990"
+    },
+    {
+      "gif_number": 174,
+      "gif_path": "output/animation_174.gif",
+      "mp4_path": "output/animation_174.mp4",
+      "icon_names": [
+        "healthy tooth",
+        "floss",
+        "preventive dentistry"
+      ],
+      "template": 4,
+      "threads_post_id": "18199050433383216",
+      "threads_reply_id": "18082043279710505",
+      "posted_at": "2026-10-22T08:23:48.844299"
     }
   ],
-  "posts_count": 173
+  "posts_count": 174
 }
