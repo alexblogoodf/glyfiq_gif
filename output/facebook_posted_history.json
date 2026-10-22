@@ -2027,7 +2027,20 @@
       "template": 1,
       "facebook_video_id": "1779217550015130",
       "posted_at": "2026-10-21T22:03:27.392306"
+    },
+    {
+      "gif_number": 157,
+      "gif_path": "output/animation_157.gif",
+      "mp4_path": "output/animation_157.mp4",
+      "icon_names": [
+        "vaccine shot",
+        "timetable",
+        "virus vaccine"
+      ],
+      "template": 2,
+      "facebook_video_id": "1784531906109900",
+      "posted_at": "2026-10-22T21:03:27.251511"
     }
   ],
-  "posts_count": 156
+  "posts_count": 157
 }
