@@ -2118,7 +2118,20 @@
       "template": 3,
       "buffer_post_id": "6ada53a9ad1fc1b5527d9ace",
       "posted_at": "2026-10-22T18:20:31.656107"
+    },
+    {
+      "gif_number": 164,
+      "gif_path": "output/animation_164.gif",
+      "mp4_path": "output/animation_164.mp4",
+      "icon_names": [
+        "dental treatment",
+        "orthodontics",
+        "extraction"
+      ],
+      "template": 4,
+      "buffer_post_id": "6ada8be78260be18bcedb14e",
+      "posted_at": "2026-10-22T22:20:30.012560"
     }
   ],
-  "posts_count": 163
+  "posts_count": 164
 }
