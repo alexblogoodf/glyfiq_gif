@@ -2435,7 +2435,21 @@
       "threads_post_id": "18199050433383216",
       "threads_reply_id": "18082043279710505",
       "posted_at": "2026-10-22T08:23:48.844299"
+    },
+    {
+      "gif_number": 175,
+      "gif_path": "output/animation_175.gif",
+      "mp4_path": "output/animation_175.mp4",
+      "icon_names": [
+        "floss",
+        "preventive dentistry",
+        "ultrasonic cleaning"
+      ],
+      "template": 5,
+      "threads_post_id": "18182798518437759",
+      "threads_reply_id": "18136192732645487",
+      "posted_at": "2026-10-22T18:23:00.282202"
     }
   ],
-  "posts_count": 174
+  "posts_count": 175
 }
