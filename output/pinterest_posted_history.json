@@ -455,7 +455,19 @@
       "template": 3,
       "title": "Ban on sweets, Excess weight & Medical checkup — Healthcare UI Icons",
       "posted_at": "2026-10-22T17:00:38.424183"
+    },
+    {
+      "gif_number": 39,
+      "gif_path": "output/animation_39.gif",
+      "icon_names": [
+        "excess weight",
+        "medical checkup",
+        "MRI scanner type 1"
+      ],
+      "template": 4,
+      "title": "Excess weight, Medical checkup & MRI scanner type 1 — Part of 6,000+ Medical Icons",
+      "posted_at": "2026-10-22T21:25:37.808982"
     }
   ],
-  "posts_count": 38
+  "posts_count": 39
 }
