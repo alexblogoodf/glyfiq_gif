@@ -2105,7 +2105,20 @@
       "template": 2,
       "buffer_post_id": "6ad93a6c8039195b12f65196",
       "posted_at": "2026-10-21T22:20:35.031446"
+    },
+    {
+      "gif_number": 163,
+      "gif_path": "output/animation_163.gif",
+      "mp4_path": "output/animation_163.mp4",
+      "icon_names": [
+        "caries",
+        "dental treatment",
+        "orthodontics"
+      ],
+      "template": 3,
+      "buffer_post_id": "6ada53a9ad1fc1b5527d9ace",
+      "posted_at": "2026-10-22T18:20:31.656107"
     }
   ],
-  "posts_count": 162
+  "posts_count": 163
 }
