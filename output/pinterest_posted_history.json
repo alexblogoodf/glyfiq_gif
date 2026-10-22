@@ -443,7 +443,19 @@
       "template": 2,
       "title": "Insulin level, Ban on sweets & Excess weight — Glyfiq Figma & Framer Plugin",
       "posted_at": "2026-10-21T21:30:21.313208"
+    },
+    {
+      "gif_number": 38,
+      "gif_path": "output/animation_38.gif",
+      "icon_names": [
+        "ban on sweets",
+        "excess weight",
+        "medical checkup"
+      ],
+      "template": 3,
+      "title": "Ban on sweets, Excess weight & Medical checkup — Healthcare UI Icons",
+      "posted_at": "2026-10-22T17:00:38.424183"
     }
   ],
-  "posts_count": 37
+  "posts_count": 38
 }
