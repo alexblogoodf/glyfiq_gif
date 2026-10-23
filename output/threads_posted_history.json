@@ -2477,7 +2477,21 @@
       "threads_post_id": "18119735135321214",
       "threads_reply_id": "18121064086985612",
       "posted_at": "2026-10-23T18:22:01.571274"
+    },
+    {
+      "gif_number": 178,
+      "gif_path": "output/animation_178.gif",
+      "mp4_path": "output/animation_178.mp4",
+      "icon_names": [
+        "blood test",
+        "test tube",
+        "good urine test"
+      ],
+      "template": 3,
+      "threads_post_id": "18648432220013805",
+      "threads_reply_id": "18122415029331062",
+      "posted_at": "2026-10-23T22:22:30.625185"
     }
   ],
-  "posts_count": 177
+  "posts_count": 178
 }
