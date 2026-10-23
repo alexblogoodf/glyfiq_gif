@@ -2463,7 +2463,21 @@
       "threads_post_id": "17961905076232075",
       "threads_reply_id": "18077862734424054",
       "posted_at": "2026-10-22T22:22:36.230899"
+    },
+    {
+      "gif_number": 177,
+      "gif_path": "output/animation_177.gif",
+      "mp4_path": "output/animation_177.mp4",
+      "icon_names": [
+        "ultrasonic cleaning",
+        "blood test",
+        "test tube"
+      ],
+      "template": 2,
+      "threads_post_id": "18119735135321214",
+      "threads_reply_id": "18121064086985612",
+      "posted_at": "2026-10-23T18:22:01.571274"
     }
   ],
-  "posts_count": 176
+  "posts_count": 177
 }
