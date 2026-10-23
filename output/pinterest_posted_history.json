@@ -467,7 +467,19 @@
       "template": 4,
       "title": "Excess weight, Medical checkup & MRI scanner type 1 — Part of 6,000+ Medical Icons",
       "posted_at": "2026-10-22T21:25:37.808982"
+    },
+    {
+      "gif_number": 40,
+      "gif_path": "output/animation_40.gif",
+      "icon_names": [
+        "medical checkup",
+        "MRI scanner type 1",
+        "MRI diagnostics top view"
+      ],
+      "template": 5,
+      "title": "Medical checkup, MRI scanner type 1 & MRI diagnostics top view — Which One Do You Need?",
+      "posted_at": "2026-10-23T16:52:49.615286"
     }
   ],
-  "posts_count": 39
+  "posts_count": 40
 }
