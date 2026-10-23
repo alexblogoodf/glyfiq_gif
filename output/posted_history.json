@@ -1869,7 +1869,18 @@
       ],
       "template": 5,
       "posted_at": "2026-10-23T12:05:32.740278"
+    },
+    {
+      "gif_number": 171,
+      "gif_path": "output/animation_171.gif",
+      "icon_names": [
+        "dental implant",
+        "braces",
+        "dental calculus"
+      ],
+      "template": 1,
+      "posted_at": "2026-10-23T22:05:28.953811"
     }
   ],
-  "posts_count": 170
+  "posts_count": 171
 }
