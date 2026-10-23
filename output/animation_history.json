@@ -5231,6 +5231,22 @@
       "gif_path": "output/animation_350.gif",
       "created_at": "2026-10-23T04:15:54.559669",
       "frame_count": 3
+    },
+    {
+      "gif_number": 328,
+      "icon_ids": [
+        351,
+        352,
+        353
+      ],
+      "icon_names": [
+        "senior vaccination",
+        "senior couple vaccination",
+        "female vaccination"
+      ],
+      "gif_path": "output/animation_351.gif",
+      "created_at": "2026-10-23T10:15:58.409791",
+      "frame_count": 3
     }
   ]
 }
