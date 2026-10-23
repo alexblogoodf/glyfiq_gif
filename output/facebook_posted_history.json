@@ -2053,7 +2053,20 @@
       "template": 3,
       "facebook_video_id": "1823394892008223",
       "posted_at": "2026-10-22T22:03:27.112202"
+    },
+    {
+      "gif_number": 159,
+      "gif_path": "output/animation_159.gif",
+      "mp4_path": "output/animation_159.mp4",
+      "icon_names": [
+        "virus vaccine",
+        "AI investigates virus",
+        "nano vaccine"
+      ],
+      "template": 4,
+      "facebook_video_id": "1624730225764535",
+      "posted_at": "2026-10-23T21:03:24.943949"
     }
   ],
-  "posts_count": 158
+  "posts_count": 159
 }
