@@ -2144,7 +2144,20 @@
       "template": 5,
       "buffer_post_id": "6adba52a8b3d437ddc7e421b",
       "posted_at": "2026-10-23T18:20:33.133954"
+    },
+    {
+      "gif_number": 166,
+      "gif_path": "output/animation_166.gif",
+      "mp4_path": "output/animation_166.mp4",
+      "icon_names": [
+        "extraction",
+        "veneers",
+        "dental hygiene"
+      ],
+      "template": 1,
+      "buffer_post_id": "6adbdd679acae620d81e793e",
+      "posted_at": "2026-10-23T22:20:29.702941"
     }
   ],
-  "posts_count": 165
+  "posts_count": 166
 }
