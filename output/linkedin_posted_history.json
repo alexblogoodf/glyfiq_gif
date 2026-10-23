@@ -1871,7 +1871,19 @@
       ],
       "template": 1,
       "posted_at": "2026-10-23T21:17:32.389697"
+    },
+    {
+      "gif_number": 157,
+      "gif_path": "output/animation_157.gif",
+      "mp4_path": "output/animation_157.mp4",
+      "icon_names": [
+        "vaccine shot",
+        "timetable",
+        "virus vaccine"
+      ],
+      "template": 2,
+      "posted_at": "2026-10-23T22:17:32.343806"
     }
   ],
-  "posts_count": 156
+  "posts_count": 157
 }
