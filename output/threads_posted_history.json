@@ -2505,7 +2505,21 @@
       "threads_post_id": "18136685191639682",
       "threads_reply_id": "17937875916125738",
       "posted_at": "2026-10-24T08:22:28.327674"
+    },
+    {
+      "gif_number": 180,
+      "gif_path": "output/animation_180.gif",
+      "mp4_path": "output/animation_180.mp4",
+      "icon_names": [
+        "good urine test",
+        "bad urine test",
+        "stool test"
+      ],
+      "template": 5,
+      "threads_post_id": "18123678412935346",
+      "threads_reply_id": "18119765393064467",
+      "posted_at": "2026-10-24T22:21:40.230303"
     }
   ],
-  "posts_count": 179
+  "posts_count": 180
 }
