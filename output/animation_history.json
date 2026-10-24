@@ -5311,6 +5311,22 @@
       "gif_path": "output/animation_355.gif",
       "created_at": "2026-10-24T10:15:58.552842",
       "frame_count": 3
+    },
+    {
+      "gif_number": 333,
+      "icon_ids": [
+        356,
+        357,
+        358
+      ],
+      "icon_names": [
+        "vaccination records",
+        "male protection",
+        "nurse vaccination"
+      ],
+      "gif_path": "output/animation_356.gif",
+      "created_at": "2026-10-24T16:16:01.792460",
+      "frame_count": 3
     }
   ]
 }
