@@ -2170,7 +2170,20 @@
       "template": 2,
       "buffer_post_id": "6adcf6a73d5b27036b99cc9a",
       "posted_at": "2026-10-24T18:20:30.098487"
+    },
+    {
+      "gif_number": 168,
+      "gif_path": "output/animation_168.gif",
+      "mp4_path": "output/animation_168.mp4",
+      "icon_names": [
+        "dental hygiene",
+        "teeth whitening",
+        "dental bridge"
+      ],
+      "template": 3,
+      "buffer_post_id": "6add2eeebd33ce99c3444363",
+      "posted_at": "2026-10-24T22:20:36.685573"
     }
   ],
-  "posts_count": 167
+  "posts_count": 168
 }
