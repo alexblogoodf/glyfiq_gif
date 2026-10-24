@@ -1880,7 +1880,18 @@
       ],
       "template": 1,
       "posted_at": "2026-10-23T22:05:28.953811"
+    },
+    {
+      "gif_number": 172,
+      "gif_path": "output/animation_172.gif",
+      "icon_names": [
+        "braces",
+        "dental calculus",
+        "healthy tooth"
+      ],
+      "template": 2,
+      "posted_at": "2026-10-24T12:05:31.949261"
     }
   ],
-  "posts_count": 171
+  "posts_count": 172
 }
