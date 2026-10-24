@@ -2079,7 +2079,20 @@
       "template": 5,
       "facebook_video_id": "1691383926043314",
       "posted_at": "2026-10-23T22:03:28.691245"
+    },
+    {
+      "gif_number": 161,
+      "gif_path": "output/animation_161.gif",
+      "mp4_path": "output/animation_161.mp4",
+      "icon_names": [
+        "nano vaccine",
+        "dental instruments",
+        "caries"
+      ],
+      "template": 1,
+      "facebook_video_id": "1555285372949687",
+      "posted_at": "2026-10-24T21:03:22.328937"
     }
   ],
-  "posts_count": 160
+  "posts_count": 161
 }
