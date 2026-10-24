@@ -503,7 +503,19 @@
       "template": 2,
       "title": "MRI diagnostics top view, MRI scanner type 2 & MRI diagnostics side view — Glyfiq Figma & Framer...",
       "posted_at": "2026-10-24T15:45:51.842081"
+    },
+    {
+      "gif_number": 43,
+      "gif_path": "output/animation_43.gif",
+      "icon_names": [
+        "MRI scanner type 2",
+        "MRI diagnostics side view",
+        "MRI scanner close view"
+      ],
+      "template": 3,
+      "title": "MRI scanner type 2, MRI diagnostics side view & MRI scanner close view — Healthcare UI Icons",
+      "posted_at": "2026-10-24T20:34:27.202497"
     }
   ],
-  "posts_count": 42
+  "posts_count": 43
 }
