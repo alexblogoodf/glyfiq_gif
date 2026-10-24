@@ -5295,6 +5295,22 @@
       "gif_path": "output/animation_354.gif",
       "created_at": "2026-10-24T04:15:49.365971",
       "frame_count": 3
+    },
+    {
+      "gif_number": 332,
+      "icon_ids": [
+        355,
+        356,
+        357
+      ],
+      "icon_names": [
+        "family vaccination",
+        "vaccination records",
+        "male protection"
+      ],
+      "gif_path": "output/animation_355.gif",
+      "created_at": "2026-10-24T10:15:58.552842",
+      "frame_count": 3
     }
   ]
 }
