@@ -1913,7 +1913,18 @@
       ],
       "template": 4,
       "posted_at": "2026-10-25T13:05:29.586485"
+    },
+    {
+      "gif_number": 175,
+      "gif_path": "output/animation_175.gif",
+      "icon_names": [
+        "floss",
+        "preventive dentistry",
+        "ultrasonic cleaning"
+      ],
+      "template": 5,
+      "posted_at": "2026-10-25T23:05:26.219962"
     }
   ],
-  "posts_count": 174
+  "posts_count": 175
 }
