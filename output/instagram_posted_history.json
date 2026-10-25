@@ -2196,7 +2196,20 @@
       "template": 4,
       "buffer_post_id": "6ade56373d5b27036beaf595",
       "posted_at": "2026-10-25T19:20:29.966420"
+    },
+    {
+      "gif_number": 170,
+      "gif_path": "output/animation_170.gif",
+      "mp4_path": "output/animation_170.mp4",
+      "icon_names": [
+        "dental bridge",
+        "dental implant",
+        "braces"
+      ],
+      "template": 5,
+      "buffer_post_id": "6ade8e766887a2efc12c8fd5",
+      "posted_at": "2026-10-25T23:20:28.663777"
     }
   ],
-  "posts_count": 169
+  "posts_count": 170
 }
