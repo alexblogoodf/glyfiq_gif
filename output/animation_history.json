@@ -5391,6 +5391,22 @@
       "gif_path": "output/animation_360.gif",
       "created_at": "2026-10-25T17:15:59.982933",
       "frame_count": 3
+    },
+    {
+      "gif_number": 338,
+      "icon_ids": [
+        361,
+        362,
+        363
+      ],
+      "icon_names": [
+        "medical staff vaccination",
+        "female protection",
+        "vaccine access"
+      ],
+      "gif_path": "output/animation_361.gif",
+      "created_at": "2026-10-25T23:15:58.670805",
+      "frame_count": 3
     }
   ]
 }
