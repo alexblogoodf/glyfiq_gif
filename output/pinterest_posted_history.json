@@ -527,7 +527,19 @@
       "template": 4,
       "title": "MRI diagnostics side view, MRI scanner close view & Brain MRI — Part of 6,000+ Medical Icons",
       "posted_at": "2026-10-25T15:56:44.217903"
+    },
+    {
+      "gif_number": 45,
+      "gif_path": "output/animation_45.gif",
+      "icon_names": [
+        "MRI scanner close view",
+        "brain MRI",
+        "lungs MRI"
+      ],
+      "template": 5,
+      "title": "MRI scanner close view, Brain MRI & Lungs MRI — Which One Do You Need?",
+      "posted_at": "2026-10-25T20:41:47.575532"
     }
   ],
-  "posts_count": 44
+  "posts_count": 45
 }
