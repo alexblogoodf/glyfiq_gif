@@ -2105,7 +2105,20 @@
       "template": 2,
       "facebook_video_id": "1113890491385940",
       "posted_at": "2026-10-24T22:03:25.736060"
+    },
+    {
+      "gif_number": 163,
+      "gif_path": "output/animation_163.gif",
+      "mp4_path": "output/animation_163.mp4",
+      "icon_names": [
+        "caries",
+        "dental treatment",
+        "orthodontics"
+      ],
+      "template": 3,
+      "facebook_video_id": "4504641733154676",
+      "posted_at": "2026-10-25T22:03:25.548163"
     }
   ],
-  "posts_count": 162
+  "posts_count": 163
 }
