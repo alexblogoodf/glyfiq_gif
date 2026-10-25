@@ -2118,7 +2118,20 @@
       "template": 3,
       "facebook_video_id": "4504641733154676",
       "posted_at": "2026-10-25T22:03:25.548163"
+    },
+    {
+      "gif_number": 164,
+      "gif_path": "output/animation_164.gif",
+      "mp4_path": "output/animation_164.mp4",
+      "icon_names": [
+        "dental treatment",
+        "orthodontics",
+        "extraction"
+      ],
+      "template": 4,
+      "facebook_video_id": "1092052243696283",
+      "posted_at": "2026-10-25T23:03:24.364649"
     }
   ],
-  "posts_count": 163
+  "posts_count": 164
 }
