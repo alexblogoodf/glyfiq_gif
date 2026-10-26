@@ -5439,6 +5439,22 @@
       "gif_path": "output/animation_363.gif",
       "created_at": "2026-10-26T11:16:18.991874",
       "frame_count": 3
+    },
+    {
+      "gif_number": 341,
+      "icon_ids": [
+        364,
+        365,
+        366
+      ],
+      "icon_names": [
+        "disabled person vaccination",
+        "community immunity",
+        "patient with walker protection"
+      ],
+      "gif_path": "output/animation_364.gif",
+      "created_at": "2026-10-26T17:16:00.713940",
+      "frame_count": 3
     }
   ]
 }
