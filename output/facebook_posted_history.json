@@ -2131,7 +2131,20 @@
       "template": 4,
       "facebook_video_id": "1092052243696283",
       "posted_at": "2026-10-25T23:03:24.364649"
+    },
+    {
+      "gif_number": 165,
+      "gif_path": "output/animation_165.gif",
+      "mp4_path": "output/animation_165.mp4",
+      "icon_names": [
+        "orthodontics",
+        "extraction",
+        "veneers"
+      ],
+      "template": 5,
+      "facebook_video_id": "1096037956520204",
+      "posted_at": "2026-10-26T22:03:26.915479"
     }
   ],
-  "posts_count": 164
+  "posts_count": 165
 }
