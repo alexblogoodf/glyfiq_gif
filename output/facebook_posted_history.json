@@ -2144,7 +2144,20 @@
       "template": 5,
       "facebook_video_id": "1096037956520204",
       "posted_at": "2026-10-26T22:03:26.915479"
+    },
+    {
+      "gif_number": 166,
+      "gif_path": "output/animation_166.gif",
+      "mp4_path": "output/animation_166.mp4",
+      "icon_names": [
+        "extraction",
+        "veneers",
+        "dental hygiene"
+      ],
+      "template": 1,
+      "facebook_video_id": "1648648993459769",
+      "posted_at": "2026-10-26T23:03:33.141192"
     }
   ],
-  "posts_count": 165
+  "posts_count": 166
 }
