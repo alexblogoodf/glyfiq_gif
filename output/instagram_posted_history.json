@@ -2209,7 +2209,20 @@
       "template": 5,
       "buffer_post_id": "6ade8e766887a2efc12c8fd5",
       "posted_at": "2026-10-25T23:20:28.663777"
+    },
+    {
+      "gif_number": 171,
+      "gif_path": "output/animation_171.gif",
+      "mp4_path": "output/animation_171.mp4",
+      "icon_names": [
+        "dental implant",
+        "braces",
+        "dental calculus"
+      ],
+      "template": 1,
+      "buffer_post_id": "6adfa7bbfbfb299b1aea6540",
+      "posted_at": "2026-10-26T19:20:33.737900"
     }
   ],
-  "posts_count": 170
+  "posts_count": 171
 }
