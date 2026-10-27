@@ -5487,6 +5487,22 @@
       "gif_path": "output/animation_366.gif",
       "created_at": "2026-10-27T11:15:56.475706",
       "frame_count": 3
+    },
+    {
+      "gif_number": 344,
+      "icon_ids": [
+        367,
+        368,
+        369
+      ],
+      "icon_names": [
+        "nursing home",
+        "elderly care",
+        "assisted living"
+      ],
+      "gif_path": "output/animation_367.gif",
+      "created_at": "2026-10-27T17:17:32.090051",
+      "frame_count": 3
     }
   ]
 }
