@@ -563,7 +563,19 @@
       "template": 2,
       "title": "Lungs MRI, Chest MRI & Spine MRI — Glyfiq Figma & Framer Plugin",
       "posted_at": "2026-10-27T17:51:48.483637"
+    },
+    {
+      "gif_number": 48,
+      "gif_path": "output/animation_48.gif",
+      "icon_names": [
+        "chest MRI",
+        "spine MRI",
+        "heart MRI"
+      ],
+      "template": 3,
+      "title": "Chest MRI, Spine MRI & Heart MRI — Healthcare UI Icons",
+      "posted_at": "2026-10-27T22:03:34.253348"
     }
   ],
-  "posts_count": 47
+  "posts_count": 48
 }
