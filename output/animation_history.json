@@ -5503,6 +5503,22 @@
       "gif_path": "output/animation_367.gif",
       "created_at": "2026-10-27T17:17:32.090051",
       "frame_count": 3
+    },
+    {
+      "gif_number": 345,
+      "icon_ids": [
+        368,
+        369,
+        370
+      ],
+      "icon_names": [
+        "elderly care",
+        "assisted living",
+        "caregiver"
+      ],
+      "gif_path": "output/animation_368.gif",
+      "created_at": "2026-10-27T23:16:04.255555",
+      "frame_count": 3
     }
   ]
 }
