@@ -5471,6 +5471,22 @@
       "gif_path": "output/animation_365.gif",
       "created_at": "2026-10-27T05:19:17.350419",
       "frame_count": 3
+    },
+    {
+      "gif_number": 343,
+      "icon_ids": [
+        366,
+        367,
+        368
+      ],
+      "icon_names": [
+        "patient with walker protection",
+        "nursing home",
+        "elderly care"
+      ],
+      "gif_path": "output/animation_366.gif",
+      "created_at": "2026-10-27T11:15:56.475706",
+      "frame_count": 3
     }
   ]
 }
