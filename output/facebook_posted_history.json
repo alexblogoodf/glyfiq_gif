@@ -2170,7 +2170,20 @@
       "template": 2,
       "facebook_video_id": "2396603687541248",
       "posted_at": "2026-10-27T22:03:26.385283"
+    },
+    {
+      "gif_number": 168,
+      "gif_path": "output/animation_168.gif",
+      "mp4_path": "output/animation_168.mp4",
+      "icon_names": [
+        "dental hygiene",
+        "teeth whitening",
+        "dental bridge"
+      ],
+      "template": 3,
+      "facebook_video_id": "1625251599082725",
+      "posted_at": "2026-10-27T23:03:34.196303"
     }
   ],
-  "posts_count": 167
+  "posts_count": 168
 }
