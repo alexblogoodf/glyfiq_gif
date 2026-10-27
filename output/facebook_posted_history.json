@@ -2157,7 +2157,20 @@
       "template": 1,
       "facebook_video_id": "1648648993459769",
       "posted_at": "2026-10-26T23:03:33.141192"
+    },
+    {
+      "gif_number": 167,
+      "gif_path": "output/animation_167.gif",
+      "mp4_path": "output/animation_167.mp4",
+      "icon_names": [
+        "veneers",
+        "dental hygiene",
+        "teeth whitening"
+      ],
+      "template": 2,
+      "facebook_video_id": "2396603687541248",
+      "posted_at": "2026-10-27T22:03:26.385283"
     }
   ],
-  "posts_count": 166
+  "posts_count": 167
 }
