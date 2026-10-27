@@ -2248,7 +2248,20 @@
       "template": 3,
       "buffer_post_id": "6ae0f93dbdb7bfdd3420641a",
       "posted_at": "2026-10-27T19:20:35.440385"
+    },
+    {
+      "gif_number": 174,
+      "gif_path": "output/animation_174.gif",
+      "mp4_path": "output/animation_174.mp4",
+      "icon_names": [
+        "healthy tooth",
+        "floss",
+        "preventive dentistry"
+      ],
+      "template": 4,
+      "buffer_post_id": "6ae1317e8bc396ba2f0ff547",
+      "posted_at": "2026-10-27T23:20:36.848082"
     }
   ],
-  "posts_count": 173
+  "posts_count": 174
 }
