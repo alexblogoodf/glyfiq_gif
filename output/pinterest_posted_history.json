@@ -551,7 +551,19 @@
       "template": 1,
       "title": "Brain MRI, Lungs MRI & Chest MRI — Medical & Health Icons",
       "posted_at": "2026-10-26T18:36:39.931543"
+    },
+    {
+      "gif_number": 47,
+      "gif_path": "output/animation_47.gif",
+      "icon_names": [
+        "lungs MRI",
+        "chest MRI",
+        "spine MRI"
+      ],
+      "template": 2,
+      "title": "Lungs MRI, Chest MRI & Spine MRI — Glyfiq Figma & Framer Plugin",
+      "posted_at": "2026-10-27T17:51:48.483637"
     }
   ],
-  "posts_count": 46
+  "posts_count": 47
 }
