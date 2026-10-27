@@ -2235,7 +2235,20 @@
       "template": 2,
       "buffer_post_id": "6adfdff99a87effac42c2f8b",
       "posted_at": "2026-10-26T23:20:31.900560"
+    },
+    {
+      "gif_number": 173,
+      "gif_path": "output/animation_173.gif",
+      "mp4_path": "output/animation_173.mp4",
+      "icon_names": [
+        "dental calculus",
+        "healthy tooth",
+        "floss"
+      ],
+      "template": 3,
+      "buffer_post_id": "6ae0f93dbdb7bfdd3420641a",
+      "posted_at": "2026-10-27T19:20:35.440385"
     }
   ],
-  "posts_count": 172
+  "posts_count": 173
 }
