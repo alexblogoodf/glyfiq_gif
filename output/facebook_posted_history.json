@@ -2183,7 +2183,20 @@
       "template": 3,
       "facebook_video_id": "1625251599082725",
       "posted_at": "2026-10-27T23:03:34.196303"
+    },
+    {
+      "gif_number": 169,
+      "gif_path": "output/animation_169.gif",
+      "mp4_path": "output/animation_169.mp4",
+      "icon_names": [
+        "teeth whitening",
+        "dental bridge",
+        "dental implant"
+      ],
+      "template": 4,
+      "facebook_video_id": "1541177991151103",
+      "posted_at": "2026-10-28T22:03:26.626952"
     }
   ],
-  "posts_count": 168
+  "posts_count": 169
 }
