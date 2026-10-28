@@ -2631,7 +2631,21 @@
       "threads_post_id": "18002337476810503",
       "threads_reply_id": "18650652073030456",
       "posted_at": "2026-10-28T09:22:33.841726"
+    },
+    {
+      "gif_number": 189,
+      "gif_path": "output/animation_189.gif",
+      "mp4_path": "output/animation_189.mp4",
+      "icon_names": [
+        "eeg",
+        "roentgen",
+        "ecg"
+      ],
+      "template": 4,
+      "threads_post_id": "18116226875029032",
+      "threads_reply_id": "18103760555378628",
+      "posted_at": "2026-10-28T19:22:59.605388"
     }
   ],
-  "posts_count": 188
+  "posts_count": 189
 }
