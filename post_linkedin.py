@@ -20,21 +20,20 @@ TEMPLATES = [
      "Speed up your design workflow and elevate your healthcare projects today.\n"
      "Glyfiq — Medical & Health Icon Plugin for Figma, Adobe Illustrator & Framer.\n\n"
      "Try it free 👉 https://glyfiq.link/\n\n"
-     "#Figma #Framer #FigmaPlugin #HealthcareDesign #MedicalUI #UIDesign "
-     "#UXDesign #IconDesign #DesignTools #AdobeIllustrator #Illustrator"),
+     "#Figma #Framer #FigmaPlugin #HealthcareDesign "
+     "#IconDesign"),
 
     # Вариант 2:
     ("I drew medical icons for stock platforms for 10 years. Now I turned that archive "
-     "into a Figma, Adobe Illustrator & Framer plugin. Vibe coded the whole thing. "
-     "Zero dev experience. Lots of praying. It got approved. 🙏\n\n"
+     "into a Figma, Adobe Illustrator & Framer plugin.\n\n"
      "Today's fresh additions:\n\n"
      "• {icon1}\n"
      "• {icon2}\n"
      "• {icon3}\n\n"
      "If you design healthcare apps — see it live 👇\n"
      "https://glyfiq.link/\n\n"
-     "#Figma #Framer #FigmaPlugin #HealthcareDesign #MedicalUI #UIDesign "
-     "#UXDesign #IconDesign #AdobeIllustrator #BuildInPublic"),
+     "#Figma #Framer #FigmaPlugin "
+     "#IconDesign"),
 
     # Вариант 3:
     ("I've been drawing medical and health icons for stock platforms for 10 years. "
@@ -47,8 +46,8 @@ TEMPLATES = [
      "• {icon2}\n"
      "• {icon3}\n\n"
      "Would love to hear what you think. Check it out 👉 https://glyfiq.link/\n\n"
-     "#Figma #Framer #FigmaPlugin #HealthcareDesign #MedicalUI #UIDesign "
-     "#UXDesign #IconDesign #DesignTools #AdobeIllustrator #Illustrator"),
+     "#Figma #Framer #FigmaPlugin "
+     "#IconDesign #DesignTools"),
 
     # Вариант 4:
     ("Which one would you use first in your healthcare project? 👇\n\n"
@@ -61,8 +60,8 @@ TEMPLATES = [
      "consistent thin-line medical icons in one place.\n\n"
      "Grab it free 👉 https://glyfiq.link/\n\n"
      "Drop a comment — which one do you need most in your current project?\n\n"
-     "#Figma #Framer #FigmaPlugin #HealthcareDesign #MedicalUI #UIDesign "
-     "#UXDesign #IconDesign #AdobeIllustrator"),
+     "#Figma #Framer #FigmaPlugin #HealthcareDesign "
+     "#IconDesign #AdobeIllustrator"),
 
     # Вариант 5:
     ("10 years of drawing medical icons. Thousands sold on Shutterstock, Adobe Stock, "
@@ -73,11 +72,9 @@ TEMPLATES = [
      "• {icon3}\n\n"
      "Each one took me hours to draw back in the day. Now they're a click away in "
      "Figma, Adobe Illustrator & Framer.\n\n"
-     "I built Glyfiq with zero dev experience — just Claude, vibes, and a lot of "
-     "Googling. Still can't believe it got approved. 🤯\n\n"
      "If you design anything in healthcare, give it a try 👉 https://glyfiq.link/\n\n"
-     "#Figma #Framer #FigmaPlugin #HealthcareDesign #MedicalUI #UIDesign "
-     "#UXDesign #IconDesign #AdobeIllustrator "),
+     "#Figma #Framer #FigmaPlugin #HealthcareDesign #MedicalUI "
+     "#IconDesign"),
 ]
 
 def cap_name(n, cap=None):
