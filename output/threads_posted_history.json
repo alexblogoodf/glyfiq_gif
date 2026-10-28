@@ -2645,7 +2645,21 @@
       "threads_post_id": "18116226875029032",
       "threads_reply_id": "18103760555378628",
       "posted_at": "2026-10-28T19:22:59.605388"
+    },
+    {
+      "gif_number": 190,
+      "gif_path": "output/animation_190.gif",
+      "mp4_path": "output/animation_190.mp4",
+      "icon_names": [
+        "roentgen",
+        "ecg",
+        "gastroscopy"
+      ],
+      "template": 5,
+      "threads_post_id": "17986555403891816",
+      "threads_reply_id": "18179160091449139",
+      "posted_at": "2026-10-28T23:22:41.313790"
     }
   ],
-  "posts_count": 189
+  "posts_count": 190
 }
