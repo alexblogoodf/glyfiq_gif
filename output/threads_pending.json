@@ -1,0 +1,14 @@
+{
+  "gif_number": 189,
+  "gif_path": "output/animation_189.gif",
+  "mp4_path": "output/animation_189.mp4",
+  "text": "Now added: Eeg, Roentgen & Ecg to Glyfiq *️⃣\nMore thin-line medical icons. One style. Three platforms.",
+  "reply_text": "Try it free 👉 https://glyfiq.link/",
+  "topic": "UIUX Design",
+  "icon_names": [
+    "eeg",
+    "roentgen",
+    "ecg"
+  ],
+  "template": 4
+}
