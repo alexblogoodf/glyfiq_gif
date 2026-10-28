@@ -5535,6 +5535,22 @@
       "gif_path": "output/animation_369.gif",
       "created_at": "2026-10-28T05:15:54.584142",
       "frame_count": 3
+    },
+    {
+      "gif_number": 347,
+      "icon_ids": [
+        370,
+        371,
+        372
+      ],
+      "icon_names": [
+        "caregiver",
+        "hospital minimalistic",
+        "home nurse"
+      ],
+      "gif_path": "output/animation_370.gif",
+      "created_at": "2026-10-28T11:15:56.114518",
+      "frame_count": 3
     }
   ]
 }
