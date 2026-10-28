@@ -2196,7 +2196,20 @@
       "template": 4,
       "facebook_video_id": "1541177991151103",
       "posted_at": "2026-10-28T22:03:26.626952"
+    },
+    {
+      "gif_number": 170,
+      "gif_path": "output/animation_170.gif",
+      "mp4_path": "output/animation_170.mp4",
+      "icon_names": [
+        "dental bridge",
+        "dental implant",
+        "braces"
+      ],
+      "template": 5,
+      "facebook_video_id": "1131056235963763",
+      "posted_at": "2026-10-28T23:03:26.974132"
     }
   ],
-  "posts_count": 169
+  "posts_count": 170
 }
