@@ -2659,7 +2659,21 @@
       "threads_post_id": "17986555403891816",
       "threads_reply_id": "18179160091449139",
       "posted_at": "2026-10-28T23:22:41.313790"
+    },
+    {
+      "gif_number": 191,
+      "gif_path": "output/animation_191.gif",
+      "mp4_path": "output/animation_191.mp4",
+      "icon_names": [
+        "ecg",
+        "gastroscopy",
+        "laboratory tests"
+      ],
+      "template": 1,
+      "threads_post_id": "18144373084596666",
+      "threads_reply_id": "18133423216784612",
+      "posted_at": "2026-10-29T09:22:34.764560"
     }
   ],
-  "posts_count": 190
+  "posts_count": 191
 }
