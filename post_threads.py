@@ -36,7 +36,7 @@ TEMPLATES = [
      "You can order the icons you need for your project directly from the Glyfiq plugin."),
 ]
 
-REPLY_TEXT = "Try it free 👉 https://glyfiq.link/"
+REPLY_TEXT = "See it in action 👉 https://glyfiq.link/"
 TOPICS = [
     "Design Threads",
     "Med Threads",
