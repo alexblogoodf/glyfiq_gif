@@ -2209,7 +2209,20 @@
       "template": 5,
       "facebook_video_id": "1131056235963763",
       "posted_at": "2026-10-28T23:03:26.974132"
+    },
+    {
+      "gif_number": 171,
+      "gif_path": "output/animation_171.gif",
+      "mp4_path": "output/animation_171.mp4",
+      "icon_names": [
+        "dental implant",
+        "braces",
+        "dental calculus"
+      ],
+      "template": 1,
+      "facebook_video_id": "1277798877840142",
+      "posted_at": "2026-10-29T22:03:27.061360"
     }
   ],
-  "posts_count": 170
+  "posts_count": 171
 }
