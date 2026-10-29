@@ -19,7 +19,7 @@ TEMPLATES = [
      "• {icon3}\n\n"
      "Speed up your design workflow and elevate your healthcare projects today.\n"
      "Glyfiq — Medical & Health Icon Plugin for Figma, Adobe Illustrator & Framer.\n\n"
-     "Try it free 👉 https://glyfiq.link/\n\n"
+     "See it in action 👉 https://glyfiq.link/\n\n"
      "#Figma #Framer #FigmaPlugin #HealthcareDesign "
      "#IconDesign"),
 
@@ -45,7 +45,7 @@ TEMPLATES = [
      "• {icon1}\n"
      "• {icon2}\n"
      "• {icon3}\n\n"
-     "Would love to hear what you think. Check it out 👉 https://glyfiq.link/\n\n"
+     "Would love to hear what you think. See it in action 👉 https://glyfiq.link/\n\n"
      "#Figma #Framer #FigmaPlugin "
      "#IconDesign #DesignTools"),
 
@@ -58,7 +58,7 @@ TEMPLATES = [
      "Figma, Adobe Illustrator & Framer.\n\n"
      "Every week I'm adding new icons from my 10-year archive. The goal is 6,000+ "
      "consistent thin-line medical icons in one place.\n\n"
-     "Grab it free 👉 https://glyfiq.link/\n\n"
+     "See it in action 👉 https://glyfiq.link/\n\n"
      "Drop a comment — which one do you need most in your current project?\n\n"
      "#Figma #Framer #FigmaPlugin #HealthcareDesign "
      "#IconDesign #AdobeIllustrator"),
