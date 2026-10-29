@@ -24,7 +24,7 @@ TEMPLATES = [
             "Perfect for healthcare apps, medical dashboards, and patient interfaces. "
             "Part of our growing library of 6,000+ consistent medical icons for designers.\n\n"
             "Available as a plugin for Figma, Framer & Adobe Illustrator.\n"
-            "Try it free 👉 glyfiq.link"
+            "See it in action 👉 glyfiq.link"
         ),
         "tags": ["#MedicalIcons", "#HealthcareDesign", "#FigmaPlugin"],
     },
@@ -36,7 +36,7 @@ TEMPLATES = [
             "A consistent thin-line style for medical and health UI design. "
             "Speed up your workflow with thousands of ready-to-use healthcare icons "
             "organized in one plugin.\n\n"
-            "Free tier available 👉 glyfiq.link"
+            "See it in action 👉 glyfiq.link"
         ),
         "tags": ["#Figma", "#Framer", "#IconDesign"],
     },
@@ -48,7 +48,7 @@ TEMPLATES = [
             "and health-tech products. Thin-line style with consistent stroke weight "
             "across the entire Glyfiq library.\n\n"
             "Works in Figma, Framer & Adobe Illustrator.\n"
-            "Try it free 👉 glyfiq.link"
+            "See it in action 👉 glyfiq.link"
         ),
         "tags": ["#MedicalUI", "#UXDesign", "#HealthcareDesign"],
     },
@@ -60,7 +60,7 @@ TEMPLATES = [
             "Working toward 6,000+ consistent thin-line medical icons for Figma, "
             "Framer & Adobe Illustrator. One style. Three platforms. "
             "Everything a healthcare designer needs.\n\n"
-            "Try it free 👉 glyfiq.link"
+            "See it in action 👉 glyfiq.link"
         ),
         "tags": ["#IconDesign", "#MedicalIcons", "#AdobeIllustrator"],
     },
@@ -71,7 +71,7 @@ TEMPLATES = [
             "Which of these medical icons would you use first in your healthcare project? "
             "They're part of our growing thin-line medical icon library for Figma, "
             "Framer & Adobe Illustrator.\n\n"
-            "Free tier available — try it 👉 glyfiq.link"
+            "See it in action 👉 glyfiq.link"
         ),
         "tags": ["#FigmaPlugin", "#MedicalUI", "#UIDesign"],
     },
