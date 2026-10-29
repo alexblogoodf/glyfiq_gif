@@ -13,21 +13,21 @@ TEMPLATES = [
     ("and",
      "🩺 {icons} — now in Glyfiq *️⃣\n"
      "Find more medical & health icons for Figma, Framer & Illustrator.\n"
-     "Try it free 👉 glyfiq.link\n\n"
+     "See it in action 👉 glyfiq.link\n\n"
      "#Figma #Framer"),
     ("&",
      "Part of the Glyfiq medical icon library — available in Figma, Framer & Illustrator: {icons} 👍 "
-     "More icons & growing. Try free 👉 glyfiq.link\n\n"
+     "More icons & growing. See it in action 👉 glyfiq.link\n\n"
      "#HealthcareUI #IconDesign"),
     (",",
      "🩺 {icons} — three more icons live in Glyfiq *️⃣\n"
      "Medical & health icon plugin for Figma, Framer & Illustrator.\n"
-     "Free tier available 👉 glyfiq.link\n\n"
+     "See it in action 👉 glyfiq.link\n\n"
      "#Figma #Framer"),
     ("&",
      "Now added: {icons} to Glyfiq 🩺\n"
      "More thin-line medical icons. One style. Three platforms.\n"
-     "Try it free 👉 glyfiq.link\n"
+     "See it in action 👉 glyfiq.link\n"
      "#IconDesign #Figma"),
     ("&",
      "🩺 {icons} - these icons are already available for Figma, Framer & Illustrator. "
