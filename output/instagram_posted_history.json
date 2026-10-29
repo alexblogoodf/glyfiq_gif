@@ -2287,7 +2287,20 @@
       "template": 1,
       "buffer_post_id": "6ae282fcb5c2969a071e1015",
       "posted_at": "2026-10-28T23:20:34.620136"
+    },
+    {
+      "gif_number": 177,
+      "gif_path": "output/animation_177.gif",
+      "mp4_path": "output/animation_177.mp4",
+      "icon_names": [
+        "ultrasonic cleaning",
+        "blood test",
+        "test tube"
+      ],
+      "template": 2,
+      "buffer_post_id": "6ae39c3c51efa3539560a1f5",
+      "posted_at": "2026-10-29T19:20:35.032904"
     }
   ],
-  "posts_count": 176
+  "posts_count": 177
 }
