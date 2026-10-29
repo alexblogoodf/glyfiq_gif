@@ -2003,7 +2003,19 @@
       ],
       "template": 2,
       "posted_at": "2026-10-28T23:17:31.428579"
+    },
+    {
+      "gif_number": 168,
+      "gif_path": "output/animation_168.gif",
+      "mp4_path": "output/animation_168.mp4",
+      "icon_names": [
+        "dental hygiene",
+        "teeth whitening",
+        "dental bridge"
+      ],
+      "template": 3,
+      "posted_at": "2026-10-29T22:17:33.487455"
     }
   ],
-  "posts_count": 167
+  "posts_count": 168
 }
