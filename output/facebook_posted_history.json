@@ -2222,7 +2222,20 @@
       "template": 1,
       "facebook_video_id": "1277798877840142",
       "posted_at": "2026-10-29T22:03:27.061360"
+    },
+    {
+      "gif_number": 172,
+      "gif_path": "output/animation_172.gif",
+      "mp4_path": "output/animation_172.mp4",
+      "icon_names": [
+        "braces",
+        "dental calculus",
+        "healthy tooth"
+      ],
+      "template": 2,
+      "facebook_video_id": "1739675310430047",
+      "posted_at": "2026-10-29T23:03:27.809559"
     }
   ],
-  "posts_count": 171
+  "posts_count": 172
 }
