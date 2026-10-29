@@ -43,7 +43,18 @@
       ],
       "template": 4,
       "posted_at": "2026-10-29T17:19:33.577202"
+    },
+    {
+      "gif_number": 5,
+      "gif_path": "output/animation_5.gif",
+      "icon_names": [
+        "backache",
+        "elbow pain",
+        "knee pain"
+      ],
+      "template": 5,
+      "posted_at": "2026-10-29T23:19:33.288119"
     }
   ],
-  "posts_count": 4
+  "posts_count": 5
 }
