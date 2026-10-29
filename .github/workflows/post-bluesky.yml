@@ -1,9 +1,6 @@
 name: Post GIF to Bluesky
 
 on:
-  schedule:
-    # Каждые 6 часов в :55 (чтобы не пересекаться с другими: 00, 05, 15, 20, 30, 45)
-    # - cron: '55 */6 * * *'
   workflow_dispatch:
 
 permissions:
