@@ -2673,7 +2673,21 @@
       "threads_post_id": "18144373084596666",
       "threads_reply_id": "18133423216784612",
       "posted_at": "2026-10-29T09:22:34.764560"
+    },
+    {
+      "gif_number": 192,
+      "gif_path": "output/animation_192.gif",
+      "mp4_path": "output/animation_192.mp4",
+      "icon_names": [
+        "gastroscopy",
+        "laboratory tests",
+        "lab testing"
+      ],
+      "template": 2,
+      "threads_post_id": "18115300562165403",
+      "threads_reply_id": "17935149453144155",
+      "posted_at": "2026-10-29T19:22:34.107714"
     }
   ],
-  "posts_count": 191
+  "posts_count": 192
 }
