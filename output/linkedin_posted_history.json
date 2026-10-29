@@ -2015,7 +2015,19 @@
       ],
       "template": 3,
       "posted_at": "2026-10-29T22:17:33.487455"
+    },
+    {
+      "gif_number": 169,
+      "gif_path": "output/animation_169.gif",
+      "mp4_path": "output/animation_169.mp4",
+      "icon_names": [
+        "teeth whitening",
+        "dental bridge",
+        "dental implant"
+      ],
+      "template": 4,
+      "posted_at": "2026-10-29T23:17:33.429551"
     }
   ],
-  "posts_count": 168
+  "posts_count": 169
 }
