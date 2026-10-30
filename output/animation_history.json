@@ -5695,6 +5695,22 @@
       "gif_path": "output/animation_379.gif",
       "created_at": "2026-10-30T17:16:03.402296",
       "frame_count": 3
+    },
+    {
+      "gif_number": 357,
+      "icon_ids": [
+        380,
+        381,
+        382
+      ],
+      "icon_names": [
+        "geriatrics",
+        "grandmother",
+        "elderly protection"
+      ],
+      "gif_path": "output/animation_380.gif",
+      "created_at": "2026-10-30T23:15:56.032930",
+      "frame_count": 3
     }
   ]
 }
