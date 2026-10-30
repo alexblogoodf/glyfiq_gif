@@ -2248,7 +2248,20 @@
       "template": 3,
       "facebook_video_id": "1431578065168491",
       "posted_at": "2026-10-30T22:03:28.366268"
+    },
+    {
+      "gif_number": 174,
+      "gif_path": "output/animation_174.gif",
+      "mp4_path": "output/animation_174.mp4",
+      "icon_names": [
+        "healthy tooth",
+        "floss",
+        "preventive dentistry"
+      ],
+      "template": 4,
+      "facebook_video_id": "4705369186350677",
+      "posted_at": "2026-10-30T23:03:27.487293"
     }
   ],
-  "posts_count": 173
+  "posts_count": 174
 }
