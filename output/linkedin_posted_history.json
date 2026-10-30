@@ -2027,7 +2027,19 @@
       ],
       "template": 4,
       "posted_at": "2026-10-29T23:17:33.429551"
+    },
+    {
+      "gif_number": 170,
+      "gif_path": "output/animation_170.gif",
+      "mp4_path": "output/animation_170.mp4",
+      "icon_names": [
+        "dental bridge",
+        "dental implant",
+        "braces"
+      ],
+      "template": 5,
+      "posted_at": "2026-10-30T22:17:34.220385"
     }
   ],
-  "posts_count": 169
+  "posts_count": 170
 }
