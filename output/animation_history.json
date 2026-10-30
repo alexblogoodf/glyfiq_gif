@@ -5663,6 +5663,22 @@
       "gif_path": "output/animation_377.gif",
       "created_at": "2026-10-30T05:15:58.153484",
       "frame_count": 3
+    },
+    {
+      "gif_number": 355,
+      "icon_ids": [
+        378,
+        379,
+        380
+      ],
+      "icon_names": [
+        "doctor on call",
+        "walking",
+        "geriatrics"
+      ],
+      "gif_path": "output/animation_378.gif",
+      "created_at": "2026-10-30T11:15:55.845945",
+      "frame_count": 3
     }
   ]
 }
