@@ -611,7 +611,19 @@
       "template": 1,
       "title": "MRI side view, MRI scanner type 3 & MRI diagnostics scheme — Medical & Health Icons",
       "posted_at": "2026-10-30T17:55:42.721244"
+    },
+    {
+      "gif_number": 52,
+      "gif_path": "output/animation_52.gif",
+      "icon_names": [
+        "MRI scanner type 3",
+        "MRI diagnostics scheme",
+        "doctor"
+      ],
+      "template": 2,
+      "title": "MRI scanner type 3, MRI diagnostics scheme & Doctor — Glyfiq Figma & Framer Plugin",
+      "posted_at": "2026-10-30T22:11:44.909437"
     }
   ],
-  "posts_count": 51
+  "posts_count": 52
 }
