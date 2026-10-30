@@ -5647,6 +5647,22 @@
       "gif_path": "output/animation_376.gif",
       "created_at": "2026-10-29T23:15:51.381490",
       "frame_count": 3
+    },
+    {
+      "gif_number": 354,
+      "icon_ids": [
+        377,
+        378,
+        379
+      ],
+      "icon_names": [
+        "24h - awake staff",
+        "doctor on call",
+        "walking"
+      ],
+      "gif_path": "output/animation_377.gif",
+      "created_at": "2026-10-30T05:15:58.153484",
+      "frame_count": 3
     }
   ]
 }
