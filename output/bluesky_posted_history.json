@@ -65,7 +65,18 @@
       ],
       "template": 1,
       "posted_at": "2026-10-30T05:19:38.713279"
+    },
+    {
+      "gif_number": 7,
+      "gif_path": "output/animation_7.gif",
+      "icon_names": [
+        "knee pain",
+        "joint injury",
+        "vertebral arthritis"
+      ],
+      "template": 2,
+      "posted_at": "2026-10-30T11:19:36.347530"
     }
   ],
-  "posts_count": 6
+  "posts_count": 7
 }
