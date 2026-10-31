@@ -5727,6 +5727,22 @@
       "gif_path": "output/animation_381.gif",
       "created_at": "2026-10-31T05:16:02.196508",
       "frame_count": 3
+    },
+    {
+      "gif_number": 359,
+      "icon_ids": [
+        382,
+        383,
+        384
+      ],
+      "icon_names": [
+        "elderly protection",
+        "communication",
+        "life insurance"
+      ],
+      "gif_path": "output/animation_382.gif",
+      "created_at": "2026-10-31T11:15:56.247575",
+      "frame_count": 3
     }
   ]
 }
