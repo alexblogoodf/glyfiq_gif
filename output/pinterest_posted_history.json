@@ -635,7 +635,19 @@
       "template": 3,
       "title": "MRI diagnostics scheme, Doctor & Nurse — Healthcare UI Icons",
       "posted_at": "2026-10-31T17:09:06.948713"
+    },
+    {
+      "gif_number": 54,
+      "gif_path": "output/animation_54.gif",
+      "icon_names": [
+        "doctor",
+        "nurse",
+        "hospital"
+      ],
+      "template": 4,
+      "title": "Doctor, Nurse & Hospital — Part of 6,000+ Medical Icons",
+      "posted_at": "2026-10-31T21:19:48.918432"
     }
   ],
-  "posts_count": 53
+  "posts_count": 54
 }
