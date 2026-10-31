@@ -623,7 +623,19 @@
       "template": 2,
       "title": "MRI scanner type 3, MRI diagnostics scheme & Doctor — Glyfiq Figma & Framer Plugin",
       "posted_at": "2026-10-30T22:11:44.909437"
+    },
+    {
+      "gif_number": 53,
+      "gif_path": "output/animation_53.gif",
+      "icon_names": [
+        "MRI diagnostics scheme",
+        "doctor",
+        "nurse"
+      ],
+      "template": 3,
+      "title": "MRI diagnostics scheme, Doctor & Nurse — Healthcare UI Icons",
+      "posted_at": "2026-10-31T17:09:06.948713"
     }
   ],
-  "posts_count": 52
+  "posts_count": 53
 }
