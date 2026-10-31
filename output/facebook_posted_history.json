@@ -2274,7 +2274,20 @@
       "template": 5,
       "facebook_video_id": "1598709632056536",
       "posted_at": "2026-10-31T22:03:32.575221"
+    },
+    {
+      "gif_number": 176,
+      "gif_path": "output/animation_176.gif",
+      "mp4_path": "output/animation_176.mp4",
+      "icon_names": [
+        "preventive dentistry",
+        "ultrasonic cleaning",
+        "blood test"
+      ],
+      "template": 1,
+      "facebook_video_id": "29148678124765268",
+      "posted_at": "2026-10-31T23:03:25.745438"
     }
   ],
-  "posts_count": 175
+  "posts_count": 176
 }
