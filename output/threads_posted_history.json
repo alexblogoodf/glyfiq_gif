@@ -2743,7 +2743,21 @@
       "threads_post_id": "18100891202640075",
       "threads_reply_id": "18645513679013056",
       "posted_at": "2026-10-30T23:22:36.455518"
+    },
+    {
+      "gif_number": 197,
+      "gif_path": "output/animation_198.gif",
+      "mp4_path": "output/animation_198.mp4",
+      "icon_names": [
+        "gynecology ultrasound",
+        "gynecology checkup",
+        "artificial fertilization"
+      ],
+      "template": 2,
+      "threads_post_id": "17887775814624948",
+      "threads_reply_id": "18133536262707263",
+      "posted_at": "2026-10-31T09:22:32.349726"
     }
   ],
-  "posts_count": 196
+  "posts_count": 197
 }
