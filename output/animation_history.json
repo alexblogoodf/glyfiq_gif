@@ -5759,6 +5759,22 @@
       "gif_path": "output/animation_383.gif",
       "created_at": "2026-10-31T17:15:52.874088",
       "frame_count": 3
+    },
+    {
+      "gif_number": 361,
+      "icon_ids": [
+        384,
+        385,
+        386
+      ],
+      "icon_names": [
+        "life insurance",
+        "house cleaning",
+        "grandfather"
+      ],
+      "gif_path": "output/animation_384.gif",
+      "created_at": "2026-10-31T23:16:03.348027",
+      "frame_count": 3
     }
   ]
 }
