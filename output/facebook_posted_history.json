@@ -2261,7 +2261,20 @@
       "template": 4,
       "facebook_video_id": "4705369186350677",
       "posted_at": "2026-10-30T23:03:27.487293"
+    },
+    {
+      "gif_number": 175,
+      "gif_path": "output/animation_175.gif",
+      "mp4_path": "output/animation_175.mp4",
+      "icon_names": [
+        "floss",
+        "preventive dentistry",
+        "ultrasonic cleaning"
+      ],
+      "template": 5,
+      "facebook_video_id": "1598709632056536",
+      "posted_at": "2026-10-31T22:03:32.575221"
     }
   ],
-  "posts_count": 174
+  "posts_count": 175
 }
