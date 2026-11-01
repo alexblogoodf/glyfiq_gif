@@ -5775,6 +5775,22 @@
       "gif_path": "output/animation_384.gif",
       "created_at": "2026-10-31T23:16:03.348027",
       "frame_count": 3
+    },
+    {
+      "gif_number": 362,
+      "icon_ids": [
+        385,
+        386,
+        387
+      ],
+      "icon_names": [
+        "house cleaning",
+        "grandfather",
+        "applied physics & applied mathematics"
+      ],
+      "gif_path": "output/animation_385.gif",
+      "created_at": "2026-11-01T05:15:59.558570",
+      "frame_count": 3
     }
   ]
 }
