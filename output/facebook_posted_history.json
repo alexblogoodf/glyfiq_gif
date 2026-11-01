@@ -2287,7 +2287,20 @@
       "template": 1,
       "facebook_video_id": "29148678124765268",
       "posted_at": "2026-10-31T23:03:25.745438"
+    },
+    {
+      "gif_number": 177,
+      "gif_path": "output/animation_177.gif",
+      "mp4_path": "output/animation_177.mp4",
+      "icon_names": [
+        "ultrasonic cleaning",
+        "blood test",
+        "test tube"
+      ],
+      "template": 2,
+      "facebook_video_id": "29166747209604596",
+      "posted_at": "2026-11-01T22:03:26.269936"
     }
   ],
-  "posts_count": 176
+  "posts_count": 177
 }
