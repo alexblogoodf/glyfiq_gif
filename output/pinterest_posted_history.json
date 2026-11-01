@@ -659,7 +659,19 @@
       "template": 5,
       "title": "Nurse, Hospital & MRI diagnostics with a wave — Which One Do You Need?",
       "posted_at": "2026-11-01T17:51:29.467424"
+    },
+    {
+      "gif_number": 56,
+      "gif_path": "output/animation_56.gif",
+      "icon_names": [
+        "hospital",
+        "MRI diagnostics with a wave",
+        "MRI front view"
+      ],
+      "template": 1,
+      "title": "Hospital, MRI diagnostics with a wave & MRI front view — Medical & Health Icons",
+      "posted_at": "2026-11-01T21:55:50.701280"
     }
   ],
-  "posts_count": 55
+  "posts_count": 56
 }
