@@ -5807,6 +5807,22 @@
       "gif_path": "output/animation_386.gif",
       "created_at": "2026-11-01T11:15:54.521461",
       "frame_count": 3
+    },
+    {
+      "gif_number": 364,
+      "icon_ids": [
+        387,
+        388,
+        389
+      ],
+      "icon_names": [
+        "applied physics & applied mathematics",
+        "biomedical engineering",
+        "chemical engineering"
+      ],
+      "gif_path": "output/animation_387.gif",
+      "created_at": "2026-11-01T17:15:55.820285",
+      "frame_count": 3
     }
   ]
 }
