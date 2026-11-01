@@ -2300,7 +2300,20 @@
       "template": 2,
       "facebook_video_id": "29166747209604596",
       "posted_at": "2026-11-01T22:03:26.269936"
+    },
+    {
+      "gif_number": 178,
+      "gif_path": "output/animation_178.gif",
+      "mp4_path": "output/animation_178.mp4",
+      "icon_names": [
+        "blood test",
+        "test tube",
+        "good urine test"
+      ],
+      "template": 3,
+      "facebook_video_id": "1655107385994260",
+      "posted_at": "2026-11-01T23:03:29.275160"
     }
   ],
-  "posts_count": 177
+  "posts_count": 178
 }
