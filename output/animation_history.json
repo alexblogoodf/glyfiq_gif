@@ -5871,6 +5871,22 @@
       "gif_path": "output/animation_390.gif",
       "created_at": "2026-11-02T11:16:01.574796",
       "frame_count": 3
+    },
+    {
+      "gif_number": 368,
+      "icon_ids": [
+        391,
+        392,
+        393
+      ],
+      "icon_names": [
+        "computer science",
+        "earth & environmental engineering",
+        "electrical engineering degrees"
+      ],
+      "gif_path": "output/animation_391.gif",
+      "created_at": "2026-11-02T17:16:03.162302",
+      "frame_count": 3
     }
   ]
 }
