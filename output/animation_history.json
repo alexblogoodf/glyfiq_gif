@@ -5839,6 +5839,22 @@
       "gif_path": "output/animation_388.gif",
       "created_at": "2026-11-01T23:16:01.971018",
       "frame_count": 3
+    },
+    {
+      "gif_number": 366,
+      "icon_ids": [
+        389,
+        390,
+        391
+      ],
+      "icon_names": [
+        "chemical engineering",
+        "civil engineering & engineering mechanics",
+        "computer science"
+      ],
+      "gif_path": "output/animation_389.gif",
+      "created_at": "2026-11-02T05:16:00.431071",
+      "frame_count": 3
     }
   ]
 }
