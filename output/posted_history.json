@@ -2078,7 +2078,18 @@
       ],
       "template": 4,
       "posted_at": "2026-11-01T23:05:38.572921"
+    },
+    {
+      "gif_number": 190,
+      "gif_path": "output/animation_190.gif",
+      "icon_names": [
+        "roentgen",
+        "ecg",
+        "gastroscopy"
+      ],
+      "template": 5,
+      "posted_at": "2026-11-02T13:05:36.499894"
     }
   ],
-  "posts_count": 189
+  "posts_count": 190
 }
