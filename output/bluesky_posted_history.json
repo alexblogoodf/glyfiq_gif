@@ -197,7 +197,18 @@
       ],
       "template": 3,
       "posted_at": "2026-11-02T05:19:35.067665"
+    },
+    {
+      "gif_number": 19,
+      "gif_path": "output/animation_19.gif",
+      "icon_names": [
+        "massage",
+        "osteopathy",
+        "finger blood"
+      ],
+      "template": 4,
+      "posted_at": "2026-11-02T11:19:35.874104"
     }
   ],
-  "posts_count": 18
+  "posts_count": 19
 }
