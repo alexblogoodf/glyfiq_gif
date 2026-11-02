@@ -2099,7 +2099,19 @@
       ],
       "template": 5,
       "posted_at": "2026-11-01T23:17:35.774642"
+    },
+    {
+      "gif_number": 176,
+      "gif_path": "output/animation_176.gif",
+      "mp4_path": "output/animation_176.mp4",
+      "icon_names": [
+        "preventive dentistry",
+        "ultrasonic cleaning",
+        "blood test"
+      ],
+      "template": 1,
+      "posted_at": "2026-11-02T22:17:43.077184"
     }
   ],
-  "posts_count": 175
+  "posts_count": 176
 }
