@@ -5887,6 +5887,22 @@
       "gif_path": "output/animation_391.gif",
       "created_at": "2026-11-02T17:16:03.162302",
       "frame_count": 3
+    },
+    {
+      "gif_number": 369,
+      "icon_ids": [
+        392,
+        393,
+        394
+      ],
+      "icon_names": [
+        "earth & environmental engineering",
+        "electrical engineering degrees",
+        "industrial engineering & operations research"
+      ],
+      "gif_path": "output/animation_392.gif",
+      "created_at": "2026-11-02T23:15:58.298172",
+      "frame_count": 3
     }
   ]
 }
