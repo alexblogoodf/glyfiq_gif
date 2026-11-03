@@ -263,7 +263,18 @@
       ],
       "template": 4,
       "posted_at": "2026-11-03T17:19:44.843952"
+    },
+    {
+      "gif_number": 25,
+      "gif_path": "output/animation_25.gif",
+      "icon_names": [
+        "insulin",
+        "hyperglycemia",
+        "insulin pen"
+      ],
+      "template": 5,
+      "posted_at": "2026-11-03T23:19:34.158047"
     }
   ],
-  "posts_count": 24
+  "posts_count": 25
 }
