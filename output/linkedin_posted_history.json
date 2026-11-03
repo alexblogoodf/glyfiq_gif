@@ -2123,7 +2123,19 @@
       ],
       "template": 2,
       "posted_at": "2026-11-02T23:17:35.054863"
+    },
+    {
+      "gif_number": 178,
+      "gif_path": "output/animation_178.gif",
+      "mp4_path": "output/animation_178.mp4",
+      "icon_names": [
+        "blood test",
+        "test tube",
+        "good urine test"
+      ],
+      "template": 3,
+      "posted_at": "2026-11-03T22:17:52.194076"
     }
   ],
-  "posts_count": 177
+  "posts_count": 178
 }
