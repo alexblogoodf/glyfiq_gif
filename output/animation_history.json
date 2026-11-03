@@ -5903,6 +5903,22 @@
       "gif_path": "output/animation_392.gif",
       "created_at": "2026-11-02T23:15:58.298172",
       "frame_count": 3
+    },
+    {
+      "gif_number": 370,
+      "icon_ids": [
+        393,
+        394,
+        395
+      ],
+      "icon_names": [
+        "electrical engineering degrees",
+        "industrial engineering & operations research",
+        "mechanical engineering"
+      ],
+      "gif_path": "output/animation_393.gif",
+      "created_at": "2026-11-03T05:16:05.913452",
+      "frame_count": 3
     }
   ]
 }
