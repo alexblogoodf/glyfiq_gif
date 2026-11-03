@@ -2430,7 +2430,20 @@
       "template": 2,
       "buffer_post_id": "6aea33d6dfa67473393a453e",
       "posted_at": "2026-11-03T19:21:01.257753"
+    },
+    {
+      "gif_number": 188,
+      "gif_path": "output/animation_188.gif",
+      "mp4_path": "output/animation_188.mp4",
+      "icon_names": [
+        "ultrasound",
+        "eeg",
+        "roentgen"
+      ],
+      "template": 3,
+      "buffer_post_id": "6aea6bf92b922deec55e259a",
+      "posted_at": "2026-11-03T23:20:31.923089"
     }
   ],
-  "posts_count": 187
+  "posts_count": 188
 }
