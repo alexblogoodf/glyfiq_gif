@@ -2147,7 +2147,19 @@
       ],
       "template": 4,
       "posted_at": "2026-11-03T23:17:33.393782"
+    },
+    {
+      "gif_number": 180,
+      "gif_path": "output/animation_180.gif",
+      "mp4_path": "output/animation_180.mp4",
+      "icon_names": [
+        "good urine test",
+        "bad urine test",
+        "stool test"
+      ],
+      "template": 5,
+      "posted_at": "2026-11-04T22:17:33.187473"
     }
   ],
-  "posts_count": 179
+  "posts_count": 180
 }
