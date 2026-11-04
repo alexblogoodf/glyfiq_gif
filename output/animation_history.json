@@ -5967,6 +5967,22 @@
       "gif_path": "output/animation_396.gif",
       "created_at": "2026-11-04T05:16:01.605596",
       "frame_count": 3
+    },
+    {
+      "gif_number": 374,
+      "icon_ids": [
+        397,
+        398,
+        399
+      ],
+      "icon_names": [
+        "liver",
+        "prostate gland",
+        "skull"
+      ],
+      "gif_path": "output/animation_397.gif",
+      "created_at": "2026-11-04T17:16:02.783301",
+      "frame_count": 3
     }
   ]
 }
