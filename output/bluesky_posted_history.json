@@ -307,7 +307,18 @@
       ],
       "template": 3,
       "posted_at": "2026-11-04T17:19:36.132730"
+    },
+    {
+      "gif_number": 29,
+      "gif_path": "output/animation_29.gif",
+      "icon_names": [
+        "blood glucose meter positively",
+        "blood glucose meter negatively",
+        "diet"
+      ],
+      "template": 4,
+      "posted_at": "2026-11-04T23:19:35.308421"
     }
   ],
-  "posts_count": 28
+  "posts_count": 29
 }
