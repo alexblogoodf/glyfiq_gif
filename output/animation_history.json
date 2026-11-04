@@ -5983,6 +5983,22 @@
       "gif_path": "output/animation_397.gif",
       "created_at": "2026-11-04T17:16:02.783301",
       "frame_count": 3
+    },
+    {
+      "gif_number": 375,
+      "icon_ids": [
+        398,
+        399,
+        400
+      ],
+      "icon_names": [
+        "prostate gland",
+        "skull",
+        "blood smear microscopy"
+      ],
+      "gif_path": "output/animation_398.gif",
+      "created_at": "2026-11-04T23:15:59.663374",
+      "frame_count": 3
     }
   ]
 }
