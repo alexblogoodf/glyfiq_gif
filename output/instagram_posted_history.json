@@ -2482,7 +2482,20 @@
       "template": 1,
       "buffer_post_id": "6aecd6bf010d6430ec6ad961",
       "posted_at": "2026-11-05T19:20:37.280051"
+    },
+    {
+      "gif_number": 192,
+      "gif_path": "output/animation_192.gif",
+      "mp4_path": "output/animation_192.mp4",
+      "icon_names": [
+        "gastroscopy",
+        "laboratory tests",
+        "lab testing"
+      ],
+      "template": 2,
+      "buffer_post_id": "6aed0efec1e74b84e5b1d55c",
+      "posted_at": "2026-11-05T23:20:36.430795"
     }
   ],
-  "posts_count": 191
+  "posts_count": 192
 }
