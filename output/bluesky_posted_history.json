@@ -351,7 +351,18 @@
       ],
       "template": 2,
       "posted_at": "2026-11-05T17:19:35.547659"
+    },
+    {
+      "gif_number": 33,
+      "gif_path": "output/animation_33.gif",
+      "icon_names": [
+        "obesity",
+        "diabetes",
+        "diabetic retinopathy"
+      ],
+      "template": 3,
+      "posted_at": "2026-11-05T23:19:36.559798"
     }
   ],
-  "posts_count": 32
+  "posts_count": 33
 }
