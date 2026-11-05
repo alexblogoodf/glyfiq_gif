@@ -6015,6 +6015,22 @@
       "gif_path": "output/animation_399.gif",
       "created_at": "2026-11-05T05:15:56.450056",
       "frame_count": 3
+    },
+    {
+      "gif_number": 377,
+      "icon_ids": [
+        400,
+        401,
+        402
+      ],
+      "icon_names": [
+        "blood smear microscopy",
+        "laser thermometer C",
+        "laser thermometer F"
+      ],
+      "gif_path": "output/animation_400.gif",
+      "created_at": "2026-11-05T11:16:08.557348",
+      "frame_count": 3
     }
   ]
 }
