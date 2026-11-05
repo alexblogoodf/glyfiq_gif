@@ -5999,6 +5999,22 @@
       "gif_path": "output/animation_398.gif",
       "created_at": "2026-11-04T23:15:59.663374",
       "frame_count": 3
+    },
+    {
+      "gif_number": 376,
+      "icon_ids": [
+        399,
+        400,
+        401
+      ],
+      "icon_names": [
+        "skull",
+        "blood smear microscopy",
+        "laser thermometer C"
+      ],
+      "gif_path": "output/animation_399.gif",
+      "created_at": "2026-11-05T05:15:56.450056",
+      "frame_count": 3
     }
   ]
 }
