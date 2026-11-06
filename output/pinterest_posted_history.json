@@ -719,7 +719,19 @@
       "template": 5,
       "title": "MRI top view, Ophthalmology & Laser eye surgery — Which One Do You Need?",
       "posted_at": "2026-11-05T19:48:44.944663"
+    },
+    {
+      "gif_number": 61,
+      "gif_path": "output/animation_61.gif",
+      "icon_names": [
+        "ophthalmology",
+        "laser eye surgery",
+        "vision correction"
+      ],
+      "template": 1,
+      "title": "Ophthalmology, Laser eye surgery & Vision correction — Medical & Health Icons",
+      "posted_at": "2026-11-06T19:12:58.620986"
     }
   ],
-  "posts_count": 60
+  "posts_count": 61
 }
