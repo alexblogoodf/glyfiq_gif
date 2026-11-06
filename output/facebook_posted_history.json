@@ -2430,7 +2430,20 @@
       "template": 2,
       "facebook_video_id": "1171571035484989",
       "posted_at": "2026-11-06T22:03:27.831183"
+    },
+    {
+      "gif_number": 188,
+      "gif_path": "output/animation_188.gif",
+      "mp4_path": "output/animation_188.mp4",
+      "icon_names": [
+        "ultrasound",
+        "eeg",
+        "roentgen"
+      ],
+      "template": 3,
+      "facebook_video_id": "1810154966858554",
+      "posted_at": "2026-11-06T23:03:28.622357"
     }
   ],
-  "posts_count": 187
+  "posts_count": 188
 }
