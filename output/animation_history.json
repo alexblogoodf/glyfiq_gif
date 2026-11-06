@@ -6095,6 +6095,22 @@
       "gif_path": "output/animation_404.gif",
       "created_at": "2026-11-06T11:16:03.694408",
       "frame_count": 3
+    },
+    {
+      "gif_number": 382,
+      "icon_ids": [
+        405,
+        406,
+        407
+      ],
+      "icon_names": [
+        "thermal camera F",
+        "rehabilitation",
+        "heart handshake"
+      ],
+      "gif_path": "output/animation_405.gif",
+      "created_at": "2026-11-06T17:16:18.305473",
+      "frame_count": 3
     }
   ]
 }
