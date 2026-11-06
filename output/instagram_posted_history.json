@@ -2495,7 +2495,20 @@
       "template": 2,
       "buffer_post_id": "6aed0efec1e74b84e5b1d55c",
       "posted_at": "2026-11-05T23:20:36.430795"
+    },
+    {
+      "gif_number": 193,
+      "gif_path": "output/animation_193.gif",
+      "mp4_path": "output/animation_193.mp4",
+      "icon_names": [
+        "laboratory tests",
+        "lab testing",
+        "good blood test results"
+      ],
+      "template": 3,
+      "buffer_post_id": "6aee283ed6bbae6fa140eff5",
+      "posted_at": "2026-11-06T19:20:36.386600"
     }
   ],
-  "posts_count": 192
+  "posts_count": 193
 }
