@@ -6063,6 +6063,22 @@
       "gif_path": "output/animation_402.gif",
       "created_at": "2026-11-05T23:15:57.643271",
       "frame_count": 3
+    },
+    {
+      "gif_number": 380,
+      "icon_ids": [
+        403,
+        404,
+        405
+      ],
+      "icon_names": [
+        "throat swab",
+        "thermal camera C",
+        "thermal camera F"
+      ],
+      "gif_path": "output/animation_403.gif",
+      "created_at": "2026-11-06T05:15:57.871000",
+      "frame_count": 3
     }
   ]
 }
