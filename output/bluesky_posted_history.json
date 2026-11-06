@@ -395,7 +395,18 @@
       ],
       "template": 1,
       "posted_at": "2026-11-06T17:19:34.090537"
+    },
+    {
+      "gif_number": 37,
+      "gif_path": "output/animation_37.gif",
+      "icon_names": [
+        "insulin level",
+        "ban on sweets",
+        "excess weight"
+      ],
+      "template": 2,
+      "posted_at": "2026-11-06T23:19:33.714010"
     }
   ],
-  "posts_count": 36
+  "posts_count": 37
 }
