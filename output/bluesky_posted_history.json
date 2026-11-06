@@ -384,7 +384,18 @@
       ],
       "template": 5,
       "posted_at": "2026-11-06T11:19:32.437864"
+    },
+    {
+      "gif_number": 36,
+      "gif_path": "output/animation_36.gif",
+      "icon_names": [
+        "diabetic foot",
+        "insulin level",
+        "ban on sweets"
+      ],
+      "template": 1,
+      "posted_at": "2026-11-06T17:19:34.090537"
     }
   ],
-  "posts_count": 35
+  "posts_count": 36
 }
