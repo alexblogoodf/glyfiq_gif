@@ -257,9 +257,11 @@ def cmd_post():
     reply_text = pending.get("reply_text", REPLY_TEXT)
     topic = pending.get("topic", TOPICS[0] if TOPICS else "Design Threads")
 
+    published_id = pending.get("main_post_id")
+    published_reply_id = pending.get("reply_post_id")
+
     try:
         # 1. Основной пост — только если ещё не опубликован
-        published_id = pending.get("main_post_id")
         if not published_id:
             print(f"🚀 Публикуем в Threads: {video_url}")
             container_id = create_video_container(text, video_url, topic_tag=topic)
@@ -268,16 +270,21 @@ def cmd_post():
             pending["main_post_id"] = published_id
             save_pending()
             print(f"✅ Основной пост опубликован, id: {published_id}")
+            
+            # 🛡️ КРИТИЧЕСКИ ВАЖНО: даем Meta 45 секунд на индексацию поста перед ответом
+            print("⏳ Ждем 45 секунд, чтобы Meta проиндексировала пост для ответа...")
+            time.sleep(45)
         else:
             print(f"ℹ️ Основной пост уже опубликован (id: {published_id}) — дублировать не будем.")
 
-        # 2. Reply — с паузой и повторными попытками (Meta не сразу видит новый пост)
-        published_reply_id = pending.get("reply_post_id")
+        # 2. Reply — с паузой и повторными попытками
         if not published_reply_id:
             print(f"💬 Публикуем reply: {reply_text}")
             err = None
             for attempt in range(1, 5):
-                time.sleep(10 if attempt == 1 else 20)
+                # Первая попытка сразу (после 45-секундного сна выше), остальные с интервалом 30 сек
+                if attempt > 1:
+                    time.sleep(30)
                 try:
                     reply_container_id = create_reply_container(reply_text, published_id, topic_tag=topic)
                     published_reply_id = publish_container(reply_container_id)
@@ -286,16 +293,26 @@ def cmd_post():
                 except Exception as e:
                     err = e
                     print(f"⚠️ Попытка {attempt}/4 не удалась: {e}")
+            
             if err:
-                raise err
+                # Если ответ так и не опубликовался, мы НЕ прерываем весь процесс.
+                # Мы сохраняем основной пост как успешный, чтобы следующий запуск начал новый пост.
+                print(f"⚠️ Не удалось опубликовать reply после 4 попыток. Основной пост сохранен.")
+                raise Exception("Reply failed, but main post is safe")
+            
             pending["reply_post_id"] = published_reply_id
             save_pending()
             print(f"✅ Reply опубликован, id: {published_reply_id}")
 
     except Exception as e:
-        print(f"❌ Threads не опубликовал: {e}. Повторим в следующем запуске БЕЗ дублей.")
-        return
+        # Если ошибка была только в reply, мы всё равно фиксируем основной пост в истории
+        if "Reply failed" in str(e) and published_id:
+            print("💾 Сохраняем основной пост в историю, несмотря на неудачный reply.")
+        else:
+            print(f"❌ Threads не опубликовал: {e}. Повторим в следующем запуске БЕЗ дублей.")
+            return
 
+    # Фиксируем в истории
     posted = load_posted()
     posted.setdefault("posted", []).append({
         "gif_number": pending.get("gif_number"),
@@ -304,14 +321,15 @@ def cmd_post():
         "icon_names": pending.get("icon_names", []),
         "template": pending.get("template"),
         "threads_post_id": published_id,
-        "threads_reply_id": published_reply_id,
+        "threads_reply_id": published_reply_id, # Будет None, если reply не удался
         "posted_at": datetime.now().isoformat(),
     })
     posted["posts_count"] = posted.get("posts_count", 0) + 1
     save_posted(posted)
+    
+    # Удаляем pending, чтобы следующий запуск начал ЧИСТЫЙ новый пост
     os.remove(PENDING_FILE)
-
-    print("💾 История постов Threads обновлена.")
+    print("💾 История постов Threads обновлена. Очередь очищена.")
 
 if __name__ == "__main__":
     command = sys.argv[1] if len(sys.argv) > 1 else "prepare"
