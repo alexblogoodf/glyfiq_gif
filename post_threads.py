@@ -17,26 +17,30 @@ ANIM_HISTORY_FILE = "output/animation_history.json"
 POSTED_FILE = "output/threads_posted_history.json"
 PENDING_FILE = "output/threads_pending.json"
 
-# 5 вариантов сообщений (БЕЗ хэштегов и БЕЗ ссылки)
+# 5 вариантов сообщений. ССЫЛКА ТЕПЕРЬ В ОСНОВНОМ ПОСТЕ (это надежно и не режет охваты в Threads)
 TEMPLATES = [
     ("and",
      "🩺 {icons} — now in Glyfiq *️⃣\n"
-     "Find more medical & health icons for Figma, Framer & Illustrator."),
+     "Find more medical & health icons for Figma, Framer & Illustrator + MCP Server for AI Agents.\n"
+     "See how it works 👉 https://glyfiq.link/"),
     ("&",
-     "Part of the Glyfiq medical icon library — available in Figma, Framer & Illustrator: {icons} 👍 "
-     "More icons & growing."),
+     "Part of the Glyfiq medical icon library — available in Figma, Framer & Illustrator: {icons} 👍\n"
+     "More icons & growing.\n"
+     "Try it free 👉 https://glyfiq.link/"),
     (",",
      "🩺 {icons} — three more icons live in Glyfiq *️⃣\n"
-     "Medical & health icon plugin for Figma, Framer & Illustrator."),
+     "Medical & health icon plugin for Figma, Framer & Illustrator + MCP Server for AI Agents.\n"
+     "See how it works 👉 https://glyfiq.link/"),
     ("&",
      "Now added: {icons} to Glyfiq *️⃣\n"
-     "More thin-line medical icons. One style. Three platforms."),
+     "More thin-line medical icons. One style. Three platforms + MCP Server for AI Agents.\n"
+     "See how it works 👉 https://glyfiq.link/"),
     ("&",
-     "🩺 {icons} - these icons are already available for Figma, Framer & Illustrator. "
-     "You can order the icons you need for your project directly from the Glyfiq plugin."),
+     "🩺 {icons} - these icons are already available for Figma, Framer & Illustrator + MCP Server for AI Agents.\n"
+     "You can order the icons you need for your project directly from the Glyfiq plugin.\n"
+     "See how it works 👉 https://glyfiq.link/"),
 ]
 
-REPLY_TEXT = "See it in action 👉 https://glyfiq.link/"
 TOPICS = [
     "Design Threads",
     "Med Threads",
@@ -92,7 +96,7 @@ def save_posted(h):
 def get_raw_url(path):
     return f"https://raw.githubusercontent.com/{REPO_NAME}/{BRANCH}/{path}"
 
-# ---------- ffmpeg (30 fps — требование Instagram) ----------
+# ---------- ffmpeg (30 fps — требование Instagram/Threads) ----------
 def get_ffmpeg_exe():
     if shutil.which("ffmpeg"):
         return "ffmpeg"
@@ -140,7 +144,7 @@ def create_video_container(text, video_url, topic_tag=None):
 def check_container_status(container_id):
     url = f"{GRAPH_URL}/{container_id}"
     payload = {"access_token": THREADS_ACCESS_TOKEN, "fields": "status,error_message"}
-    time.sleep(45)
+    time.sleep(45)  # Ждем обработки видео Meta
     for _ in range(4):
         res = requests.get(url, params=payload).json()
         status = res.get("status")
@@ -157,21 +161,6 @@ def publish_container(creation_id):
     res = requests.post(url, data=payload).json()
     if "id" not in res:
         raise Exception(f"Ошибка публикации: {res}")
-    return res["id"]
-
-def create_reply_container(text, reply_to_id, topic_tag=None):
-    url = f"{GRAPH_URL}/{USER_ID}/threads"
-    payload = {
-        "access_token": THREADS_ACCESS_TOKEN,
-        "text": text,
-        "media_type": "TEXT",
-        "reply_to_id": reply_to_id,
-    }
-    if topic_tag:
-        payload["topic_tag"] = topic_tag
-    res = requests.post(url, data=payload).json()
-    if "id" not in res:
-        raise Exception(f"Ошибка создания reply: {res}")
     return res["id"]
 
 # ---------- Шаги ----------
@@ -221,7 +210,6 @@ def cmd_prepare():
             "gif_path": gif_path,
             "mp4_path": mp4_path,
             "text": text,
-            "reply_text": REPLY_TEXT,
             "topic": topic,
             "icon_names": candidate.get("icon_names", []),
             "template": tpl_idx + 1,
@@ -230,7 +218,6 @@ def cmd_prepare():
     print(f"📦 Подготовлен пост: {mp4_path} (GIF № {candidate.get('gif_number')}, вариант {tpl_idx + 1})")
     print(f"🏷️  Тема: {topic}")
     print(f"📝 Текст:\n{text}")
-    print(f"💬 Reply: {REPLY_TEXT}")
 
 def cmd_post():
     if not os.path.exists(PENDING_FILE):
@@ -248,69 +235,20 @@ def cmd_post():
     with open(PENDING_FILE, "r", encoding="utf-8") as f:
         pending = json.load(f)
 
-    def save_pending():
-        with open(PENDING_FILE, "w", encoding="utf-8") as f:
-            json.dump(pending, f, ensure_ascii=False, indent=2)
-
     video_url = get_raw_url(pending["mp4_path"])
     text = pending.get("text", "")
-    reply_text = pending.get("reply_text", REPLY_TEXT)
     topic = pending.get("topic", TOPICS[0] if TOPICS else "Design Threads")
 
-    published_id = pending.get("main_post_id")
-    published_reply_id = pending.get("reply_post_id")
-
     try:
-        # 1. Основной пост — только если ещё не опубликован
-        if not published_id:
-            print(f"🚀 Публикуем в Threads: {video_url}")
-            container_id = create_video_container(text, video_url, topic_tag=topic)
-            check_container_status(container_id)
-            published_id = publish_container(container_id)
-            pending["main_post_id"] = published_id
-            save_pending()
-            print(f"✅ Основной пост опубликован, id: {published_id}")
-            
-            # 🛡️ КРИТИЧЕСКИ ВАЖНО: даем Meta 45 секунд на индексацию поста перед ответом
-            print("⏳ Ждем 45 секунд, чтобы Meta проиндексировала пост для ответа...")
-            time.sleep(45)
-        else:
-            print(f"ℹ️ Основной пост уже опубликован (id: {published_id}) — дублировать не будем.")
-
-        # 2. Reply — с паузой и повторными попытками
-        if not published_reply_id:
-            print(f"💬 Публикуем reply: {reply_text}")
-            err = None
-            for attempt in range(1, 5):
-                # Первая попытка сразу (после 45-секундного сна выше), остальные с интервалом 30 сек
-                if attempt > 1:
-                    time.sleep(30)
-                try:
-                    reply_container_id = create_reply_container(reply_text, published_id, topic_tag=topic)
-                    published_reply_id = publish_container(reply_container_id)
-                    err = None
-                    break
-                except Exception as e:
-                    err = e
-                    print(f"⚠️ Попытка {attempt}/4 не удалась: {e}")
-            
-            if err:
-                # Если ответ так и не опубликовался, мы НЕ прерываем весь процесс.
-                # Мы сохраняем основной пост как успешный, чтобы следующий запуск начал новый пост.
-                print(f"⚠️ Не удалось опубликовать reply после 4 попыток. Основной пост сохранен.")
-                raise Exception("Reply failed, but main post is safe")
-            
-            pending["reply_post_id"] = published_reply_id
-            save_pending()
-            print(f"✅ Reply опубликован, id: {published_reply_id}")
+        print(f"🚀 Публикуем в Threads: {video_url}")
+        container_id = create_video_container(text, video_url, topic_tag=topic)
+        check_container_status(container_id)
+        published_id = publish_container(container_id)
+        print(f"✅ Пост успешно опубликован, id: {published_id}")
 
     except Exception as e:
-        # Если ошибка была только в reply, мы всё равно фиксируем основной пост в истории
-        if "Reply failed" in str(e) and published_id:
-            print("💾 Сохраняем основной пост в историю, несмотря на неудачный reply.")
-        else:
-            print(f"❌ Threads не опубликовал: {e}. Повторим в следующем запуске БЕЗ дублей.")
-            return
+        print(f"❌ Threads не опубликовал: {e}. Повторим в следующем запуске.")
+        return
 
     # Фиксируем в истории
     posted = load_posted()
@@ -321,13 +259,12 @@ def cmd_post():
         "icon_names": pending.get("icon_names", []),
         "template": pending.get("template"),
         "threads_post_id": published_id,
-        "threads_reply_id": published_reply_id, # Будет None, если reply не удался
         "posted_at": datetime.now().isoformat(),
     })
     posted["posts_count"] = posted.get("posts_count", 0) + 1
     save_posted(posted)
     
-    # Удаляем pending, чтобы следующий запуск начал ЧИСТЫЙ новый пост
+    # Очищаем очередь
     os.remove(PENDING_FILE)
     print("💾 История постов Threads обновлена. Очередь очищена.")
 
