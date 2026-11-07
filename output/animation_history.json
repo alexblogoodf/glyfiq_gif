@@ -6127,6 +6127,22 @@
       "gif_path": "output/animation_406.gif",
       "created_at": "2026-11-06T23:16:02.244463",
       "frame_count": 3
+    },
+    {
+      "gif_number": 384,
+      "icon_ids": [
+        407,
+        408,
+        409
+      ],
+      "icon_names": [
+        "heart handshake",
+        "index finger",
+        "hand with coin"
+      ],
+      "gif_path": "output/animation_407.gif",
+      "created_at": "2026-11-07T05:16:03.407356",
+      "frame_count": 3
     }
   ]
 }
