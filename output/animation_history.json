@@ -6143,6 +6143,22 @@
       "gif_path": "output/animation_407.gif",
       "created_at": "2026-11-07T05:16:03.407356",
       "frame_count": 3
+    },
+    {
+      "gif_number": 385,
+      "icon_ids": [
+        408,
+        409,
+        410
+      ],
+      "icon_names": [
+        "index finger",
+        "hand with coin",
+        "algorithm"
+      ],
+      "gif_path": "output/animation_408.gif",
+      "created_at": "2026-11-07T11:16:09.725707",
+      "frame_count": 3
     }
   ]
 }
