@@ -2443,7 +2443,20 @@
       "template": 3,
       "facebook_video_id": "1810154966858554",
       "posted_at": "2026-11-06T23:03:28.622357"
+    },
+    {
+      "gif_number": 189,
+      "gif_path": "output/animation_189.gif",
+      "mp4_path": "output/animation_189.mp4",
+      "icon_names": [
+        "eeg",
+        "roentgen",
+        "ecg"
+      ],
+      "template": 4,
+      "facebook_video_id": "951271471160342",
+      "posted_at": "2026-11-07T22:03:26.991317"
     }
   ],
-  "posts_count": 188
+  "posts_count": 189
 }
