@@ -743,7 +743,19 @@
       "template": 2,
       "title": "Laser eye surgery, Vision correction & Eye test — Glyfiq Figma & Framer Plugin",
       "posted_at": "2026-11-07T17:41:18.970047"
+    },
+    {
+      "gif_number": 63,
+      "gif_path": "output/animation_63.gif",
+      "icon_names": [
+        "vision correction",
+        "eye test",
+        "vision diagnostics"
+      ],
+      "template": 3,
+      "title": "Vision correction, Eye test & Vision diagnostics — Healthcare UI Icons",
+      "posted_at": "2026-11-07T21:41:24.659381"
     }
   ],
-  "posts_count": 62
+  "posts_count": 63
 }
