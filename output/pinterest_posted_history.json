@@ -731,7 +731,19 @@
       "template": 1,
       "title": "Ophthalmology, Laser eye surgery & Vision correction — Medical & Health Icons",
       "posted_at": "2026-11-06T19:12:58.620986"
+    },
+    {
+      "gif_number": 62,
+      "gif_path": "output/animation_62.gif",
+      "icon_names": [
+        "laser eye surgery",
+        "vision correction",
+        "eye test"
+      ],
+      "template": 2,
+      "title": "Laser eye surgery, Vision correction & Eye test — Glyfiq Figma & Framer Plugin",
+      "posted_at": "2026-11-07T17:41:18.970047"
     }
   ],
-  "posts_count": 61
+  "posts_count": 62
 }
