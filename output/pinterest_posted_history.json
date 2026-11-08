@@ -755,7 +755,19 @@
       "template": 3,
       "title": "Vision correction, Eye test & Vision diagnostics — Healthcare UI Icons",
       "posted_at": "2026-11-07T21:41:24.659381"
+    },
+    {
+      "gif_number": 64,
+      "gif_path": "output/animation_64.gif",
+      "icon_names": [
+        "eye test",
+        "vision diagnostics",
+        "farsightedness"
+      ],
+      "template": 4,
+      "title": "Eye test, Vision diagnostics & Farsightedness — Part of 6,000+ Medical Icons",
+      "posted_at": "2026-11-08T17:51:51.301581"
     }
   ],
-  "posts_count": 63
+  "posts_count": 64
 }
