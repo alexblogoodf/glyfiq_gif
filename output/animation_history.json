@@ -6191,6 +6191,22 @@
       "gif_path": "output/animation_410.gif",
       "created_at": "2026-11-07T23:15:59.716372",
       "frame_count": 3
+    },
+    {
+      "gif_number": 388,
+      "icon_ids": [
+        411,
+        412,
+        413
+      ],
+      "icon_names": [
+        "calendar",
+        "clock",
+        "mail"
+      ],
+      "gif_path": "output/animation_411.gif",
+      "created_at": "2026-11-08T05:15:52.411899",
+      "frame_count": 3
     }
   ]
 }
