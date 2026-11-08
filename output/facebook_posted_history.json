@@ -2469,7 +2469,20 @@
       "template": 5,
       "facebook_video_id": "2602217696946201",
       "posted_at": "2026-11-07T23:03:29.708920"
+    },
+    {
+      "gif_number": 191,
+      "gif_path": "output/animation_191.gif",
+      "mp4_path": "output/animation_191.mp4",
+      "icon_names": [
+        "ecg",
+        "gastroscopy",
+        "laboratory tests"
+      ],
+      "template": 1,
+      "facebook_video_id": "1423862019733841",
+      "posted_at": "2026-11-08T22:03:27.781260"
     }
   ],
-  "posts_count": 190
+  "posts_count": 191
 }
