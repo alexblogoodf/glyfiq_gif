@@ -2255,7 +2255,19 @@
       ],
       "template": 3,
       "posted_at": "2026-11-08T22:17:34.051046"
+    },
+    {
+      "gif_number": 189,
+      "gif_path": "output/animation_189.gif",
+      "mp4_path": "output/animation_189.mp4",
+      "icon_names": [
+        "eeg",
+        "roentgen",
+        "ecg"
+      ],
+      "template": 4,
+      "posted_at": "2026-11-08T23:17:35.455742"
     }
   ],
-  "posts_count": 188
+  "posts_count": 189
 }
