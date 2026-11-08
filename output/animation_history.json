@@ -6223,6 +6223,22 @@
       "gif_path": "output/animation_412.gif",
       "created_at": "2026-11-08T11:15:54.633953",
       "frame_count": 3
+    },
+    {
+      "gif_number": 390,
+      "icon_ids": [
+        413,
+        414,
+        415
+      ],
+      "icon_names": [
+        "mail",
+        "pointer",
+        "deal"
+      ],
+      "gif_path": "output/animation_413.gif",
+      "created_at": "2026-11-08T17:16:00.985329",
+      "frame_count": 3
     }
   ]
 }
