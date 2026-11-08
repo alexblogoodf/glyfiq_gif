@@ -2243,7 +2243,19 @@
       ],
       "template": 2,
       "posted_at": "2026-11-07T23:17:36.093284"
+    },
+    {
+      "gif_number": 188,
+      "gif_path": "output/animation_188.gif",
+      "mp4_path": "output/animation_188.mp4",
+      "icon_names": [
+        "ultrasound",
+        "eeg",
+        "roentgen"
+      ],
+      "template": 3,
+      "posted_at": "2026-11-08T22:17:34.051046"
     }
   ],
-  "posts_count": 187
+  "posts_count": 188
 }
