@@ -767,7 +767,19 @@
       "template": 4,
       "title": "Eye test, Vision diagnostics & Farsightedness — Part of 6,000+ Medical Icons",
       "posted_at": "2026-11-08T17:51:51.301581"
+    },
+    {
+      "gif_number": 65,
+      "gif_path": "output/animation_65.gif",
+      "icon_names": [
+        "vision diagnostics",
+        "farsightedness",
+        "nearsightedness"
+      ],
+      "template": 5,
+      "title": "Vision diagnostics, Farsightedness & Nearsightedness — Which One Do You Need?",
+      "posted_at": "2026-11-08T21:55:05.359712"
     }
   ],
-  "posts_count": 64
+  "posts_count": 65
 }
