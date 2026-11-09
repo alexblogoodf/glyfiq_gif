@@ -6271,6 +6271,22 @@
       "gif_path": "output/animation_415.gif",
       "created_at": "2026-11-09T05:17:03.309352",
       "frame_count": 3
+    },
+    {
+      "gif_number": 393,
+      "icon_ids": [
+        416,
+        417,
+        418
+      ],
+      "icon_names": [
+        "save Earth",
+        "capitalization increase",
+        "decrease capitalization"
+      ],
+      "gif_path": "output/animation_416.gif",
+      "created_at": "2026-11-09T11:16:01.079151",
+      "frame_count": 3
     }
   ]
 }
