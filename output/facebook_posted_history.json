@@ -2495,7 +2495,20 @@
       "template": 2,
       "facebook_video_id": "4040590399416748",
       "posted_at": "2026-11-08T23:03:29.008899"
+    },
+    {
+      "gif_number": 193,
+      "gif_path": "output/animation_193.gif",
+      "mp4_path": "output/animation_193.mp4",
+      "icon_names": [
+        "laboratory tests",
+        "lab testing",
+        "good blood test results"
+      ],
+      "template": 3,
+      "facebook_video_id": "1582451700316867",
+      "posted_at": "2026-11-09T22:03:30.836270"
     }
   ],
-  "posts_count": 192
+  "posts_count": 193
 }
