@@ -2279,7 +2279,19 @@
       ],
       "template": 5,
       "posted_at": "2026-11-09T22:17:37.702704"
+    },
+    {
+      "gif_number": 191,
+      "gif_path": "output/animation_191.gif",
+      "mp4_path": "output/animation_191.mp4",
+      "icon_names": [
+        "ecg",
+        "gastroscopy",
+        "laboratory tests"
+      ],
+      "template": 1,
+      "posted_at": "2026-11-09T23:17:33.399055"
     }
   ],
-  "posts_count": 190
+  "posts_count": 191
 }
