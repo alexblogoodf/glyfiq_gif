@@ -2534,7 +2534,20 @@
       "template": 5,
       "facebook_video_id": "2674176653039174",
       "posted_at": "2026-11-10T22:03:29.815894"
+    },
+    {
+      "gif_number": 196,
+      "gif_path": "output/animation_196.gif",
+      "mp4_path": "output/animation_196.mp4",
+      "icon_names": [
+        "bad blood test results",
+        "gynecology ultrasound",
+        "gynecology checkup"
+      ],
+      "template": 1,
+      "facebook_video_id": "2253046348595178",
+      "posted_at": "2026-11-10T23:03:26.049357"
     }
   ],
-  "posts_count": 195
+  "posts_count": 196
 }
