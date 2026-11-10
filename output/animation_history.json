@@ -6351,6 +6351,22 @@
       "gif_path": "output/animation_420.gif",
       "created_at": "2026-11-10T11:16:07.259440",
       "frame_count": 3
+    },
+    {
+      "gif_number": 398,
+      "icon_ids": [
+        421,
+        423,
+        424
+      ],
+      "icon_names": [
+        "application form",
+        "adenoma",
+        "adenoiditis"
+      ],
+      "gif_path": "output/animation_421.gif",
+      "created_at": "2026-11-10T17:15:56.987161",
+      "frame_count": 3
     }
   ]
 }
