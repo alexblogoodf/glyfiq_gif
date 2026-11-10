@@ -2303,7 +2303,19 @@
       ],
       "template": 2,
       "posted_at": "2026-11-10T22:17:34.169838"
+    },
+    {
+      "gif_number": 193,
+      "gif_path": "output/animation_193.gif",
+      "mp4_path": "output/animation_193.mp4",
+      "icon_names": [
+        "laboratory tests",
+        "lab testing",
+        "good blood test results"
+      ],
+      "template": 3,
+      "posted_at": "2026-11-10T23:17:35.730156"
     }
   ],
-  "posts_count": 192
+  "posts_count": 193
 }
