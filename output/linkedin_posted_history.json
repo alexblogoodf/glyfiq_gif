@@ -2291,7 +2291,19 @@
       ],
       "template": 1,
       "posted_at": "2026-11-09T23:17:33.399055"
+    },
+    {
+      "gif_number": 192,
+      "gif_path": "output/animation_192.gif",
+      "mp4_path": "output/animation_192.mp4",
+      "icon_names": [
+        "gastroscopy",
+        "laboratory tests",
+        "lab testing"
+      ],
+      "template": 2,
+      "posted_at": "2026-11-10T22:17:34.169838"
     }
   ],
-  "posts_count": 191
+  "posts_count": 192
 }
