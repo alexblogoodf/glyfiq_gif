@@ -2547,7 +2547,20 @@
       "template": 1,
       "facebook_video_id": "2253046348595178",
       "posted_at": "2026-11-10T23:03:26.049357"
+    },
+    {
+      "gif_number": 197,
+      "gif_path": "output/animation_198.gif",
+      "mp4_path": "output/animation_198.mp4",
+      "icon_names": [
+        "gynecology ultrasound",
+        "gynecology checkup",
+        "artificial fertilization"
+      ],
+      "template": 2,
+      "facebook_video_id": "1138291401924109",
+      "posted_at": "2026-11-11T22:03:25.273007"
     }
   ],
-  "posts_count": 196
+  "posts_count": 197
 }
