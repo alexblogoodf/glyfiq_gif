@@ -6415,6 +6415,22 @@
       "gif_path": "output/animation_425.gif",
       "created_at": "2026-11-11T11:16:00.363497",
       "frame_count": 3
+    },
+    {
+      "gif_number": 402,
+      "icon_ids": [
+        426,
+        427,
+        428
+      ],
+      "icon_names": [
+        "hearing loss",
+        "adenoid face",
+        "runny nose"
+      ],
+      "gif_path": "output/animation_426.gif",
+      "created_at": "2026-11-11T17:16:23.738224",
+      "frame_count": 3
     }
   ]
 }
