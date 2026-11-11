@@ -791,7 +791,19 @@
       "template": 1,
       "title": "Farsightedness, Nearsightedness & Lasik — Medical & Health Icons",
       "posted_at": "2026-11-10T19:35:36.919410"
+    },
+    {
+      "gif_number": 67,
+      "gif_path": "output/animation_67.gif",
+      "icon_names": [
+        "nearsightedness",
+        "lasik",
+        "astigmatism"
+      ],
+      "template": 2,
+      "title": "Nearsightedness, Lasik & Astigmatism — Glyfiq Figma & Framer Plugin",
+      "posted_at": "2026-11-11T19:28:33.551930"
     }
   ],
-  "posts_count": 66
+  "posts_count": 67
 }
