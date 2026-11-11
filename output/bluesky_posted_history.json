@@ -604,7 +604,18 @@
       ],
       "template": 5,
       "posted_at": "2026-11-11T11:19:39.996078"
+    },
+    {
+      "gif_number": 56,
+      "gif_path": "output/animation_56.gif",
+      "icon_names": [
+        "hospital",
+        "MRI diagnostics with a wave",
+        "MRI front view"
+      ],
+      "template": 1,
+      "posted_at": "2026-11-11T17:19:38.083024"
     }
   ],
-  "posts_count": 55
+  "posts_count": 56
 }
