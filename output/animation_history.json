@@ -6463,6 +6463,22 @@
       "gif_path": "output/animation_428.gif",
       "created_at": "2026-11-12T05:16:04.112188",
       "frame_count": 3
+    },
+    {
+      "gif_number": 405,
+      "icon_ids": [
+        429,
+        430,
+        431
+      ],
+      "icon_names": [
+        "pituitary adenoma",
+        "prostate adenoma",
+        "adenomatous polyp"
+      ],
+      "gif_path": "output/animation_429.gif",
+      "created_at": "2026-11-12T11:16:09.398821",
+      "frame_count": 3
     }
   ]
 }
