@@ -6447,6 +6447,22 @@
       "gif_path": "output/animation_427.gif",
       "created_at": "2026-11-11T23:15:57.817694",
       "frame_count": 3
+    },
+    {
+      "gif_number": 404,
+      "icon_ids": [
+        428,
+        429,
+        430
+      ],
+      "icon_names": [
+        "runny nose",
+        "pituitary adenoma",
+        "prostate adenoma"
+      ],
+      "gif_path": "output/animation_428.gif",
+      "created_at": "2026-11-12T05:16:04.112188",
+      "frame_count": 3
     }
   ]
 }
