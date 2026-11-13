@@ -6543,6 +6543,22 @@
       "gif_path": "output/animation_433.gif",
       "created_at": "2026-11-13T11:16:00.111547",
       "frame_count": 3
+    },
+    {
+      "gif_number": 410,
+      "icon_ids": [
+        434,
+        435,
+        436
+      ],
+      "icon_names": [
+        "prolactinoma",
+        "hormones",
+        "radiation therapy"
+      ],
+      "gif_path": "output/animation_434.gif",
+      "created_at": "2026-11-13T17:15:56.171303",
+      "frame_count": 3
     }
   ]
 }
