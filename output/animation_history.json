@@ -6559,6 +6559,22 @@
       "gif_path": "output/animation_434.gif",
       "created_at": "2026-11-13T17:15:56.171303",
       "frame_count": 3
+    },
+    {
+      "gif_number": 411,
+      "icon_ids": [
+        435,
+        436,
+        437
+      ],
+      "icon_names": [
+        "hormones",
+        "radiation therapy",
+        "ultrasound scan"
+      ],
+      "gif_path": "output/animation_435.gif",
+      "created_at": "2026-11-13T23:15:57.991935",
+      "frame_count": 3
     }
   ]
 }
