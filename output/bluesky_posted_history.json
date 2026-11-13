@@ -692,7 +692,18 @@
       ],
       "template": 3,
       "posted_at": "2026-11-13T11:19:35.466710"
+    },
+    {
+      "gif_number": 64,
+      "gif_path": "output/animation_64.gif",
+      "icon_names": [
+        "eye test",
+        "vision diagnostics",
+        "farsightedness"
+      ],
+      "template": 4,
+      "posted_at": "2026-11-13T17:19:33.091611"
     }
   ],
-  "posts_count": 63
+  "posts_count": 64
 }
