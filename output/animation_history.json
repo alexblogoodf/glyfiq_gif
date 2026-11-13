@@ -6511,6 +6511,22 @@
       "gif_path": "output/animation_431.gif",
       "created_at": "2026-11-12T23:15:56.083790",
       "frame_count": 3
+    },
+    {
+      "gif_number": 408,
+      "icon_ids": [
+        432,
+        433,
+        434
+      ],
+      "icon_names": [
+        "vesicoureteral reflux",
+        "chronic renal failure",
+        "prolactinoma"
+      ],
+      "gif_path": "output/animation_432.gif",
+      "created_at": "2026-11-13T05:15:51.561674",
+      "frame_count": 3
     }
   ]
 }
