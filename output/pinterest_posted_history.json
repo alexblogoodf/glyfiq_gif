@@ -815,7 +815,19 @@
       "template": 3,
       "title": "Lasik, Astigmatism & Eye health with eyelashes — Healthcare UI Icons",
       "posted_at": "2026-11-12T19:47:27.778569"
+    },
+    {
+      "gif_number": 69,
+      "gif_path": "output/animation_69.gif",
+      "icon_names": [
+        "astigmatism",
+        "eye health with eyelashes",
+        "eye health"
+      ],
+      "template": 4,
+      "title": "Astigmatism, Eye health with eyelashes & Eye health — Part of 6,000+ Medical Icons",
+      "posted_at": "2026-11-13T19:29:41.581970"
     }
   ],
-  "posts_count": 68
+  "posts_count": 69
 }
