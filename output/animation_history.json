@@ -6591,6 +6591,22 @@
       "gif_path": "output/animation_436.gif",
       "created_at": "2026-11-14T05:15:53.237104",
       "frame_count": 3
+    },
+    {
+      "gif_number": 413,
+      "icon_ids": [
+        437,
+        438,
+        439
+      ],
+      "icon_names": [
+        "ultrasound scan",
+        "urethral catheter",
+        "alcoholism"
+      ],
+      "gif_path": "output/animation_437.gif",
+      "created_at": "2026-11-14T11:15:51.699694",
+      "frame_count": 3
     }
   ]
 }
