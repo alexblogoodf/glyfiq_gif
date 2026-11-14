@@ -3281,7 +3281,20 @@
       "template": 1,
       "threads_post_id": "18114852872237101",
       "posted_at": "2026-11-14T09:22:15.242074"
+    },
+    {
+      "gif_number": 237,
+      "gif_path": "output/animation_238.gif",
+      "mp4_path": "output/animation_238.mp4",
+      "icon_names": [
+        "crutches",
+        "broken arm",
+        "knee-joint"
+      ],
+      "template": 2,
+      "threads_post_id": "18115895365873253",
+      "posted_at": "2026-11-14T19:22:21.602171"
     }
   ],
-  "posts_count": 236
+  "posts_count": 237
 }
