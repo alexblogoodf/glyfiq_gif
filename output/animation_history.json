@@ -6575,6 +6575,22 @@
       "gif_path": "output/animation_435.gif",
       "created_at": "2026-11-13T23:15:57.991935",
       "frame_count": 3
+    },
+    {
+      "gif_number": 412,
+      "icon_ids": [
+        436,
+        437,
+        438
+      ],
+      "icon_names": [
+        "radiation therapy",
+        "ultrasound scan",
+        "urethral catheter"
+      ],
+      "gif_path": "output/animation_436.gif",
+      "created_at": "2026-11-14T05:15:53.237104",
+      "frame_count": 3
     }
   ]
 }
