@@ -6607,6 +6607,22 @@
       "gif_path": "output/animation_437.gif",
       "created_at": "2026-11-14T11:15:51.699694",
       "frame_count": 3
+    },
+    {
+      "gif_number": 414,
+      "icon_ids": [
+        438,
+        439,
+        440
+      ],
+      "icon_names": [
+        "urethral catheter",
+        "alcoholism",
+        "strong drink"
+      ],
+      "gif_path": "output/animation_438.gif",
+      "created_at": "2026-11-14T17:15:53.611358",
+      "frame_count": 3
     }
   ]
 }
