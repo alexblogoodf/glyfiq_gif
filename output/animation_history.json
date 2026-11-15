@@ -6639,6 +6639,22 @@
       "gif_path": "output/animation_439.gif",
       "created_at": "2026-11-14T23:15:56.912778",
       "frame_count": 3
+    },
+    {
+      "gif_number": 416,
+      "icon_ids": [
+        440,
+        441,
+        442
+      ],
+      "icon_names": [
+        "strong drink",
+        "withdrawal symptoms",
+        "vitamin deficiency"
+      ],
+      "gif_path": "output/animation_440.gif",
+      "created_at": "2026-11-15T05:15:54.171113",
+      "frame_count": 3
     }
   ]
 }
