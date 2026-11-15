@@ -6655,6 +6655,22 @@
       "gif_path": "output/animation_440.gif",
       "created_at": "2026-11-15T05:15:54.171113",
       "frame_count": 3
+    },
+    {
+      "gif_number": 417,
+      "icon_ids": [
+        441,
+        442,
+        443
+      ],
+      "icon_names": [
+        "withdrawal symptoms",
+        "vitamin deficiency",
+        "decreased immunity"
+      ],
+      "gif_path": "output/animation_441.gif",
+      "created_at": "2026-11-15T11:16:07.620492",
+      "frame_count": 3
     }
   ]
 }
