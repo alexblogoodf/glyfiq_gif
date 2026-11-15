@@ -780,7 +780,18 @@
       ],
       "template": 1,
       "posted_at": "2026-11-15T11:19:33.723201"
+    },
+    {
+      "gif_number": 72,
+      "gif_path": "output/animation_72.gif",
+      "icon_names": [
+        "eye drops",
+        "cornea",
+        "consultation"
+      ],
+      "template": 2,
+      "posted_at": "2026-11-15T17:19:32.338514"
     }
   ],
-  "posts_count": 71
+  "posts_count": 72
 }
