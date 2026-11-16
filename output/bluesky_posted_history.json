@@ -824,7 +824,18 @@
       ],
       "template": 5,
       "posted_at": "2026-11-16T11:19:33.379346"
+    },
+    {
+      "gif_number": 76,
+      "gif_path": "output/animation_76.gif",
+      "icon_names": [
+        "cataract surgery",
+        "glasses",
+        "phoropter"
+      ],
+      "template": 1,
+      "posted_at": "2026-11-16T17:19:38.793507"
     }
   ],
-  "posts_count": 75
+  "posts_count": 76
 }
