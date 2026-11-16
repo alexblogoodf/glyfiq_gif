@@ -6703,6 +6703,22 @@
       "gif_path": "output/animation_443.gif",
       "created_at": "2026-11-15T23:16:01.774648",
       "frame_count": 3
+    },
+    {
+      "gif_number": 420,
+      "icon_ids": [
+        444,
+        445,
+        446
+      ],
+      "icon_names": [
+        "heart damage",
+        "respiratory damage",
+        "stomach damage"
+      ],
+      "gif_path": "output/animation_444.gif",
+      "created_at": "2026-11-16T05:15:56.429338",
+      "frame_count": 3
     }
   ]
 }
