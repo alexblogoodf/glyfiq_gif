@@ -2677,7 +2677,20 @@
       "template": 1,
       "facebook_video_id": "29477195658588361",
       "posted_at": "2026-11-15T23:03:30.415981"
+    },
+    {
+      "gif_number": 207,
+      "gif_path": "output/animation_208.gif",
+      "mp4_path": "output/animation_208.mp4",
+      "icon_names": [
+        "cesarean section",
+        "intrauterine insemination",
+        "bacteria test"
+      ],
+      "template": 2,
+      "facebook_video_id": "1480872580633264",
+      "posted_at": "2026-11-16T22:03:29.508385"
     }
   ],
-  "posts_count": 206
+  "posts_count": 207
 }
