@@ -863,7 +863,19 @@
       "template": 2,
       "title": "Eye drops, Cornea & Consultation — Glyfiq Figma & Framer Plugin",
       "posted_at": "2026-11-15T18:43:18.161382"
+    },
+    {
+      "gif_number": 73,
+      "gif_path": "output/animation_73.gif",
+      "icon_names": [
+        "cornea",
+        "consultation",
+        "contact lenses"
+      ],
+      "template": 3,
+      "title": "Cornea, Consultation & Contact lenses — Healthcare UI Icons",
+      "posted_at": "2026-11-16T21:54:02.761934"
     }
   ],
-  "posts_count": 72
+  "posts_count": 73
 }
