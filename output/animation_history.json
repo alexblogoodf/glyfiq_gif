@@ -6719,6 +6719,22 @@
       "gif_path": "output/animation_444.gif",
       "created_at": "2026-11-16T05:15:56.429338",
       "frame_count": 3
+    },
+    {
+      "gif_number": 421,
+      "icon_ids": [
+        445,
+        446,
+        447
+      ],
+      "icon_names": [
+        "respiratory damage",
+        "stomach damage",
+        "liver damage"
+      ],
+      "gif_path": "output/animation_445.gif",
+      "created_at": "2026-11-16T11:16:20.904760",
+      "frame_count": 3
     }
   ]
 }
