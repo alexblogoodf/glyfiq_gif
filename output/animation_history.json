@@ -6751,6 +6751,22 @@
       "gif_path": "output/animation_446.gif",
       "created_at": "2026-11-16T17:15:55.702503",
       "frame_count": 3
+    },
+    {
+      "gif_number": 423,
+      "icon_ids": [
+        447,
+        448,
+        449
+      ],
+      "icon_names": [
+        "liver damage",
+        "damage to the pancreas",
+        "kidney damage"
+      ],
+      "gif_path": "output/animation_447.gif",
+      "created_at": "2026-11-16T23:15:56.746468",
+      "frame_count": 3
     }
   ]
 }
