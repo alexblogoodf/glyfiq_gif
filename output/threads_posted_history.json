@@ -3372,7 +3372,20 @@
       "template": 3,
       "threads_post_id": "18134262106688273",
       "posted_at": "2026-11-16T19:22:22.614107"
+    },
+    {
+      "gif_number": 244,
+      "gif_path": "output/animation_245.gif",
+      "mp4_path": "output/animation_245.mp4",
+      "icon_names": [
+        "orthopedics",
+        "mammography machine",
+        "ultrasound"
+      ],
+      "template": 4,
+      "threads_post_id": "17968687269197263",
+      "posted_at": "2026-11-16T23:22:24.444522"
     }
   ],
-  "posts_count": 243
+  "posts_count": 244
 }
