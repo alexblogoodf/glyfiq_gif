@@ -6783,6 +6783,22 @@
       "gif_path": "output/animation_448.gif",
       "created_at": "2026-11-17T05:15:59.393747",
       "frame_count": 3
+    },
+    {
+      "gif_number": 425,
+      "icon_ids": [
+        449,
+        450,
+        451
+      ],
+      "icon_names": [
+        "kidney damage",
+        "depression",
+        "dementia"
+      ],
+      "gif_path": "output/animation_449.gif",
+      "created_at": "2026-11-17T11:15:59.535838",
+      "frame_count": 3
     }
   ]
 }
