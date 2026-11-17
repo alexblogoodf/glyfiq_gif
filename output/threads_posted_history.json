@@ -3398,7 +3398,20 @@
       "template": 5,
       "threads_post_id": "17896497786682337",
       "posted_at": "2026-11-17T09:22:21.172713"
+    },
+    {
+      "gif_number": 246,
+      "gif_path": "output/animation_249.gif",
+      "mp4_path": "output/animation_249.mp4",
+      "icon_names": [
+        "ultrasound",
+        "ribbon",
+        "diagnostics and stethoscope"
+      ],
+      "template": 1,
+      "threads_post_id": "18135083419760306",
+      "posted_at": "2026-11-17T19:22:26.729861"
     }
   ],
-  "posts_count": 245
+  "posts_count": 246
 }
