@@ -875,7 +875,19 @@
       "template": 3,
       "title": "Cornea, Consultation & Contact lenses — Healthcare UI Icons",
       "posted_at": "2026-11-16T21:54:02.761934"
+    },
+    {
+      "gif_number": 74,
+      "gif_path": "output/animation_74.gif",
+      "icon_names": [
+        "consultation",
+        "contact lenses",
+        "cataract surgery"
+      ],
+      "template": 4,
+      "title": "Consultation, Contact lenses & Cataract surgery — Part of 6,000+ Medical Icons",
+      "posted_at": "2026-11-17T20:43:58.529642"
     }
   ],
-  "posts_count": 73
+  "posts_count": 74
 }
