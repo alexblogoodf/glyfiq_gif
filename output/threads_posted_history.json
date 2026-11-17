@@ -3411,7 +3411,20 @@
       "template": 1,
       "threads_post_id": "18135083419760306",
       "posted_at": "2026-11-17T19:22:26.729861"
+    },
+    {
+      "gif_number": 247,
+      "gif_path": "output/animation_254.gif",
+      "mp4_path": "output/animation_254.mp4",
+      "icon_names": [
+        "ribbon",
+        "diagnostics and stethoscope",
+        "medical tests"
+      ],
+      "template": 2,
+      "threads_post_id": "17892680091622708",
+      "posted_at": "2026-11-17T23:22:21.826360"
     }
   ],
-  "posts_count": 246
+  "posts_count": 247
 }
