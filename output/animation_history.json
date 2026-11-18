@@ -6847,6 +6847,22 @@
       "gif_path": "output/animation_452.gif",
       "created_at": "2026-11-18T05:17:21.328329",
       "frame_count": 3
+    },
+    {
+      "gif_number": 429,
+      "icon_ids": [
+        453,
+        454,
+        455
+      ],
+      "icon_names": [
+        "emphysema",
+        "no drinking",
+        "strong drink proof"
+      ],
+      "gif_path": "output/animation_453.gif",
+      "created_at": "2026-11-18T11:16:00.978370",
+      "frame_count": 3
     }
   ]
 }
