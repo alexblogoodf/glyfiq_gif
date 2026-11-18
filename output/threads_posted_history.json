@@ -3424,7 +3424,20 @@
       "template": 2,
       "threads_post_id": "17892680091622708",
       "posted_at": "2026-11-17T23:22:21.826360"
+    },
+    {
+      "gif_number": 248,
+      "gif_path": "output/animation_255.gif",
+      "mp4_path": "output/animation_255.mp4",
+      "icon_names": [
+        "diagnostics and stethoscope",
+        "medical tests",
+        "low energy person"
+      ],
+      "template": 3,
+      "threads_post_id": "18131139493867943",
+      "posted_at": "2026-11-18T09:22:20.693707"
     }
   ],
-  "posts_count": 247
+  "posts_count": 248
 }
