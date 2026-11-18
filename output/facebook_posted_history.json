@@ -2742,7 +2742,20 @@
       "template": 1,
       "facebook_video_id": "1763583162435630",
       "posted_at": "2026-11-18T22:03:28.970691"
+    },
+    {
+      "gif_number": 212,
+      "gif_path": "output/animation_213.gif",
+      "mp4_path": "output/animation_213.mp4",
+      "icon_names": [
+        "abortion",
+        "mental growth",
+        "mental health"
+      ],
+      "template": 2,
+      "facebook_video_id": "1046323695146321",
+      "posted_at": "2026-11-18T23:03:29.615759"
     }
   ],
-  "posts_count": 211
+  "posts_count": 212
 }
