@@ -887,7 +887,19 @@
       "template": 4,
       "title": "Consultation, Contact lenses & Cataract surgery — Part of 6,000+ Medical Icons",
       "posted_at": "2026-11-17T20:43:58.529642"
+    },
+    {
+      "gif_number": 75,
+      "gif_path": "output/animation_75.gif",
+      "icon_names": [
+        "contact lenses",
+        "cataract surgery",
+        "glasses"
+      ],
+      "template": 5,
+      "title": "Contact lenses, Cataract surgery & Glasses — Which One Do You Need?",
+      "posted_at": "2026-11-18T20:19:36.298447"
     }
   ],
-  "posts_count": 74
+  "posts_count": 75
 }
