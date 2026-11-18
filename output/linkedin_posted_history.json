@@ -2471,7 +2471,19 @@
       ],
       "template": 1,
       "posted_at": "2026-11-17T23:17:33.934451"
+    },
+    {
+      "gif_number": 207,
+      "gif_path": "output/animation_208.gif",
+      "mp4_path": "output/animation_208.mp4",
+      "icon_names": [
+        "cesarean section",
+        "intrauterine insemination",
+        "bacteria test"
+      ],
+      "template": 2,
+      "posted_at": "2026-11-18T22:17:36.447792"
     }
   ],
-  "posts_count": 206
+  "posts_count": 207
 }
