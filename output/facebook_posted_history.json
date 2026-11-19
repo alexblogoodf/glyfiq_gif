@@ -2768,7 +2768,20 @@
       "template": 3,
       "facebook_video_id": "2647848765664134",
       "posted_at": "2026-11-19T22:03:28.157879"
+    },
+    {
+      "gif_number": 214,
+      "gif_path": "output/animation_215.gif",
+      "mp4_path": "output/animation_215.mp4",
+      "icon_names": [
+        "mental health",
+        "negative thinking",
+        "brain and thinking"
+      ],
+      "template": 4,
+      "facebook_video_id": "1103050169381588",
+      "posted_at": "2026-11-19T23:03:33.403530"
     }
   ],
-  "posts_count": 213
+  "posts_count": 214
 }
