@@ -6943,6 +6943,22 @@
       "gif_path": "output/animation_458.gif",
       "created_at": "2026-11-19T17:16:00.614720",
       "frame_count": 3
+    },
+    {
+      "gif_number": 435,
+      "icon_ids": [
+        459,
+        460,
+        461
+      ],
+      "icon_names": [
+        "visual",
+        "hearing",
+        "intellectual"
+      ],
+      "gif_path": "output/animation_459.gif",
+      "created_at": "2026-11-19T23:15:59.716542",
+      "frame_count": 3
     }
   ]
 }
