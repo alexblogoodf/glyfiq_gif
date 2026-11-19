@@ -6895,6 +6895,22 @@
       "gif_path": "output/animation_455.gif",
       "created_at": "2026-11-18T23:16:04.296606",
       "frame_count": 3
+    },
+    {
+      "gif_number": 432,
+      "icon_ids": [
+        456,
+        457,
+        458
+      ],
+      "icon_names": [
+        "physical",
+        "adapted toilet",
+        "adapted shower"
+      ],
+      "gif_path": "output/animation_456.gif",
+      "created_at": "2026-11-19T05:15:53.028920",
+      "frame_count": 3
     }
   ]
 }
