@@ -1000,7 +1000,18 @@
       ],
       "template": 1,
       "posted_at": "2026-11-20T11:19:33.638287"
+    },
+    {
+      "gif_number": 92,
+      "gif_path": "output/animation_92.gif",
+      "icon_names": [
+        "tube check mark",
+        "pipette",
+        "doctor & microscope"
+      ],
+      "template": 2,
+      "posted_at": "2026-11-20T17:19:35.296480"
     }
   ],
-  "posts_count": 91
+  "posts_count": 92
 }
