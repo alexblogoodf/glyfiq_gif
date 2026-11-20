@@ -7007,6 +7007,22 @@
       "gif_path": "output/animation_462.gif",
       "created_at": "2026-11-20T17:17:21.762204",
       "frame_count": 3
+    },
+    {
+      "gif_number": 439,
+      "icon_ids": [
+        463,
+        464,
+        465
+      ],
+      "icon_names": [
+        "amphibious crutches",
+        "adapted walker",
+        "love"
+      ],
+      "gif_path": "output/animation_463.gif",
+      "created_at": "2026-11-20T23:15:54.328136",
+      "frame_count": 3
     }
   ]
 }
