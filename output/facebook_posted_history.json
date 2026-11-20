@@ -2781,7 +2781,20 @@
       "template": 4,
       "facebook_video_id": "1103050169381588",
       "posted_at": "2026-11-19T23:03:33.403530"
+    },
+    {
+      "gif_number": 215,
+      "gif_path": "output/animation_216.gif",
+      "mp4_path": "output/animation_216.mp4",
+      "icon_names": [
+        "negative thinking",
+        "brain and thinking",
+        "emotional reasoning"
+      ],
+      "template": 5,
+      "facebook_video_id": "1660493595723887",
+      "posted_at": "2026-11-20T22:03:32.089124"
     }
   ],
-  "posts_count": 214
+  "posts_count": 215
 }
