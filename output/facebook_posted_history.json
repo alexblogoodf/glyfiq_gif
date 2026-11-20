@@ -2794,7 +2794,20 @@
       "template": 5,
       "facebook_video_id": "1660493595723887",
       "posted_at": "2026-11-20T22:03:32.089124"
+    },
+    {
+      "gif_number": 216,
+      "gif_path": "output/animation_217.gif",
+      "mp4_path": "output/animation_217.mp4",
+      "icon_names": [
+        "brain and thinking",
+        "emotional reasoning",
+        "logical thinking"
+      ],
+      "template": 1,
+      "facebook_video_id": "40017366787910693",
+      "posted_at": "2026-11-20T23:03:28.694508"
     }
   ],
-  "posts_count": 215
+  "posts_count": 216
 }
