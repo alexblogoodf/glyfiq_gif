@@ -3515,7 +3515,20 @@
       "template": 4,
       "threads_post_id": "17938724154409417",
       "posted_at": "2026-11-20T09:22:17.184540"
+    },
+    {
+      "gif_number": 255,
+      "gif_path": "output/animation_267.gif",
+      "mp4_path": "output/animation_267.mp4",
+      "icon_names": [
+        "negative report",
+        "positive",
+        "negative"
+      ],
+      "template": 5,
+      "threads_post_id": "17998140108097688",
+      "posted_at": "2026-11-20T19:22:21.320886"
     }
   ],
-  "posts_count": 254
+  "posts_count": 255
 }
