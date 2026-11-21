@@ -923,7 +923,19 @@
       "template": 2,
       "title": "Glasses, Phoropter & Urine test — Glyfiq Figma & Framer Plugin",
       "posted_at": "2026-11-20T19:54:32.857178"
+    },
+    {
+      "gif_number": 78,
+      "gif_path": "output/animation_78.gif",
+      "icon_names": [
+        "phoropter",
+        "urine test",
+        "microscope"
+      ],
+      "template": 3,
+      "title": "Phoropter, Urine test & Microscope — Healthcare UI Icons",
+      "posted_at": "2026-11-21T19:00:07.432370"
     }
   ],
-  "posts_count": 77
+  "posts_count": 78
 }
