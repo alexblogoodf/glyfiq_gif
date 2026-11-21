@@ -3554,7 +3554,20 @@
       "template": 2,
       "threads_post_id": "18362818372218083",
       "posted_at": "2026-11-21T09:22:21.119567"
+    },
+    {
+      "gif_number": 258,
+      "gif_path": "output/animation_270.gif",
+      "mp4_path": "output/animation_270.mp4",
+      "icon_names": [
+        "energized head",
+        "low energy head",
+        "disconnected puzzle"
+      ],
+      "template": 3,
+      "threads_post_id": "18112858837920050",
+      "posted_at": "2026-11-21T19:22:19.924300"
     }
   ],
-  "posts_count": 257
+  "posts_count": 258
 }
