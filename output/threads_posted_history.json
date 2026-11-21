@@ -3541,7 +3541,20 @@
       "template": 1,
       "threads_post_id": "17921527989532294",
       "posted_at": "2026-11-20T23:22:21.046511"
+    },
+    {
+      "gif_number": 257,
+      "gif_path": "output/animation_269.gif",
+      "mp4_path": "output/animation_269.mp4",
+      "icon_names": [
+        "negative",
+        "energized head",
+        "low energy head"
+      ],
+      "template": 2,
+      "threads_post_id": "18362818372218083",
+      "posted_at": "2026-11-21T09:22:21.119567"
     }
   ],
-  "posts_count": 256
+  "posts_count": 257
 }
