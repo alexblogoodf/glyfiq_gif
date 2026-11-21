@@ -2496,7 +2496,18 @@
       ],
       "template": 2,
       "posted_at": "2026-11-20T23:05:36.145144"
+    },
+    {
+      "gif_number": 228,
+      "gif_path": "output/animation_229.gif",
+      "icon_names": [
+        "self identity",
+        "flat foot",
+        "scoliosis"
+      ],
+      "template": 3,
+      "posted_at": "2026-11-21T13:05:37.797085"
     }
   ],
-  "posts_count": 227
+  "posts_count": 228
 }
