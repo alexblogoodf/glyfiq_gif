@@ -7039,6 +7039,22 @@
       "gif_path": "output/animation_464.gif",
       "created_at": "2026-11-21T05:16:07.759574",
       "frame_count": 3
+    },
+    {
+      "gif_number": 441,
+      "icon_ids": [
+        465,
+        466,
+        467
+      ],
+      "icon_names": [
+        "love",
+        "in love",
+        "romantic evening"
+      ],
+      "gif_path": "output/animation_465.gif",
+      "created_at": "2026-11-21T11:16:10.870631",
+      "frame_count": 3
     }
   ]
 }
