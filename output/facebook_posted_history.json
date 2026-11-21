@@ -2807,7 +2807,20 @@
       "template": 1,
       "facebook_video_id": "40017366787910693",
       "posted_at": "2026-11-20T23:03:28.694508"
+    },
+    {
+      "gif_number": 217,
+      "gif_path": "output/animation_218.gif",
+      "mp4_path": "output/animation_218.mp4",
+      "icon_names": [
+        "emotional reasoning",
+        "logical thinking",
+        "obsession"
+      ],
+      "template": 2,
+      "facebook_video_id": "3643338992514240",
+      "posted_at": "2026-11-21T22:03:26.799917"
     }
   ],
-  "posts_count": 216
+  "posts_count": 217
 }
