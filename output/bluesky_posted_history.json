@@ -1044,7 +1044,18 @@
       ],
       "template": 5,
       "posted_at": "2026-11-21T11:19:35.732366"
+    },
+    {
+      "gif_number": 96,
+      "gif_path": "output/animation_96.gif",
+      "icon_names": [
+        "test tubes",
+        "test tube",
+        "petri germs"
+      ],
+      "template": 1,
+      "posted_at": "2026-11-21T17:19:37.429818"
     }
   ],
-  "posts_count": 95
+  "posts_count": 96
 }
