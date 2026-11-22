@@ -2529,7 +2529,18 @@
       ],
       "template": 5,
       "posted_at": "2026-11-22T13:05:34.583256"
+    },
+    {
+      "gif_number": 231,
+      "gif_path": "output/animation_232.gif",
+      "icon_names": [
+        "compression stockings",
+        "orthopedic mattress",
+        "electric wheelchair"
+      ],
+      "template": 1,
+      "posted_at": "2026-11-22T23:05:36.253270"
     }
   ],
-  "posts_count": 230
+  "posts_count": 231
 }
