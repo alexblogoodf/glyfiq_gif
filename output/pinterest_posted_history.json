@@ -935,7 +935,19 @@
       "template": 3,
       "title": "Phoropter, Urine test & Microscope — Healthcare UI Icons",
       "posted_at": "2026-11-21T19:00:07.432370"
+    },
+    {
+      "gif_number": 79,
+      "gif_path": "output/animation_79.gif",
+      "icon_names": [
+        "urine test",
+        "microscope",
+        "hospital minimalistic"
+      ],
+      "template": 4,
+      "title": "Urine test, Microscope & Hospital minimalistic — Part of 6,000+ Medical Icons",
+      "posted_at": "2026-11-22T19:24:06.029082"
     }
   ],
-  "posts_count": 78
+  "posts_count": 79
 }
