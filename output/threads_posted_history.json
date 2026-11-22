@@ -3606,7 +3606,20 @@
       "template": 1,
       "threads_post_id": "18122621990092955",
       "posted_at": "2026-11-22T19:22:21.913626"
+    },
+    {
+      "gif_number": 262,
+      "gif_path": "output/animation_285.gif",
+      "mp4_path": "output/animation_285.mp4",
+      "icon_names": [
+        "despair",
+        "panic attack",
+        "stress at work"
+      ],
+      "template": 2,
+      "threads_post_id": "18148513345587587",
+      "posted_at": "2026-11-22T23:22:19.530570"
     }
   ],
-  "posts_count": 261
+  "posts_count": 262
 }
