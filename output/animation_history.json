@@ -7087,6 +7087,22 @@
       "gif_path": "output/animation_467.gif",
       "created_at": "2026-11-21T23:15:55.270538",
       "frame_count": 3
+    },
+    {
+      "gif_number": 444,
+      "icon_ids": [
+        468,
+        469,
+        470
+      ],
+      "icon_names": [
+        "cupid",
+        "friends",
+        "rose"
+      ],
+      "gif_path": "output/animation_468.gif",
+      "created_at": "2026-11-22T05:15:59.880322",
+      "frame_count": 3
     }
   ]
 }
