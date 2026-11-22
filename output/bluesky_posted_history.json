@@ -1088,7 +1088,18 @@
       ],
       "template": 4,
       "posted_at": "2026-11-22T11:19:36.457521"
+    },
+    {
+      "gif_number": 100,
+      "gif_path": "output/animation_100.gif",
+      "icon_names": [
+        "urinary biofilm",
+        "urine dipstick",
+        "dna"
+      ],
+      "template": 5,
+      "posted_at": "2026-11-22T17:19:35.183375"
     }
   ],
-  "posts_count": 99
+  "posts_count": 100
 }
