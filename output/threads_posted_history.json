@@ -3632,7 +3632,20 @@
       "template": 3,
       "threads_post_id": "18392696572231755",
       "posted_at": "2026-11-23T09:22:25.428925"
+    },
+    {
+      "gif_number": 264,
+      "gif_path": "output/animation_287.gif",
+      "mp4_path": "output/animation_287.mp4",
+      "icon_names": [
+        "stress at work",
+        "rejected briefcase",
+        "accepted briefcase"
+      ],
+      "template": 4,
+      "threads_post_id": "17986714631905301",
+      "posted_at": "2026-11-23T19:22:21.487572"
     }
   ],
-  "posts_count": 263
+  "posts_count": 264
 }
