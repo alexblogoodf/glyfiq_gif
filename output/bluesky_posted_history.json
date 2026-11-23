@@ -1132,7 +1132,18 @@
       ],
       "template": 3,
       "posted_at": "2026-11-23T11:19:35.714214"
+    },
+    {
+      "gif_number": 104,
+      "gif_path": "output/animation_104.gif",
+      "icon_names": [
+        "cms account",
+        "medical billing",
+        "turn-key operation"
+      ],
+      "template": 4,
+      "posted_at": "2026-11-23T17:19:36.938326"
     }
   ],
-  "posts_count": 103
+  "posts_count": 104
 }
