@@ -2872,7 +2872,20 @@
       "template": 1,
       "facebook_video_id": "1693821509116029",
       "posted_at": "2026-11-23T22:03:27.735073"
+    },
+    {
+      "gif_number": 222,
+      "gif_path": "output/animation_223.gif",
+      "mp4_path": "output/animation_223.mp4",
+      "icon_names": [
+        "thinking process",
+        "musicality",
+        "balance"
+      ],
+      "template": 2,
+      "facebook_video_id": "1669699097956806",
+      "posted_at": "2026-11-23T23:03:36.148204"
     }
   ],
-  "posts_count": 221
+  "posts_count": 222
 }
