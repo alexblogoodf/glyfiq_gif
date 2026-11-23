@@ -1110,7 +1110,18 @@
       ],
       "template": 1,
       "posted_at": "2026-11-22T23:19:33.753973"
+    },
+    {
+      "gif_number": 102,
+      "gif_path": "output/animation_102.gif",
+      "icon_names": [
+        "dna",
+        "product consignment",
+        "cms account"
+      ],
+      "template": 2,
+      "posted_at": "2026-11-23T05:19:35.123473"
     }
   ],
-  "posts_count": 101
+  "posts_count": 102
 }
