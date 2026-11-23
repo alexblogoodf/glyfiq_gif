@@ -947,7 +947,19 @@
       "template": 4,
       "title": "Urine test, Microscope & Hospital minimalistic — Part of 6,000+ Medical Icons",
       "posted_at": "2026-11-22T19:24:06.029082"
+    },
+    {
+      "gif_number": 80,
+      "gif_path": "output/animation_80.gif",
+      "icon_names": [
+        "microscope",
+        "hospital minimalistic",
+        "ambulance"
+      ],
+      "template": 5,
+      "title": "Microscope, Hospital minimalistic & Ambulance — Which One Do You Need?",
+      "posted_at": "2026-11-23T23:43:23.946219"
     }
   ],
-  "posts_count": 79
+  "posts_count": 80
 }
