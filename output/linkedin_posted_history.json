@@ -2603,7 +2603,19 @@
       ],
       "template": 2,
       "posted_at": "2026-11-23T22:17:34.614555"
+    },
+    {
+      "gif_number": 218,
+      "gif_path": "output/animation_219.gif",
+      "mp4_path": "output/animation_219.mp4",
+      "icon_names": [
+        "logical thinking",
+        "obsession",
+        "inner dialogue"
+      ],
+      "template": 3,
+      "posted_at": "2026-11-23T23:17:39.438829"
     }
   ],
-  "posts_count": 217
+  "posts_count": 218
 }
