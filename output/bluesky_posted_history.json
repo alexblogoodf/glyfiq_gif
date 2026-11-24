@@ -1154,7 +1154,18 @@
       ],
       "template": 5,
       "posted_at": "2026-11-23T23:19:36.412473"
+    },
+    {
+      "gif_number": 106,
+      "gif_path": "output/animation_106.gif",
+      "icon_names": [
+        "turn-key operation",
+        "direct pay option",
+        "prior authorization"
+      ],
+      "template": 1,
+      "posted_at": "2026-11-24T05:19:34.334863"
     }
   ],
-  "posts_count": 105
+  "posts_count": 106
 }
