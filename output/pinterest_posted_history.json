@@ -959,7 +959,19 @@
       "template": 5,
       "title": "Microscope, Hospital minimalistic & Ambulance — Which One Do You Need?",
       "posted_at": "2026-11-23T23:43:23.946219"
+    },
+    {
+      "gif_number": 81,
+      "gif_path": "output/animation_81.gif",
+      "icon_names": [
+        "hospital minimalistic",
+        "ambulance",
+        "doctor in mask"
+      ],
+      "template": 1,
+      "title": "Hospital minimalistic, Ambulance & Doctor in mask — Medical & Health Icons",
+      "posted_at": "2026-11-24T22:15:06.924788"
     }
   ],
-  "posts_count": 80
+  "posts_count": 81
 }
