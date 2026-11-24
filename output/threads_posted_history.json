@@ -3658,7 +3658,20 @@
       "template": 5,
       "threads_post_id": "18312083188305006",
       "posted_at": "2026-11-23T23:22:23.876443"
+    },
+    {
+      "gif_number": 266,
+      "gif_path": "output/animation_289.gif",
+      "mp4_path": "output/animation_289.mp4",
+      "icon_names": [
+        "accepted briefcase",
+        "tired sitting pose",
+        "communication off"
+      ],
+      "template": 1,
+      "threads_post_id": "18134097433793733",
+      "posted_at": "2026-11-24T09:22:20.693964"
     }
   ],
-  "posts_count": 265
+  "posts_count": 266
 }
