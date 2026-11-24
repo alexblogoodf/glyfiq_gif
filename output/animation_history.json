@@ -7247,6 +7247,22 @@
       "gif_path": "output/animation_477.gif",
       "created_at": "2026-11-24T11:16:27.271524",
       "frame_count": 3
+    },
+    {
+      "gif_number": 454,
+      "icon_ids": [
+        478,
+        479,
+        480
+      ],
+      "icon_names": [
+        "candles",
+        "angel",
+        "gift delivery"
+      ],
+      "gif_path": "output/animation_478.gif",
+      "created_at": "2026-11-24T17:15:58.685748",
+      "frame_count": 3
     }
   ]
 }
