@@ -2963,7 +2963,20 @@
       "template": 3,
       "buffer_post_id": "6b04c9fdf72f10e1883f30b8",
       "posted_at": "2026-11-23T23:20:35.242744"
+    },
+    {
+      "gif_number": 229,
+      "gif_path": "output/animation_230.gif",
+      "mp4_path": "output/animation_230.mp4",
+      "icon_names": [
+        "flat foot",
+        "scoliosis",
+        "compression stockings"
+      ],
+      "template": 4,
+      "buffer_post_id": "6b05e33f4148285e965d118d",
+      "posted_at": "2026-11-24T19:20:38.162279"
     }
   ],
-  "posts_count": 228
+  "posts_count": 229
 }
