@@ -3684,7 +3684,20 @@
       "template": 2,
       "threads_post_id": "18113489128930558",
       "posted_at": "2026-11-24T19:22:18.363320"
+    },
+    {
+      "gif_number": 268,
+      "gif_path": "output/animation_291.gif",
+      "mp4_path": "output/animation_291.mp4",
+      "icon_names": [
+        "communication off",
+        "depressed person",
+        "slight fatigue"
+      ],
+      "template": 3,
+      "threads_post_id": "18100305308128632",
+      "posted_at": "2026-11-24T23:22:20.954647"
     }
   ],
-  "posts_count": 267
+  "posts_count": 268
 }
