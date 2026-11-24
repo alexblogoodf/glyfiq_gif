@@ -2885,7 +2885,20 @@
       "template": 2,
       "facebook_video_id": "1669699097956806",
       "posted_at": "2026-11-23T23:03:36.148204"
+    },
+    {
+      "gif_number": 223,
+      "gif_path": "output/animation_224.gif",
+      "mp4_path": "output/animation_224.mp4",
+      "icon_names": [
+        "musicality",
+        "balance",
+        "positive thinking"
+      ],
+      "template": 3,
+      "facebook_video_id": "2398335654274461",
+      "posted_at": "2026-11-24T22:03:31.879096"
     }
   ],
-  "posts_count": 222
+  "posts_count": 223
 }
