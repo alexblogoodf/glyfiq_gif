@@ -7231,6 +7231,22 @@
       "gif_path": "output/animation_476.gif",
       "created_at": "2026-11-24T05:15:56.556995",
       "frame_count": 3
+    },
+    {
+      "gif_number": 453,
+      "icon_ids": [
+        477,
+        478,
+        479
+      ],
+      "icon_names": [
+        "romantic dinner",
+        "candles",
+        "angel"
+      ],
+      "gif_path": "output/animation_477.gif",
+      "created_at": "2026-11-24T11:16:27.271524",
+      "frame_count": 3
     }
   ]
 }
