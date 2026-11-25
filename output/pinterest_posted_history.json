@@ -971,7 +971,19 @@
       "template": 1,
       "title": "Hospital minimalistic, Ambulance & Doctor in mask — Medical & Health Icons",
       "posted_at": "2026-11-24T22:15:06.924788"
+    },
+    {
+      "gif_number": 82,
+      "gif_path": "output/animation_82.gif",
+      "icon_names": [
+        "ambulance",
+        "doctor in mask",
+        "nurse in mask"
+      ],
+      "template": 2,
+      "title": "Ambulance, Doctor in mask & Nurse in mask — Glyfiq Figma & Framer Plugin",
+      "posted_at": "2026-11-25T21:31:15.103700"
     }
   ],
-  "posts_count": 81
+  "posts_count": 82
 }
