@@ -3002,7 +3002,20 @@
       "template": 1,
       "buffer_post_id": "6b0734c103e79bc5c6fa755c",
       "posted_at": "2026-11-25T19:20:39.540202"
+    },
+    {
+      "gif_number": 232,
+      "gif_path": "output/animation_233.gif",
+      "mp4_path": "output/animation_233.mp4",
+      "icon_names": [
+        "orthopedic mattress",
+        "electric wheelchair",
+        "walking sticks"
+      ],
+      "template": 2,
+      "buffer_post_id": "6b076cfba791bea1b235e064",
+      "posted_at": "2026-11-25T23:20:33.856266"
     }
   ],
-  "posts_count": 231
+  "posts_count": 232
 }
