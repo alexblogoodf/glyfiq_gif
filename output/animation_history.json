@@ -7311,6 +7311,22 @@
       "gif_path": "output/animation_481.gif",
       "created_at": "2026-11-25T11:16:16.555799",
       "frame_count": 3
+    },
+    {
+      "gif_number": 458,
+      "icon_ids": [
+        482,
+        483,
+        484
+      ],
+      "icon_names": [
+        "love message",
+        "valentine's day",
+        "table for two"
+      ],
+      "gif_path": "output/animation_482.gif",
+      "created_at": "2026-11-25T17:16:10.621809",
+      "frame_count": 3
     }
   ]
 }
