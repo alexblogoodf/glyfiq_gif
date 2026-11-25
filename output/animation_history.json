@@ -7279,6 +7279,22 @@
       "gif_path": "output/animation_479.gif",
       "created_at": "2026-11-24T23:16:29.272508",
       "frame_count": 3
+    },
+    {
+      "gif_number": 456,
+      "icon_ids": [
+        480,
+        481,
+        482
+      ],
+      "icon_names": [
+        "gift delivery",
+        "gift card",
+        "love message"
+      ],
+      "gif_path": "output/animation_480.gif",
+      "created_at": "2026-11-25T05:16:00.950882",
+      "frame_count": 3
     }
   ]
 }
