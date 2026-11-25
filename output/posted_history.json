@@ -2595,7 +2595,18 @@
       ],
       "template": 1,
       "posted_at": "2026-11-25T13:05:36.885058"
+    },
+    {
+      "gif_number": 237,
+      "gif_path": "output/animation_238.gif",
+      "icon_names": [
+        "crutches",
+        "broken arm",
+        "knee-joint"
+      ],
+      "template": 2,
+      "posted_at": "2026-11-25T23:05:38.011609"
     }
   ],
-  "posts_count": 236
+  "posts_count": 237
 }
