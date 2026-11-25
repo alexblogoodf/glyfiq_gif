@@ -2584,7 +2584,18 @@
       ],
       "template": 5,
       "posted_at": "2026-11-24T23:05:36.055923"
+    },
+    {
+      "gif_number": 236,
+      "gif_path": "output/animation_237.gif",
+      "icon_names": [
+        "orthopedic pillow",
+        "crutches",
+        "broken arm"
+      ],
+      "template": 1,
+      "posted_at": "2026-11-25T13:05:36.885058"
     }
   ],
-  "posts_count": 235
+  "posts_count": 236
 }
