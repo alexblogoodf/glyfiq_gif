@@ -983,7 +983,19 @@
       "template": 2,
       "title": "Ambulance, Doctor in mask & Nurse in mask — Glyfiq Figma & Framer Plugin",
       "posted_at": "2026-11-25T21:31:15.103700"
+    },
+    {
+      "gif_number": 83,
+      "gif_path": "output/animation_83.gif",
+      "icon_names": [
+        "doctor in mask",
+        "nurse in mask",
+        "coins"
+      ],
+      "template": 3,
+      "title": "Doctor in mask, Nurse in mask & Coins — Healthcare UI Icons",
+      "posted_at": "2026-11-26T21:19:12.545007"
     }
   ],
-  "posts_count": 82
+  "posts_count": 83
 }
