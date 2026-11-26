@@ -3028,7 +3028,20 @@
       "template": 3,
       "buffer_post_id": "6b08863a3accdac92cf317a7",
       "posted_at": "2026-11-26T19:20:32.388974"
+    },
+    {
+      "gif_number": 234,
+      "gif_path": "output/animation_235.gif",
+      "mp4_path": "output/animation_235.mp4",
+      "icon_names": [
+        "walking sticks",
+        "walkers",
+        "orthopedic pillow"
+      ],
+      "template": 4,
+      "buffer_post_id": "6b08be7d548b6e180d3f4be8",
+      "posted_at": "2026-11-26T23:20:35.623056"
     }
   ],
-  "posts_count": 233
+  "posts_count": 234
 }
