@@ -3749,7 +3749,20 @@
       "template": 2,
       "threads_post_id": "18372300457300256",
       "posted_at": "2026-11-26T09:22:18.983042"
+    },
+    {
+      "gif_number": 273,
+      "gif_path": "output/animation_296.gif",
+      "mp4_path": "output/animation_296.mp4",
+      "icon_names": [
+        "appetite disturbance",
+        "exhausted person",
+        "hopeless person"
+      ],
+      "template": 3,
+      "threads_post_id": "17940792633125659",
+      "posted_at": "2026-11-26T19:22:18.993428"
     }
   ],
-  "posts_count": 272
+  "posts_count": 273
 }
