@@ -1275,7 +1275,18 @@
       ],
       "template": 1,
       "posted_at": "2026-11-26T17:19:35.307866"
+    },
+    {
+      "gif_number": 117,
+      "gif_path": "output/animation_117.gif",
+      "icon_names": [
+        "virus protection",
+        "fatigue",
+        "ICU ventilator"
+      ],
+      "template": 2,
+      "posted_at": "2026-11-26T23:19:36.730194"
     }
   ],
-  "posts_count": 116
+  "posts_count": 117
 }
