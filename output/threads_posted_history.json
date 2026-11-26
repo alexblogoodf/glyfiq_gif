@@ -3736,7 +3736,20 @@
       "template": 1,
       "threads_post_id": "18507877825096983",
       "posted_at": "2026-11-25T23:22:18.916239"
+    },
+    {
+      "gif_number": 272,
+      "gif_path": "output/animation_295.gif",
+      "mp4_path": "output/animation_295.mp4",
+      "icon_names": [
+        "insomnia",
+        "appetite disturbance",
+        "exhausted person"
+      ],
+      "template": 2,
+      "threads_post_id": "18372300457300256",
+      "posted_at": "2026-11-26T09:22:18.983042"
     }
   ],
-  "posts_count": 271
+  "posts_count": 272
 }
