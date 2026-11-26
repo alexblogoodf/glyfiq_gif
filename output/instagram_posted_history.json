@@ -3015,7 +3015,20 @@
       "template": 2,
       "buffer_post_id": "6b076cfba791bea1b235e064",
       "posted_at": "2026-11-25T23:20:33.856266"
+    },
+    {
+      "gif_number": 233,
+      "gif_path": "output/animation_234.gif",
+      "mp4_path": "output/animation_234.mp4",
+      "icon_names": [
+        "electric wheelchair",
+        "walking sticks",
+        "walkers"
+      ],
+      "template": 3,
+      "buffer_post_id": "6b08863a3accdac92cf317a7",
+      "posted_at": "2026-11-26T19:20:32.388974"
     }
   ],
-  "posts_count": 232
+  "posts_count": 233
 }
