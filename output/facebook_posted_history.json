@@ -2950,7 +2950,20 @@
       "template": 2,
       "facebook_video_id": "1335704851978455",
       "posted_at": "2026-11-26T22:03:36.915710"
+    },
+    {
+      "gif_number": 228,
+      "gif_path": "output/animation_229.gif",
+      "mp4_path": "output/animation_229.mp4",
+      "icon_names": [
+        "self identity",
+        "flat foot",
+        "scoliosis"
+      ],
+      "template": 3,
+      "facebook_video_id": "1132988072961778",
+      "posted_at": "2026-11-26T23:03:33.318138"
     }
   ],
-  "posts_count": 227
+  "posts_count": 228
 }
