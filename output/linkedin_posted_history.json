@@ -2663,7 +2663,19 @@
       ],
       "template": 2,
       "posted_at": "2026-11-25T23:17:41.201331"
+    },
+    {
+      "gif_number": 223,
+      "gif_path": "output/animation_224.gif",
+      "mp4_path": "output/animation_224.mp4",
+      "icon_names": [
+        "musicality",
+        "balance",
+        "positive thinking"
+      ],
+      "template": 3,
+      "posted_at": "2026-11-26T22:17:36.070050"
     }
   ],
-  "posts_count": 222
+  "posts_count": 223
 }
