@@ -2617,7 +2617,18 @@
       ],
       "template": 3,
       "posted_at": "2026-11-26T13:05:35.231654"
+    },
+    {
+      "gif_number": 239,
+      "gif_path": "output/animation_240.gif",
+      "icon_names": [
+        "knee-joint",
+        "rehabilitation",
+        "vertebrae of the spine"
+      ],
+      "template": 4,
+      "posted_at": "2026-11-26T23:05:33.692095"
     }
   ],
-  "posts_count": 238
+  "posts_count": 239
 }
