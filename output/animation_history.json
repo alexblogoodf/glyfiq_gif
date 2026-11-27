@@ -7439,6 +7439,22 @@
       "gif_path": "output/animation_489.gif",
       "created_at": "2026-11-27T11:15:58.607979",
       "frame_count": 3
+    },
+    {
+      "gif_number": 466,
+      "icon_ids": [
+        490,
+        491,
+        492
+      ],
+      "icon_names": [
+        "telemedicine app",
+        "online doctor",
+        "conference with a doctor"
+      ],
+      "gif_path": "output/animation_490.gif",
+      "created_at": "2026-11-27T17:16:01.209362",
+      "frame_count": 3
     }
   ]
 }
