@@ -2639,7 +2639,18 @@
       ],
       "template": 5,
       "posted_at": "2026-11-27T13:05:45.590668"
+    },
+    {
+      "gif_number": 241,
+      "gif_path": "output/animation_242.gif",
+      "icon_names": [
+        "vertebrae of the spine",
+        "bone fracture",
+        "x-ray"
+      ],
+      "template": 1,
+      "posted_at": "2026-11-27T23:05:37.373231"
     }
   ],
-  "posts_count": 240
+  "posts_count": 241
 }
