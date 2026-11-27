@@ -3775,7 +3775,20 @@
       "template": 4,
       "threads_post_id": "18491939785115220",
       "posted_at": "2026-11-26T23:22:21.016478"
+    },
+    {
+      "gif_number": 275,
+      "gif_path": "output/animation_298.gif",
+      "mp4_path": "output/animation_298.mp4",
+      "icon_names": [
+        "hopeless person",
+        "creative block",
+        "torn sheet"
+      ],
+      "template": 5,
+      "threads_post_id": "18134127883698342",
+      "posted_at": "2026-11-27T09:22:20.829430"
     }
   ],
-  "posts_count": 274
+  "posts_count": 275
 }
