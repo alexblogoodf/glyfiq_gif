@@ -3801,7 +3801,20 @@
       "template": 1,
       "threads_post_id": "18404970589203122",
       "posted_at": "2026-11-27T19:22:24.071830"
+    },
+    {
+      "gif_number": 277,
+      "gif_path": "output/animation_300.gif",
+      "mp4_path": "output/animation_300.mp4",
+      "icon_names": [
+        "torn sheet",
+        "headache",
+        "conversation"
+      ],
+      "template": 2,
+      "threads_post_id": "18364267042217499",
+      "posted_at": "2026-11-27T23:22:18.170602"
     }
   ],
-  "posts_count": 276
+  "posts_count": 277
 }
