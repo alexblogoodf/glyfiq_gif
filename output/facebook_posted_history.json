@@ -2963,7 +2963,20 @@
       "template": 3,
       "facebook_video_id": "1132988072961778",
       "posted_at": "2026-11-26T23:03:33.318138"
+    },
+    {
+      "gif_number": 229,
+      "gif_path": "output/animation_230.gif",
+      "mp4_path": "output/animation_230.mp4",
+      "icon_names": [
+        "flat foot",
+        "scoliosis",
+        "compression stockings"
+      ],
+      "template": 4,
+      "facebook_video_id": "2795004187568828",
+      "posted_at": "2026-11-27T22:03:30.835061"
     }
   ],
-  "posts_count": 228
+  "posts_count": 229
 }
