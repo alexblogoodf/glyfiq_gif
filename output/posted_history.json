@@ -2628,7 +2628,18 @@
       ],
       "template": 4,
       "posted_at": "2026-11-26T23:05:33.692095"
+    },
+    {
+      "gif_number": 240,
+      "gif_path": "output/animation_241.gif",
+      "icon_names": [
+        "rehabilitation",
+        "vertebrae of the spine",
+        "bone fracture"
+      ],
+      "template": 5,
+      "posted_at": "2026-11-27T13:05:45.590668"
     }
   ],
-  "posts_count": 239
+  "posts_count": 240
 }
