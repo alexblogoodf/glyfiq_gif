@@ -3788,7 +3788,20 @@
       "template": 5,
       "threads_post_id": "18134127883698342",
       "posted_at": "2026-11-27T09:22:20.829430"
+    },
+    {
+      "gif_number": 276,
+      "gif_path": "output/animation_299.gif",
+      "mp4_path": "output/animation_299.mp4",
+      "icon_names": [
+        "creative block",
+        "torn sheet",
+        "headache"
+      ],
+      "template": 1,
+      "threads_post_id": "18404970589203122",
+      "posted_at": "2026-11-27T19:22:24.071830"
     }
   ],
-  "posts_count": 275
+  "posts_count": 276
 }
