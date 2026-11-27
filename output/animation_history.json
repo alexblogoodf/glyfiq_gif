@@ -7455,6 +7455,22 @@
       "gif_path": "output/animation_490.gif",
       "created_at": "2026-11-27T17:16:01.209362",
       "frame_count": 3
+    },
+    {
+      "gif_number": 467,
+      "icon_ids": [
+        491,
+        492,
+        493
+      ],
+      "icon_names": [
+        "online doctor",
+        "conference with a doctor",
+        "medical wearable gadget"
+      ],
+      "gif_path": "output/animation_491.gif",
+      "created_at": "2026-11-27T23:16:02.780171",
+      "frame_count": 3
     }
   ]
 }
