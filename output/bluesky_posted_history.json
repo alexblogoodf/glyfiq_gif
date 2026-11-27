@@ -1308,7 +1308,18 @@
       ],
       "template": 4,
       "posted_at": "2026-11-27T11:19:34.090954"
+    },
+    {
+      "gif_number": 120,
+      "gif_path": "output/animation_120.gif",
+      "icon_names": [
+        "artificial ventilation of the lungs",
+        "fever",
+        "vaccine"
+      ],
+      "template": 5,
+      "posted_at": "2026-11-27T17:19:35.985772"
     }
   ],
-  "posts_count": 119
+  "posts_count": 120
 }
