@@ -3041,7 +3041,20 @@
       "template": 4,
       "buffer_post_id": "6b08be7d548b6e180d3f4be8",
       "posted_at": "2026-11-26T23:20:35.623056"
+    },
+    {
+      "gif_number": 235,
+      "gif_path": "output/animation_236.gif",
+      "mp4_path": "output/animation_236.mp4",
+      "icon_names": [
+        "walkers",
+        "orthopedic pillow",
+        "crutches"
+      ],
+      "template": 5,
+      "buffer_post_id": "6b09d7c32ea34800c289bc11",
+      "posted_at": "2026-11-27T19:20:42.122690"
     }
   ],
-  "posts_count": 234
+  "posts_count": 235
 }
