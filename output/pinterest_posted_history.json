@@ -995,7 +995,19 @@
       "template": 3,
       "title": "Doctor in mask, Nurse in mask & Coins — Healthcare UI Icons",
       "posted_at": "2026-11-26T21:19:12.545007"
+    },
+    {
+      "gif_number": 84,
+      "gif_path": "output/animation_84.gif",
+      "icon_names": [
+        "nurse in mask",
+        "coins",
+        "money cash"
+      ],
+      "template": 4,
+      "title": "Nurse in mask, Coins & Money cash — Part of 6,000+ Medical Icons",
+      "posted_at": "2026-11-27T20:59:51.297010"
     }
   ],
-  "posts_count": 83
+  "posts_count": 84
 }
