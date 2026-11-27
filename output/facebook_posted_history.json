@@ -2976,7 +2976,20 @@
       "template": 4,
       "facebook_video_id": "2795004187568828",
       "posted_at": "2026-11-27T22:03:30.835061"
+    },
+    {
+      "gif_number": 230,
+      "gif_path": "output/animation_231.gif",
+      "mp4_path": "output/animation_231.mp4",
+      "icon_names": [
+        "scoliosis",
+        "compression stockings",
+        "orthopedic mattress"
+      ],
+      "template": 5,
+      "facebook_video_id": "2720188738441801",
+      "posted_at": "2026-11-27T23:03:30.151511"
     }
   ],
-  "posts_count": 229
+  "posts_count": 230
 }
