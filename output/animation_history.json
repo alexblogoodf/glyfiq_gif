@@ -7471,6 +7471,22 @@
       "gif_path": "output/animation_491.gif",
       "created_at": "2026-11-27T23:16:02.780171",
       "frame_count": 3
+    },
+    {
+      "gif_number": 468,
+      "icon_ids": [
+        492,
+        493,
+        494
+      ],
+      "icon_names": [
+        "conference with a doctor",
+        "medical wearable gadget",
+        "online health check"
+      ],
+      "gif_path": "output/animation_492.gif",
+      "created_at": "2026-11-28T05:15:54.957615",
+      "frame_count": 3
     }
   ]
 }
