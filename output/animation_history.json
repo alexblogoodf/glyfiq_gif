@@ -7487,6 +7487,22 @@
       "gif_path": "output/animation_492.gif",
       "created_at": "2026-11-28T05:15:54.957615",
       "frame_count": 3
+    },
+    {
+      "gif_number": 469,
+      "icon_ids": [
+        493,
+        494,
+        495
+      ],
+      "icon_names": [
+        "medical wearable gadget",
+        "online health check",
+        "medical app for smartphones"
+      ],
+      "gif_path": "output/animation_493.gif",
+      "created_at": "2026-11-28T11:15:54.923342",
+      "frame_count": 3
     }
   ]
 }
