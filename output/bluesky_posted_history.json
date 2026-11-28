@@ -1341,7 +1341,18 @@
       ],
       "template": 2,
       "posted_at": "2026-11-28T05:19:35.090734"
+    },
+    {
+      "gif_number": 123,
+      "gif_path": "output/animation_123.gif",
+      "icon_names": [
+        "airborne infection",
+        "pills",
+        "ICU ventilator side view"
+      ],
+      "template": 3,
+      "posted_at": "2026-11-28T11:19:34.186566"
     }
   ],
-  "posts_count": 122
+  "posts_count": 123
 }
