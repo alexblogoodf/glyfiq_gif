@@ -3814,7 +3814,20 @@
       "template": 2,
       "threads_post_id": "18364267042217499",
       "posted_at": "2026-11-27T23:22:18.170602"
+    },
+    {
+      "gif_number": 278,
+      "gif_path": "output/animation_301.gif",
+      "mp4_path": "output/animation_301.mp4",
+      "icon_names": [
+        "headache",
+        "conversation",
+        "psychologist"
+      ],
+      "template": 3,
+      "threads_post_id": "18488157541112994",
+      "posted_at": "2026-11-28T09:22:19.596437"
     }
   ],
-  "posts_count": 277
+  "posts_count": 278
 }
